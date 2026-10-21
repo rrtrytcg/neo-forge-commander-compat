@@ -1,0 +1,173 @@
+{
+  "status": "verified",
+  "date": "2026-10-19",
+  "engine": "NeoForge 1.0.27",
+  "sourceRevision": "53b2441a5788b151d8992991c98a3122ee60722e",
+  "nativeChecks": 4613,
+  "newNativeChecks": 129,
+  "priorNativeChecks": 4484,
+  "nativeSuites": 43,
+  "deadlineChecks": 20,
+  "probeChecks": 779,
+  "paidResolvedCasts": 3,
+  "landChoices": 2,
+  "nonlandChoices": 46,
+  "foundCards": 48,
+  "bottomedCards": 27,
+  "harmonizeChoices": 3,
+  "clockLimitedRuns": 4,
+  "candidate": "<development-checkout>\\arena\\abundance\\target\\final-1.0.27\\engine.jar",
+  "candidateSha256": "D3EC847464EBBF82D0A22BA80E60A3E6591685ADA1491A7D2F77A77780948C42",
+  "coverage": {
+    "decks": 184,
+    "clear": 46,
+    "mechanicallyUnlocked": 61,
+    "verified": 51,
+    "unlockedOnly": 10
+  },
+  "installedFilesPreserved": 21729,
+  "estridIntegrated": true,
+  "estridChecks": 39,
+  "baseCandidateSha256": "DF174DF32EFBDD991D1DD813CB11FA5B872E63D1F4900DED6045DCA933CA7681",
+  "baseProvenance": {
+    "path": "<development-checkout>\\arena\\adaptive-enchantment\\target\\estrid-1.0.27\\provenance.json",
+    "sha256": "B17C953EC7BFB94349EC85986FDCB46BE9913456EB186CD46B1E76D343AF673B"
+  },
+  "unchangedCandidateEntries": 18228,
+  "compiledOverlayClasses": 10,
+  "scope": "Bounded Abundance native decisions and autonomous original card use. No completed-game, winner or strength claim.",
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\abundance\\AbundanceProbe.java",
+      "sha256": "C2BB41E57919556373CBBA58EBF3C0E1BFA8853585E575CDA316330A56F07787"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\AbundanceTests.java",
+      "sha256": "9F82F93254F784B52B9CD678A235CF225D053D74F24F45B419EF6ECD0194038F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\aicontroller-hooks.patch",
+      "sha256": "79F96E43C880325CB146FB8F0918BD8A9E9F41368A5713B1B5DC177DF1FBA8B4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\card-use-evidence.json",
+      "sha256": "21C25CD844F13910D585B6F30D3594902FDD412808D5283838CCC17210AF2332"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\check-card-use.py",
+      "sha256": "90DC6F870D9A3A566E1F17BB14D2117ACFB46096F5CA4E524B9BD81FA3D37643"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\Check-NeoForge-1.0.27.ps1",
+      "sha256": "81BC622084C10F5D761C8DF50DA39D7C5C8FC5747387C7B68FE595611F28482A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\Check-Timeouts.ps1",
+      "sha256": "E8AA4AA3C91B860A87FEDAE5F84996E20D18B62E78A1FCC44D7F48B0E8792712"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\computerutil-hooks.patch",
+      "sha256": "7B5864DBD4BA8A0D023E646E925B7712BC6BCE57AECC66E1E603B8047C0CD6C9"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\initial-observation.json",
+      "sha256": "217DF84B344453F9D6A0A0B860B1001613F462E33D66E2235D2D78835B04277B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\README.md",
+      "sha256": "D2C9C901B51D26FB6DBD86752515743A2F4592BC08ED24EC1664F8370319BAF9"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\refresh.py",
+      "sha256": "7DA5BE6D303F418ABA85F5D9CFBF7517F103F5DF1AF8F982FFC1F45C0DA101AE"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\Run-CardUseProbe.ps1",
+      "sha256": "875000E4836F28EA23EF1550CAC61EC14B30EB486D793A5DB6B41362A9C5DD34"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\verify-preserved.py",
+      "sha256": "A8ED89BB16CE89A38D2B29458C462CD3536FE88E0978CB89E6811D6F687AAA2E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\decks\\Actor-demand.dck",
+      "sha256": "903E5621AF391A8DA3AA654BEBDC90549D1ECF77EF879696B7641E338E9BD906"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\decks\\Actor-flood.dck",
+      "sha256": "5B925B2C0AECEBC2969713D8E938BF7F65C657FDB6D640164FD2068E59E9F907"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\decks\\Opponents.dck",
+      "sha256": "3E006D08857BFED7E8C2AC89C96EBCDEC46F78F438111782FBA862C6E6080390"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\target\\final-1.0.27\\provenance.json",
+      "sha256": "B597784CE6A229224D81B815EAD1F4763D6CDA48516467F85427F8CAB6BE3F34"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\target\\preserved-baseline.json",
+      "sha256": "A5CEF136DE0C5541E895441F79ED9F357DE938C089B5FA6C780829F67CFFD423"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\target\\preservation-check.json",
+      "sha256": "52883B7B23E50B1312F0D4C9BA5C881EC7ABEC7F69319C72347F10CACE2213C4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\target\\final-1.0.27\\timeout-summary.json",
+      "sha256": "AE86303A3446B44D35E4A25C2D4690EACF61F7152A55D60537CDE2B58D909003"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\target\\card-use-check.log",
+      "sha256": "53F8B90E62405B7707B4897C9B4C75BAB04A40164C920D7479B37F959E65D2DA"
+    },
+    {
+      "path": "<development-checkout>\\arena\\abundance\\target\\final-1.0.27\\engine.jar",
+      "sha256": "D3EC847464EBBF82D0A22BA80E60A3E6591685ADA1491A7D2F77A77780948C42"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\a\\abundance.txt",
+      "sha256": "1963FBB93763902EC76521F422D7A242C174C2F2821726E431C90452151D76BA"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AbundanceAi.java",
+      "sha256": "F3DAA3ADB32AE684684D06AB76F54927C62059CF17A200ECBE83696858C23F70"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiController.java",
+      "sha256": "4F7B4B821DB195CDF01CDCB1CF26631BD198C3B52068E64119292E4561973908"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChooseGenericAi.java",
+      "sha256": "6FE12F8C2F6A70174FDE4A993743F040311F3400CA78610F4F9DEC5FA8D165B3"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PermanentNoncreatureAi.java",
+      "sha256": "5DF5669504187231DFECBA9BC305B651771410BAB714E345FC0263D36DDD445B"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java",
+      "sha256": "551D26DD81918C4DAD477CAD5116834554E1288BB4E334DC9F4B98B71C2B42AE"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\abundance.properties",
+      "sha256": "D667D3753CDE6CF9ECFDF4DD1D5D5D858747D0FD6C37B0E996789621C3A3DF32"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "FE36C418FF162C3D7863E0C7E2B82664A372F5F04CCB16EA6750C1EED25055D1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "45B4D6F7A3599A0FC8EFE781C1C8C4F7C8DA5F3CDC45C1F28480962CD7937106"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "2CF99643EF54F0CD58FE16ADACD3403D26CFDDECE40B659871057F36FF88FF24"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "A41BEE34BFECD90D740F3D34F4D9DD6E3E4596BE51F298ADA04958C5E05ACEEE"
+    }
+  ]
+}

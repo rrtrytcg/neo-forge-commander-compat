@@ -1,0 +1,48 @@
+{
+  "status": "commander-exposure-no-use-diagnostic-not-final-evidence",
+  "candidateSha256": "BB13F815FDA1075E5C8E4D713AA6516645060A5842F23D5D7A8368E92882519E",
+  "reason": "Progenitus has a native public zone-change replacement which correctly trips the conservative movement guard. Vanilla off-color Isamaru replaces it in final exposure decks; policy, engine and 30-second clock remain unchanged.",
+  "runs": [
+    {
+      "scenario": "rescue",
+      "profile": "on",
+      "seed": 118021,
+      "nyxUses": 0,
+      "summary": "<development-checkout>\\arena\\nyx-weaver\\target\\progenitus-no-use\\rescue-on-118021\\summary.json",
+      "sha256": "ADDD263B6F7C007B22CB29C854949995E6758CD39487795AC1417362B86E0F50"
+    },
+    {
+      "scenario": "value",
+      "profile": "off",
+      "seed": 118011,
+      "nyxUses": 0,
+      "summary": "<development-checkout>\\arena\\nyx-weaver\\target\\progenitus-no-use\\value-off-118011\\summary.json",
+      "sha256": "3075475D35F6D911A1B026448BF3C5F6F91ED52AFE451C50D17E0C57F277EDDA"
+    },
+    {
+      "scenario": "value",
+      "profile": "off",
+      "seed": 118012,
+      "nyxUses": 0,
+      "summary": "<development-checkout>\\arena\\nyx-weaver\\target\\progenitus-no-use\\value-off-118012\\summary.json",
+      "sha256": "77D0062DA53EA67CDF5632474D2BFBC44B3B12BA530024671E5C4252DAB22679"
+    },
+    {
+      "scenario": "value",
+      "profile": "on",
+      "seed": 118011,
+      "nyxUses": 0,
+      "summary": "<development-checkout>\\arena\\nyx-weaver\\target\\progenitus-no-use\\value-on-118011\\summary.json",
+      "sha256": "1F54EC24339FC584068A9FD160EA7D060C15BADB3F0C17A6995E0EA3FC36DB13"
+    },
+    {
+      "scenario": "value",
+      "profile": "on",
+      "seed": 118012,
+      "nyxUses": 0,
+      "summary": "<development-checkout>\\arena\\nyx-weaver\\target\\progenitus-no-use\\value-on-118012\\summary.json",
+      "sha256": "6EAC9BEA5EBE98A81824E086C9823ABD027A3D01087044DCE0720EB08F8EC2A5"
+    }
+  ],
+  "notes": "Five completed raw observations retained. Original embedded paths refer to the pre-archive locations and live input files; raw deck snapshots are stored alongside. A runner stop flag ended the remaining batch; control-script hashes are historical diagnostics only, not final evidence."
+}

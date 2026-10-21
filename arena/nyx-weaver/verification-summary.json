@@ -1,0 +1,182 @@
+{
+  "status": "verified",
+  "date": "2026-10-19",
+  "engine": "NeoForge 1.0.27",
+  "sourceRevision": "2d7e988f68e79bb6bebe2b65cc0f47695a0548ac",
+  "nativeChecks": 5122,
+  "newNativeChecks": 224,
+  "priorNativeChecks": 4898,
+  "nativeSuites": 46,
+  "deadlineChecks": 20,
+  "probeChecks": 1148,
+  "paidResolvedCasts": 16,
+  "paidResolvedActivations": 12,
+  "millTriggers": 42,
+  "cardsMilled": 84,
+  "ordinaryRecoveries": 3,
+  "doomedRecoveries": 8,
+  "lowLibraryRecoveries": 1,
+  "laterNativeCasts": 8,
+  "sameTurnNativeCasts": 3,
+  "clockLimitedRuns": 4,
+  "candidate": "<development-checkout>\\arena\\nyx-weaver\\target\\final-1.0.27\\engine.jar",
+  "candidateSha256": "BB13F815FDA1075E5C8E4D713AA6516645060A5842F23D5D7A8368E92882519E",
+  "coverage": {
+    "decks": 184,
+    "clear": 52,
+    "mechanicallyUnlocked": 67,
+    "verified": 57,
+    "unlockedOnly": 10
+  },
+  "installedFilesPreserved": 21729,
+  "estridIntegrated": true,
+  "estridChecks": 39,
+  "utilityOverlayPreserved": true,
+  "utilityRegressionChecks": 51,
+  "baseCandidateSha256": "DBD0F844B215F0E48B4D7991819DEF4CE424790A4346B3AEB10F31E2E4CBA505",
+  "baseProvenance": {
+    "path": "<development-checkout>\\arena\\utility-lands\\target\\final-1.0.27\\provenance.json",
+    "sha256": "5CB6CF912C554773426E58D530CAB5A13A7359BEAF4175C2695E564BC5EF40D0"
+  },
+  "unchangedCandidateEntries": 18238,
+  "compiledOverlayClasses": 6,
+  "scope": "Bounded Nyx Weaver native decisions and autonomous original card use. No completed-game, winner or strength claim.",
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\card-use-evidence.json",
+      "sha256": "6CA771FE4BF045F8CC006D75CE2B4AFDF670167975CF6D60282D117BC49DA5BE"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\check-card-use.py",
+      "sha256": "EF9307617AB1EFCC8AA84078C5E52350B5729A89854E2611B91EEF95E0D929E6"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\Check-NeoForge-1.0.27.ps1",
+      "sha256": "B1913FED629F13754623FB1BF90E33CDC5677B68F672C7D5FBAB09176F0B0CE3"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\Check-Timeouts.ps1",
+      "sha256": "E8AA4AA3C91B860A87FEDAE5F84996E20D18B62E78A1FCC44D7F48B0E8792712"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\initial-observation.json",
+      "sha256": "4C3593293F394519F2BC6FDCDB5ED8BA81DF0F1E6FC23665BCD9F10FB39C0CB8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\NyxWeaverBaselineTests.java",
+      "sha256": "E0ECBFD36773123FA0E8C90AA64689E3E62CA2DD2A8C14543664A232F41BD95D"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\NyxWeaverProbe.java",
+      "sha256": "F11B9000F254315157AC86E8C5A12835DA7D1EF4824D9F777C23508FE72C9F4A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\NyxWeaverTests.java",
+      "sha256": "D8B89B17A7CEE1E9EAFB533F8C2B67599EB4F8BC26C586D9ACA2D96D514C95A8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\README.md",
+      "sha256": "86B4108A27E2B3B02368780965EA0CB13C2594FCCF0518AB64FECDDABD0F611F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\refresh.py",
+      "sha256": "A392E6A17E7FE0894CE100A534A162F2182154ADC37E89BA3EED7A005FD826DC"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\Run-CardUseProbe.ps1",
+      "sha256": "648FBD0FACBAAEFC758FB923E35BBFA13F19635A092FA8A13B3C6D66CCDC5477"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\decks\\Actor-library.dck",
+      "sha256": "1F8AA9A1D943A0319949A3DABBA76BBCA2F52EB89DD40019127E03910806BD85"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\decks\\Actor-rescue.dck",
+      "sha256": "EC41CC03729F30343BE909CEBEDE0874195745F22F18E3FF1A80329267E34D81"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\decks\\Actor-value.dck",
+      "sha256": "2BDFACA113FCE5F2287360779A5F0FCD28BDE1D1809712503B2E5D8556E8F81C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\decks\\Opponents-library.dck",
+      "sha256": "234258E538944A229BEA8A34EAE95C55DE548D2FF2055403521CD08F0EEFE496"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\decks\\Opponents-rescue.dck",
+      "sha256": "3072A55C63CC10E85ED0AC3B7773F7C848D6E58156B9C423D91ED6C834299458"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\decks\\Opponents-value.dck",
+      "sha256": "78F57E80420EBDFF7F57C8D89B1196983CBD6FC5F4CAA41A2366FA4F75BA029A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\target\\final-1.0.27\\provenance.json",
+      "sha256": "870A1D9BD18F2001C37533FF797B0734F1BEAEDF6D84BA9DD9083A692395C7C8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\target\\final-1.0.27-baseline\\provenance.json",
+      "sha256": "7CD697A401DA3205E22B477B6B1A52F3A7D8CF783C7FACC3AA1193D35439BA23"
+    },
+    {
+      "path": "<development-checkout>\\arena\\lib\\Check-Gate.ps1",
+      "sha256": "211EEAEBF6042E373A3D2E6625C69C466FD5B2FA540B4C5E573527ECE7A0BD7E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\preserved-baseline.json",
+      "sha256": "FBB1C23137282081083FA4905340F0B607172FF3B3DF686B7A383CADE39C710A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\target\\final-1.0.27\\timeout-summary.json",
+      "sha256": "CEB65B0499EC5CAA9B84583C6A3FB8B13ED44C808CE844AB7AECBC3301DF0AD2"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\target\\card-use-check.log",
+      "sha256": "298305734FCB3C8C1EC1DDE1B6BE95E537CF965995422372D03BC579ABA98175"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nyx-weaver\\target\\final-1.0.27\\engine.jar",
+      "sha256": "BB13F815FDA1075E5C8E4D713AA6516645060A5842F23D5D7A8368E92882519E"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\n\\nyx_weaver.txt",
+      "sha256": "6314B9932717ED3E98E666D3C91542AB1229737A3267D2CD9C3DF796B88AC870"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\NyxWeaverAi.java",
+      "sha256": "99413186785705532AD146F5704A8E027409FF0B48FA14008ECCB65AA4DBC948"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PermanentCreatureAi.java",
+      "sha256": "7B1CCDC3611215CE0436F055CD8A3CAAB4F871E7FD299F0FCFA5575574D634D5"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java",
+      "sha256": "9D4220B2B9F5B5D11F59C2A36B1BD3FF47F2C751B8795A683F98081BDFE7FAF7"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java",
+      "sha256": "745FD0ACF4C15319D3877B296968E9B9F05E36CCDDB2CB6920EE3ACDF8C170D3"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\nyx-weaver.properties",
+      "sha256": "7E38A74318C829830DCC9259E8C7E564823DB4F349790710097E322F3C583A5B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "3688995E2F915149A1D0E93389A6DB09F07DD00089D6E65BB489AC20A226B290"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "FE0ACD3E5A00F5BD1EE146FF3D8AE0B0E8E177C508C4744213C258BDB02EE4B7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "B059B247172FBDEE44EEA7ADE4906DEB982F590F412EDBAC17C098F8DA2D39D4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "C5B9B59D06F39FD3B3A6B5FA2E33428A287E06E4409058A28A7925FD89306000"
+    }
+  ]
+}

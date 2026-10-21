@@ -1,0 +1,164 @@
+{
+  "status": "verified",
+  "date": "2026-10-19",
+  "engine": "NeoForge 1.0.27",
+  "sourceRevision": "4f28b8d1b28e84964b0732ff46249a41e3ea622b",
+  "nativeChecks": 4847,
+  "newNativeChecks": 234,
+  "priorNativeChecks": 4613,
+  "nativeSuites": 44,
+  "deadlineChecks": 20,
+  "probeChecks": 555,
+  "paidResolvedCasts": 15,
+  "paidResolvedCycles": 4,
+  "damageToOpponents": 350,
+  "basicsFound": 4,
+  "nativeShuffles": 4,
+  "clockLimitedRuns": 3,
+  "candidate": "<development-checkout>\\arena\\treacherous-terrain\\target\\final-1.0.27\\engine.jar",
+  "candidateSha256": "FB2EBF52C6321E1AB5655B7715FC71F5AA0D141F486143C245C55C80C1442824",
+  "coverage": {
+    "decks": 184,
+    "clear": 47,
+    "mechanicallyUnlocked": 62,
+    "verified": 52,
+    "unlockedOnly": 10
+  },
+  "installedFilesPreserved": 21729,
+  "estridIntegrated": true,
+  "estridChecks": 39,
+  "baseCandidateSha256": "D3EC847464EBBF82D0A22BA80E60A3E6591685ADA1491A7D2F77A77780948C42",
+  "baseProvenance": {
+    "path": "<development-checkout>\\arena\\abundance\\target\\final-1.0.27\\provenance.json",
+    "sha256": "B597784CE6A229224D81B815EAD1F4763D6CDA48516467F85427F8CAB6BE3F34"
+  },
+  "unchangedCandidateEntries": 18235,
+  "compiledOverlayClasses": 5,
+  "scope": "Bounded Treacherous Terrain native decisions and autonomous original card use. No completed-game, winner or strength claim.",
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\card-use-evidence.json",
+      "sha256": "E2DB900B77BEE855FEFD1BBAA61F0B42E3D52B73D503D8251CAF743C56A0803F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\check-card-use.py",
+      "sha256": "0BF9191A8AC0FEB0FDE8CF43679A54D7D3C500CDC1BF4321B6E69C2194A97400"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\Check-NeoForge-1.0.27.ps1",
+      "sha256": "7A70730EC50516D0E42321E531374B244F2DAFA7F2856827CD3AA32F7F773BB4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\Check-Timeouts.ps1",
+      "sha256": "E8AA4AA3C91B860A87FEDAE5F84996E20D18B62E78A1FCC44D7F48B0E8792712"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\initial-observation.json",
+      "sha256": "31FC977365A7D2F2719579CC427CCD6216120086ED2828C245D26E8525238779"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\README.md",
+      "sha256": "7418F44694F77A7B6A93EB791C80EE793AD75D94110465EB806AD68975806CC9"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\refresh.py",
+      "sha256": "8C636AAC9989D024A7DA124893255A0A32A05AA7AF6F983FED643F6F662155C0"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\Run-CardUseProbe.ps1",
+      "sha256": "48868CCC523DF6F79FFE88EB9FD39D229F96699434934F951B324FE1F526D937"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\TreacherousTerrainBaselineTests.java",
+      "sha256": "891EF02F531A56C880388864C39E432EE4DA3BC8B2C9EEC717591B9F7B946CDB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\TreacherousTerrainProbe.java",
+      "sha256": "6E2050E3E6677D531C9BEF867BAD826459F1BB5D863E111D123EE2067FA4FA32"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\TreacherousTerrainTests.java",
+      "sha256": "FF67024E24689068BDEDB31EFE7CA7FC5CE953CF3052C68E14222DBB8834A112"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\decks\\Actor-cast.dck",
+      "sha256": "C318B5194A168A03F6B5BF6B8CBE9DACA7860F50638388B45B6961F2ECF8E07E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\decks\\Actor-cycle.dck",
+      "sha256": "7048BB0953AA73A376114DBB15CF996E9BFB16E2B624CD9EDEA5F681159CA5C1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\decks\\Opponents.dck",
+      "sha256": "7F1B364E3A35BFF6D8CEE5CFA7E9C5546D33A58B84FCFCC83F3364AFF2070E74"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\target\\final-1.0.27\\provenance.json",
+      "sha256": "1B88FD0A42075F3EACB1C5F3402921FCC47BD8EE144513E65945E2AE935C6259"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\target\\final-1.0.27-baseline\\provenance.json",
+      "sha256": "715E9E8BC2664D7283D917E808AE6E56969BC0B48BDB286B7041838CEB418C81"
+    },
+    {
+      "path": "<development-checkout>\\arena\\lib\\Check-Gate.ps1",
+      "sha256": "211EEAEBF6042E373A3D2E6625C69C466FD5B2FA540B4C5E573527ECE7A0BD7E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\preserved-baseline.json",
+      "sha256": "FBB1C23137282081083FA4905340F0B607172FF3B3DF686B7A383CADE39C710A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\target\\final-1.0.27\\timeout-summary.json",
+      "sha256": "C23905D83E4906A11F1A27D2000ADD8216C6F2DB6797DBD2603B8FC67BE39AF0"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\target\\card-use-check.log",
+      "sha256": "9FDA1165416E1FC436BDC42EA4291094F26EFD8DF65A929AD7918EF7506CB9DF"
+    },
+    {
+      "path": "<development-checkout>\\arena\\treacherous-terrain\\target\\final-1.0.27\\engine.jar",
+      "sha256": "FB2EBF52C6321E1AB5655B7715FC71F5AA0D141F486143C245C55C80C1442824"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\t\\treacherous_terrain.txt",
+      "sha256": "F28C17F56BFEFF6F9474D6F64F7E16F467266EC3D588F1584EADCDD556F18BE8"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\TreacherousTerrainAi.java",
+      "sha256": "F36F8AD0DC75C6C4F50884FB15BC95361F237472C1A687BD93B1FA167BB34BF3"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\RepeatEachAi.java",
+      "sha256": "4AB7B7C62DD87F12876A0A8AD5DC3A5F90C327E8DCA829C8C78D9C68762A5B47"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java",
+      "sha256": "D66C4AB83CC09F67AB85E5C45EF797B000A85A42CB98D4058922A6287EDA8FC2"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java",
+      "sha256": "A5CC953B15D8CC2D7A93D905A3F451EF709A8C33AD987DDEBEFC2ADCA377BA2D"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\treacherous-terrain.properties",
+      "sha256": "ACEBBEF4D93F4C684E16A3A453DB71BBBF79CE6496592D2981A644394E8C3B66"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "4126B7801CA060231AC2813F38698302972797778C710CE18E3FC501E02D7D1D"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "F3967D6E68059484C666DF7F930A6BB8D9D49D66F7795563D6BD162FF932E598"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "8E69F4723DB227819DD7A58877BC47E6662659574724C39FC6B58C360E2C3224"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "A8A1376CF6E36734BDECEE40D49A152BC7E282F69571E1EBEE3E297D27737BAA"
+    }
+  ]
+}

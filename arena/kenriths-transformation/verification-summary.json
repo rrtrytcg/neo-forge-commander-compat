@@ -1,0 +1,641 @@
+{
+  "cardUse": {
+    "candidateSha256": "BBCA4ADD3027517B745DD2698154A5AF37D2B790B81B4C33D5A62559C484640E",
+    "scope": "Autonomous native four-player Constructed custom decks; card-use evidence only, no completion/winner/strength claim",
+    "checks": 476,
+    "engine": "NeoForge 1.0.25",
+    "runs": [
+      {
+        "payments": 7,
+        "summary": "<development-checkout>\\arena\\kenriths-transformation\\target\\card-use\\threats-on-102011\\summary.json",
+        "profile": "on",
+        "targets": [
+          "Craw Wurm",
+          "Craw Wurm",
+          "Craw Wurm",
+          "Colossus of Akros",
+          "Craw Wurm",
+          "Craw Wurm",
+          "Colossus of Akros"
+        ],
+        "sha256": "5D5A3E23A83E240BFECB854D9C2A74C61389C6B380C6FC3BCCB3C26E3B5E0137",
+        "diagnostics": [],
+        "clockReached": true,
+        "scenario": "threats",
+        "attachments": 7,
+        "lateObserverEventsExcluded": 0,
+        "draws": 7,
+        "seed": 102011,
+        "casts": 7
+      },
+      {
+        "payments": 6,
+        "summary": "<development-checkout>\\arena\\kenriths-transformation\\target\\card-use\\threats-on-102012\\summary.json",
+        "profile": "on",
+        "targets": [
+          "Colossus of Akros",
+          "Craw Wurm",
+          "Colossus of Akros",
+          "Craw Wurm",
+          "Craw Wurm",
+          "Colossus of Akros"
+        ],
+        "sha256": "A9232F92757A6E6008623C2D6295917FBCE2EF2559EBC837090EC1FADB430A53",
+        "diagnostics": [],
+        "clockReached": true,
+        "scenario": "threats",
+        "attachments": 6,
+        "lateObserverEventsExcluded": 0,
+        "draws": 6,
+        "seed": 102012,
+        "casts": 6
+      },
+      {
+        "payments": 0,
+        "summary": "<development-checkout>\\arena\\kenriths-transformation\\target\\card-use\\threats-off-102011\\summary.json",
+        "profile": "off",
+        "targets": [],
+        "sha256": "24A6F73682513D963DD870E7E12D65A3A9174E27A4D257912FAAFC401EAB0487",
+        "diagnostics": [],
+        "clockReached": true,
+        "scenario": "threats",
+        "attachments": 0,
+        "lateObserverEventsExcluded": 0,
+        "draws": 0,
+        "seed": 102011,
+        "casts": 0
+      },
+      {
+        "payments": 0,
+        "summary": "<development-checkout>\\arena\\kenriths-transformation\\target\\card-use\\threats-off-102012\\summary.json",
+        "profile": "off",
+        "targets": [],
+        "sha256": "D5CA3E13316EC70A8069097E1DC0CD82BA6E59976D313189D586802ED0C9D83D",
+        "diagnostics": [],
+        "clockReached": true,
+        "scenario": "threats",
+        "attachments": 0,
+        "lateObserverEventsExcluded": 0,
+        "draws": 0,
+        "seed": 102012,
+        "casts": 0
+      },
+      {
+        "payments": 7,
+        "summary": "<development-checkout>\\arena\\kenriths-transformation\\target\\card-use\\utility-on-102011\\summary.json",
+        "profile": "on",
+        "targets": [
+          "Llanowar Tribe",
+          "Llanowar Tribe",
+          "Llanowar Tribe",
+          "Llanowar Tribe",
+          "Llanowar Tribe",
+          "Llanowar Tribe",
+          "Llanowar Tribe"
+        ],
+        "sha256": "E4E993F110E934639ED14813A04D05873FC97D9240F9E075810AACB769CD8CFF",
+        "diagnostics": [],
+        "clockReached": true,
+        "scenario": "utility",
+        "attachments": 7,
+        "lateObserverEventsExcluded": 0,
+        "draws": 7,
+        "seed": 102011,
+        "casts": 7
+      },
+      {
+        "payments": 6,
+        "summary": "<development-checkout>\\arena\\kenriths-transformation\\target\\card-use\\utility-on-102012\\summary.json",
+        "profile": "on",
+        "targets": [
+          "Llanowar Tribe",
+          "Llanowar Tribe",
+          "Llanowar Tribe",
+          "Llanowar Tribe",
+          "Llanowar Tribe",
+          "Llanowar Tribe"
+        ],
+        "sha256": "7A2677BA3A8A3FCBE6DB5F871825D4B917470BC681BEEE6CD426CE27F959F901",
+        "diagnostics": [],
+        "clockReached": true,
+        "scenario": "utility",
+        "attachments": 6,
+        "lateObserverEventsExcluded": 0,
+        "draws": 6,
+        "seed": 102012,
+        "casts": 6
+      },
+      {
+        "payments": 0,
+        "summary": "<development-checkout>\\arena\\kenriths-transformation\\target\\card-use\\utility-off-102011\\summary.json",
+        "profile": "off",
+        "targets": [],
+        "sha256": "18333A73CA0B6EADE8A9B7514EFFFE0EC2C8DC1541D60DA52A13F8E56A1FAB05",
+        "diagnostics": [],
+        "clockReached": true,
+        "scenario": "utility",
+        "attachments": 0,
+        "lateObserverEventsExcluded": 0,
+        "draws": 0,
+        "seed": 102011,
+        "casts": 0
+      },
+      {
+        "payments": 0,
+        "summary": "<development-checkout>\\arena\\kenriths-transformation\\target\\card-use\\utility-off-102012\\summary.json",
+        "profile": "off",
+        "targets": [],
+        "sha256": "73196E8B59128FDCA06C728D5ED01AB9F1B6003636E782599F0938AAA637303C",
+        "diagnostics": [],
+        "clockReached": true,
+        "scenario": "utility",
+        "attachments": 0,
+        "lateObserverEventsExcluded": 0,
+        "draws": 0,
+        "seed": 102012,
+        "casts": 0
+      }
+    ]
+  },
+  "coverage": {
+    "blocked": {
+      "occurrencesRemaining": 484,
+      "distinctRemaining": 324,
+      "topRemaining": [
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Prophetic Prism",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Synthetic Destiny",
+          "decks": 3
+        },
+        {
+          "card": "Timely Ward",
+          "decks": 3
+        },
+        {
+          "card": "Bosh, Iron Golem",
+          "decks": 3
+        },
+        {
+          "card": "Sylvan Offering",
+          "decks": 3
+        },
+        {
+          "card": "Willbender",
+          "decks": 3
+        },
+        {
+          "card": "Misleading Signpost",
+          "decks": 3
+        }
+      ],
+      "occurrencesUnlocked": 246
+    },
+    "verified": 39,
+    "inventory": {
+      "decks": 184,
+      "decksWithZeroBlocked": 39,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FDC - Tramplesaurus Rex",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Mardu Surge",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past"
+      ]
+    },
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "unlocked": 49
+  },
+  "installedApplicationModified": false,
+  "date": "2026-10-17",
+  "engine": "NeoForge 1.0.25",
+  "files": [
+    {
+      "sha256": "848E29E8D03D94641151DF1D2B26BA035019239F35CFEA14FA903A264F3B2E04",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "E2846D98019A26CBDFB7382D24B1B38460AF53D4196518396BF58DC13A35FDB1",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "A3A896D0014517E9762CC959323D4D869DEB132075450415FABFD41E5AAE81F9",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\KenrithsTransformationProbe.java"
+    },
+    {
+      "sha256": "8BEA7A9B4D6E4C42862AE8457CA8A1062251DA66A196AB320484A47E8E890108",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\KenrithsTransformationTests.java"
+    },
+    {
+      "sha256": "A21378EFAB234D8B6EC0F877B88A7822C9818714AFC4EB94582B6F6EC5DCC8AF",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\README.md"
+    },
+    {
+      "sha256": "5AB57E8E7F751F2A5756E1EF2696772D3E9F1AE261A0964D2E2BBFB36D7ECE81",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "8BE889BEC02B58E8A8C1423777ED4AD241EE7EFC1FA497DBA661868042BED405",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "860A962A322BC9E1478115E905F4C206E8D287E7EAACBB2EFB8073DC49E0DA73",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\decks\\Actor.dck"
+    },
+    {
+      "sha256": "4F224F3A1519E9EBA6C45BF21B76E504AE8BB3CF638B6F1D9BDD69E6781A3172",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\decks\\Threats.dck"
+    },
+    {
+      "sha256": "811A58DCE95F70DDAC5586D2E9BB2A8DA2372A17BA916CC0E30142BBEEA21C62",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\decks\\Utility.dck"
+    },
+    {
+      "sha256": "A7B4BA1322E9B626E3D5081B9402EC80207E1169B867E3F167B95BC2F428BBAD",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\KenrithsTransformationAi.java"
+    },
+    {
+      "sha256": "5EB99A8CDF961015E157E39E2D8DD5899675A71C7A823E3C067FD23A4672D046",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DarksteelMutationAi.java"
+    },
+    {
+      "sha256": "22E63623F767B7F66343CE234F03F3ED0685192991887AF53290621227F11E15",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java"
+    },
+    {
+      "sha256": "167248B046D7E966B6530B5E7FBE773CE2A056C0C9D59FBC7323E84DC22E341A",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\AttachAi.java"
+    },
+    {
+      "sha256": "AEE313E13500612131475981B4EA71F5C47B573B9EFFEAC9526D397A6A7C4D0A",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\kenriths-transformation.properties"
+    },
+    {
+      "sha256": "2A8AAEA08B78F6602F26C8D839CA46FDBF20DA73C7490ECEB44048A212D98A48",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "3BCFA69E89427D1DC5FFA6525B39C4CF0CBFADE6DF44F94351A7964552A38341",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "2134F1EC24ABB5304E4101EE86CC4466E9287D76D5EEBB9B0CB8FF4586778EB2",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "5A1B2AEE06FB26B21C1547DA2A863998CEEFFD5000DAD032D6F56F856D2911C9",
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md"
+    },
+    {
+      "sha256": "DFA1AF643BABE231F5FEC814F7FC54B1A6E77C55EFF1ED7735F11FA58F31ED17",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "5F9768B9CE88B43BCA72055DDEF2A8EDCF8EFDCF898F39FB6B9D070E72CBA0B9",
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\k\\kenriths_transformation.txt"
+    },
+    {
+      "sha256": "8B480E91C9FFFFDC34BFFB075A2D70D153C7EB8AA029E3C148BE30EB4EAF4D2A",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "BBCA4ADD3027517B745DD2698154A5AF37D2B790B81B4C33D5A62559C484640E",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\engine.jar"
+    },
+    {
+      "sha256": "EC9549E056E4AB512A8EAF7207747CA356EBC78A301784AE3A4B7B5E1483C7CF",
+      "path": "<development-checkout>\\arena\\kenriths-transformation\\card-use-evidence.json"
+    }
+  ],
+  "nativeGate": {
+    "candidateSha256": "BBCA4ADD3027517B745DD2698154A5AF37D2B790B81B4C33D5A62559C484640E",
+    "results": [
+      {
+        "suite": "BiomassMutationTests",
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0",
+        "checks": 116,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\BiomassMutationTests.log"
+      },
+      {
+        "suite": "NestingGroundsTests",
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+        "checks": 115,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\NestingGroundsTests.log"
+      },
+      {
+        "suite": "ToxicDelugeTests",
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+        "checks": 127,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\ToxicDelugeTests.log"
+      },
+      {
+        "suite": "AdaptiveEnchantmentTests",
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+        "checks": 76,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log"
+      },
+      {
+        "suite": "LandManaFamilyTests",
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+        "checks": 349,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\LandManaFamilyTests.log"
+      },
+      {
+        "suite": "AhoyMateysTests",
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+        "checks": 77,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\AhoyMateysTests.log"
+      },
+      {
+        "suite": "BeastWithinTests",
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+        "checks": 13,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\BeastWithinTests.log"
+      },
+      {
+        "suite": "CurseOfTheSwineTests",
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A",
+        "checks": 36,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\CurseOfTheSwineTests.log"
+      },
+      {
+        "suite": "FilterLandsTests",
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+        "checks": 10,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\FilterLandsTests.log"
+      },
+      {
+        "suite": "PsychosisCrawlerTests",
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+        "checks": 6,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\PsychosisCrawlerTests.log"
+      },
+      {
+        "suite": "WallOfLimbsTests",
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE",
+        "checks": 12,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\WallOfLimbsTests.log"
+      },
+      {
+        "suite": "SlaughterTheStrongTests",
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50",
+        "checks": 18,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\SlaughterTheStrongTests.log"
+      },
+      {
+        "suite": "MirrorEntityTests",
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77",
+        "checks": 48,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\MirrorEntityTests.log"
+      },
+      {
+        "suite": "DecreeOfPainTests",
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16",
+        "checks": 69,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\DecreeOfPainTests.log"
+      },
+      {
+        "suite": "OreskosExplorerTests",
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+        "checks": 100,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\OreskosExplorerTests.log"
+      },
+      {
+        "suite": "DispatchTests",
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE",
+        "checks": 61,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\DispatchTests.log"
+      },
+      {
+        "suite": "TragicArroganceTests",
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+        "checks": 132,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\TragicArroganceTests.log"
+      },
+      {
+        "suite": "MarshalsAnthemTests",
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "checks": 135,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\MarshalsAnthemTests.log"
+      },
+      {
+        "suite": "DarksteelMutationTests",
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5",
+        "checks": 87,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\DarksteelMutationTests.log"
+      },
+      {
+        "suite": "CorpseAugurTests",
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688",
+        "checks": 139,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\CorpseAugurTests.log"
+      },
+      {
+        "suite": "AssaultSuitTests",
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "checks": 21,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\AssaultSuitTests.log"
+      },
+      {
+        "suite": "SelvalaTests",
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C",
+        "checks": 13,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\SelvalaTests.log"
+      },
+      {
+        "suite": "TradingPostTests",
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101",
+        "checks": 60,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\TradingPostTests.log"
+      },
+      {
+        "suite": "GazeOfGraniteTests",
+        "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6",
+        "checks": 40,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\GazeOfGraniteTests.log"
+      },
+      {
+        "suite": "GreaterGoodTests",
+        "sha256": "C71A88ED767012410A120FF6790B7C404EC3D0DF7B147DB5C1F701EBE513D67D",
+        "checks": 75,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\GreaterGoodTests.log"
+      },
+      {
+        "suite": "HuntersInsightTests",
+        "sha256": "0B922A5327AC6290E85C966CD14B09A3639FA8E8B3F8E514BDBEA58F817844DB",
+        "checks": 72,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\HuntersInsightTests.log"
+      },
+      {
+        "suite": "CommandBeaconTests",
+        "sha256": "BB686AE48F7875D11186E1DB1235C07B57F4619545E230CF3CC5B4F215C3BF4B",
+        "checks": 83,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\CommandBeaconTests.log"
+      },
+      {
+        "suite": "VisceraSeerTests",
+        "sha256": "1B3A83EA32C6953FCD016F858F5993BCB98DBC2E5542305339663563AF4C06E8",
+        "checks": 119,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\VisceraSeerTests.log"
+      },
+      {
+        "suite": "KenrithsTransformationTests",
+        "sha256": "E08E786BAA8BC17FA09894C9548DF996CC383CA73320615D4D7F62EBA315ED9B",
+        "checks": 157,
+        "log": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\KenrithsTransformationTests.log"
+      }
+    ],
+    "total": 2366,
+    "candidate": "<development-checkout>\\arena\\kenriths-transformation\\target\\final-1.0.25\\engine.jar"
+  },
+  "status": "verified",
+  "scope": "Opt-in bounded Elk neutralization and entry draw; native correctness and autonomous card use only, no strength/winner/completion claim",
+  "originalScriptMatchesInstalled": true,
+  "card": "Kenrith's Transformation",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "revision": "fb924e96bc23ea8c294572a390241ec0c0078f1e"
+}

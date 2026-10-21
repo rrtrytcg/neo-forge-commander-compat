@@ -1,0 +1,678 @@
+{
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\Check-CardUseEvidence.ps1",
+      "sha256": "90AC130463039743ED21FCDF019CE98A3F445C72798DE9C684E1EC159C7EF784"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\Check-NeoForge-1.0.25.ps1",
+      "sha256": "DE996BEF460F5BC551A9015D9D4EBE45976360B1548AFE5C6B32B86940737AC1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\MisleadingSignpostTests.java",
+      "sha256": "E5BB1D44D565B9A554FC96D59BEB0893FF35ED111902ADEC53929BD627F65C16"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\README.md",
+      "sha256": "839EBF24E2C4ECEFF9D332504EA1322AF22F665E2F4C9FDE9A18E5DC41FCEDBD"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\Refresh-Verification.ps1",
+      "sha256": "5752CF3F622BEB51A1C5315E100A2D2DDB2081A153E1F1AE1284DF030B5C6459"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\Run-CardUseProbe.ps1",
+      "sha256": "BB44322C197EF32BF7699C5DBCBD5162A5025EB63AB8DC2B3371C6C3D99C92C4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\SignpostProbe.java",
+      "sha256": "756ECB9A8C49E84FCF78A87735E9DA78F98731CCA7854378E38724E35E22F5C4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\decks\\Actor.dck",
+      "sha256": "B48760B6EB453E245C271A91DEDAC7BBC0D2A17ACA66EA656ABA3573D5208775"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\decks\\Opponents.dck",
+      "sha256": "CA9BA064BEBFD9B4357000304C0CD4BD01C360CC0714CC187D391854807C7207"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\MisleadingSignpostAi.java",
+      "sha256": "1DDF2EEA390624E80AA04E677D23F44D4ED0009B86AF65E0741C93E90E9FC5E7"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PermanentNoncreatureAi.java",
+      "sha256": "B45C4B9E74C4FFEA670B6651C542DE53526C4777AF21E93BB51F6DB858051598"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeCombatantsAi.java",
+      "sha256": "55D6E561A2EE86C1B3B9695C8B2D0B94D42937BFC291064273203D41618869C5"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java",
+      "sha256": "F92E6C9940503A0C160513F974AD5BE07643E29578098B59CF2734F20E22571C"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\misleading-signpost.properties",
+      "sha256": "F1CA54EB8B0D6C9BEDD91D20372FA148BEB92217425F21B690C507AE905B054C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "D061C2D90A2F2A8C308875D73322E3634F0F323393982DE288B8273FBB477281"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "6B5408E96D5127C6485D7CF41244E5FCC14057F11A098A064F2A96496578C334"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "A3820B1047D67DC5E990797677E0C461BFF5020B5CA9B4A10DEA853454DF4453"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "FC4B6607196182B6AC84D0F565EC900034D2DF031A87070EA02D123FF2D90FD8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\provenance.json",
+      "sha256": "5FE9E7D7D1E9845CEEBB740D85D2F9BB05942729A1C15C68EA26CF26E3F9733D"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\m\\misleading_signpost.txt",
+      "sha256": "2755B817AA080157A7EE6659346C7A7E783BC1392A11F5331882E468432C0AAF"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\target\\card-use-check.log",
+      "sha256": "B7BB08DDDA90E3B9860E1C045579CEF68C6E06A4C7B48D2BE25C838F6946D969"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\engine.jar",
+      "sha256": "8FBA52B93A784C16ED01BEB2ABEB31206DA0A68CA8598F3BA57487D4AD14A75D"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\target\\unrelated-baseline.json",
+      "sha256": "C1F61199E2D80A386A1918746F1D1D72662C058FABBFC4094671666EBC2F12B4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\misleading-signpost\\card-use-evidence.json",
+      "sha256": "A64AE7DFE8C414D364DBA50D98BDEBB20578BABF9E0799B60B46EF5798FA3685"
+    }
+  ],
+  "card": "Misleading Signpost",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "installedApplicationModified": false,
+  "originalScriptMatchesInstalled": true,
+  "engine": "NeoForge 1.0.25",
+  "status": "verified",
+  "revision": "1f880c87e2e0c8bc76ba862e6fa8824992d19b33",
+  "coverage": {
+    "inventory": {
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C17 - Vampiric Bloodlust",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "DSC - Miracle Worker",
+        "EOC - Counter Intelligence",
+        "FDC - Calling All Angels",
+        "FDC - Keen Engineering",
+        "FDC - Reign of Dragons",
+        "FDC - Tramplesaurus Rex",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "ONC - Rebellion Rising",
+        "OTC - Grand Larceny",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Mardu Surge",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past",
+        "WOC - Virtue and Valor"
+      ],
+      "decks": 184,
+      "decksWithZeroBlocked": 46
+    },
+    "blocked": {
+      "topRemaining": [
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Curse of Chaos",
+          "decks": 3
+        },
+        {
+          "card": "Mystic Confluence",
+          "decks": 3
+        },
+        {
+          "card": "Nightmare Unmaking",
+          "decks": 3
+        },
+        {
+          "card": "Illusionist's Gambit",
+          "decks": 3
+        },
+        {
+          "card": "Synthetic Destiny",
+          "decks": 3
+        },
+        {
+          "card": "Black Sun's Zenith",
+          "decks": 3
+        },
+        {
+          "card": "Thespian's Stage",
+          "decks": 3
+        }
+      ],
+      "distinctRemaining": 317,
+      "occurrencesUnlocked": 266,
+      "occurrencesRemaining": 464
+    },
+    "unlocked": 56,
+    "verified": 46,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ]
+  },
+  "date": "2026-10-18",
+  "unrelatedBaselineFiles": [
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\CLASSIC_TACTICAL_RECON_20261016.md",
+      "sha256": "765BE86B4AE333402A59A353AED878EE1F678F33127A85BFA4D4A268766D4AF8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\NEXT_LLM_HANDOFF_20261016.md",
+      "sha256": "D80B29D8026DBB2C3E725DE260896F32B0EA473BC8D7BC0FE8C94771C11BE520"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Analyze.ps1",
+      "sha256": "E59D84380752579C21397B4ED4CBE663BF896808694156529325E5DE9E929F8F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\PLAN.md",
+      "sha256": "3B4778C89657EC40ED84ECAD7B5647AD9305FAE8822FF201985415B837CF204C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\REPORT.md",
+      "sha256": "E5F51345066194E612711CECC59091E57FFAAFCB160CB4E3512E53175732D7E1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Run.ps1",
+      "sha256": "9D82A314630ED044ACAD2EB60128C91E444ABAA53809EF91B9924995D9E48313"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Worker.ps1",
+      "sha256": "950757439D4176DAB934C87FF33C58346F4A4AFA62D9068352571A0A5BAFD6C7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Write-Report.ps1",
+      "sha256": "31FF6100611165740DB2147D6D9B7C11C722AE9C295ADD3B04BD608CCC32A6FD"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Analyze.ps1",
+      "sha256": "9326C02110CC4BF43020928D7355B8854C377766E1C15819CFB8A611920545F5"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BLOCKERS.md",
+      "sha256": "F727444B0BBE50DA85E269D5220D08E29E25A7469834DA41F827920CA792DCCB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BOARDS.md",
+      "sha256": "9BBD180819969AE65FCCCA419038BC42757D2E02A11C6FC93691ADA889EAA350"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BuildObserver.java",
+      "sha256": "4A1E3BB772682EEDAA6A932E007F5D95F1D595AB6903A4596571AAD53CCF73FB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\EXCLUSION_FIX_PROPOSAL.md",
+      "sha256": "572A4E020AB4835325771F94AE0752444C7FA487A103BA98E7FBE4CC40DC7928"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\REPORT.md",
+      "sha256": "8FD63B461311FD094955807FEF500900BF101F7ACCBB3C261B1A37529842542E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Run.ps1",
+      "sha256": "D57520356CDAED6CEE98E36B5A89D7AD7E2C28A8D8EBE557994D48AFF6860C50"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\UnsupportedObserver.java",
+      "sha256": "B268DAB20892D8311D30B33FE26B6876304E4CEBDDEC6DF6149FD25AC9F86061"
+    }
+  ],
+  "cardUse": {
+    "engine": "NeoForge 1.0.25",
+    "checks": 253,
+    "runs": [
+      {
+        "lateObserverEventsExcluded": 0,
+        "fallbackCasts": 7,
+        "defensiveCasts": 0,
+        "profile": "on",
+        "casts": 7,
+        "naturalUntapReuses": 5,
+        "clockReached": true,
+        "pendingRedirects": 0,
+        "fizzles": 0,
+        "diagnostics": [],
+        "pendingSpells": 0,
+        "blueManaUses": 7,
+        "sha256": "C7D66CD6503CF631CE2C46E2DC08674F71DFF2E8ED97465F938FA434A9BE5A65",
+        "seed": 109011,
+        "redirects": 0,
+        "summary": "<development-checkout>\\arena\\misleading-signpost\\target\\card-use\\signpost-on-109011\\summary.json"
+      },
+      {
+        "lateObserverEventsExcluded": 0,
+        "fallbackCasts": 1,
+        "defensiveCasts": 3,
+        "profile": "on",
+        "casts": 4,
+        "naturalUntapReuses": 2,
+        "clockReached": false,
+        "pendingRedirects": 0,
+        "fizzles": 0,
+        "diagnostics": [],
+        "pendingSpells": 0,
+        "blueManaUses": 3,
+        "sha256": "553DFE98720A98992364987AB2D3DFE7B787840B0B26DDC045248F142924F476",
+        "seed": 109012,
+        "redirects": 3,
+        "summary": "<development-checkout>\\arena\\misleading-signpost\\target\\card-use\\signpost-on-109012\\summary.json"
+      },
+      {
+        "lateObserverEventsExcluded": 0,
+        "fallbackCasts": 0,
+        "defensiveCasts": 0,
+        "profile": "off",
+        "casts": 0,
+        "naturalUntapReuses": 0,
+        "clockReached": false,
+        "pendingRedirects": 0,
+        "fizzles": 0,
+        "diagnostics": [],
+        "pendingSpells": 0,
+        "blueManaUses": 0,
+        "sha256": "710BEEB5666939EE2E28FDF7E89433F24CDB188E827FEE1D18002126594988FB",
+        "seed": 109011,
+        "redirects": 0,
+        "summary": "<development-checkout>\\arena\\misleading-signpost\\target\\card-use\\signpost-off-109011\\summary.json"
+      },
+      {
+        "lateObserverEventsExcluded": 0,
+        "fallbackCasts": 0,
+        "defensiveCasts": 0,
+        "profile": "off",
+        "casts": 0,
+        "naturalUntapReuses": 0,
+        "clockReached": false,
+        "pendingRedirects": 0,
+        "fizzles": 0,
+        "diagnostics": [],
+        "pendingSpells": 0,
+        "blueManaUses": 0,
+        "sha256": "75E0D37737184DE712CBAE4F512B5B6789626A85E6E7782AC3AEAD278483E393",
+        "seed": 109012,
+        "redirects": 0,
+        "summary": "<development-checkout>\\arena\\misleading-signpost\\target\\card-use\\signpost-off-109012\\summary.json"
+      }
+    ],
+    "candidateSha256": "8FBA52B93A784C16ED01BEB2ABEB31206DA0A68CA8598F3BA57487D4AD14A75D",
+    "scope": "Autonomous native four-player Commander custom decks; original flash/entry/redirect/mana/untapping only, no completion/winner/strength claim"
+  },
+  "nativeGate": {
+    "candidate": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\engine.jar",
+    "results": [
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "checks": 116,
+        "suite": "BiomassMutationTests",
+        "sha256": "F562623ECD9F1BCB2774F2B54EC3227930BB1CBB352872DFA70ACE41D737B720"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "checks": 115,
+        "suite": "NestingGroundsTests",
+        "sha256": "25FC0BEBE7B047AA0CEF481C8057CB30D23FBC61FAE9A92837649EB6B61F9BA5"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "checks": 127,
+        "suite": "ToxicDelugeTests",
+        "sha256": "65B487FD6DD81F195D5585757A9987DF988F4C1C8130DA98477EA9F4569D858B"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "checks": 76,
+        "suite": "AdaptiveEnchantmentTests",
+        "sha256": "744D0C79578096C297DC797885DE4523D71706910B5E109A50DD267C34CDFC1A"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "checks": 349,
+        "suite": "LandManaFamilyTests",
+        "sha256": "19ADE0EF80E2CAF28646391CE16BDA339DB4231B86B5AF510F21A6417629880F"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "checks": 77,
+        "suite": "AhoyMateysTests",
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\BeastWithinTests.log",
+        "checks": 13,
+        "suite": "BeastWithinTests",
+        "sha256": "734ED89404AA66CB1FAEF6C42ED6D5CFDFADCBD821E5F60E73C22DD73912E59B"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "checks": 36,
+        "suite": "CurseOfTheSwineTests",
+        "sha256": "20965E06F05D59578DF668A0555E8A4770D75A1802B601250C6DDDCE3FB67022"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\FilterLandsTests.log",
+        "checks": 10,
+        "suite": "FilterLandsTests",
+        "sha256": "6F2DC4CE8CE714D050AB2BA341D2D6249D77960966A8F6F4492C750B3223EE11"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "checks": 6,
+        "suite": "PsychosisCrawlerTests",
+        "sha256": "2D3A9A97528176F9397858541955A5283DC72D893D8AF0D3F05FF26E3800BC4E"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "checks": 12,
+        "suite": "WallOfLimbsTests",
+        "sha256": "E99D3B3496E551B2779A214B7105D768E619E62B31BF648F573F7D36B932609C"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "checks": 18,
+        "suite": "SlaughterTheStrongTests",
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "checks": 48,
+        "suite": "MirrorEntityTests",
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "checks": 69,
+        "suite": "DecreeOfPainTests",
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "checks": 100,
+        "suite": "OreskosExplorerTests",
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\DispatchTests.log",
+        "checks": 61,
+        "suite": "DispatchTests",
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "checks": 132,
+        "suite": "TragicArroganceTests",
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "checks": 135,
+        "suite": "MarshalsAnthemTests",
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "checks": 87,
+        "suite": "DarksteelMutationTests",
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "checks": 139,
+        "suite": "CorpseAugurTests",
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "checks": 21,
+        "suite": "AssaultSuitTests",
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\SelvalaTests.log",
+        "checks": 13,
+        "suite": "SelvalaTests",
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\TradingPostTests.log",
+        "checks": 60,
+        "suite": "TradingPostTests",
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\GazeOfGraniteTests.log",
+        "checks": 40,
+        "suite": "GazeOfGraniteTests",
+        "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\GreaterGoodTests.log",
+        "checks": 75,
+        "suite": "GreaterGoodTests",
+        "sha256": "C71A88ED767012410A120FF6790B7C404EC3D0DF7B147DB5C1F701EBE513D67D"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\HuntersInsightTests.log",
+        "checks": 72,
+        "suite": "HuntersInsightTests",
+        "sha256": "0B922A5327AC6290E85C966CD14B09A3639FA8E8B3F8E514BDBEA58F817844DB"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\CommandBeaconTests.log",
+        "checks": 83,
+        "suite": "CommandBeaconTests",
+        "sha256": "BB686AE48F7875D11186E1DB1235C07B57F4619545E230CF3CC5B4F215C3BF4B"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\VisceraSeerTests.log",
+        "checks": 119,
+        "suite": "VisceraSeerTests",
+        "sha256": "1B3A83EA32C6953FCD016F858F5993BCB98DBC2E5542305339663563AF4C06E8"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\KenrithsTransformationTests.log",
+        "checks": 157,
+        "suite": "KenrithsTransformationTests",
+        "sha256": "E08E786BAA8BC17FA09894C9548DF996CC383CA73320615D4D7F62EBA315ED9B"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\TimelyWardTests.log",
+        "checks": 147,
+        "suite": "TimelyWardTests",
+        "sha256": "11C241FA2736D266CCDD1676F8A1DBB361D342C09119EA5A6F2EFF03CDFF4529"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\CallTheCoppercoatsTests.log",
+        "checks": 212,
+        "suite": "CallTheCoppercoatsTests",
+        "sha256": "D23AE99DAFBA76757508182DB185B87BA298FB4166EBF9EC32CD14D7E6BE0BDD"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\PrismaticLensTests.log",
+        "checks": 161,
+        "suite": "PrismaticLensTests",
+        "sha256": "323D28DA8B84A619908646EE6ECF2C1A8BEAFBDE0257DFF5145622AA39FED859"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\PropheticPrismTests.log",
+        "checks": 194,
+        "suite": "PropheticPrismTests",
+        "sha256": "0387DDA4BDDEB68C7BCCB847A8417D7BE87EAC6EF2F5B002DD5F242C36237E0B"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\SkeletalScryingTests.log",
+        "checks": 234,
+        "suite": "SkeletalScryingTests",
+        "sha256": "B3CC482C0FDD0AE8E976B88E6CEF9FF566D5DC0C5700D1DE1F8B5B2CE749FD5C"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\SwanSongTests.log",
+        "checks": 188,
+        "suite": "SwanSongTests",
+        "sha256": "79D9CDD293CBE7C9F2D98AAE2F05A70051710871C94F82BFF5EBAA4A3D045F30"
+      },
+      {
+        "log": "<development-checkout>\\arena\\misleading-signpost\\target\\final-1.0.25\\MisleadingSignpostTests.log",
+        "checks": 169,
+        "suite": "MisleadingSignpostTests",
+        "sha256": "C629C65F4370FAA5CADB4BFCED27C40F2A0382E68B8EFBC22126A857033463C5"
+      }
+    ],
+    "total": 3671,
+    "candidateSha256": "8FBA52B93A784C16ED01BEB2ABEB31206DA0A68CA8598F3BA57487D4AD14A75D"
+  },
+  "scope": "Opt-in native flash rescue, original optional attacker redirection and unchanged blue mana ability; native correctness and autonomous card use only, no strength/winner/completion claim"
+}

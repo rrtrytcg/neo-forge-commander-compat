@@ -1,0 +1,77 @@
+diff --git a/forge-ai/src/main/java/forge/ai/AiController.java b/forge-ai/src/main/java/forge/ai/AiController.java
+index 093c0e61..c3176e52 100644
+--- a/forge-ai/src/main/java/forge/ai/AiController.java
++++ b/forge-ai/src/main/java/forge/ai/AiController.java
+@@ -884,6 +884,10 @@ public class AiController {
+             return canPlaySa(((WrappedAbility) sa).getWrappedAbility());
+         }
+ 
++        // This opt-in Aura's native flash permission depends on its chosen commander target.
++        if (TimelyWardAi.uses(sa) && !TimelyWardAi.consider(player, sa).willingToPlay()) {
++            return AiPlayDecision.CantPlayAi;
++        }
+         if (!sa.canCastTiming(player)) {
+             return AiPlayDecision.TimingRestrictions;
+         }
+@@ -923,7 +927,9 @@ public class AiController {
+                 ManaCost mana = payCosts.getTotalMana();
+                 if (mana.countX() > 0) {
+                     // Set PayX here to maximum value.
+-                    final int xPay = ComputerUtilCost.setMaxXValue(sa, player, sa.isTrigger());
++                    final int xPay = SkeletalScryingAi.uses(sa)
++                            ? (SkeletalScryingAi.consider(player, sa).willingToPlay() ? sa.getXManaCostPaid() : 0)
++                            : ComputerUtilCost.setMaxXValue(sa, player, sa.isTrigger());
+                     if (xPay <= 0) {
+                         return AiPlayDecision.CantAffordX;
+                     }
+@@ -1617,6 +1623,8 @@ public class AiController {
+             // keeps upstream behaviour exactly.
+             return !AiOverrideProfile.get().ignoreRemoveDeckDuringPlay(host);
+         });
++        // Opt-in Trading Post mode safety; no-op unless the profile maps the card.
++        TradingPostAi.filterModes(player, saList);
+         //removed skipped SA
+         skipped = saList.stream().filter(SpellAbility::isSkip).collect(Collectors.toList());
+         if (!skipped.isEmpty())
+diff --git a/forge-ai/src/main/java/forge/ai/ComputerUtil.java b/forge-ai/src/main/java/forge/ai/ComputerUtil.java
+index 35e4c55b..47e53748 100644
+--- a/forge-ai/src/main/java/forge/ai/ComputerUtil.java
++++ b/forge-ai/src/main/java/forge/ai/ComputerUtil.java
+@@ -81,6 +81,19 @@ import java.util.stream.Collectors;
+ public class ComputerUtil {
+ 
+     public static boolean handlePlayingSpellAbility(final Player ai, SpellAbility sa, Consumer<SpellAbility> chooseTargets) {
++        if (!MirageMirrorAi.preflight(ai, sa)) { return false; }
++        if (!ArcaneLighthouseAi.preflight(ai, sa)) { return false; }
++        if (!MisleadingSignpostAi.preflight(ai, sa)) { return false; }
++        if (!SwanSongAi.preflight(ai, sa)) { return false; }
++        if (!SkeletalScryingAi.preflight(ai, sa)) { return false; }
++        if (!CantripPermanentAi.preflight(ai, sa)) { return false; }
++        if (!VisceraSeerAi.preflight(ai, sa)) { return false; }
++        if (!CallTheCoppercoatsAi.preflight(ai, sa)) { return false; }
++        if (!TimelyWardAi.preflight(ai, sa)) { return false; }
++        if (!KenrithsTransformationAi.preflight(ai, sa)) { return false; }
++        if (!CommandBeaconAi.preflight(ai, sa)) { return false; }
++        if (!HuntersInsightAi.preflight(ai, sa)) { return false; }
++        if (!GreaterGoodAi.preflight(ai, sa)) { return false; }
+         if (!ClaimCleanupPolicy.preflight(ai, sa)) { return false; }
+         // Recheck the fresh public position before any cost or source/stack mutation.
+         if (CatOvenSafety.enabled(ai) && CatOvenSafety.evaluate(ai, sa).vetoes()) { return false; }
+@@ -132,6 +145,8 @@ public class ComputerUtil {
+         final CostPayment pay = new CostPayment(cost, sa);
+         if (pay.payComputerCosts(AiCostDecision.forSpellPayment(ai, sa))) {
+             game.getStack().addAndUnfreeze(sa);
++            MirageMirrorAi.played(ai, sa);
++            HuntersInsightAi.cast(ai, sa);
+             if (sa.getSplicedCards() != null && !sa.getSplicedCards().isEmpty()) {
+                 game.getAction().reveal(sa.getSplicedCards(), ai, true, "Computer reveals spliced cards from ");
+             }
+@@ -639,6 +654,8 @@ public class ComputerUtil {
+         // don't exile the card we're pumping
+         typeList = ComputerUtilCost.paymentChoicesWithoutTargets(typeList, sa, ai);
+ 
++        if (SkeletalScryingAi.handlesPayment(sa)) { return SkeletalScryingAi.payment(ai, sa, typeList, amount); }
++
+         if (typeList.size() < amount) {
+             return null;
+         }

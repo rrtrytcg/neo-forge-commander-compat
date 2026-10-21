@@ -1,0 +1,195 @@
+{
+  "coverage": {
+    "distinctRemaining": 338,
+    "decksWithZeroBlocked": 26,
+    "mechanicallyUnlocked": 35,
+    "verified": 25,
+    "unlockedOnly": 10,
+    "occurrencesRemaining": 548
+  },
+  "originalScript": {
+    "sha256": "05706C1F2032082E50D07E74BD06F331BC5704B378419890241F6D60E7BF6939",
+    "path": "forge-gui/res/cardsfolder/m/marshals_anthem.txt"
+  },
+  "candidateOverlay": "Private arena engine snapshot with current policy classes freshly compiled; no installed application changes",
+  "regressionEvidence": {
+    "results": [
+      {
+        "log": "<development-checkout>\\arena\\marshals-anthem\\target\\regressions\\MirrorEntityTests.log",
+        "sha256": "DB59FF8B234837B714CA44DAA186C4E26B12CC45AA109C1C07826923E9BD52BD",
+        "checks": 48,
+        "suite": "MirrorEntityTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\marshals-anthem\\target\\regressions\\DecreeOfPainTests.log",
+        "sha256": "F1B9E6E7D496EE2D590932410C8DAD043178CEAB82AA7F3B290BD21CFB7CAB1A",
+        "checks": 69,
+        "suite": "DecreeOfPainTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\marshals-anthem\\target\\regressions\\OreskosExplorerTests.log",
+        "sha256": "9F64FDE3701B31D5FF5B09F281E664F5A3E72CBE5EBFFB07D0BBAF3DF892B9BF",
+        "checks": 100,
+        "suite": "OreskosExplorerTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\marshals-anthem\\target\\regressions\\DispatchTests.log",
+        "sha256": "B493F977688ED8C503D1AA3177DEE88043D13791227FAB8672E9223569C943A6",
+        "checks": 61,
+        "suite": "DispatchTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\marshals-anthem\\target\\regressions\\SlaughterTheStrongTests.log",
+        "sha256": "0385509E85F4B30BA8C4FB2286C46B462D261F5620E2E4D9F1BC44BC246D4283",
+        "checks": 18,
+        "suite": "SlaughterTheStrongTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\marshals-anthem\\target\\regressions\\TragicArroganceTests.log",
+        "sha256": "86DF53F81980B67741B0B5731908F62DA113E2A5EAE6F7C422E14662F36E6849",
+        "checks": 132,
+        "suite": "TragicArroganceTests"
+      }
+    ],
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\marshals-anthem\\target\\final\\engine.jar",
+        "sha256": "B8748C33E81277EB063AE754C6D636013DCB66A9D0584F30FFF1C23732BA2CBB"
+      },
+      {
+        "path": "<development-checkout>\\arena\\marshals-anthem\\Check-Regressions.ps1",
+        "sha256": "0DF91C7A1B0C1DD93EB83B8107D83CEC73018EFB5EE50D20584ECC31D8E1FF6C"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java",
+        "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\decree-of-pain\\DecreeOfPainTests.java",
+        "sha256": "D4B61C4BA1E720B10635DF58E82C8BCE8C91B92F353924D27EF1E42C1F748A8B"
+      },
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\OreskosExplorerTests.java",
+        "sha256": "A7A8A90DB93E4A2F6E735B1F66C7311D44EFF8AAFA833D5A88C6D0A25CAB2E57"
+      },
+      {
+        "path": "<development-checkout>\\arena\\dispatch\\DispatchTests.java",
+        "sha256": "B8D4B674759A490C0BB46DF4074887379A5EFC544BAFCC3722A3864E3DE63775"
+      },
+      {
+        "path": "<development-checkout>\\arena\\slaughter\\SlaughterTheStrongTests.java",
+        "sha256": "AF3EDA3A9B63CD5EDF464CEFD5BAF4E7BC250068D736F9D8481FA50915F6E4EF"
+      },
+      {
+        "path": "<development-checkout>\\arena\\tragic-arrogance\\TragicArroganceTests.java",
+        "sha256": "84B96D3CE46C5B0F4864F3ECFDA90ACEC29EA0616009251721CC5543FB056F21"
+      }
+    ]
+  },
+  "cardUseEvidence": {
+    "path": "arena/marshals-anthem/card-use-evidence.json",
+    "paidResolvedCasts": 11.0,
+    "sha256": "18E2A8E94765EBE8DDB4386E436AC45EEB42C79216CAD9DDB5BE129E8411AE5E",
+    "completedGameRequired": false,
+    "offControlsZero": true,
+    "unkickedCasts": 6,
+    "kickedCasts": 5,
+    "actualReturnedCreatures": 7.0,
+    "clockSeconds": 20,
+    "seeds": [
+      96231,
+      96232
+    ]
+  },
+  "claim": "Bounded kick/buff decisions and autonomous native card use; not strength or Commander-precon use",
+  "coverageStatus": "verified",
+  "candidateJarSha256": "B8748C33E81277EB063AE754C6D636013DCB66A9D0584F30FFF1C23732BA2CBB",
+  "probeCandidatesMatch": true,
+  "regressionCandidateMatches": true,
+  "nativeChecks": 135,
+  "files": [
+    {
+      "sha256": "B77F61E31F2BB73607C16B3069958C421057D0E3E0A67D9365687F3A12245F92",
+      "path": "<development-checkout>\\arena\\marshals-anthem\\target\\build.log"
+    },
+    {
+      "sha256": "0F53E0B804C567FEB43ABA1F7EF495D4FEFEAA2DCD3840AF844C1B3E0FB90494",
+      "path": "<development-checkout>\\arena\\marshals-anthem\\target\\final\\MarshalsAnthemTests.log"
+    },
+    {
+      "sha256": "DEAED1348E1023151CB63DBE04CBC99B08FB42580299017DAA73B5E05D88901E",
+      "path": "<development-checkout>\\arena\\marshals-anthem\\target\\final\\provenance.json"
+    },
+    {
+      "sha256": "835B364DAA65E94BF30DB24025DE5BE39B508AC4D86F0FD931A77732D41CA099",
+      "path": "<development-checkout>\\arena\\marshals-anthem\\target\\regressions\\summary.json"
+    },
+    {
+      "sha256": "865EDEA0E4D65D259B8ACD15F8DF32FF9A69331F8AECD5FC77C8BEA884D5F376",
+      "path": "<development-checkout>\\arena\\marshals-anthem\\target\\coverage-audit.log"
+    }
+  ],
+  "date": "2026-10-17",
+  "baseRevision": "7cd9a54f8c452f5c530d0a5d3e99bb7fca3c337f",
+  "build": {
+    "checkstyleViolations": 0,
+    "desktopLauncherPackagingAttempted": false,
+    "aiReactorPassed": true,
+    "genericMavenTestsSkipped": true
+  },
+  "nativeEvidence": {
+    "scope": "Native correctness and regression only; not strength evidence",
+    "revision": "7cd9a54f8c452f5c530d0a5d3e99bb7fca3c337f",
+    "files": [
+      {
+        "sha256": "B8748C33E81277EB063AE754C6D636013DCB66A9D0584F30FFF1C23732BA2CBB",
+        "path": "<development-checkout>\\arena\\marshals-anthem\\target\\final\\engine.jar"
+      },
+      {
+        "sha256": "CC6F05BC9FAB9B7E466D0B481ECE76D248CAE6976E9415BE55A3F95BC524D887",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\marshals-anthem.properties"
+      },
+      {
+        "sha256": "6FB3AE7EE0CB27052938FC60B8126A84CE3C2F1A55601D1165879B0272E0A768",
+        "path": "<development-checkout>\\arena\\marshals-anthem\\Check-MarshalsAnthem.ps1"
+      },
+      {
+        "sha256": "EBBE9F439D590CEBBDB0B868C3EB49935CBF738F74C431A8C59F7F2691F210ED",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\MarshalsAnthemAi.java"
+      },
+      {
+        "sha256": "8C9BAA8F5570EF29383AE2E05F0955116CC1AD3254AACD8D2CBAAC1F046049A8",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PermanentAi.java"
+      },
+      {
+        "sha256": "C7062FE42BEAAB80F388E142D098311EB0856D54EDD38B0DF915FF37F7A10AA3",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\TragicArroganceAi.java"
+      },
+      {
+        "sha256": "E1DA964C9B0EA19F20A183AE04AE5FC1117E575CB9F009215729CAACE497B696",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\RepeatEachAi.java"
+      },
+      {
+        "sha256": "F9EA3D92EB4EACD90DC83B916FCD0C7A9B55DDCEDE1B9F9AD5A77240A2363A68",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChooseCardAi.java"
+      },
+      {
+        "sha256": "7CB56BF32E3364AD9B9E0631D8A0A981F6777F69DA3FF68F76BE510A2C5D7DAA",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DispatchAi.java"
+      },
+      {
+        "sha256": "1CA6DC8C83F3F6CA8396DCE21DA433B99B5B0F6286F50FC40F8931361747A862",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\TapAi.java"
+      },
+      {
+        "sha256": "2A5D257B27BD24AD690EB7C9E637ADAB28697E787F7101FC1D3A7CA4423BDFB9",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java"
+      },
+      {
+        "sha256": "6F64D6C4E1713D060CF8DC05C459530B386542670F7CC8FA0916E09E4254D241",
+        "path": "<development-checkout>\\arena\\marshals-anthem\\MarshalsAnthemTests.java"
+      }
+    ]
+  },
+  "regressionChecks": 428.0
+}

@@ -1,0 +1,6490 @@
+{
+  "decreeRegressionChecks": 69,
+  "resolvedWitnesses": [
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 438,
+        "sourceId": 3,
+        "turn": 14,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 3,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 3,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 3,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 3,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 3,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 438,
+        "sourceId": 3,
+        "turn": 14,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 3,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 4,
+      "turn": 14,
+      "x": 3,
+      "mode": "offense",
+      "seed": 95881,
+      "abilityId": 438
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 447,
+        "sourceId": 3,
+        "turn": 18,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 4,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 447,
+        "sourceId": 3,
+        "turn": 18,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 4,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 5,
+      "turn": 18,
+      "x": 4,
+      "mode": "offense",
+      "seed": 95881,
+      "abilityId": 447
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 461,
+        "sourceId": 3,
+        "turn": 22,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 5,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 461,
+        "sourceId": 3,
+        "turn": 22,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 5,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 6,
+      "turn": 22,
+      "x": 5,
+      "mode": "offense",
+      "seed": 95881,
+      "abilityId": 461
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 468,
+        "sourceId": 3,
+        "turn": 25,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 6,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 468,
+        "sourceId": 3,
+        "turn": 25,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 6,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 6,
+      "turn": 25,
+      "x": 6,
+      "mode": "offense",
+      "seed": 95881,
+      "abilityId": 468
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 479,
+        "sourceId": 3,
+        "turn": 28,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 479,
+        "sourceId": 3,
+        "turn": 28,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 6,
+      "turn": 28,
+      "x": 7,
+      "mode": "offense",
+      "seed": 95881,
+      "abilityId": 479
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 489,
+        "sourceId": 3,
+        "turn": 31,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 489,
+        "sourceId": 3,
+        "turn": 31,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 6,
+      "turn": 31,
+      "x": 8,
+      "mode": "offense",
+      "seed": 95881,
+      "abilityId": 489
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 495,
+        "sourceId": 3,
+        "turn": 33,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 9,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Eager Cadet",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 495,
+        "sourceId": 3,
+        "turn": 33,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 9,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 7,
+      "turn": 33,
+      "x": 9,
+      "mode": "offense",
+      "seed": 95881,
+      "abilityId": 495
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 463,
+        "sourceId": 4,
+        "turn": 18,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 4,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 463,
+        "sourceId": 4,
+        "turn": 18,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 4,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 6,
+      "turn": 18,
+      "x": 4,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 463
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 474,
+        "sourceId": 4,
+        "turn": 22,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 5,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 474,
+        "sourceId": 4,
+        "turn": 22,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 5,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 6,
+      "turn": 22,
+      "x": 5,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 474
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 489,
+        "sourceId": 4,
+        "turn": 26,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 6,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 489,
+        "sourceId": 4,
+        "turn": 26,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 6,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 6,
+      "turn": 26,
+      "x": 6,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 489
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 501,
+        "sourceId": 4,
+        "turn": 30,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 501,
+        "sourceId": 4,
+        "turn": 30,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 6,
+      "turn": 30,
+      "x": 7,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 501
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 514,
+        "sourceId": 4,
+        "turn": 34,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 514,
+        "sourceId": 4,
+        "turn": 34,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 7,
+      "turn": 34,
+      "x": 8,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 514
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 520,
+        "sourceId": 4,
+        "turn": 37,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 520,
+        "sourceId": 4,
+        "turn": 37,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 7,
+      "turn": 37,
+      "x": 8,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 520
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 525,
+        "sourceId": 4,
+        "turn": 39,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 525,
+        "sourceId": 4,
+        "turn": 39,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Eager Cadet",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 7,
+      "turn": 39,
+      "x": 8,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 525
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 477,
+        "sourceId": 3,
+        "turn": 17,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-3",
+        "player": "EntityProbe-0",
+        "x": 3,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 3,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 3,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 3,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 3,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 3,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 477,
+        "sourceId": 3,
+        "turn": 17,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-3",
+        "player": "EntityProbe-0",
+        "x": 3,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 3,
+      "turn": 17,
+      "x": 3,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 477
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 494,
+        "sourceId": 3,
+        "turn": 19,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 4,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 4,
+            "toughness": 4,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 494,
+        "sourceId": 3,
+        "turn": 19,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 4,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 19,
+      "x": 4,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 494
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 516,
+        "sourceId": 3,
+        "turn": 23,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 6,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 6,
+            "toughness": 6,
+            "tapped": true,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 516,
+        "sourceId": 3,
+        "turn": 23,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 6,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": true,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 23,
+      "x": 6,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 516
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 538,
+        "sourceId": 3,
+        "turn": 27,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 7,
+            "toughness": 7,
+            "tapped": true,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 538,
+        "sourceId": 3,
+        "turn": 27,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": true,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 27,
+      "x": 7,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 538
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 564,
+        "sourceId": 3,
+        "turn": 32,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 564,
+        "sourceId": 3,
+        "turn": 32,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 3,
+      "turn": 32,
+      "x": 8,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 564
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 592,
+        "sourceId": 3,
+        "turn": 36,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 592,
+        "sourceId": 3,
+        "turn": 36,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 36,
+      "x": 8,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 592
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 613,
+        "sourceId": 3,
+        "turn": 39,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 10,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 613,
+        "sourceId": 3,
+        "turn": 39,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 10,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 39,
+      "x": 10,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 613
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 641,
+        "sourceId": 3,
+        "turn": 44,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 9,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 9,
+            "toughness": 9,
+            "tapped": true,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 641,
+        "sourceId": 3,
+        "turn": 44,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 9,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": true,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 44,
+      "x": 9,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 641
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 667,
+        "sourceId": 3,
+        "turn": 49,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-3",
+        "player": "EntityProbe-0",
+        "x": 11,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 11,
+            "toughness": 11,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 11,
+            "toughness": 11,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 11,
+            "toughness": 11,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 11,
+            "toughness": 11,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 11,
+            "toughness": 11,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 11,
+            "toughness": 11,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 11,
+            "toughness": 11,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 11,
+            "toughness": 11,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 667,
+        "sourceId": 3,
+        "turn": 49,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-3",
+        "player": "EntityProbe-0",
+        "x": 11,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 4,
+      "turn": 49,
+      "x": 11,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 667
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 695,
+        "sourceId": 3,
+        "turn": 55,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 13,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 13,
+            "toughness": 13,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 13,
+            "toughness": 13,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 13,
+            "toughness": 13,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 13,
+            "toughness": 13,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 13,
+            "toughness": 13,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 13,
+            "toughness": 13,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 13,
+            "toughness": 13,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 13,
+            "toughness": 13,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 695,
+        "sourceId": 3,
+        "turn": 55,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 13,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 55,
+      "x": 13,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 695
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 719,
+        "sourceId": 3,
+        "turn": 60,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 14,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 14,
+            "toughness": 14,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 14,
+            "toughness": 14,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 14,
+            "toughness": 14,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 14,
+            "toughness": 14,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 14,
+            "toughness": 14,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 14,
+            "toughness": 14,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 14,
+            "toughness": 14,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 14,
+            "toughness": 14,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 719,
+        "sourceId": 3,
+        "turn": 60,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 14,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 3,
+      "turn": 60,
+      "x": 14,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 719
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 736,
+        "sourceId": 3,
+        "turn": 63,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 15,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 15,
+            "toughness": 15,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 15,
+            "toughness": 15,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 15,
+            "toughness": 15,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 15,
+            "toughness": 15,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 15,
+            "toughness": 15,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 15,
+            "toughness": 15,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 15,
+            "toughness": 15,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 15,
+            "toughness": 15,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 736,
+        "sourceId": 3,
+        "turn": 63,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 15,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 63,
+      "x": 15,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 736
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 762,
+        "sourceId": 3,
+        "turn": 69,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-3",
+        "player": "EntityProbe-0",
+        "x": 16,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 16,
+            "toughness": 16,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 16,
+            "toughness": 16,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 16,
+            "toughness": 16,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 16,
+            "toughness": 16,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 16,
+            "toughness": 16,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 16,
+            "toughness": 16,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 16,
+            "toughness": 16,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 16,
+            "toughness": 16,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 762,
+        "sourceId": 3,
+        "turn": 69,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-3",
+        "player": "EntityProbe-0",
+        "x": 16,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 3,
+      "turn": 69,
+      "x": 16,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 762
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 800,
+        "sourceId": 3,
+        "turn": 79,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 18,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 18,
+            "toughness": 18,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 18,
+            "toughness": 18,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 18,
+            "toughness": 18,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 18,
+            "toughness": 18,
+            "tapped": true,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 18,
+            "toughness": 18,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 18,
+            "toughness": 18,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 18,
+            "toughness": 18,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 18,
+            "toughness": 18,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 18,
+            "toughness": 18,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 800,
+        "sourceId": 3,
+        "turn": 79,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 18,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 6,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 20,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 3,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": true,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 15,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 11,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 79,
+      "x": 18,
+      "mode": "defense",
+      "seed": 95881,
+      "abilityId": 800
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 486,
+        "sourceId": 4,
+        "turn": 19,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 5,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 486,
+        "sourceId": 4,
+        "turn": 19,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 5,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 19,
+      "x": 5,
+      "mode": "defense",
+      "seed": 95882,
+      "abilityId": 486
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 516,
+        "sourceId": 4,
+        "turn": 24,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 6,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 6,
+            "toughness": 6,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 516,
+        "sourceId": 4,
+        "turn": 24,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 6,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 3,
+      "turn": 24,
+      "x": 6,
+      "mode": "defense",
+      "seed": 95882,
+      "abilityId": 516
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 556,
+        "sourceId": 4,
+        "turn": 31,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 556,
+        "sourceId": 4,
+        "turn": 31,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 3,
+      "turn": 31,
+      "x": 7,
+      "mode": "defense",
+      "seed": 95882,
+      "abilityId": 556
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 583,
+        "sourceId": 4,
+        "turn": 35,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 7,
+            "toughness": 7,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 583,
+        "sourceId": 4,
+        "turn": 35,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-1",
+        "player": "EntityProbe-0",
+        "x": 7,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 35,
+      "x": 7,
+      "mode": "defense",
+      "seed": 95882,
+      "abilityId": 583
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 623,
+        "sourceId": 4,
+        "turn": 43,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 5,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 21,
+            "name": "Wall of Hope",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 1,
+            "name": "Mirror Entity",
+            "power": 5,
+            "toughness": 5,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 623,
+        "sourceId": 4,
+        "turn": 43,
+        "phase": "COMBAT_DECLARE_BLOCKERS",
+        "turnPlayer": "EntityProbe-2",
+        "player": "EntityProbe-0",
+        "x": 5,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": true,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 21,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 1,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 4,
+      "turn": 43,
+      "x": 5,
+      "mode": "defense",
+      "seed": 95882,
+      "abilityId": 623
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 638,
+        "sourceId": 4,
+        "turn": 44,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 21,
+            "name": "Wall of Hope",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 1,
+            "name": "Mirror Entity",
+            "power": 8,
+            "toughness": 8,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 638,
+        "sourceId": 4,
+        "turn": 44,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 8,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 21,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 1,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 44,
+      "x": 8,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 638
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 648,
+        "sourceId": 4,
+        "turn": 47,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 9,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 21,
+            "name": "Wall of Hope",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 1,
+            "name": "Mirror Entity",
+            "power": 9,
+            "toughness": 9,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 648,
+        "sourceId": 4,
+        "turn": 47,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 9,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 21,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 1,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 47,
+      "x": 9,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 648
+    },
+    {
+      "after": {
+        "stage": "resolved",
+        "abilityId": 655,
+        "sourceId": 4,
+        "turn": 49,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 10,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 21,
+            "name": "Wall of Hope",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 1,
+            "name": "Mirror Entity",
+            "power": 10,
+            "toughness": 10,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "before": {
+        "stage": "activated",
+        "abilityId": 655,
+        "sourceId": 4,
+        "turn": 49,
+        "phase": "COMBAT_BEGIN",
+        "turnPlayer": "EntityProbe-0",
+        "player": "EntityProbe-0",
+        "x": 10,
+        "fizzled": false,
+        "creatures": [
+          {
+            "id": 24,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 19,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 7,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 10,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 5,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 4,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          },
+          {
+            "id": 12,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 22,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 21,
+            "name": "Wall of Hope",
+            "power": 0,
+            "toughness": 3,
+            "tapped": false,
+            "canAttack": false,
+            "blocking": false,
+            "elfAndGoblin": false
+          },
+          {
+            "id": 1,
+            "name": "Mirror Entity",
+            "power": 1,
+            "toughness": 1,
+            "tapped": false,
+            "canAttack": true,
+            "blocking": false,
+            "elfAndGoblin": true
+          }
+        ]
+      },
+      "improvedParticipants": 2,
+      "turn": 49,
+      "x": 10,
+      "mode": "offense",
+      "seed": 95882,
+      "abilityId": 655
+    }
+  ],
+  "scope": "Native correctness and autonomous custom-deck combat use only; no completed-game, Commander-use or strength claim",
+  "acceptance": {
+    "completedGameRequired": false,
+    "nativePaymentMatchesX": true,
+    "offControlsZero": true,
+    "actualParticipantsImprove": true,
+    "noFriendlyStatsReduced": true,
+    "bothCombatModesObserved": true,
+    "nativeTypesApplied": true
+  },
+  "runs": [
+    {
+      "defense": 0,
+      "activations": 7,
+      "resolvedPairs": 7,
+      "diagnostics": [],
+      "clockReached": false,
+      "profile": "on",
+      "chosenX": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "offense": 7,
+      "summary": "<development-checkout>\\arena\\mirror-entity\\target\\card-use\\offense-on-95881\\summary.json",
+      "lateObserverEventsExcluded": 0,
+      "mode": "offense",
+      "seed": 95881,
+      "sha256": "EBB1B944B79029AACD3EF4FD5A96B299A38C3BF14F9C5F797E71B69A55B89706"
+    },
+    {
+      "defense": 0,
+      "activations": 7,
+      "resolvedPairs": 7,
+      "diagnostics": [],
+      "clockReached": false,
+      "profile": "on",
+      "chosenX": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        8,
+        8
+      ],
+      "offense": 7,
+      "summary": "<development-checkout>\\arena\\mirror-entity\\target\\card-use\\offense-on-95882\\summary.json",
+      "lateObserverEventsExcluded": 0,
+      "mode": "offense",
+      "seed": 95882,
+      "sha256": "6AF50DFB5790B49997C25A8EB94B9380582049D65ADDB9223BB69FF55533F280"
+    },
+    {
+      "defense": 0,
+      "activations": 0,
+      "resolvedPairs": 0,
+      "diagnostics": [],
+      "clockReached": true,
+      "profile": "off",
+      "chosenX": [],
+      "offense": 0,
+      "summary": "<development-checkout>\\arena\\mirror-entity\\target\\card-use\\offense-off-95881\\summary.json",
+      "lateObserverEventsExcluded": 0,
+      "mode": "offense",
+      "seed": 95881,
+      "sha256": "E515587C41C58C26122FBEA4667BBBA9B8DC92F32B06CD8D4E14D55221602175"
+    },
+    {
+      "defense": 0,
+      "activations": 0,
+      "resolvedPairs": 0,
+      "diagnostics": [],
+      "clockReached": true,
+      "profile": "off",
+      "chosenX": [],
+      "offense": 0,
+      "summary": "<development-checkout>\\arena\\mirror-entity\\target\\card-use\\offense-off-95882\\summary.json",
+      "lateObserverEventsExcluded": 0,
+      "mode": "offense",
+      "seed": 95882,
+      "sha256": "198DFB16AC5C1CD2FCAB4D7A9517CD538243B41A9A8A9AD718E607A54F50680E"
+    },
+    {
+      "defense": 14,
+      "activations": 14,
+      "resolvedPairs": 14,
+      "diagnostics": [],
+      "clockReached": true,
+      "profile": "on",
+      "chosenX": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        8,
+        10,
+        9,
+        11,
+        13,
+        14,
+        15,
+        16,
+        18
+      ],
+      "offense": 0,
+      "summary": "<development-checkout>\\arena\\mirror-entity\\target\\card-use\\defense-on-95881\\summary.json",
+      "lateObserverEventsExcluded": 0,
+      "mode": "defense",
+      "seed": 95881,
+      "sha256": "D3502440DE96823984B4AC74F31438AE5D5C546B7BAF59B01DCA80AE9D87245D"
+    },
+    {
+      "defense": 5,
+      "activations": 8,
+      "resolvedPairs": 8,
+      "diagnostics": [],
+      "clockReached": false,
+      "profile": "on",
+      "chosenX": [
+        5,
+        6,
+        7,
+        7,
+        5,
+        8,
+        9,
+        10
+      ],
+      "offense": 3,
+      "summary": "<development-checkout>\\arena\\mirror-entity\\target\\card-use\\defense-on-95882\\summary.json",
+      "lateObserverEventsExcluded": 0,
+      "mode": "defense",
+      "seed": 95882,
+      "sha256": "D429C4145C35043A051DB2BDDB798118B1947CE44DEA8B1AD7A01E35CB4E26DF"
+    },
+    {
+      "defense": 0,
+      "activations": 0,
+      "resolvedPairs": 0,
+      "diagnostics": [],
+      "clockReached": true,
+      "profile": "off",
+      "chosenX": [],
+      "offense": 0,
+      "summary": "<development-checkout>\\arena\\mirror-entity\\target\\card-use\\defense-off-95881\\summary.json",
+      "lateObserverEventsExcluded": 0,
+      "mode": "defense",
+      "seed": 95881,
+      "sha256": "D4327568712620B7A1535E39E0FE7647540D06853830E2DCE6103F189DC57DD9"
+    },
+    {
+      "defense": 0,
+      "activations": 0,
+      "resolvedPairs": 0,
+      "diagnostics": [],
+      "clockReached": true,
+      "profile": "off",
+      "chosenX": [],
+      "offense": 0,
+      "summary": "<development-checkout>\\arena\\mirror-entity\\target\\card-use\\defense-off-95882\\summary.json",
+      "lateObserverEventsExcluded": 0,
+      "mode": "defense",
+      "seed": 95882,
+      "sha256": "227BB9A0589F7DD43B56E9A078B9C5B3E23E28F41294E3D19856DB426B72D421"
+    }
+  ],
+  "inputs": [
+    {
+      "sha256": "35F2DDCC9A5E6C041487EB1C1D89763362EFCD2A505BEDEDE6AFA74D686715AE",
+      "path": "<development-checkout>\\arena\\mirror-entity\\target\\final\\engine.jar"
+    },
+    {
+      "sha256": "51A5838537C630A2220E8EFB8B98D06711BFCA3409EFB90791830C3C047B27C8",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\mirror-entity.properties"
+    },
+    {
+      "sha256": "B5E9FFFE66E9C4F8795C67B9CB9FCD0ADF24FC7F2225A5C4E85B15BA4E07255F",
+      "path": "<development-checkout>\\arena\\mirror-entity\\Check-MirrorEntity.ps1"
+    },
+    {
+      "sha256": "768FBA1CA6ED28C55FF92E982C646CDF8A2D9CC156793582F0382DEE5766CDE9",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiOverrideProfile.java"
+    },
+    {
+      "sha256": "CD0C1DA3A1D6CDC6ABABE479212033A5EDFD91888284C7649A42F80610FCBF76",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiProfileUtil.java"
+    },
+    {
+      "sha256": "2717695CC79F6A3A9CF73CA36EA50C03F99ECB19FDBC911D56FA545019E45706",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\MirrorEntityAi.java"
+    },
+    {
+      "sha256": "EA0478240A646CA8692F5932DDE6B8610C1FEE3A342081B2AD6FB235CB97C569",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\AnimateAllAi.java"
+    },
+    {
+      "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A",
+      "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java"
+    },
+    {
+      "sha256": "402610370E95FC21B6EFF675014DA04EDC65704A135CC2CF8AF5772A6B622F6B",
+      "path": "<development-checkout>\\arena\\mirror-entity\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "379377AD4E500A2B547919F2B6CCA5F7C2F7127CECF3A06920C866B58BDF5E2E",
+      "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityProbe.java"
+    },
+    {
+      "sha256": "6DBBEF03EC0DA35773D54A86978F42157BECB51110572205671FD0E1F78A81D3",
+      "path": "<development-checkout>\\arena\\mirror-entity\\Run-CardUseProbe.ps1"
+    }
+  ],
+  "observer": "Read-only native event subscriber, no action/hand/phase/draw/payment forcing",
+  "nativeChecks": 48,
+  "date": "2026-10-17"
+}

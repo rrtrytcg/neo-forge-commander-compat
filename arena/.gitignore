@@ -1,0 +1,33 @@
+.tools/
+runtime/
+.cache/
+evidence/*.raw.log
+evidence/*.stderr.log
+
+# Arena research lab: generated artifacts and bulk/regenerable evidence stay out of git.
+# Nothing here is deleted from disk; these are build outputs, run evidence and sealed archives.
+**/target/
+**/evidence/
+# Selected text evidence for the pending-ping handoff; bulk captures stay ignored.
+!aristocrats/evidence/
+aristocrats/evidence/*
+!aristocrats/evidence/pending-pings-v1-20261016-final/
+!aristocrats/evidence/pending-pings-v1-20261016-final/*.json
+!aristocrats/evidence/pending-pings-v1-20261016-final/*.csv
+!aristocrats/evidence/evaluation-pings-v1-fresh-20261016/
+!aristocrats/evidence/evaluation-pings-v1-fresh-20261016/*.json
+!aristocrats/evidence/evaluation-pings-v1-fresh-20261016/*.csv
+!aristocrats/evidence/claim-follow-through-20261016-final/
+!aristocrats/evidence/claim-follow-through-20261016-final/*.json
+!aristocrats/evidence/claim-follow-through-20261016-final/*.csv
+!aristocrats/evidence/claim-cleanup-v1-20261016-final/
+!aristocrats/evidence/claim-cleanup-v1-20261016-final/*.json
+!aristocrats/evidence/claim-cleanup-v1-20261016-final/*.csv
+!aristocrats/evidence/claim-cleanup-v1-stompy-fresh-20261016/
+!aristocrats/evidence/claim-cleanup-v1-stompy-fresh-20261016/**
+**/*.class
+**/*.jfr
+**/*.zip
+**/*.pyc
+**/__pycache__/
+**/final-inputs*.json

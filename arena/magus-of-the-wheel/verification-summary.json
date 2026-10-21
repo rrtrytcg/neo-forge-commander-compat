@@ -1,0 +1,81 @@
+{
+  "card": "Magus of the Wheel",
+  "profile": "magus-of-the-wheel",
+  "engine": "NeoForge 1.0.28",
+  "baselineChecks": 2,
+  "baselineGate": "arena/magus-of-the-wheel/target/baseline-magus-final2-baseline",
+  "focusedChecks": 22,
+  "focusedGate": "arena/magus-of-the-wheel/target/focused-magus-r3",
+  "fullGate": {
+    "checks": 5820,
+    "suites": 62,
+    "priorChecks": 5798,
+    "newChecks": 22,
+    "base": "arena/phyrexias-core/target/final-core-r1",
+    "out": "arena/magus-of-the-wheel/target/final-magus-r1",
+    "candidateSha256": "17751F15686549817F8585E0CF9C461F250DDC357FE8CFA7F337F48BFFC81B13"
+  },
+  "installedHashesChecked": 21729,
+  "installedHashesChanged": 0,
+  "productionFiles": [
+    "forge-ai/src/main/java/forge/ai/MagusOfTheWheelAi.java",
+    "forge-ai/src/main/java/forge/ai/ability/DiscardAi.java",
+    "forge-gui/res/ai/overrides/magus-of-the-wheel.properties"
+  ],
+  "policy": "In our second main phase with an empty stack, activate only with at most two cards in our hand, at least seven cards in our library, and at least four cards in each opponent's hand. Preserve native mana, tap and self-sacrifice payment and the native seven-card wheel.",
+  "decks": {
+    "actor": "30 Magus of the Wheel, 40 Sol Ring, 30 Mountain",
+    "opponent": "30 Craw Wurm, 70 Forest"
+  },
+  "exposures": [
+    {
+      "profile": "magus-of-the-wheel", "mode": "off", "seed": 136051,
+      "clockSeconds": 120, "exit": 0, "casts": 0, "activations": 0,
+      "exceptions": 0, "lastTurn": 20,
+      "candidateSha256": "17751F15686549817F8585E0CF9C461F250DDC357FE8CFA7F337F48BFFC81B13",
+      "log": "arena/magus-of-the-wheel/target/exposure-magus-final/off-136051/game.log",
+      "logSha256": "9D7CD2CAB19B46524B1B6B8FF877C8B61B7A235A17F8313DDC4FAE40EFD00352"
+    },
+    {
+      "profile": "magus-of-the-wheel", "mode": "on", "seed": 136051,
+      "clockSeconds": 120, "exit": 0, "casts": 13, "activations": 6,
+      "exceptions": 0, "lastTurn": 28,
+      "candidateSha256": "17751F15686549817F8585E0CF9C461F250DDC357FE8CFA7F337F48BFFC81B13",
+      "log": "arena/magus-of-the-wheel/target/exposure-magus-final/on-136051/game.log",
+      "logSha256": "A25468B43489564DC55DC673EED302DC16389C933E3BB22E31DEFC00C07D20AE"
+    },
+    {
+      "profile": "magus-of-the-wheel", "mode": "off", "seed": 136052,
+      "clockSeconds": 120, "exit": 0, "casts": 0, "activations": 0,
+      "exceptions": 0, "lastTurn": 20,
+      "candidateSha256": "17751F15686549817F8585E0CF9C461F250DDC357FE8CFA7F337F48BFFC81B13",
+      "log": "arena/magus-of-the-wheel/target/exposure-magus-final/off-136052/game.log",
+      "logSha256": "365E9369B284EB48F33A8AC9496C76A8FC686AE44303CC9189EBCB6624E667C6"
+    },
+    {
+      "profile": "magus-of-the-wheel", "mode": "on", "seed": 136052,
+      "clockSeconds": 120, "exit": 0, "casts": 6, "activations": 0,
+      "exceptions": 0, "lastTurn": 13,
+      "candidateSha256": "17751F15686549817F8585E0CF9C461F250DDC357FE8CFA7F337F48BFFC81B13",
+      "log": "arena/magus-of-the-wheel/target/exposure-magus-final/on-136052/game.log",
+      "logSha256": "8ACA233029E9DE87FD20B4978E58351A32D4FFDB64D3BA318B75E19A5BBDB6FD"
+    },
+    {
+      "profile": "magus-of-the-wheel", "mode": "off", "seed": 136053,
+      "clockSeconds": 120, "exit": 0, "casts": 0, "activations": 0,
+      "exceptions": 0, "lastTurn": 19,
+      "candidateSha256": "17751F15686549817F8585E0CF9C461F250DDC357FE8CFA7F337F48BFFC81B13",
+      "log": "arena/magus-of-the-wheel/target/exposure-magus-final/off-136053/game.log",
+      "logSha256": "B9721D9D1FF3E8131CE8C33C26BF3957117BC511243DC7051C34AE5279CED1C1"
+    },
+    {
+      "profile": "magus-of-the-wheel", "mode": "on", "seed": 136053,
+      "clockSeconds": 120, "exit": 0, "casts": 28, "activations": 11,
+      "exceptions": 0, "lastTurn": 28,
+      "candidateSha256": "17751F15686549817F8585E0CF9C461F250DDC357FE8CFA7F337F48BFFC81B13",
+      "log": "arena/magus-of-the-wheel/target/exposure-magus-final/on-136053/game.log",
+      "logSha256": "E6F5947D75EAE0D33FF2CE034125D3D4BA64C5032328320914AA5A3A4B2F4CB1"
+    }
+  ],
+  "scope": "Paired custom-deck card-use evidence only; no winner or strength claim."
+}

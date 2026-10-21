@@ -1,0 +1,180 @@
+{
+  "valueMetric": "Native ComputerUtilCard.evaluatePermanentList: mana value plus one, distinct vulnerable nonland survivors; count breaks value ties",
+  "coverage": {
+    "unlockedOnly": 10,
+    "verified": 24,
+    "distinctRemaining": 339,
+    "occurrencesRemaining": 554,
+    "mechanicallyUnlocked": 34,
+    "decksWithZeroBlocked": 25
+  },
+  "probeCandidatesMatch": true,
+  "limitations": "No prediction of opponent responses, death-trigger chains, recursion or individual permanent ability synergies",
+  "candidateJarSha256": "81F4B9B62655B097CE55823D768D498E4C92C1CC31CF80B19666254890A0CCD8",
+  "date": "2026-10-17",
+  "coverageStatus": "verified",
+  "claim": "Bounded survivor/cast policy, independent ground truth and autonomous custom-deck sacrifices; not strength or Commander-precon use",
+  "baseRevision": "8b0ebe6161b5840578457c8ec4b9069b6c59089f",
+  "nativeEvidence": {
+    "scope": "Native correctness and regression only; not strength evidence",
+    "files": [
+      {
+        "sha256": "81F4B9B62655B097CE55823D768D498E4C92C1CC31CF80B19666254890A0CCD8",
+        "path": "<development-checkout>\\arena\\tragic-arrogance\\target\\final\\engine.jar"
+      },
+      {
+        "sha256": "539F7F5C83F263F91E44CCCB597DA076A469E919123F7C8B5F26584E5561497C",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\tragic-arrogance.properties"
+      },
+      {
+        "sha256": "152E6924409F98620083CCFAF0EC9B1B5C482CFB94782F04ECA45F4EDC549A7C",
+        "path": "<development-checkout>\\arena\\tragic-arrogance\\Check-TragicArrogance.ps1"
+      },
+      {
+        "sha256": "C7062FE42BEAAB80F388E142D098311EB0856D54EDD38B0DF915FF37F7A10AA3",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\TragicArroganceAi.java"
+      },
+      {
+        "sha256": "E1DA964C9B0EA19F20A183AE04AE5FC1117E575CB9F009215729CAACE497B696",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\RepeatEachAi.java"
+      },
+      {
+        "sha256": "F9EA3D92EB4EACD90DC83B916FCD0C7A9B55DDCEDE1B9F9AD5A77240A2363A68",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChooseCardAi.java"
+      },
+      {
+        "sha256": "7CB56BF32E3364AD9B9E0631D8A0A981F6777F69DA3FF68F76BE510A2C5D7DAA",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DispatchAi.java"
+      },
+      {
+        "sha256": "1CA6DC8C83F3F6CA8396DCE21DA433B99B5B0F6286F50FC40F8931361747A862",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\TapAi.java"
+      },
+      {
+        "sha256": "8F9D5495050E83B3C18E280DED4362CC7E8420D61A647257C74A8D842C5629C9",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java"
+      },
+      {
+        "sha256": "84B96D3CE46C5B0F4864F3ECFDA90ACEC29EA0616009251721CC5543FB056F21",
+        "path": "<development-checkout>\\arena\\tragic-arrogance\\TragicArroganceTests.java"
+      }
+    ],
+    "revision": "8b0ebe6161b5840578457c8ec4b9069b6c59089f"
+  },
+  "originalScript": {
+    "path": "forge-gui/res/cardsfolder/t/tragic_arrogance.txt",
+    "sha256": "0864A49D1FBBB286BBB1F4AD04ED063B044DE419987DB7B6BD02D5A8435097AB"
+  },
+  "regressionEvidence": {
+    "results": [
+      {
+        "log": "<development-checkout>\\arena\\tragic-arrogance\\target\\regressions\\MirrorEntityTests.log",
+        "checks": 48,
+        "suite": "MirrorEntityTests",
+        "sha256": "DB59FF8B234837B714CA44DAA186C4E26B12CC45AA109C1C07826923E9BD52BD"
+      },
+      {
+        "log": "<development-checkout>\\arena\\tragic-arrogance\\target\\regressions\\DecreeOfPainTests.log",
+        "checks": 69,
+        "suite": "DecreeOfPainTests",
+        "sha256": "F1B9E6E7D496EE2D590932410C8DAD043178CEAB82AA7F3B290BD21CFB7CAB1A"
+      },
+      {
+        "log": "<development-checkout>\\arena\\tragic-arrogance\\target\\regressions\\OreskosExplorerTests.log",
+        "checks": 100,
+        "suite": "OreskosExplorerTests",
+        "sha256": "9F64FDE3701B31D5FF5B09F281E664F5A3E72CBE5EBFFB07D0BBAF3DF892B9BF"
+      },
+      {
+        "log": "<development-checkout>\\arena\\tragic-arrogance\\target\\regressions\\DispatchTests.log",
+        "checks": 61,
+        "suite": "DispatchTests",
+        "sha256": "B493F977688ED8C503D1AA3177DEE88043D13791227FAB8672E9223569C943A6"
+      },
+      {
+        "log": "<development-checkout>\\arena\\tragic-arrogance\\target\\regressions\\SlaughterTheStrongTests.log",
+        "checks": 18,
+        "suite": "SlaughterTheStrongTests",
+        "sha256": "660E9C8F994C001B728CCDEE5ECE8304AA3043E0A9F4E69655771B301FEA5350"
+      }
+    ],
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\tragic-arrogance\\target\\final\\engine.jar",
+        "sha256": "81F4B9B62655B097CE55823D768D498E4C92C1CC31CF80B19666254890A0CCD8"
+      },
+      {
+        "path": "<development-checkout>\\arena\\tragic-arrogance\\Check-Regressions.ps1",
+        "sha256": "C1F9409BCF428D1B5A007653E3074E45A064DD6C869B09BAB019C03F8838E332"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java",
+        "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\decree-of-pain\\DecreeOfPainTests.java",
+        "sha256": "D4B61C4BA1E720B10635DF58E82C8BCE8C91B92F353924D27EF1E42C1F748A8B"
+      },
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\OreskosExplorerTests.java",
+        "sha256": "A7A8A90DB93E4A2F6E735B1F66C7311D44EFF8AAFA833D5A88C6D0A25CAB2E57"
+      },
+      {
+        "path": "<development-checkout>\\arena\\dispatch\\DispatchTests.java",
+        "sha256": "B8D4B674759A490C0BB46DF4074887379A5EFC544BAFCC3722A3864E3DE63775"
+      },
+      {
+        "path": "<development-checkout>\\arena\\slaughter\\SlaughterTheStrongTests.java",
+        "sha256": "AF3EDA3A9B63CD5EDF464CEFD5BAF4E7BC250068D736F9D8481FA50915F6E4EF"
+      }
+    ]
+  },
+  "build": {
+    "checkstyleViolations": 0,
+    "desktopLauncherPackagingAttempted": false,
+    "aiReactorPassed": true,
+    "genericMavenTestsSkipped": true
+  },
+  "nativeChecks": 132,
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\target\\build.log",
+      "sha256": "EC2C63364832C94C399CEE05A934A8ED710A7041D2A1A63A0AAD932F328E529A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\target\\final\\TragicArroganceTests.log",
+      "sha256": "86DF53F81980B67741B0B5731908F62DA113E2A5EAE6F7C422E14662F36E6849"
+    },
+    {
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\target\\final\\provenance.json",
+      "sha256": "5ADD37816AE41325E6A3702BC2BE334F1A56E99946425F362DD0D20CBEB223F9"
+    },
+    {
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\target\\regressions\\summary.json",
+      "sha256": "61A55DB8D900EB4733875133505DB74F319AF94AF53F89F2CFB00E3151BC97F5"
+    },
+    {
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\target\\coverage-audit.log",
+      "sha256": "D1850ED865E5FC71774F25677A4665977549EA80D1E4E77E43FE614312E8B91A"
+    }
+  ],
+  "candidate": "Private arena engine with new planner and RepeatEach/ChooseCard classes plus committed Dispatch/Tap and ChangeZone fixes",
+  "regressionCandidateMatches": true,
+  "cardUseEvidence": {
+    "friendlySacrifices": 6,
+    "sha256": "95E832605F9B86CE31B38A74567DD33B2E1CE9D8738A2C4CCE84161C1BB00FCE",
+    "path": "arena/tragic-arrogance/card-use-evidence.json",
+    "offControlsZero": true,
+    "opposingSacrifices": 37,
+    "survivorOracleMatches": true,
+    "clockSeconds": 20,
+    "completedGameRequired": false,
+    "paidResolvedCasts": 4,
+    "indestructibleSacrifices": 12,
+    "nativeSacrificeEventsMatch": true,
+    "seeds": [
+      96121,
+      96122
+    ]
+  }
+}

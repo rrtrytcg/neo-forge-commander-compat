@@ -1,0 +1,536 @@
+{
+  "revision": "4826f1b74c5348bb591e03deec604a445720285e",
+  "installedApplicationModified": false,
+  "nativeGate": {
+    "results": [
+      {
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "checks": 116,
+        "suite": "BiomassMutationTests"
+      },
+      {
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "checks": 115,
+        "suite": "NestingGroundsTests"
+      },
+      {
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "checks": 127,
+        "suite": "ToxicDelugeTests"
+      },
+      {
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "checks": 76,
+        "suite": "AdaptiveEnchantmentTests"
+      },
+      {
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "checks": 349,
+        "suite": "LandManaFamilyTests"
+      },
+      {
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "checks": 77,
+        "suite": "AhoyMateysTests"
+      },
+      {
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\BeastWithinTests.log",
+        "checks": 13,
+        "suite": "BeastWithinTests"
+      },
+      {
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "checks": 36,
+        "suite": "CurseOfTheSwineTests"
+      },
+      {
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\FilterLandsTests.log",
+        "checks": 10,
+        "suite": "FilterLandsTests"
+      },
+      {
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "checks": 6,
+        "suite": "PsychosisCrawlerTests"
+      },
+      {
+        "sha256": "E99D3B3496E551B2779A214B7105D768E619E62B31BF648F573F7D36B932609C",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "checks": 12,
+        "suite": "WallOfLimbsTests"
+      },
+      {
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "checks": 18,
+        "suite": "SlaughterTheStrongTests"
+      },
+      {
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "checks": 48,
+        "suite": "MirrorEntityTests"
+      },
+      {
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "checks": 69,
+        "suite": "DecreeOfPainTests"
+      },
+      {
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "checks": 100,
+        "suite": "OreskosExplorerTests"
+      },
+      {
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\DispatchTests.log",
+        "checks": 61,
+        "suite": "DispatchTests"
+      },
+      {
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "checks": 132,
+        "suite": "TragicArroganceTests"
+      },
+      {
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "checks": 135,
+        "suite": "MarshalsAnthemTests"
+      },
+      {
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "checks": 87,
+        "suite": "DarksteelMutationTests"
+      },
+      {
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "checks": 139,
+        "suite": "CorpseAugurTests"
+      },
+      {
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "checks": 21,
+        "suite": "AssaultSuitTests"
+      },
+      {
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\SelvalaTests.log",
+        "checks": 13,
+        "suite": "SelvalaTests"
+      },
+      {
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\TradingPostTests.log",
+        "checks": 60,
+        "suite": "TradingPostTests"
+      },
+      {
+        "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\GazeOfGraniteTests.log",
+        "checks": 40,
+        "suite": "GazeOfGraniteTests"
+      },
+      {
+        "sha256": "C71A88ED767012410A120FF6790B7C404EC3D0DF7B147DB5C1F701EBE513D67D",
+        "log": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\GreaterGoodTests.log",
+        "checks": 75,
+        "suite": "GreaterGoodTests"
+      }
+    ],
+    "total": 1935,
+    "candidateSha256": "CAE437E5FEA4A34CCED629EA3B5E4F5FFEAFB4F58AA0A62A68EEFF7D96821C83",
+    "candidate": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\engine.jar"
+  },
+  "scope": "Opt-in doomed-creature rescue correctness and autonomous native custom-deck use; no strength, winner or game-completion claim",
+  "status": "verified",
+  "initialCombatDiagnostic": {
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\greater-good\\target\\diagnostics\\combat-gigantosaurus-on-98021\\probe.log",
+        "sha256": "5978FAD628E02B5E8B2511ED251D463B84FA9150698032A4D84EC2A2637582B1"
+      },
+      {
+        "path": "<development-checkout>\\arena\\greater-good\\target\\diagnostics\\combat-gigantosaurus-on-98021\\summary.json",
+        "sha256": "464C6B6E779BA18AAC6BF25A7323BE2CDB9BDEBE19AB042E9804AFFF3A5F3C7B"
+      },
+      {
+        "path": "<development-checkout>\\arena\\greater-good\\target\\diagnostics\\combat-gigantosaurus-on-98021\\original-Combat.dck",
+        "sha256": "B8B20653B582070D403BCA85E96369FACC282B443F6486D33F7DB27C25418AC4"
+      }
+    ],
+    "reason": "Cast but no activation before clock; vanilla board stalled",
+    "acceptedWitness": false
+  },
+  "coverage": {
+    "verified": 35,
+    "inventory": {
+      "decksWithZeroBlocked": 34,
+      "decks": 184,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "ONC - Corrupting Influence",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past"
+      ]
+    },
+    "unlocked": 45,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "blocked": {
+      "distinctRemaining": 328,
+      "occurrencesRemaining": 498,
+      "occurrencesUnlocked": 232,
+      "topRemaining": [
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Viscera Seer",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Prophetic Prism",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Command Beacon",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Timely Ward",
+          "decks": 3
+        },
+        {
+          "card": "Bosh, Iron Golem",
+          "decks": 3
+        },
+        {
+          "card": "Misleading Signpost",
+          "decks": 3
+        },
+        {
+          "card": "Sylvan Offering",
+          "decks": 3
+        }
+      ]
+    }
+  },
+  "cardUse": {
+    "engine": "NeoForge 1.0.25",
+    "scope": "Bounded native custom-deck card use, not completion/winner/strength evidence",
+    "candidateSha256": "CAE437E5FEA4A34CCED629EA3B5E4F5FFEAFB4F58AA0A62A68EEFF7D96821C83",
+    "runs": [
+      {
+        "seed": 98011,
+        "removalResponses": 11,
+        "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\removal-on-98011\\summary.json",
+        "clockReached": true,
+        "scenario": "removal",
+        "casts": 1,
+        "profile": "on",
+        "resolved": 11,
+        "combatRescues": 0,
+        "sha256": "769E68C5F18ED50E2E3C642A5152969BA470FDD4F5FEAAC9D909B3EF1AA929EE"
+      },
+      {
+        "seed": 98012,
+        "removalResponses": 4,
+        "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\removal-on-98012\\summary.json",
+        "clockReached": true,
+        "scenario": "removal",
+        "casts": 1,
+        "profile": "on",
+        "resolved": 4,
+        "combatRescues": 0,
+        "sha256": "47DF1ADA4EEE93E82BD55B4ED595DB32B09AC49196526AE64813C7F3C8CC78CD"
+      },
+      {
+        "seed": 98021,
+        "removalResponses": 0,
+        "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\combat-on-98021\\summary.json",
+        "clockReached": false,
+        "scenario": "combat",
+        "casts": 1,
+        "profile": "on",
+        "resolved": 1,
+        "combatRescues": 1,
+        "sha256": "C3D69CEB99A7FBBC98071D784E768D874D4372957333A30480276194650CA103"
+      },
+      {
+        "seed": 98011,
+        "removalResponses": 0,
+        "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\removal-off-98011\\summary.json",
+        "clockReached": true,
+        "scenario": "removal",
+        "casts": 0,
+        "profile": "off",
+        "resolved": 0,
+        "combatRescues": 0,
+        "sha256": "BCD5D3C0F5568BE5E060E8E61378DABB22DFF927A73894241426CC0249824E1E"
+      },
+      {
+        "seed": 98021,
+        "removalResponses": 0,
+        "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\combat-off-98021\\summary.json",
+        "clockReached": false,
+        "scenario": "combat",
+        "casts": 0,
+        "profile": "off",
+        "resolved": 0,
+        "combatRescues": 0,
+        "sha256": "8699C566B783A4B6ECFFC5C1BC28B4E34F6D9E52A221EE688C8C43D1429946C1"
+      }
+    ],
+    "checks": 181
+  },
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\CardUseProbe.java",
+      "sha256": "657CE234EE74EEE66780AAAD03317993BAC998EBA8F380AD9D3A9E4E54741F13"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\Check-CardUseEvidence.ps1",
+      "sha256": "6CAAFDCA2DA82885DAF1052AB22B5FE7CEEEC8BC6FA672C3FA4324D1A0343C5D"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\Check-NeoForge-1.0.25.ps1",
+      "sha256": "9EF45ABF47110F78C510B2B76E3242063CA308604A21EAEDCEB475331BBF229D"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\GreaterGoodTests.java",
+      "sha256": "C5DEA6370FFAF84B322FE3549C625F06D34C9AE18E6331CED2EAFBD8D6FD385E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\README.md",
+      "sha256": "CF659DF61B324083028DD3C261209DBE3F333A199B93CB3B7E07788A0E46B89A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\Refresh-Verification.ps1",
+      "sha256": "7512BC19686926A9C9C9E42B09FC04615FE74C153C111C7AA82EF5E4CA573AE3"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\Run-CardUseProbe.ps1",
+      "sha256": "178C0146BB29C3124FE851EF695327E1C3438EFE4248B629260BCAF77753DE00"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\decks\\Combat.dck",
+      "sha256": "658CAFB1D5C96EF01B431E88E221392A566E998283804138CFA5FB00B60DEA4B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\decks\\Removal.dck",
+      "sha256": "45FBEF46165B2AB67A03413D64F102279C5AECC7C7E640F3A38BD663E67B8D62"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\decks\\Rescue.dck",
+      "sha256": "29C8D102633517F6F87F9EADE44001BE808712C442842B4106FB7F6071309FB9"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\GreaterGoodAi.java",
+      "sha256": "170B19C4A1EEF9BC6732FED82CA80EB2540BFF5A35ED6C9A3D665350FAA8AA3B"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\DrawAi.java",
+      "sha256": "A18EF1E073FCFDE12B40D27B7163A2D98F9F32FEA80F503BDB53C7F212E28D0B"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java",
+      "sha256": "E25B55597165328960ED74E23CD2819124205DC495A6D5772392A6AF6136EF6F"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiCostDecision.java",
+      "sha256": "9D82F4E7AC3BA5500CFAF1DEB6BC29CFDB050F67A85B69B1EE2C3A18FE8DB31F"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\greater-good.properties",
+      "sha256": "D36A431696975936274CB56B096F5A686E5E6CC092B5659FC147C3054DB5704C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "14E495A8F01D6887CC35D4520356DBC67D3A95A7600713F2CA72BA19D970A79A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "0C4B4854ECB027CBDF415FDEDB20550129F1834010802D87FE585B7E811F6623"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "07EC47CAD6E2066E37DB932EA9FD96B99B73A5A58B7A0B619F52FEBC76E48ACF"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "61D5368E386A5D8D1D1EA6D32AA8A109C639166CA4727C20C9C3F2B39D7208F3"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\provenance.json",
+      "sha256": "5116A3C8C8DFFB4F2DFDB935E1EE4322C7F04050EF8EE5864A5AB95E887F6D60"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\g\\greater_good.txt",
+      "sha256": "794BD4E8A14F6C732189942B34056A36F9FC92D42498442D42E4B7C2BD359C30"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\target\\card-use-check.log",
+      "sha256": "ED3E6104FBAB93BB5C780BB72A693BD1C166AA25C601C783FB02B9F868BD6D5B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\greater-good\\target\\final-1.0.25\\engine.jar",
+      "sha256": "CAE437E5FEA4A34CCED629EA3B5E4F5FFEAFB4F58AA0A62A68EEFF7D96821C83"
+    }
+  ],
+  "date": "2026-10-17",
+  "originalScriptMatchesInstalled": true,
+  "engine": "NeoForge 1.0.25",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "card": "Greater Good"
+}

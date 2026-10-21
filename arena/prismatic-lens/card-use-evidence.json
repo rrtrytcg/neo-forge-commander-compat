@@ -1,0 +1,91 @@
+{
+  "engine": "NeoForge 1.0.25",
+  "candidateSha256": "71C5EEA1563F7B7A4E5DF3DF912A937B0DD8BCAAB9E7B7D454330B9866B71BF7",
+  "checks": 212,
+  "runs": [
+    {
+      "profile": "on",
+      "pendingAtStop": 0,
+      "clockReached": true,
+      "scenario": "lens",
+      "diagnostics": [],
+      "resolved": 17,
+      "lateObserverEventsExcluded": 0,
+      "freeColorlessMana": 0,
+      "fizzles": 0,
+      "summary": "<development-checkout>\\arena\\prismatic-lens\\target\\card-use\\lens-on-105011\\summary.json",
+      "sha256": "35BC7FCEFE4B8D053C6443F3DF9889089D93CFB8FCFA10642C08E16542C1A5CC",
+      "filteredMana": 7,
+      "reusedLenses": 2,
+      "lensCasts": 5,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "seed": 105011
+    },
+    {
+      "profile": "on",
+      "pendingAtStop": 0,
+      "clockReached": true,
+      "scenario": "lens",
+      "diagnostics": [],
+      "resolved": 16,
+      "lateObserverEventsExcluded": 0,
+      "freeColorlessMana": 2,
+      "fizzles": 0,
+      "summary": "<development-checkout>\\arena\\prismatic-lens\\target\\card-use\\lens-on-105012\\summary.json",
+      "sha256": "03AD16FB23DD33BE3932B2AE0D49A514EDF71A32BB8CEA9CDCBC1AF16CAE65DA",
+      "filteredMana": 7,
+      "reusedLenses": 2,
+      "lensCasts": 5,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "seed": 105012
+    },
+    {
+      "profile": "off",
+      "pendingAtStop": 0,
+      "clockReached": true,
+      "scenario": "lens",
+      "diagnostics": [],
+      "resolved": 5,
+      "lateObserverEventsExcluded": 0,
+      "freeColorlessMana": 0,
+      "fizzles": 0,
+      "summary": "<development-checkout>\\arena\\prismatic-lens\\target\\card-use\\lens-off-105011\\summary.json",
+      "sha256": "20CFF6F4DBC8A7326465679753F22060BC17829886D20E6E81404ED65E159CF6",
+      "filteredMana": 0,
+      "reusedLenses": 0,
+      "lensCasts": 0,
+      "colors": [],
+      "seed": 105011
+    },
+    {
+      "profile": "off",
+      "pendingAtStop": 0,
+      "clockReached": true,
+      "scenario": "lens",
+      "diagnostics": [],
+      "resolved": 3,
+      "lateObserverEventsExcluded": 0,
+      "freeColorlessMana": 0,
+      "fizzles": 0,
+      "summary": "<development-checkout>\\arena\\prismatic-lens\\target\\card-use\\lens-off-105012\\summary.json",
+      "sha256": "DD85C31E77BBE7CC2E4A330F736B0604D1F2A20CD69D64135C1C2BBB3F8EC81D",
+      "filteredMana": 0,
+      "reusedLenses": 0,
+      "lensCasts": 0,
+      "colors": [],
+      "seed": 105012
+    }
+  ],
+  "scope": "Autonomous native four-player Commander custom decks; card-use evidence only, no completion/winner/strength claim"
+}

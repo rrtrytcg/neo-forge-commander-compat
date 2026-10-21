@@ -1,0 +1,197 @@
+{
+  "engine": "NeoForge 1.0.27",
+  "revision": "cb55e71de08aeb0cb28b80b458998d160c053df0",
+  "candidateSha256": "0BB4034A05940B40D50AA4F6B84C3887DC93A74573CF4593770F7D89E0F22F9E",
+  "base": "<development-checkout>\\arena\\carpet-of-flowers\\target\\final-1.0.27",
+  "gate": {
+    "checks": 5706,
+    "suites": 55,
+    "priorChecks": 5687,
+    "newChecks": 19,
+    "newSuiteSha256": "8E53354E637E9A353E4C3000E19522A58B291AE214F4A7F2B4DD3EBB1A1786E7",
+    "baselineChecks": 1,
+    "focusedChecks": 19,
+    "installedHashesChecked": 21729,
+    "installedHashesChanged": 0
+  },
+  "exposure": [
+    {
+      "mode": "off",
+      "seed": 126011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "activations": 0,
+        "casts": 0,
+        "tokens": 0
+      },
+      "lastTurn": 31.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 2751 ms. Ai(1)-Ghoulcaller Gisa exposure: Zombie production has won!",
+      "logSha256": "11EC2F98D737AB553EE4F0062DFA1D7015EED290F4437D6B65630B714E75697E",
+      "witnesses": {
+        "cast": [],
+        "activation": [],
+        "zombieTokens": [],
+        "nighthawkZoneChange": []
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 126011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "activations": 5,
+        "casts": 3,
+        "tokens": 5
+      },
+      "lastTurn": 25.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 2757 ms. Ai(1)-Ghoulcaller Gisa exposure: Zombie production has won!",
+      "logSha256": "B64D6CF6AE8CEFDBF5ECED7494609AB7183F9D7BBE286B944E44CA94C047B993",
+      "witnesses": {
+        "cast": [
+          {
+            "line": 190,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production cast Ghoulcaller Gisa"
+          },
+          {
+            "line": 433,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production cast Ghoulcaller Gisa"
+          },
+          {
+            "line": 489,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production cast Ghoulcaller Gisa"
+          }
+        ],
+        "activation": [
+          {
+            "line": 239,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production activated Ghoulcaller Gisa"
+          },
+          {
+            "line": 275,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production activated Ghoulcaller Gisa"
+          },
+          {
+            "line": 308,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production activated Ghoulcaller Gisa"
+          },
+          {
+            "line": 342,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production activated Ghoulcaller Gisa"
+          },
+          {
+            "line": 375,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production activated Ghoulcaller Gisa"
+          }
+        ],
+        "zombieTokens": [
+          {
+            "line": 240,
+            "text": "Resolve Stack: Ghoulcaller Gisa (27) - Ai(1)-Ghoulcaller Gisa exposure: Zombie production creates two 2/2 black Zombie creature tokens."
+          },
+          {
+            "line": 276,
+            "text": "Resolve Stack: Ghoulcaller Gisa (27) - Ai(1)-Ghoulcaller Gisa exposure: Zombie production creates two 2/2 black Zombie creature tokens."
+          },
+          {
+            "line": 309,
+            "text": "Resolve Stack: Ghoulcaller Gisa (27) - Ai(1)-Ghoulcaller Gisa exposure: Zombie production creates two 2/2 black Zombie creature tokens."
+          },
+          {
+            "line": 343,
+            "text": "Resolve Stack: Ghoulcaller Gisa (27) - Ai(1)-Ghoulcaller Gisa exposure: Zombie production creates two 2/2 black Zombie creature tokens."
+          },
+          {
+            "line": 376,
+            "text": "Resolve Stack: Ghoulcaller Gisa (27) - Ai(1)-Ghoulcaller Gisa exposure: Zombie production creates two 2/2 black Zombie creature tokens."
+          }
+        ],
+        "nighthawkZoneChange": [
+          {
+            "line": 238,
+            "text": "Zone Change: Vampire Nighthawk (97) was put into Graveyard from Battlefield."
+          }
+        ]
+      }
+    },
+    {
+      "mode": "off",
+      "seed": 126012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "activations": 0,
+        "casts": 0,
+        "tokens": 0
+      },
+      "lastTurn": 34.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 2935 ms. Ai(2)-Ghoulcaller Gisa exposure: opposing creatures has won!",
+      "logSha256": "5FAFC6C3C645ED2E2EE3D82F028B9CA2A81933B687DDB176438F07D4D26449D0",
+      "witnesses": {
+        "cast": [],
+        "activation": [],
+        "zombieTokens": [],
+        "nighthawkZoneChange": [
+          {
+            "line": 598,
+            "text": "Zone Change: Vampire Nighthawk (85) was put into Graveyard from Battlefield."
+          }
+        ]
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 126012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "activations": 2,
+        "casts": 1,
+        "tokens": 2
+      },
+      "lastTurn": 27.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 2805 ms. Ai(1)-Ghoulcaller Gisa exposure: Zombie production has won!",
+      "logSha256": "6761400ED22BBF03BBE09ABBB033F6F716D91B5F56FB032C8942CD53A6C47E05",
+      "witnesses": {
+        "cast": [
+          {
+            "line": 167,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production cast Ghoulcaller Gisa"
+          }
+        ],
+        "activation": [
+          {
+            "line": 513,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production activated Ghoulcaller Gisa"
+          },
+          {
+            "line": 547,
+            "text": "Add To Stack: Ai(1)-Ghoulcaller Gisa exposure: Zombie production activated Ghoulcaller Gisa"
+          }
+        ],
+        "zombieTokens": [
+          {
+            "line": 514,
+            "text": "Resolve Stack: Ghoulcaller Gisa (11) - Ai(1)-Ghoulcaller Gisa exposure: Zombie production creates two 2/2 black Zombie creature tokens."
+          },
+          {
+            "line": 548,
+            "text": "Resolve Stack: Ghoulcaller Gisa (11) - Ai(1)-Ghoulcaller Gisa exposure: Zombie production creates two 2/2 black Zombie creature tokens."
+          }
+        ],
+        "nighthawkZoneChange": [
+          {
+            "line": 512,
+            "text": "Zone Change: Vampire Nighthawk (85) was put into Graveyard from Battlefield."
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Paired custom-deck card-use evidence only; no winner or strength claim."
+}

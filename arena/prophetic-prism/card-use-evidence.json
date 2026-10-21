@@ -1,0 +1,91 @@
+{
+  "scope": "Autonomous native four-player Commander custom decks; card-use evidence only, no completion/winner/strength claim",
+  "runs": [
+    {
+      "colors": [
+        "B",
+        "G",
+        "U",
+        "W"
+      ],
+      "profile": "on",
+      "scenario": "prism",
+      "draws": 5,
+      "pendingAtStop": 0,
+      "clockReached": true,
+      "prismCasts": 5,
+      "sha256": "66B288C6E7D98C171E2E8F9FBF285707598584D61F864991BC0AE202205F85B3",
+      "lateObserverEventsExcluded": 0,
+      "diagnostics": [],
+      "summary": "<development-checkout>\\arena\\prophetic-prism\\target\\card-use\\prism-on-106011\\summary.json",
+      "filteredMana": 13,
+      "pendingDraws": 0,
+      "reusedPrisms": 2,
+      "seed": 106011,
+      "fizzles": 0
+    },
+    {
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "profile": "on",
+      "scenario": "prism",
+      "draws": 8,
+      "pendingAtStop": 0,
+      "clockReached": true,
+      "prismCasts": 8,
+      "sha256": "D2820A852C187D9ECDE2E1CBED2414DBDE31F57AD42088A8A41956B02174E416",
+      "lateObserverEventsExcluded": 0,
+      "diagnostics": [],
+      "summary": "<development-checkout>\\arena\\prophetic-prism\\target\\card-use\\prism-on-106012\\summary.json",
+      "filteredMana": 12,
+      "pendingDraws": 0,
+      "reusedPrisms": 1,
+      "seed": 106012,
+      "fizzles": 0
+    },
+    {
+      "colors": [],
+      "profile": "off",
+      "scenario": "prism",
+      "draws": 0,
+      "pendingAtStop": 0,
+      "clockReached": true,
+      "prismCasts": 0,
+      "sha256": "274D28F81A2022E3722A8A0886A923DAD8255D6409C2282990794C950169EF9A",
+      "lateObserverEventsExcluded": 0,
+      "diagnostics": [],
+      "summary": "<development-checkout>\\arena\\prophetic-prism\\target\\card-use\\prism-off-106011\\summary.json",
+      "filteredMana": 0,
+      "pendingDraws": 0,
+      "reusedPrisms": 0,
+      "seed": 106011,
+      "fizzles": 0
+    },
+    {
+      "colors": [],
+      "profile": "off",
+      "scenario": "prism",
+      "draws": 0,
+      "pendingAtStop": 0,
+      "clockReached": true,
+      "prismCasts": 0,
+      "sha256": "24ADC5BCF64FE1710ECCA059FE9A1F1991989007C1101BD692486BD46A2D5433",
+      "lateObserverEventsExcluded": 0,
+      "diagnostics": [],
+      "summary": "<development-checkout>\\arena\\prophetic-prism\\target\\card-use\\prism-off-106012\\summary.json",
+      "filteredMana": 0,
+      "pendingDraws": 0,
+      "reusedPrisms": 0,
+      "seed": 106012,
+      "fizzles": 0
+    }
+  ],
+  "engine": "NeoForge 1.0.25",
+  "candidateSha256": "6FE0B13CB2ACFB46E48E3FD583859E26238095604F4F956647D524FB630481F4",
+  "checks": 366
+}

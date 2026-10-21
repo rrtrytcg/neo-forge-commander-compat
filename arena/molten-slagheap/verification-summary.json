@@ -1,0 +1,268 @@
+{
+  "card": "Molten Slagheap",
+  "profile": "molten-slagheap",
+  "engine": "NeoForge 1.0.28",
+  "baselineChecks": 2,
+  "focusedChecks": 12,
+  "fullGate": {
+    "checks": 5745,
+    "suites": 58,
+    "priorChecks": 5733,
+    "newChecks": 12,
+    "candidateSha256": "778A4100225562C8A742F726BB16F49A442DE4657E775C086C48FA7E5D065CB7",
+    "base": "arena/winter-cynical-opportunist/target/final-winter-2"
+  },
+  "installedHashesChecked": 21729,
+  "installedHashesChanged": 0,
+  "productionFiles": [
+    "forge-ai/src/main/java/forge/ai/ability/ManaAi.java",
+    "forge-ai/src/main/java/forge/ai/ComputerUtilMana.java"
+  ],
+  "exposures": [
+    {
+      "profile": "molten-slagheap",
+      "mode": "off",
+      "seed": 132011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "decks": [
+        "Actor.dck",
+        "Opponent.dck"
+      ],
+      "counts": {
+        "casts": 0,
+        "manaStorage": 0
+      },
+      "examples": {
+        "casts": [],
+        "manaStorage": []
+      },
+      "lastTurn": 74.0,
+      "result": "Game Result: Game 1 ended in 5763 ms. Ai(1)-Molten Slagheap exposure: counter-funded artifact has won!",
+      "exceptions": 0,
+      "candidateSha256": "778A4100225562C8A742F726BB16F49A442DE4657E775C086C48FA7E5D065CB7",
+      "log": "<development-checkout>\\arena\\molten-slagheap\\target\\exposure-final3\\off-132011\\game.log",
+      "logSha256": "2284FE8909B03F83E707B1CDDBE3F645883B170269569068F579284652320050",
+      "command": [
+        "<development-checkout>\\arena\\.tools\\jdk-17.0.20.1+1/bin/java.exe",
+        "-Xmx3g",
+        "-Djava.awt.headless=true",
+        "-Dfile.encoding=UTF-8",
+        "-Duser.home=<development-checkout>\\arena\\molten-slagheap\\target\\final-molten-r3\\runtime/home",
+        "-Dsentry.dsn=",
+        "-Dsentry.enabled=false",
+        "-cp",
+        "<development-checkout>\\arena\\molten-slagheap\\target\\final-molten-r3\\engine.jar",
+        "forge.view.Main",
+        "sim",
+        "-D",
+        "<development-checkout>\\arena\\molten-slagheap\\decks",
+        "-d",
+        "Actor.dck",
+        "Opponent.dck",
+        "-f",
+        "Commander",
+        "-n",
+        "1",
+        "-c",
+        "120",
+        "-s",
+        "132011",
+        "-a",
+        "Default",
+        "Default"
+      ],
+      "scope": "Card-use smoke with unchanged precon decks; no winner or strength claim"
+    },
+    {
+      "profile": "molten-slagheap",
+      "mode": "on",
+      "seed": 132011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "decks": [
+        "Actor.dck",
+        "Opponent.dck"
+      ],
+      "counts": {
+        "casts": 4,
+        "manaStorage": 4
+      },
+      "examples": {
+        "casts": [
+          "Add To Stack: Ai(1)-Molten Slagheap exposure: counter-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Molten Slagheap exposure: counter-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Molten Slagheap exposure: counter-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Molten Slagheap exposure: counter-funded artifact cast Solemn Simulacrum"
+        ],
+        "manaStorage": [
+          "Mana: Molten Slagheap (3) - {1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R}.",
+          "Mana: Molten Slagheap (3) - {1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R}.",
+          "Mana: Molten Slagheap (3) - {1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R}.",
+          "Mana: Molten Slagheap (2) - {1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R}."
+        ]
+      },
+      "lastTurn": 74.0,
+      "result": "Game Result: Game 1 ended in 9910 ms. Ai(1)-Molten Slagheap exposure: counter-funded artifact has won!",
+      "exceptions": 0,
+      "candidateSha256": "778A4100225562C8A742F726BB16F49A442DE4657E775C086C48FA7E5D065CB7",
+      "log": "<development-checkout>\\arena\\molten-slagheap\\target\\exposure-final3\\on-132011\\game.log",
+      "logSha256": "0B7C9DA4E6FA560E2B8EF0A764F88E7115A7AB750BBA37EDFE731DA0126AE2C2",
+      "command": [
+        "<development-checkout>\\arena\\.tools\\jdk-17.0.20.1+1/bin/java.exe",
+        "-Xmx3g",
+        "-Djava.awt.headless=true",
+        "-Dfile.encoding=UTF-8",
+        "-Duser.home=<development-checkout>\\arena\\molten-slagheap\\target\\final-molten-r3\\runtime/home",
+        "-Dsentry.dsn=",
+        "-Dsentry.enabled=false",
+        "-cp",
+        "<development-checkout>\\arena\\molten-slagheap\\target\\final-molten-r3\\engine.jar",
+        "forge.view.Main",
+        "sim",
+        "--ai-profile=molten-slagheap",
+        "-D",
+        "<development-checkout>\\arena\\molten-slagheap\\decks",
+        "-d",
+        "Actor.dck",
+        "Opponent.dck",
+        "-f",
+        "Commander",
+        "-n",
+        "1",
+        "-c",
+        "120",
+        "-s",
+        "132011",
+        "-a",
+        "Default",
+        "Default"
+      ],
+      "scope": "Card-use smoke with unchanged precon decks; no winner or strength claim"
+    },
+    {
+      "profile": "molten-slagheap",
+      "mode": "off",
+      "seed": 132012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "decks": [
+        "Actor.dck",
+        "Opponent.dck"
+      ],
+      "counts": {
+        "casts": 0,
+        "manaStorage": 0
+      },
+      "examples": {
+        "casts": [],
+        "manaStorage": []
+      },
+      "lastTurn": 72.0,
+      "result": "Game Result: Game 1 ended in 6057 ms. Ai(1)-Molten Slagheap exposure: counter-funded artifact has won!",
+      "exceptions": 0,
+      "candidateSha256": "778A4100225562C8A742F726BB16F49A442DE4657E775C086C48FA7E5D065CB7",
+      "log": "<development-checkout>\\arena\\molten-slagheap\\target\\exposure-final3\\off-132012\\game.log",
+      "logSha256": "627A55C59B9D7C37EFC65FDE9DD317D5950BB49EBC237F919D4FD8A962AE9363",
+      "command": [
+        "<development-checkout>\\arena\\.tools\\jdk-17.0.20.1+1/bin/java.exe",
+        "-Xmx3g",
+        "-Djava.awt.headless=true",
+        "-Dfile.encoding=UTF-8",
+        "-Duser.home=<development-checkout>\\arena\\molten-slagheap\\target\\final-molten-r3\\runtime/home",
+        "-Dsentry.dsn=",
+        "-Dsentry.enabled=false",
+        "-cp",
+        "<development-checkout>\\arena\\molten-slagheap\\target\\final-molten-r3\\engine.jar",
+        "forge.view.Main",
+        "sim",
+        "-D",
+        "<development-checkout>\\arena\\molten-slagheap\\decks",
+        "-d",
+        "Actor.dck",
+        "Opponent.dck",
+        "-f",
+        "Commander",
+        "-n",
+        "1",
+        "-c",
+        "120",
+        "-s",
+        "132012",
+        "-a",
+        "Default",
+        "Default"
+      ],
+      "scope": "Card-use smoke with unchanged precon decks; no winner or strength claim"
+    },
+    {
+      "profile": "molten-slagheap",
+      "mode": "on",
+      "seed": 132012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "decks": [
+        "Actor.dck",
+        "Opponent.dck"
+      ],
+      "counts": {
+        "casts": 12,
+        "manaStorage": 1
+      },
+      "examples": {
+        "casts": [
+          "Add To Stack: Ai(1)-Molten Slagheap exposure: counter-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Molten Slagheap exposure: counter-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Molten Slagheap exposure: counter-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Molten Slagheap exposure: counter-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Molten Slagheap exposure: counter-funded artifact cast Solemn Simulacrum"
+        ],
+        "manaStorage": [
+          "Mana: Molten Slagheap (5) - {1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R}."
+        ]
+      },
+      "lastTurn": 72.0,
+      "result": "Game Result: Game 1 ended in 18288 ms. Ai(1)-Molten Slagheap exposure: counter-funded artifact has won!",
+      "exceptions": 0,
+      "candidateSha256": "778A4100225562C8A742F726BB16F49A442DE4657E775C086C48FA7E5D065CB7",
+      "log": "<development-checkout>\\arena\\molten-slagheap\\target\\exposure-final3\\on-132012\\game.log",
+      "logSha256": "E2CAB3752E2195FA4AECF8EAA23A51E0372660D52E9DB9C421BF552E49F0C4E4",
+      "command": [
+        "<development-checkout>\\arena\\.tools\\jdk-17.0.20.1+1/bin/java.exe",
+        "-Xmx3g",
+        "-Djava.awt.headless=true",
+        "-Dfile.encoding=UTF-8",
+        "-Duser.home=<development-checkout>\\arena\\molten-slagheap\\target\\final-molten-r3\\runtime/home",
+        "-Dsentry.dsn=",
+        "-Dsentry.enabled=false",
+        "-cp",
+        "<development-checkout>\\arena\\molten-slagheap\\target\\final-molten-r3\\engine.jar",
+        "forge.view.Main",
+        "sim",
+        "--ai-profile=molten-slagheap",
+        "-D",
+        "<development-checkout>\\arena\\molten-slagheap\\decks",
+        "-d",
+        "Actor.dck",
+        "Opponent.dck",
+        "-f",
+        "Commander",
+        "-n",
+        "1",
+        "-c",
+        "120",
+        "-s",
+        "132012",
+        "-a",
+        "Default",
+        "Default"
+      ],
+      "scope": "Card-use smoke with unchanged precon decks; no winner or strength claim"
+    }
+  ],
+  "decks": {
+    "decks/Actor.dck": "8FBD9EEFA9C736DF899034168F718DDD824D4C9D486207E7ABDB8FBA16AC4B7B",
+    "decks/Opponent.dck": "F5ED465498D7BB17004F037EC438820C830C9E7CF806DCAE53153CA63444EDBB"
+  },
+  "limits": "Card-use evidence only; native mana-payment fixture verifies storage-counter payment. No strength claim."
+}

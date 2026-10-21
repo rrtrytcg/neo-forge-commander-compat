@@ -1,0 +1,280 @@
+{
+  "card": "Saltcrusted Steppe",
+  "profile": "molten-slagheap",
+  "engine": "NeoForge 1.0.28",
+  "baselineChecks": 2,
+  "focusedChecks": 14,
+  "fullGate": {
+    "checks": 5781,
+    "suites": 60,
+    "priorChecks": 5767,
+    "newChecks": 14,
+    "base": "arena/sylvan-offering/target/final-sylvan-r2",
+    "out": "arena/saltcrusted-steppe/target/final-steppe-r1",
+    "candidateSha256": "3E38BEBF5B59DC7F27733FF3B0EFEE49BB8F6CCAAF52E4DE57B4EA28EF0BE2A0"
+  },
+  "installedHashesChecked": 21729,
+  "installedHashesChanged": 0,
+  "productionFiles": [
+    "forge-ai/src/main/java/forge/ai/ability/ManaAi.java",
+    "forge-ai/src/main/java/forge/ai/ComputerUtilMana.java"
+  ],
+  "exposures": [
+    {
+      "profile": "molten-slagheap",
+      "mode": "off",
+      "seed": 134011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "decks": [
+        "Actor.dck",
+        "Opponent.dck"
+      ],
+      "counts": {
+        "casts": 6,
+        "manaStorage": 0
+      },
+      "examples": {
+        "casts": [
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum"
+        ],
+        "manaStorage": []
+      },
+      "lastTurn": 76.0,
+      "result": "Game Result: Game 1 ended in 8615 ms. Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact has won!",
+      "exceptions": 0,
+      "candidateSha256": "3E38BEBF5B59DC7F27733FF3B0EFEE49BB8F6CCAAF52E4DE57B4EA28EF0BE2A0",
+      "log": "<development-checkout>\\arena\\saltcrusted-steppe\\target\\exposure-final1\\off-134011\\game.log",
+      "logSha256": "B2863EEC0C96F6BDCAF75EFC4212C03300F3FE9E3CB56C06351C638CF698112D",
+      "command": [
+        "<development-checkout>\\arena\\.tools\\jdk-17.0.20.1+1/bin/java.exe",
+        "-Xmx3g",
+        "-Djava.awt.headless=true",
+        "-Dfile.encoding=UTF-8",
+        "-Duser.home=<development-checkout>\\arena\\saltcrusted-steppe\\target\\final-steppe-r1\\runtime/home",
+        "-Dsentry.dsn=",
+        "-Dsentry.enabled=false",
+        "-cp",
+        "<development-checkout>\\arena\\saltcrusted-steppe\\target\\final-steppe-r1\\engine.jar",
+        "forge.view.Main",
+        "sim",
+        "-D",
+        "<development-checkout>\\arena\\saltcrusted-steppe\\decks",
+        "-d",
+        "Actor.dck",
+        "Opponent.dck",
+        "-f",
+        "Commander",
+        "-n",
+        "1",
+        "-c",
+        "120",
+        "-s",
+        "134011",
+        "-a",
+        "Default",
+        "Default"
+      ],
+      "scope": "Paired custom-deck card-use evidence; no strength claim"
+    },
+    {
+      "profile": "molten-slagheap",
+      "mode": "off",
+      "seed": 134012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "decks": [
+        "Actor.dck",
+        "Opponent.dck"
+      ],
+      "counts": {
+        "casts": 13,
+        "manaStorage": 0
+      },
+      "examples": {
+        "casts": [
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum"
+        ],
+        "manaStorage": []
+      },
+      "lastTurn": 76.0,
+      "result": "Game Result: Game 1 ended in 16233 ms. Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact has won!",
+      "exceptions": 0,
+      "candidateSha256": "3E38BEBF5B59DC7F27733FF3B0EFEE49BB8F6CCAAF52E4DE57B4EA28EF0BE2A0",
+      "log": "<development-checkout>\\arena\\saltcrusted-steppe\\target\\exposure-final1\\off-134012\\game.log",
+      "logSha256": "8F090557FACF85DF2A9C0193F07BB122EB05FAB62513B285557A572450E54497",
+      "command": [
+        "<development-checkout>\\arena\\.tools\\jdk-17.0.20.1+1/bin/java.exe",
+        "-Xmx3g",
+        "-Djava.awt.headless=true",
+        "-Dfile.encoding=UTF-8",
+        "-Duser.home=<development-checkout>\\arena\\saltcrusted-steppe\\target\\final-steppe-r1\\runtime/home",
+        "-Dsentry.dsn=",
+        "-Dsentry.enabled=false",
+        "-cp",
+        "<development-checkout>\\arena\\saltcrusted-steppe\\target\\final-steppe-r1\\engine.jar",
+        "forge.view.Main",
+        "sim",
+        "-D",
+        "<development-checkout>\\arena\\saltcrusted-steppe\\decks",
+        "-d",
+        "Actor.dck",
+        "Opponent.dck",
+        "-f",
+        "Commander",
+        "-n",
+        "1",
+        "-c",
+        "120",
+        "-s",
+        "134012",
+        "-a",
+        "Default",
+        "Default"
+      ],
+      "scope": "Paired custom-deck card-use evidence; no strength claim"
+    },
+    {
+      "profile": "molten-slagheap",
+      "mode": "on",
+      "seed": 134011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "decks": [
+        "Actor.dck",
+        "Opponent.dck"
+      ],
+      "counts": {
+        "casts": 5,
+        "manaStorage": 5
+      },
+      "examples": {
+        "casts": [
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum"
+        ],
+        "manaStorage": [
+          "Mana: Saltcrusted Steppe (72) - {1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W}.",
+          "Mana: Saltcrusted Steppe (79) - {1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W}.",
+          "Mana: Saltcrusted Steppe (79) - {1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W}.",
+          "Mana: Saltcrusted Steppe (79) - {1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W}.",
+          "Mana: Saltcrusted Steppe (79) - {1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W}."
+        ]
+      },
+      "lastTurn": 76.0,
+      "result": "Game Result: Game 1 ended in 11419 ms. Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact has won!",
+      "exceptions": 0,
+      "candidateSha256": "3E38BEBF5B59DC7F27733FF3B0EFEE49BB8F6CCAAF52E4DE57B4EA28EF0BE2A0",
+      "log": "<development-checkout>\\arena\\saltcrusted-steppe\\target\\exposure-final1\\on-134011\\game.log",
+      "logSha256": "CC835CF54E9D5F8B3BDEEB532E2795B771F93363740D4C154EBC2210930827ED",
+      "command": [
+        "<development-checkout>\\arena\\.tools\\jdk-17.0.20.1+1/bin/java.exe",
+        "-Xmx3g",
+        "-Djava.awt.headless=true",
+        "-Dfile.encoding=UTF-8",
+        "-Duser.home=<development-checkout>\\arena\\saltcrusted-steppe\\target\\final-steppe-r1\\runtime/home",
+        "-Dsentry.dsn=",
+        "-Dsentry.enabled=false",
+        "-cp",
+        "<development-checkout>\\arena\\saltcrusted-steppe\\target\\final-steppe-r1\\engine.jar",
+        "forge.view.Main",
+        "sim",
+        "--ai-profile=molten-slagheap",
+        "-D",
+        "<development-checkout>\\arena\\saltcrusted-steppe\\decks",
+        "-d",
+        "Actor.dck",
+        "Opponent.dck",
+        "-f",
+        "Commander",
+        "-n",
+        "1",
+        "-c",
+        "120",
+        "-s",
+        "134011",
+        "-a",
+        "Default",
+        "Default"
+      ],
+      "scope": "Paired custom-deck card-use evidence; no strength claim"
+    },
+    {
+      "profile": "molten-slagheap",
+      "mode": "on",
+      "seed": 134012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "decks": [
+        "Actor.dck",
+        "Opponent.dck"
+      ],
+      "counts": {
+        "casts": 27,
+        "manaStorage": 2
+      },
+      "examples": {
+        "casts": [
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum",
+          "Add To Stack: Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact cast Solemn Simulacrum"
+        ],
+        "manaStorage": [
+          "Mana: Saltcrusted Steppe (72) - {1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W}.",
+          "Mana: Saltcrusted Steppe (79) - {1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W}."
+        ]
+      },
+      "lastTurn": 76.0,
+      "result": "Game Result: Game 1 ended in 29322 ms. Ai(1)-Saltcrusted Steppe exposure: storage-funded artifact has won!",
+      "exceptions": 0,
+      "candidateSha256": "3E38BEBF5B59DC7F27733FF3B0EFEE49BB8F6CCAAF52E4DE57B4EA28EF0BE2A0",
+      "log": "<development-checkout>\\arena\\saltcrusted-steppe\\target\\exposure-final1\\on-134012\\game.log",
+      "logSha256": "C9AC2F87CBB54876E016F51002601BD74FF604A618C8CF0FE6153F377A1BF3E0",
+      "command": [
+        "<development-checkout>\\arena\\.tools\\jdk-17.0.20.1+1/bin/java.exe",
+        "-Xmx3g",
+        "-Djava.awt.headless=true",
+        "-Dfile.encoding=UTF-8",
+        "-Duser.home=<development-checkout>\\arena\\saltcrusted-steppe\\target\\final-steppe-r1\\runtime/home",
+        "-Dsentry.dsn=",
+        "-Dsentry.enabled=false",
+        "-cp",
+        "<development-checkout>\\arena\\saltcrusted-steppe\\target\\final-steppe-r1\\engine.jar",
+        "forge.view.Main",
+        "sim",
+        "--ai-profile=molten-slagheap",
+        "-D",
+        "<development-checkout>\\arena\\saltcrusted-steppe\\decks",
+        "-d",
+        "Actor.dck",
+        "Opponent.dck",
+        "-f",
+        "Commander",
+        "-n",
+        "1",
+        "-c",
+        "120",
+        "-s",
+        "134012",
+        "-a",
+        "Default",
+        "Default"
+      ],
+      "scope": "Paired custom-deck card-use evidence; no strength claim"
+    }
+  ],
+  "scope": "Paired two-player custom-deck exposure games. Card use only; no winner or strength claim."
+}

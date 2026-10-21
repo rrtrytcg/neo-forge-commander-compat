@@ -1,0 +1,666 @@
+{
+  "nativeGate": {
+    "total": 2725,
+    "candidateSha256": "098EBD336A06426156AC720416E3AC9B050508B8C34603BFE8D98F94C62C669E",
+    "candidate": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\engine.jar",
+    "results": [
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "checks": 116,
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0",
+        "suite": "BiomassMutationTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "checks": 115,
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+        "suite": "NestingGroundsTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "checks": 127,
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+        "suite": "ToxicDelugeTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "checks": 76,
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+        "suite": "AdaptiveEnchantmentTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "checks": 349,
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+        "suite": "LandManaFamilyTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "checks": 77,
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+        "suite": "AhoyMateysTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\BeastWithinTests.log",
+        "checks": 13,
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+        "suite": "BeastWithinTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "checks": 36,
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A",
+        "suite": "CurseOfTheSwineTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\FilterLandsTests.log",
+        "checks": 10,
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+        "suite": "FilterLandsTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "checks": 6,
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+        "suite": "PsychosisCrawlerTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "checks": 12,
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE",
+        "suite": "WallOfLimbsTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "checks": 18,
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50",
+        "suite": "SlaughterTheStrongTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "checks": 48,
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77",
+        "suite": "MirrorEntityTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "checks": 69,
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16",
+        "suite": "DecreeOfPainTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "checks": 100,
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+        "suite": "OreskosExplorerTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\DispatchTests.log",
+        "checks": 61,
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE",
+        "suite": "DispatchTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "checks": 132,
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+        "suite": "TragicArroganceTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "checks": 135,
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "suite": "MarshalsAnthemTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "checks": 87,
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5",
+        "suite": "DarksteelMutationTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "checks": 139,
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688",
+        "suite": "CorpseAugurTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "checks": 21,
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "suite": "AssaultSuitTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\SelvalaTests.log",
+        "checks": 13,
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C",
+        "suite": "SelvalaTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\TradingPostTests.log",
+        "checks": 60,
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101",
+        "suite": "TradingPostTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\GazeOfGraniteTests.log",
+        "checks": 40,
+        "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6",
+        "suite": "GazeOfGraniteTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\GreaterGoodTests.log",
+        "checks": 75,
+        "sha256": "C71A88ED767012410A120FF6790B7C404EC3D0DF7B147DB5C1F701EBE513D67D",
+        "suite": "GreaterGoodTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\HuntersInsightTests.log",
+        "checks": 72,
+        "sha256": "0B922A5327AC6290E85C966CD14B09A3639FA8E8B3F8E514BDBEA58F817844DB",
+        "suite": "HuntersInsightTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\CommandBeaconTests.log",
+        "checks": 83,
+        "sha256": "BB686AE48F7875D11186E1DB1235C07B57F4619545E230CF3CC5B4F215C3BF4B",
+        "suite": "CommandBeaconTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\VisceraSeerTests.log",
+        "checks": 119,
+        "sha256": "1B3A83EA32C6953FCD016F858F5993BCB98DBC2E5542305339663563AF4C06E8",
+        "suite": "VisceraSeerTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\KenrithsTransformationTests.log",
+        "checks": 157,
+        "sha256": "E08E786BAA8BC17FA09894C9548DF996CC383CA73320615D4D7F62EBA315ED9B",
+        "suite": "KenrithsTransformationTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\TimelyWardTests.log",
+        "checks": 147,
+        "sha256": "11C241FA2736D266CCDD1676F8A1DBB361D342C09119EA5A6F2EFF03CDFF4529",
+        "suite": "TimelyWardTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\CallTheCoppercoatsTests.log",
+        "checks": 212,
+        "sha256": "D23AE99DAFBA76757508182DB185B87BA298FB4166EBF9EC32CD14D7E6BE0BDD",
+        "suite": "CallTheCoppercoatsTests"
+      }
+    ]
+  },
+  "cardUse": {
+    "checks": 317,
+    "engine": "NeoForge 1.0.25",
+    "candidateSha256": "098EBD336A06426156AC720416E3AC9B050508B8C34603BFE8D98F94C62C669E",
+    "runs": [
+      {
+        "seed": 104011,
+        "pendingAtStop": 0,
+        "lateObserverEventsExcluded": 0,
+        "multiple": 0,
+        "scenario": "scarce-white",
+        "summary": "<development-checkout>\\arena\\call-the-coppercoats\\target\\card-use\\scarce-white-on-104011\\summary.json",
+        "diagnostics": [],
+        "profile": "on",
+        "single": 6,
+        "sha256": "C27FC9C9F15B3175D9728F7D615B9299B0968BECF23E76AB804FA67026198852",
+        "clockReached": false,
+        "main2": 6,
+        "resolved": 6,
+        "fizzles": 0,
+        "triple": 0,
+        "soldiers": 59,
+        "endStep": 0,
+        "casts": 6
+      },
+      {
+        "seed": 104012,
+        "pendingAtStop": 0,
+        "lateObserverEventsExcluded": 0,
+        "multiple": 0,
+        "scenario": "scarce-white",
+        "summary": "<development-checkout>\\arena\\call-the-coppercoats\\target\\card-use\\scarce-white-on-104012\\summary.json",
+        "diagnostics": [],
+        "profile": "on",
+        "single": 6,
+        "sha256": "A2A4AECF6EC10F3B9EDFEB69D43EA9F4C2A971206F4AFF6EA6AAF20A5C180F81",
+        "clockReached": false,
+        "main2": 6,
+        "resolved": 6,
+        "fizzles": 0,
+        "triple": 0,
+        "soldiers": 40,
+        "endStep": 0,
+        "casts": 6
+      },
+      {
+        "seed": 104011,
+        "pendingAtStop": 0,
+        "lateObserverEventsExcluded": 0,
+        "multiple": 0,
+        "scenario": "scarce-white",
+        "summary": "<development-checkout>\\arena\\call-the-coppercoats\\target\\card-use\\scarce-white-off-104011\\summary.json",
+        "diagnostics": [],
+        "profile": "off",
+        "single": 0,
+        "sha256": "18EEE8B598C4FEB99616EEF0B0369AF938444D92A7E6016A975BF8C6F13BAC50",
+        "clockReached": true,
+        "main2": 0,
+        "resolved": 0,
+        "fizzles": 0,
+        "triple": 0,
+        "soldiers": 0,
+        "endStep": 0,
+        "casts": 0
+      },
+      {
+        "seed": 104012,
+        "pendingAtStop": 0,
+        "lateObserverEventsExcluded": 0,
+        "multiple": 0,
+        "scenario": "scarce-white",
+        "summary": "<development-checkout>\\arena\\call-the-coppercoats\\target\\card-use\\scarce-white-off-104012\\summary.json",
+        "diagnostics": [],
+        "profile": "off",
+        "single": 0,
+        "sha256": "40BC46715D2D62CCDFCDA13D8B49B8D36E0DE9DF6E551F90396D6C6CDCAC0DE5",
+        "clockReached": true,
+        "main2": 0,
+        "resolved": 0,
+        "fizzles": 0,
+        "triple": 0,
+        "soldiers": 0,
+        "endStep": 0,
+        "casts": 0
+      },
+      {
+        "seed": 104011,
+        "pendingAtStop": 0,
+        "lateObserverEventsExcluded": 0,
+        "multiple": 2,
+        "scenario": "plains",
+        "summary": "<development-checkout>\\arena\\call-the-coppercoats\\target\\card-use\\plains-on-104011\\summary.json",
+        "diagnostics": [],
+        "profile": "on",
+        "single": 3,
+        "sha256": "905E6D10EB6A69B12F3DD124266ECFEB80DE4773C9A301344ACC03F2A7429B08",
+        "clockReached": false,
+        "main2": 5,
+        "resolved": 5,
+        "fizzles": 0,
+        "triple": 0,
+        "soldiers": 42,
+        "endStep": 0,
+        "casts": 5
+      },
+      {
+        "seed": 104012,
+        "pendingAtStop": 0,
+        "lateObserverEventsExcluded": 0,
+        "multiple": 4,
+        "scenario": "plains",
+        "summary": "<development-checkout>\\arena\\call-the-coppercoats\\target\\card-use\\plains-on-104012\\summary.json",
+        "diagnostics": [],
+        "profile": "on",
+        "single": 2,
+        "sha256": "26CC4BCA611F6C35C78E7995ECFEA6A4B3288BDE9AA7602F64727C19BFB5DDE6",
+        "clockReached": false,
+        "main2": 6,
+        "resolved": 6,
+        "fizzles": 0,
+        "triple": 1,
+        "soldiers": 73,
+        "endStep": 0,
+        "casts": 6
+      },
+      {
+        "seed": 104011,
+        "pendingAtStop": 0,
+        "lateObserverEventsExcluded": 0,
+        "multiple": 0,
+        "scenario": "plains",
+        "summary": "<development-checkout>\\arena\\call-the-coppercoats\\target\\card-use\\plains-off-104011\\summary.json",
+        "diagnostics": [],
+        "profile": "off",
+        "single": 0,
+        "sha256": "880B589541AFDBCB3F07E11E766909C05C5CDB2FB80D90A859549F56A7EABD70",
+        "clockReached": true,
+        "main2": 0,
+        "resolved": 0,
+        "fizzles": 0,
+        "triple": 0,
+        "soldiers": 0,
+        "endStep": 0,
+        "casts": 0
+      },
+      {
+        "seed": 104012,
+        "pendingAtStop": 0,
+        "lateObserverEventsExcluded": 0,
+        "multiple": 0,
+        "scenario": "plains",
+        "summary": "<development-checkout>\\arena\\call-the-coppercoats\\target\\card-use\\plains-off-104012\\summary.json",
+        "diagnostics": [],
+        "profile": "off",
+        "single": 0,
+        "sha256": "85CA11C36C040CE59271A3DEDC6D3234F6DD8211C6BB654FD57F0D0298950DB5",
+        "clockReached": true,
+        "main2": 0,
+        "resolved": 0,
+        "fizzles": 0,
+        "triple": 0,
+        "soldiers": 0,
+        "endStep": 0,
+        "casts": 0
+      }
+    ],
+    "scope": "Autonomous native four-player Commander custom decks; card-use evidence only, no completion/winner/strength claim"
+  },
+  "coverage": {
+    "verified": 41,
+    "inventory": {
+      "decksWithZeroBlocked": 42,
+      "decks": 184,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "DSC - Miracle Worker",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FDC - Tramplesaurus Rex",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "ONC - Rebellion Rising",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Mardu Surge",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past",
+        "WOC - Virtue and Valor"
+      ]
+    },
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "blocked": {
+      "occurrencesRemaining": 478,
+      "topRemaining": [
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Prophetic Prism",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Throes of Chaos",
+          "decks": 3
+        },
+        {
+          "card": "Thespian's Stage",
+          "decks": 3
+        },
+        {
+          "card": "Epic Experiment",
+          "decks": 3
+        },
+        {
+          "card": "Swan Song",
+          "decks": 3
+        },
+        {
+          "card": "Mystic Confluence",
+          "decks": 3
+        },
+        {
+          "card": "Curse of Chaos",
+          "decks": 3
+        }
+      ],
+      "occurrencesUnlocked": 252,
+      "distinctRemaining": 322
+    },
+    "unlocked": 51
+  },
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "status": "verified",
+  "engine": "NeoForge 1.0.25",
+  "scope": "Opt-in bounded army building with native Strive payment and token creation; native correctness and autonomous card use only, no strength/winner/completion claim",
+  "revision": "f36e296ea4a3f0ec31a91b16b85cf915f7821224",
+  "date": "2026-10-17",
+  "installedApplicationModified": false,
+  "card": "Call the Coppercoats",
+  "originalScriptMatchesInstalled": true,
+  "files": [
+    {
+      "sha256": "533A7EA56596826D72D7138508E4B016B4B408A9F9CD96124D9392A35B52BC4C",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\CallTheCoppercoatsTests.java"
+    },
+    {
+      "sha256": "7AF33C9D03FA7F63FF9F3B76D692520EB71980BD865ABFDF3B32BD7E66219B8A",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "C6A0DA1C4BA9897E6622744C3FB623DB6C1A5B1BFCEC5A2776E89E9B9D8A412F",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "01454A1EF7CEC2129B8588C6A1866BD0D1364E21F252D2F307D6B81F3B008234",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\CoppercoatsProbe.java"
+    },
+    {
+      "sha256": "BE5E545CEDF9D55AC3AE41907D8101F01D4E9812374F67E1D64C676979C076AA",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\README.md"
+    },
+    {
+      "sha256": "2E9B622F0488C6BA42C246C62A63594EDBA349749F013EA3258146538AEE078C",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "4612B56275D138D5EFD56F51AEE05269905FE56809E813608E23498BD441899A",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "8794E74A69377DC0AC4114DD154763D9FD647960C017A377CC3A6A966094E331",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\decks\\Opponents.dck"
+    },
+    {
+      "sha256": "7A3A44A13B0DEF2DFFC8F26F9AB0D59EB0E0101EBB536C52BBC6EFA2585F1102",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\decks\\Plains.dck"
+    },
+    {
+      "sha256": "F20FCAD8B11705E8E7037015C317D6DF36EA41BFDE3C018ACFA309783FDAA447",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\decks\\ScarceWhite.dck"
+    },
+    {
+      "sha256": "5E441D0DF1DC78CF337300AEF795F39799599CA90CF098D4BC21BF0247003AA4",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\CallTheCoppercoatsAi.java"
+    },
+    {
+      "sha256": "BDA4F56E781DAB0A929998A78728996526E49382CA95A9E05200C32821149845",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\CommandBeaconAi.java"
+    },
+    {
+      "sha256": "47BC40B6A2F2D1931F1F8A5B9B6F5D719A1A60560536BCA90DD4D0C1CACF7FC7",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java"
+    },
+    {
+      "sha256": "2B9FB2BDD545F3F05C1600C476D2CA2609C4FA61948A5B13C17445A24AA76910",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\TokenAi.java"
+    },
+    {
+      "sha256": "8AC938273329A7C21947BB19313F95B988F5A14A4300D8FD1955AAC8E73F2BCD",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\call-the-coppercoats.properties"
+    },
+    {
+      "sha256": "ABAE64E967079787D9855A340EAB6FCE7EAC47248C48D6F7962915E386271077",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "B06E59302D17830E8632590D3AF615B23D19E078A18AFF880590207AEB0FE996",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "DB1AAAB87FDA0B2CEC8C265C709D33505E868C4EACB314E9EAAA0F0AAA5B3F9C",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "FED2458B4B0E59D8A13864C4C86B1B7D73E4164C700A21A9083C6593913E6C0B",
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md"
+    },
+    {
+      "sha256": "01595881CC99B34258E3FF8F8D35203493170E6B47BD1A6B41DAA4825595B739",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "F9106BCC7AFFD59861B88C6528B1658DAF21560F50A1F64503CA4B90061C62E0",
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\c\\call_the_coppercoats.txt"
+    },
+    {
+      "sha256": "4FFEE68C08C867CA1EBAF955B5C496D64CF031573ABF3872953D5D2D1A250BEC",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "098EBD336A06426156AC720416E3AC9B050508B8C34603BFE8D98F94C62C669E",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\target\\final-1.0.25\\engine.jar"
+    },
+    {
+      "sha256": "C6E5C043441672BAEF96168FB531DDAF93B13FB1AED6A1E72541187F66CFD501",
+      "path": "<development-checkout>\\arena\\call-the-coppercoats\\card-use-evidence.json"
+    }
+  ]
+}

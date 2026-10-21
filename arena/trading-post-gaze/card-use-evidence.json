@@ -1,0 +1,101 @@
+{
+  "runs": [
+    {
+      "resolved": 67,
+      "sha256": "05F065754682D5610BFC564187904C1779C87C50D48F64F5CD4536A6E96FB7A6",
+      "modes": [
+        "ChangeZone",
+        "Draw",
+        "PermanentNoncreature",
+        "Token"
+      ],
+      "scenario": "standard",
+      "casts": 20,
+      "seed": 97021,
+      "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\trading-post-on-97021\\summary.json",
+      "profile": "on",
+      "card": "Trading Post",
+      "clockReached": true
+    },
+    {
+      "resolved": 52,
+      "sha256": "5A343BDA5E714307A610A6E48D4DAAB0D221EEE8A6F69262AABDA7D6313A43BB",
+      "modes": [
+        "ChangeZone",
+        "Draw",
+        "PermanentNoncreature",
+        "Token"
+      ],
+      "scenario": "standard",
+      "casts": 16,
+      "seed": 97022,
+      "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\trading-post-on-97022\\summary.json",
+      "profile": "on",
+      "card": "Trading Post",
+      "clockReached": true
+    },
+    {
+      "resolved": 16,
+      "sha256": "F132589A46BAEF8F76F3C8B294A8CFDCF303FFA4CC2B68572BD60DFABF85484D",
+      "modes": [
+        "ChangeZone",
+        "Draw",
+        "PermanentNoncreature"
+      ],
+      "scenario": "return",
+      "casts": 6,
+      "seed": 97041,
+      "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\trading-post-return-on-97041\\summary.json",
+      "profile": "on",
+      "card": "Trading Post",
+      "clockReached": true
+    },
+    {
+      "resolved": 11,
+      "sha256": "5CB9E6EFC71327D198210673F4E534E8AB579D221B926FC485F58EF9378B8A3B",
+      "destroyed": 64,
+      "casts": 11,
+      "seed": 97031,
+      "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\gaze-of-granite-on-97031\\summary.json",
+      "profile": "on",
+      "card": "Gaze of Granite",
+      "clockReached": true
+    },
+    {
+      "resolved": 12,
+      "sha256": "A4FEC07CE8D78D421AAD8BC821BBE05ABE11D266802DC4B0845CB7CA142A69B3",
+      "destroyed": 65,
+      "casts": 12,
+      "seed": 97032,
+      "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\gaze-of-granite-on-97032\\summary.json",
+      "profile": "on",
+      "card": "Gaze of Granite",
+      "clockReached": true
+    },
+    {
+      "profile": "off",
+      "card": "trading-post",
+      "casts": 0,
+      "clockReached": true,
+      "resolved": 0,
+      "seed": 97021,
+      "sha256": "5980153572636DCD7BDB052C433670BC6678AEBD7A97740FD30D651E41CA8384",
+      "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\trading-post-off-97021\\summary.json"
+    },
+    {
+      "profile": "off",
+      "card": "gaze-of-granite",
+      "casts": 0,
+      "clockReached": true,
+      "resolved": 0,
+      "seed": 97031,
+      "sha256": "970C71FD7ED61FDBA9C373814BE5E05E43B3789A8AFBCD5F0C987F02975C8D36",
+      "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\gaze-of-granite-off-97031\\summary.json"
+    }
+  ],
+  "checkLog": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use-check.log",
+  "checkLogSha256": "A98EF2D00A2894BA77F6731FE7B2D93254EE72AE68E3CCC717BE78BAA0324C89",
+  "checks": 898,
+  "engine": "NeoForge 1.0.25",
+  "candidateSha256": "EC8F52BA9CDDCE37E3F042A2CA88A9E621BDA789AA29DD038644987FC3F0E5D7"
+}

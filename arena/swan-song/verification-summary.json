@@ -1,0 +1,761 @@
+{
+  "installedApplicationModified": false,
+  "coverage": {
+    "blocked": {
+      "occurrencesUnlocked": 263,
+      "occurrencesRemaining": 467,
+      "topRemaining": [
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Synthetic Destiny",
+          "decks": 3
+        },
+        {
+          "card": "Thespian's Stage",
+          "decks": 3
+        },
+        {
+          "card": "Illusionist's Gambit",
+          "decks": 3
+        },
+        {
+          "card": "Epic Experiment",
+          "decks": 3
+        },
+        {
+          "card": "Curse of Chaos",
+          "decks": 3
+        },
+        {
+          "card": "Mystic Confluence",
+          "decks": 3
+        },
+        {
+          "card": "Sylvan Offering",
+          "decks": 3
+        }
+      ],
+      "distinctRemaining": 318
+    },
+    "inventory": {
+      "decks": 184,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C17 - Vampiric Bloodlust",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "DSC - Miracle Worker",
+        "EOC - Counter Intelligence",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FDC - Tramplesaurus Rex",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "ONC - Rebellion Rising",
+        "OTC - Grand Larceny",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Mardu Surge",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past",
+        "WOC - Virtue and Valor"
+      ],
+      "decksWithZeroBlocked": 45
+    },
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "verified": 45,
+    "unlocked": 55
+  },
+  "status": "verified",
+  "revision": "91300b0d5552c50bc6b4d0cba961d8dc9b0ffb5a",
+  "nativeGate": {
+    "results": [
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "sha256": "F562623ECD9F1BCB2774F2B54EC3227930BB1CBB352872DFA70ACE41D737B720",
+        "suite": "BiomassMutationTests",
+        "checks": 116
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+        "suite": "NestingGroundsTests",
+        "checks": 115
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+        "suite": "ToxicDelugeTests",
+        "checks": 127
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+        "suite": "AdaptiveEnchantmentTests",
+        "checks": 76
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+        "suite": "LandManaFamilyTests",
+        "checks": 349
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+        "suite": "AhoyMateysTests",
+        "checks": 77
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\BeastWithinTests.log",
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+        "suite": "BeastWithinTests",
+        "checks": 13
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A",
+        "suite": "CurseOfTheSwineTests",
+        "checks": 36
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\FilterLandsTests.log",
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+        "suite": "FilterLandsTests",
+        "checks": 10
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+        "suite": "PsychosisCrawlerTests",
+        "checks": 6
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "sha256": "E99D3B3496E551B2779A214B7105D768E619E62B31BF648F573F7D36B932609C",
+        "suite": "WallOfLimbsTests",
+        "checks": 12
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "sha256": "A0554E2DBFF7F2FAD07DC859A255A5DB0CABA6A5926CD2320F9FA66483CF0C1F",
+        "suite": "SlaughterTheStrongTests",
+        "checks": 18
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "sha256": "98EF49B4624473BA4E9E2224151550A9DC5AB696BB71B5B1D9BCB4C11ED71724",
+        "suite": "MirrorEntityTests",
+        "checks": 48
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "sha256": "39D675476FC10AC5B6291A3B0BEEA2DADB90E108EA766D31436973070EA58522",
+        "suite": "DecreeOfPainTests",
+        "checks": 69
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+        "suite": "OreskosExplorerTests",
+        "checks": 100
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\DispatchTests.log",
+        "sha256": "9DEB2BED2BF565B43B48DC9093855B56062EEB5FD25946198B424D6736255426",
+        "suite": "DispatchTests",
+        "checks": 61
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+        "suite": "TragicArroganceTests",
+        "checks": 132
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "suite": "MarshalsAnthemTests",
+        "checks": 135
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "sha256": "3E642E1423EC261764E6013EB3622C68DA7452F2019A82CB3D004875BC5D78EC",
+        "suite": "DarksteelMutationTests",
+        "checks": 87
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "sha256": "0B3165B5CEB7E0669BBEF9DC2E424A2477DD381A02DAE8B103208B4B63C5AD52",
+        "suite": "CorpseAugurTests",
+        "checks": 139
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "suite": "AssaultSuitTests",
+        "checks": 21
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\SelvalaTests.log",
+        "sha256": "95149C7DAD920CEAF5E5309E9B4972F3404821723A5A44DACDA414C6E82CEBC5",
+        "suite": "SelvalaTests",
+        "checks": 13
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\TradingPostTests.log",
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101",
+        "suite": "TradingPostTests",
+        "checks": 60
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\GazeOfGraniteTests.log",
+        "sha256": "88DCF6141F79597FD48836C5557655D2329C3048865CE784DBBF8F6F3451352D",
+        "suite": "GazeOfGraniteTests",
+        "checks": 40
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\GreaterGoodTests.log",
+        "sha256": "414E3F0A558A2F462BFC73395B572FED82C435583ED3464CD661FFE9060698EB",
+        "suite": "GreaterGoodTests",
+        "checks": 75
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\HuntersInsightTests.log",
+        "sha256": "0B922A5327AC6290E85C966CD14B09A3639FA8E8B3F8E514BDBEA58F817844DB",
+        "suite": "HuntersInsightTests",
+        "checks": 72
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\CommandBeaconTests.log",
+        "sha256": "BB686AE48F7875D11186E1DB1235C07B57F4619545E230CF3CC5B4F215C3BF4B",
+        "suite": "CommandBeaconTests",
+        "checks": 83
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\VisceraSeerTests.log",
+        "sha256": "1B3A83EA32C6953FCD016F858F5993BCB98DBC2E5542305339663563AF4C06E8",
+        "suite": "VisceraSeerTests",
+        "checks": 119
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\KenrithsTransformationTests.log",
+        "sha256": "E08E786BAA8BC17FA09894C9548DF996CC383CA73320615D4D7F62EBA315ED9B",
+        "suite": "KenrithsTransformationTests",
+        "checks": 157
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\TimelyWardTests.log",
+        "sha256": "33333D132B2D29EB91169D6011ED6B481711EF5E971E9B4A94D6AA22286A3BDA",
+        "suite": "TimelyWardTests",
+        "checks": 147
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\CallTheCoppercoatsTests.log",
+        "sha256": "F533241571C40139FFADBEDBE20C4DBCE87433C4BE3451F97EA55C6478B534C4",
+        "suite": "CallTheCoppercoatsTests",
+        "checks": 212
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\PrismaticLensTests.log",
+        "sha256": "1A86BA2750964260828D91E19F2637D868A554BCB07B3E754BE02C988CDB568C",
+        "suite": "PrismaticLensTests",
+        "checks": 161
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\PropheticPrismTests.log",
+        "sha256": "0387DDA4BDDEB68C7BCCB847A8417D7BE87EAC6EF2F5B002DD5F242C36237E0B",
+        "suite": "PropheticPrismTests",
+        "checks": 194
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\SkeletalScryingTests.log",
+        "sha256": "B3CC482C0FDD0AE8E976B88E6CEF9FF566D5DC0C5700D1DE1F8B5B2CE749FD5C",
+        "suite": "SkeletalScryingTests",
+        "checks": 234
+      },
+      {
+        "log": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\SwanSongTests.log",
+        "sha256": "79D9CDD293CBE7C9F2D98AAE2F05A70051710871C94F82BFF5EBAA4A3D045F30",
+        "suite": "SwanSongTests",
+        "checks": 188
+      }
+    ],
+    "candidate": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\engine.jar",
+    "candidateSha256": "2F41DD380BF61608C413EB530ACDCAA4721065FE86180D5C418488C236AA3AD7",
+    "total": 3502
+  },
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "files": [
+    {
+      "sha256": "D90A5AE92FD21944477A3DFFE793062DEA75B57EB882B77F4C60BE5D5A1FB499",
+      "path": "<development-checkout>\\arena\\swan-song\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "E8D11999D42C79CAA588E01DB3D5ADF7FA0E9987F4202B564317C01A7FFB92FD",
+      "path": "<development-checkout>\\arena\\swan-song\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "57B2058616908CCF15076D8728B52BDC908620249C8B597DAB609095595B9FFE",
+      "path": "<development-checkout>\\arena\\swan-song\\README.md"
+    },
+    {
+      "sha256": "E228A4023ED39AACE093192C95889E20B1204509BE974D79A076B70285BB371F",
+      "path": "<development-checkout>\\arena\\swan-song\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "EF12638DAAFAD7C358B1F4D6089DA1694F84F372A93845E36B74A47A99155706",
+      "path": "<development-checkout>\\arena\\swan-song\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "F8098FC8004DEBCEEC5BBB9403E47BC1DD3E474F4F5E18AA820CC35621CEA3F8",
+      "path": "<development-checkout>\\arena\\swan-song\\SongProbe.java"
+    },
+    {
+      "sha256": "AB5E86DCBDCAA7F41BB98B97F0BC18FC482536D879955B6DC9F5BF9DB4300526",
+      "path": "<development-checkout>\\arena\\swan-song\\SwanSongTests.java"
+    },
+    {
+      "sha256": "F1C15A890F2E0430A05E7C144FDF9AC090A2597C7185185D693362FC34C99E35",
+      "path": "<development-checkout>\\arena\\swan-song\\decks\\Actor.dck"
+    },
+    {
+      "sha256": "50A11679E2B3E08BEE57D04210A2CBBADA95721924BDDCF09F19B89D883F13B0",
+      "path": "<development-checkout>\\arena\\swan-song\\decks\\Cheap.dck"
+    },
+    {
+      "sha256": "D2C13AC9010025BBAFB61B03FAAF88A88C971259AA5E1DC57842D0D040F7EDE3",
+      "path": "<development-checkout>\\arena\\swan-song\\decks\\Opponents.dck"
+    },
+    {
+      "sha256": "6D8A29F2EA56BDE441FA40895109A6F292860FCD6A1575199766A028D6317542",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\SwanSongAi.java"
+    },
+    {
+      "sha256": "FBD422E691F72C900A1BB5F9B07C820512399FCD808901A7201CCF7BDFCD6228",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\CounterAi.java"
+    },
+    {
+      "sha256": "EB8752D05718D9B73CB2D08C5F1ADF45A11530C7E37DAEE95677447E4B5AB487",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java"
+    },
+    {
+      "sha256": "E02ED27D4364A92B682C278EA4DD02A9672F654EA674B252284F5CA96F6E0E06",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\swan-song.properties"
+    },
+    {
+      "sha256": "385DD83FDF902FECEED3F1755BB06804C6B91188804AC04A11629E9111885826",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "68208421B2A201A4C2D44BDC48CD2AC1974DBD241705590E4239855F3DFD29CE",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "9EED4986373D40AC7E3DD69E6BBAB4A82DDABE55E9164313BF5A3E8F5BB1D6FC",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "64F3E856752389712844F1D2F87DC4103D49D3A46FDC26C71C33441E5FF09D15",
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md"
+    },
+    {
+      "sha256": "23C305AC2C236D870DB1A3E221F2CBDC756C6507F5D551F550766C3EF86A3063",
+      "path": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "4FC6AAF3C5E4751559E7464E20D4DF836A4658A3410726D6F6DD9EDD17121C00",
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\s\\swan_song.txt"
+    },
+    {
+      "sha256": "F9B6AE5C970B4E0B528A4CA2DF34F6AC7931E93D6F920ACA8159D1493E265011",
+      "path": "<development-checkout>\\arena\\swan-song\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "2F41DD380BF61608C413EB530ACDCAA4721065FE86180D5C418488C236AA3AD7",
+      "path": "<development-checkout>\\arena\\swan-song\\target\\final-1.0.25\\engine.jar"
+    },
+    {
+      "sha256": "C1F61199E2D80A386A1918746F1D1D72662C058FABBFC4094671666EBC2F12B4",
+      "path": "<development-checkout>\\arena\\swan-song\\target\\unrelated-baseline.json"
+    },
+    {
+      "sha256": "375693EC2C1717DB47943C270D676F0AFB0B225C2AFA4388E6ED0C5D09AD3B0D",
+      "path": "<development-checkout>\\arena\\swan-song\\card-use-evidence.json"
+    }
+  ],
+  "scope": "Opt-in bounded native counter with original opposing Bird and unchanged default counter-response path; native correctness and autonomous card use only, no strength/winner/completion claim",
+  "engine": "NeoForge 1.0.25",
+  "date": "2026-10-18",
+  "unrelatedBaselineFiles": [
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\CLASSIC_TACTICAL_RECON_20261016.md",
+      "sha256": "765BE86B4AE333402A59A353AED878EE1F678F33127A85BFA4D4A268766D4AF8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\NEXT_LLM_HANDOFF_20261016.md",
+      "sha256": "D80B29D8026DBB2C3E725DE260896F32B0EA473BC8D7BC0FE8C94771C11BE520"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Analyze.ps1",
+      "sha256": "E59D84380752579C21397B4ED4CBE663BF896808694156529325E5DE9E929F8F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\PLAN.md",
+      "sha256": "3B4778C89657EC40ED84ECAD7B5647AD9305FAE8822FF201985415B837CF204C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\REPORT.md",
+      "sha256": "E5F51345066194E612711CECC59091E57FFAAFCB160CB4E3512E53175732D7E1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Run.ps1",
+      "sha256": "9D82A314630ED044ACAD2EB60128C91E444ABAA53809EF91B9924995D9E48313"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Worker.ps1",
+      "sha256": "950757439D4176DAB934C87FF33C58346F4A4AFA62D9068352571A0A5BAFD6C7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Write-Report.ps1",
+      "sha256": "31FF6100611165740DB2147D6D9B7C11C722AE9C295ADD3B04BD608CCC32A6FD"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Analyze.ps1",
+      "sha256": "9326C02110CC4BF43020928D7355B8854C377766E1C15819CFB8A611920545F5"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BLOCKERS.md",
+      "sha256": "F727444B0BBE50DA85E269D5220D08E29E25A7469834DA41F827920CA792DCCB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BOARDS.md",
+      "sha256": "9BBD180819969AE65FCCCA419038BC42757D2E02A11C6FC93691ADA889EAA350"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BuildObserver.java",
+      "sha256": "4A1E3BB772682EEDAA6A932E007F5D95F1D595AB6903A4596571AAD53CCF73FB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\EXCLUSION_FIX_PROPOSAL.md",
+      "sha256": "572A4E020AB4835325771F94AE0752444C7FA487A103BA98E7FBE4CC40DC7928"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\REPORT.md",
+      "sha256": "8FD63B461311FD094955807FEF500900BF101F7ACCBB3C261B1A37529842542E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Run.ps1",
+      "sha256": "D57520356CDAED6CEE98E36B5A89D7AD7E2C28A8D8EBE557994D48AFF6860C50"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\UnsupportedObserver.java",
+      "sha256": "B268DAB20892D8311D30B33FE26B6876304E4CEBDDEC6DF6149FD25AC9F86061"
+    }
+  ],
+  "card": "Swan Song",
+  "originalScriptMatchesInstalled": true,
+  "cardUse": {
+    "checks": 637,
+    "runs": [
+      {
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "profile": "on",
+        "casts": 0,
+        "recipientPlayers": [],
+        "sha256": "3639C002F7C3937AFE6177757EC08A2BAACD4785F61F100BB8A4A2D23560DAFE",
+        "pendingDraws": 0,
+        "fizzles": 0,
+        "resolved": 0,
+        "summary": "<development-checkout>\\arena\\swan-song\\target\\card-use\\song-on-108011\\summary.json",
+        "clockReached": true,
+        "seed": 108011,
+        "birds": 0,
+        "originalDrawsResolved": 0,
+        "originalDrawCasts": 0,
+        "scenario": "song",
+        "pendingAtStop": 0
+      },
+      {
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "profile": "on",
+        "casts": 6,
+        "recipientPlayers": [
+          "SongProbe-1"
+        ],
+        "sha256": "EE074FF1E44D2024D4AB2942034DECACA115541EF5241691AA2D481C72EE1CBE",
+        "pendingDraws": 0,
+        "fizzles": 0,
+        "resolved": 6,
+        "summary": "<development-checkout>\\arena\\swan-song\\target\\card-use\\song-on-108012\\summary.json",
+        "clockReached": false,
+        "seed": 108012,
+        "birds": 6,
+        "originalDrawsResolved": 0,
+        "originalDrawCasts": 6,
+        "scenario": "song",
+        "pendingAtStop": 0
+      },
+      {
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "profile": "off",
+        "casts": 0,
+        "recipientPlayers": [],
+        "sha256": "0CCADD9C0EA1D7F9F62AC4C20722D788711AF6B5650702C1C446AF8B51856E25",
+        "pendingDraws": 0,
+        "fizzles": 0,
+        "resolved": 0,
+        "summary": "<development-checkout>\\arena\\swan-song\\target\\card-use\\song-off-108011\\summary.json",
+        "clockReached": true,
+        "seed": 108011,
+        "birds": 0,
+        "originalDrawsResolved": 0,
+        "originalDrawCasts": 0,
+        "scenario": "song",
+        "pendingAtStop": 0
+      },
+      {
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "profile": "off",
+        "casts": 6,
+        "recipientPlayers": [
+          "SongProbe-1"
+        ],
+        "sha256": "55E5696AB2A7DBBE7C79AD018AB55B3E687BA577F4E5E9F709F2FDF13B75FA31",
+        "pendingDraws": 0,
+        "fizzles": 0,
+        "resolved": 6,
+        "summary": "<development-checkout>\\arena\\swan-song\\target\\card-use\\song-off-108012\\summary.json",
+        "clockReached": false,
+        "seed": 108012,
+        "birds": 6,
+        "originalDrawsResolved": 0,
+        "originalDrawCasts": 6,
+        "scenario": "song",
+        "pendingAtStop": 0
+      },
+      {
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "profile": "on",
+        "casts": 0,
+        "recipientPlayers": [],
+        "sha256": "3A5C78A4D5D4983DA9F0093688F0F10C0ADB0E5B6FC77D181A93D0640D54E048",
+        "pendingDraws": 0,
+        "fizzles": 0,
+        "resolved": 0,
+        "summary": "<development-checkout>\\arena\\swan-song\\target\\card-use\\cheap-on-108011\\summary.json",
+        "clockReached": true,
+        "seed": 108011,
+        "birds": 0,
+        "originalDrawsResolved": 27,
+        "originalDrawCasts": 27,
+        "scenario": "cheap",
+        "pendingAtStop": 0
+      },
+      {
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "profile": "on",
+        "casts": 0,
+        "recipientPlayers": [],
+        "sha256": "E77A15368B931FED8DD46171DB89D902C1F1448B040EB6F9518F27E5464C8E47",
+        "pendingDraws": 0,
+        "fizzles": 0,
+        "resolved": 0,
+        "summary": "<development-checkout>\\arena\\swan-song\\target\\card-use\\cheap-on-108012\\summary.json",
+        "clockReached": true,
+        "seed": 108012,
+        "birds": 0,
+        "originalDrawsResolved": 25,
+        "originalDrawCasts": 25,
+        "scenario": "cheap",
+        "pendingAtStop": 0
+      },
+      {
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "profile": "off",
+        "casts": 5,
+        "recipientPlayers": [
+          "SongProbe-1",
+          "SongProbe-2"
+        ],
+        "sha256": "2A99F5719C906596BACBDECCFF9C929CE7654FBAE19CCF9F7564C343377EFBD2",
+        "pendingDraws": 0,
+        "fizzles": 0,
+        "resolved": 5,
+        "summary": "<development-checkout>\\arena\\swan-song\\target\\card-use\\cheap-off-108011\\summary.json",
+        "clockReached": true,
+        "seed": 108011,
+        "birds": 5,
+        "originalDrawsResolved": 11,
+        "originalDrawCasts": 16,
+        "scenario": "cheap",
+        "pendingAtStop": 0
+      },
+      {
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "profile": "off",
+        "casts": 7,
+        "recipientPlayers": [
+          "SongProbe-1",
+          "SongProbe-2"
+        ],
+        "sha256": "782C9522B9FB8D9E9F20241ECABEC123F57D441AECD7149E65E90FDD9E6F9CC2",
+        "pendingDraws": 0,
+        "fizzles": 0,
+        "resolved": 7,
+        "summary": "<development-checkout>\\arena\\swan-song\\target\\card-use\\cheap-off-108012\\summary.json",
+        "clockReached": true,
+        "seed": 108012,
+        "birds": 7,
+        "originalDrawsResolved": 11,
+        "originalDrawCasts": 18,
+        "scenario": "cheap",
+        "pendingAtStop": 0
+      }
+    ],
+    "engine": "NeoForge 1.0.25",
+    "candidateSha256": "2F41DD380BF61608C413EB530ACDCAA4721065FE86180D5C418488C236AA3AD7",
+    "scope": "Autonomous native four-player Commander custom decks; off controls preserve native counter-path admission quirk. Card-use evidence only, no completion/winner/strength claim"
+  }
+}

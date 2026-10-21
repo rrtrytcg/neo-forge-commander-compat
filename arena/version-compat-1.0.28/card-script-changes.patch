@@ -1,0 +1,9 @@
+--- 1.0.27/upcoming/magik_illyana_rasputin_darkchild_demon_uncaged.txt
++++ 1.0.28/upcoming/magik_illyana_rasputin_darkchild_demon_uncaged.txt
+@@ -1,5 +1,5 @@
+ Name:Magik, Illyana Rasputin
+-ManaCost:3 B R
++ManaCost:1 B R
+ Types:Legendary Creature Mutant Sorcerer Hero
+ PT:3/3
+ T:Mode$ Phase | Phase$ Upkeep | TriggerZones$ Battlefield | ValidPlayer$ You | Execute$ TrigDig | TriggerDescription$ At the beginning of your upkeep, exile the top card of your library. You may play that card this turn.

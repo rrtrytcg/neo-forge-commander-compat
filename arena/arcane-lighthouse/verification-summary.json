@@ -1,0 +1,680 @@
+{
+  "files": [
+    {
+      "sha256": "9B6ABE93BF0CFAD7CAE578E29876FAC9B3D97CF08A1D1A6EDFF6D98186FA9422",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\ArcaneLighthouseTests.java"
+    },
+    {
+      "sha256": "12C36AEC00C67C5CB3AB78455ADB7C8E5960E5E105F45C1CB5660064CED65205",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "5543D50529FBA64848B8287C0D249050FBE517872B397D0D4EEB6BBBF60AA0BF",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "76CEB7127FE3C55DEB44E7017686A76267B442D083FE5985C8D44B5F05825A99",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\LighthouseProbe.java"
+    },
+    {
+      "sha256": "E731EF9101338EA740FE2C7FE2ED3BC20AB03CDD9346B5049DD331F8E4D8D832",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\README.md"
+    },
+    {
+      "sha256": "E56B0759F42521082B97205612FF49A8CB0FDDF17BF339E8E776A56D376B8CB0",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "C21A9DC6A3886500CAFE67D324097B0FF7527EB37501A04EBA6863912EFB82CB",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "B4BB8AA63872944655094F8080165C8406C51B230CA99AFB59A51B7204EDED96",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\decks\\Actor.dck"
+    },
+    {
+      "sha256": "F4CBD77AC2B98D1C6554C7BC5EFB24E5DDF0807443E7E353692D2B847590E2E9",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\decks\\Opponents.dck"
+    },
+    {
+      "sha256": "2E9011BCAF24D2C472A886FBA7B8806CA3A92AE29C4697067FD192127561C9B3",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ArcaneLighthouseAi.java"
+    },
+    {
+      "sha256": "AADDF53D641C8D519E39534F0FDC58E5C5556C23AD5BD3B47F78CBA4756A48B6",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\CommandBeaconAi.java"
+    },
+    {
+      "sha256": "40615724E6087F6D684F0B2282337E3CC827C29AFFD2E9D321E7C59E627A10C8",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\AnimateAllAi.java"
+    },
+    {
+      "sha256": "E7C3D3B794D544B8B10694BAD4B6F3EEC33990DDB0DDA6231C0C3A13B86F91FF",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java"
+    },
+    {
+      "sha256": "5568C5DC6B46FD97C7C51D920561BB11C953CA196D867111EF2F908A5EF5B2F7",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\arcane-lighthouse.properties"
+    },
+    {
+      "sha256": "7E03FC81AC5E50A493942A5A93F28A8C6A3069994234DE75033F9BF7731DE231",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "0721DA720A70320A0CD90129BC5092C49C3E6FB99243C9986F8EA7324D09664B",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "4747B7213CCBDD7AB552E2B5B692738AC0F73DC40A98FCF454367E84186BCD2F",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "232AF97C53E247206494D172888638D6290BA6DBC525DD09F523EAC7C8AD1DCC",
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md"
+    },
+    {
+      "sha256": "88A1F2B2F985781CF8F9AA5132725D5B17CDF3C53E46B0C4216F2011D799011D",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "368D1290A177C109414379B83D18F7D0B94D5E6F393010EF6421084DB6EAB77C",
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\a\\arcane_lighthouse.txt"
+    },
+    {
+      "sha256": "DAFCB40B8212558D89DE43303277192CC1D3BD3FE10141A8BEC882DFE15C7FB8",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "97C0A752BD72CB55CBC8B2898661713DD484F1BAF69144C1EA6F156E3EF6A032",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\engine.jar"
+    },
+    {
+      "sha256": "C1F61199E2D80A386A1918746F1D1D72662C058FABBFC4094671666EBC2F12B4",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\target\\unrelated-baseline.json"
+    },
+    {
+      "sha256": "9D01952B5A900D0D277BD8B2914AA1695A0F2B83E16AD9954FE8DC42BACA2354",
+      "path": "<development-checkout>\\arena\\arcane-lighthouse\\card-use-evidence.json"
+    }
+  ],
+  "scope": "Opt-in funded protection removal with native activation, original temporary effect, normal follow-up removal selection and unchanged colorless mana ability; native correctness and autonomous card use only, no strength/winner/completion claim",
+  "originalScriptMatchesInstalled": true,
+  "status": "verified",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "unrelatedBaselineFiles": [
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\CLASSIC_TACTICAL_RECON_20261016.md",
+      "sha256": "765BE86B4AE333402A59A353AED878EE1F678F33127A85BFA4D4A268766D4AF8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\NEXT_LLM_HANDOFF_20261016.md",
+      "sha256": "D80B29D8026DBB2C3E725DE260896F32B0EA473BC8D7BC0FE8C94771C11BE520"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Analyze.ps1",
+      "sha256": "E59D84380752579C21397B4ED4CBE663BF896808694156529325E5DE9E929F8F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\PLAN.md",
+      "sha256": "3B4778C89657EC40ED84ECAD7B5647AD9305FAE8822FF201985415B837CF204C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\REPORT.md",
+      "sha256": "E5F51345066194E612711CECC59091E57FFAAFCB160CB4E3512E53175732D7E1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Run.ps1",
+      "sha256": "9D82A314630ED044ACAD2EB60128C91E444ABAA53809EF91B9924995D9E48313"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Worker.ps1",
+      "sha256": "950757439D4176DAB934C87FF33C58346F4A4AFA62D9068352571A0A5BAFD6C7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Write-Report.ps1",
+      "sha256": "31FF6100611165740DB2147D6D9B7C11C722AE9C295ADD3B04BD608CCC32A6FD"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Analyze.ps1",
+      "sha256": "9326C02110CC4BF43020928D7355B8854C377766E1C15819CFB8A611920545F5"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BLOCKERS.md",
+      "sha256": "F727444B0BBE50DA85E269D5220D08E29E25A7469834DA41F827920CA792DCCB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BOARDS.md",
+      "sha256": "9BBD180819969AE65FCCCA419038BC42757D2E02A11C6FC93691ADA889EAA350"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BuildObserver.java",
+      "sha256": "4A1E3BB772682EEDAA6A932E007F5D95F1D595AB6903A4596571AAD53CCF73FB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\EXCLUSION_FIX_PROPOSAL.md",
+      "sha256": "572A4E020AB4835325771F94AE0752444C7FA487A103BA98E7FBE4CC40DC7928"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\REPORT.md",
+      "sha256": "8FD63B461311FD094955807FEF500900BF101F7ACCBB3C261B1A37529842542E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Run.ps1",
+      "sha256": "D57520356CDAED6CEE98E36B5A89D7AD7E2C28A8D8EBE557994D48AFF6860C50"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\UnsupportedObserver.java",
+      "sha256": "B268DAB20892D8311D30B33FE26B6876304E4CEBDDEC6DF6149FD25AC9F86061"
+    }
+  ],
+  "coverage": {
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "verified": 47,
+    "inventory": {
+      "decks": 184,
+      "decksWithZeroBlocked": 46,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C17 - Vampiric Bloodlust",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "DSC - Miracle Worker",
+        "EOC - Counter Intelligence",
+        "FDC - Calling All Angels",
+        "FDC - Keen Engineering",
+        "FDC - Reign of Dragons",
+        "FDC - Tramplesaurus Rex",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "ONC - Rebellion Rising",
+        "OTC - Grand Larceny",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Mardu Surge",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past",
+        "WOC - Virtue and Valor"
+      ]
+    },
+    "blocked": {
+      "topRemaining": [
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Izzet Chemister",
+          "decks": 3
+        },
+        {
+          "card": "Past in Flames",
+          "decks": 3
+        },
+        {
+          "card": "Epic Experiment",
+          "decks": 3
+        },
+        {
+          "card": "Curse of Chaos",
+          "decks": 3
+        },
+        {
+          "card": "Mystic Confluence",
+          "decks": 3
+        },
+        {
+          "card": "Sylvan Offering",
+          "decks": 3
+        },
+        {
+          "card": "Synthetic Destiny",
+          "decks": 3
+        },
+        {
+          "card": "Black Sun's Zenith",
+          "decks": 3
+        }
+      ],
+      "occurrencesRemaining": 459,
+      "distinctRemaining": 316,
+      "occurrencesUnlocked": 271
+    },
+    "unlocked": 57
+  },
+  "revision": "aa39209f7167617dd38a92ee7eb39cb7e799ab9d",
+  "cardUse": {
+    "checks": 201,
+    "engine": "NeoForge 1.0.25",
+    "scope": "Autonomous native Commander card use; invalid repeated-card custom decks; no completion, winner or strength claim",
+    "runs": [
+      {
+        "activationReuses": 0,
+        "clockReached": true,
+        "activations": 0,
+        "exiles": 0,
+        "manaReuses": 0,
+        "removals": 0,
+        "shroud": 0,
+        "destructions": 0,
+        "seed": 110011,
+        "hexproof": 0,
+        "manaUses": 0,
+        "profile": "on",
+        "summary": "<development-checkout>\\arena\\arcane-lighthouse\\target\\card-use\\lighthouse-on-110011\\summary.json",
+        "sha256": "2841DAA13422A8868C759E96BBE91174E95850A127090B4E5F7AF4FCE2C7CB9F",
+        "lighthouseLandPlays": 0
+      },
+      {
+        "activationReuses": 2,
+        "clockReached": true,
+        "activations": 3,
+        "exiles": 3,
+        "manaReuses": 0,
+        "removals": 4,
+        "shroud": 3,
+        "destructions": 1,
+        "seed": 110012,
+        "hexproof": 1,
+        "manaUses": 1,
+        "profile": "on",
+        "summary": "<development-checkout>\\arena\\arcane-lighthouse\\target\\card-use\\lighthouse-on-110012\\summary.json",
+        "sha256": "679F84779F3856D32C43B17BFF4E6B5F75CB2FBB02A14AFC4AC8C49E7757D32E",
+        "lighthouseLandPlays": 2
+      },
+      {
+        "activationReuses": 0,
+        "clockReached": true,
+        "activations": 0,
+        "exiles": 0,
+        "manaReuses": 0,
+        "removals": 0,
+        "shroud": 0,
+        "destructions": 0,
+        "seed": 110011,
+        "hexproof": 0,
+        "manaUses": 0,
+        "profile": "off",
+        "summary": "<development-checkout>\\arena\\arcane-lighthouse\\target\\card-use\\lighthouse-off-110011\\summary.json",
+        "sha256": "85073B9E5ABA5326E982D6BF0E6C2EED505DBD2F38693EA546EC585E150E18AC",
+        "lighthouseLandPlays": 0
+      },
+      {
+        "activationReuses": 0,
+        "clockReached": true,
+        "activations": 0,
+        "exiles": 0,
+        "manaReuses": 0,
+        "removals": 0,
+        "shroud": 0,
+        "destructions": 0,
+        "seed": 110012,
+        "hexproof": 0,
+        "manaUses": 1,
+        "profile": "off",
+        "summary": "<development-checkout>\\arena\\arcane-lighthouse\\target\\card-use\\lighthouse-off-110012\\summary.json",
+        "sha256": "00284C037CE67F3A2642FCF5B08617177D8D93DBAD18EB64D5F9126FC7F07223",
+        "lighthouseLandPlays": 3
+      }
+    ],
+    "candidateSha256": "97C0A752BD72CB55CBC8B2898661713DD484F1BAF69144C1EA6F156E3EF6A032"
+  },
+  "card": "Arcane Lighthouse",
+  "nativeGate": {
+    "results": [
+      {
+        "suite": "BiomassMutationTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "checks": 116,
+        "sha256": "F562623ECD9F1BCB2774F2B54EC3227930BB1CBB352872DFA70ACE41D737B720"
+      },
+      {
+        "suite": "NestingGroundsTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "checks": 115,
+        "sha256": "25FC0BEBE7B047AA0CEF481C8057CB30D23FBC61FAE9A92837649EB6B61F9BA5"
+      },
+      {
+        "suite": "ToxicDelugeTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "checks": 127,
+        "sha256": "65B487FD6DD81F195D5585757A9987DF988F4C1C8130DA98477EA9F4569D858B"
+      },
+      {
+        "suite": "AdaptiveEnchantmentTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "checks": 76,
+        "sha256": "744D0C79578096C297DC797885DE4523D71706910B5E109A50DD267C34CDFC1A"
+      },
+      {
+        "suite": "LandManaFamilyTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "checks": 349,
+        "sha256": "19ADE0EF80E2CAF28646391CE16BDA339DB4231B86B5AF510F21A6417629880F"
+      },
+      {
+        "suite": "AhoyMateysTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "checks": 77,
+        "sha256": "FD0E0DF94AA1EF473936A49C4ECEA77C49F84FAB7A531A77220F01494305C2DB"
+      },
+      {
+        "suite": "BeastWithinTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\BeastWithinTests.log",
+        "checks": 13,
+        "sha256": "734ED89404AA66CB1FAEF6C42ED6D5CFDFADCBD821E5F60E73C22DD73912E59B"
+      },
+      {
+        "suite": "CurseOfTheSwineTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "checks": 36,
+        "sha256": "20965E06F05D59578DF668A0555E8A4770D75A1802B601250C6DDDCE3FB67022"
+      },
+      {
+        "suite": "FilterLandsTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\FilterLandsTests.log",
+        "checks": 10,
+        "sha256": "6F2DC4CE8CE714D050AB2BA341D2D6249D77960966A8F6F4492C750B3223EE11"
+      },
+      {
+        "suite": "PsychosisCrawlerTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "checks": 6,
+        "sha256": "2D3A9A97528176F9397858541955A5283DC72D893D8AF0D3F05FF26E3800BC4E"
+      },
+      {
+        "suite": "WallOfLimbsTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "checks": 12,
+        "sha256": "E99D3B3496E551B2779A214B7105D768E619E62B31BF648F573F7D36B932609C"
+      },
+      {
+        "suite": "SlaughterTheStrongTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "checks": 18,
+        "sha256": "A0554E2DBFF7F2FAD07DC859A255A5DB0CABA6A5926CD2320F9FA66483CF0C1F"
+      },
+      {
+        "suite": "MirrorEntityTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "checks": 48,
+        "sha256": "98EF49B4624473BA4E9E2224151550A9DC5AB696BB71B5B1D9BCB4C11ED71724"
+      },
+      {
+        "suite": "DecreeOfPainTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "checks": 69,
+        "sha256": "39D675476FC10AC5B6291A3B0BEEA2DADB90E108EA766D31436973070EA58522"
+      },
+      {
+        "suite": "OreskosExplorerTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "checks": 100,
+        "sha256": "105934455CBF19245DA678DDB18FF07B65D4DF207E6706CDBF0CC8351A939C83"
+      },
+      {
+        "suite": "DispatchTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\DispatchTests.log",
+        "checks": 61,
+        "sha256": "9DEB2BED2BF565B43B48DC9093855B56062EEB5FD25946198B424D6736255426"
+      },
+      {
+        "suite": "TragicArroganceTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "checks": 132,
+        "sha256": "19C9D5033B765F2D3FDD631A046A59EC67186A42C4E0DF25B4895622533DE9D0"
+      },
+      {
+        "suite": "MarshalsAnthemTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "checks": 135,
+        "sha256": "092DD3FA850F9FF03A3D704509CB4B32CF74E8A084AAB660A1D0B1C3066BC670"
+      },
+      {
+        "suite": "DarksteelMutationTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "checks": 87,
+        "sha256": "3E642E1423EC261764E6013EB3622C68DA7452F2019A82CB3D004875BC5D78EC"
+      },
+      {
+        "suite": "CorpseAugurTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "checks": 139,
+        "sha256": "0B3165B5CEB7E0669BBEF9DC2E424A2477DD381A02DAE8B103208B4B63C5AD52"
+      },
+      {
+        "suite": "AssaultSuitTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "checks": 21,
+        "sha256": "C0AA350DF3A2F00EE310623259EC30D299E8C294C08A478AAE7CCA59E7A0975B"
+      },
+      {
+        "suite": "SelvalaTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\SelvalaTests.log",
+        "checks": 13,
+        "sha256": "95149C7DAD920CEAF5E5309E9B4972F3404821723A5A44DACDA414C6E82CEBC5"
+      },
+      {
+        "suite": "TradingPostTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\TradingPostTests.log",
+        "checks": 60,
+        "sha256": "09985AF0AEC6B7E6BF4924217FF903B8EE63B718390E9DF4070A9628B3BAEB64"
+      },
+      {
+        "suite": "GazeOfGraniteTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\GazeOfGraniteTests.log",
+        "checks": 40,
+        "sha256": "88DCF6141F79597FD48836C5557655D2329C3048865CE784DBBF8F6F3451352D"
+      },
+      {
+        "suite": "GreaterGoodTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\GreaterGoodTests.log",
+        "checks": 75,
+        "sha256": "414E3F0A558A2F462BFC73395B572FED82C435583ED3464CD661FFE9060698EB"
+      },
+      {
+        "suite": "HuntersInsightTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\HuntersInsightTests.log",
+        "checks": 72,
+        "sha256": "1FD70D88157588C4268A8BF3E526376C331F91F779B6EDBFB9A56786498A6471"
+      },
+      {
+        "suite": "CommandBeaconTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\CommandBeaconTests.log",
+        "checks": 83,
+        "sha256": "3EB9C8CB5973843718B85B65538FAD90F29ACFB01DB6EC76ECF09310B364CC0D"
+      },
+      {
+        "suite": "VisceraSeerTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\VisceraSeerTests.log",
+        "checks": 119,
+        "sha256": "31498843B837BE98CD87488B57178573133AFC10A8F225A9827858C26E80B956"
+      },
+      {
+        "suite": "KenrithsTransformationTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\KenrithsTransformationTests.log",
+        "checks": 157,
+        "sha256": "E08E786BAA8BC17FA09894C9548DF996CC383CA73320615D4D7F62EBA315ED9B"
+      },
+      {
+        "suite": "TimelyWardTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\TimelyWardTests.log",
+        "checks": 147,
+        "sha256": "11C241FA2736D266CCDD1676F8A1DBB361D342C09119EA5A6F2EFF03CDFF4529"
+      },
+      {
+        "suite": "CallTheCoppercoatsTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\CallTheCoppercoatsTests.log",
+        "checks": 212,
+        "sha256": "D23AE99DAFBA76757508182DB185B87BA298FB4166EBF9EC32CD14D7E6BE0BDD"
+      },
+      {
+        "suite": "PrismaticLensTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\PrismaticLensTests.log",
+        "checks": 161,
+        "sha256": "323D28DA8B84A619908646EE6ECF2C1A8BEAFBDE0257DFF5145622AA39FED859"
+      },
+      {
+        "suite": "PropheticPrismTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\PropheticPrismTests.log",
+        "checks": 194,
+        "sha256": "0387DDA4BDDEB68C7BCCB847A8417D7BE87EAC6EF2F5B002DD5F242C36237E0B"
+      },
+      {
+        "suite": "SkeletalScryingTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\SkeletalScryingTests.log",
+        "checks": 234,
+        "sha256": "B3CC482C0FDD0AE8E976B88E6CEF9FF566D5DC0C5700D1DE1F8B5B2CE749FD5C"
+      },
+      {
+        "suite": "SwanSongTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\SwanSongTests.log",
+        "checks": 188,
+        "sha256": "79D9CDD293CBE7C9F2D98AAE2F05A70051710871C94F82BFF5EBAA4A3D045F30"
+      },
+      {
+        "suite": "MisleadingSignpostTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\MisleadingSignpostTests.log",
+        "checks": 169,
+        "sha256": "C629C65F4370FAA5CADB4BFCED27C40F2A0382E68B8EFBC22126A857033463C5"
+      },
+      {
+        "suite": "ArcaneLighthouseTests",
+        "log": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\ArcaneLighthouseTests.log",
+        "checks": 158,
+        "sha256": "426338C169E549CF2712D18CD000677EC283505BA9F225F18C149776B6C8DD9C"
+      }
+    ],
+    "candidate": "<development-checkout>\\arena\\arcane-lighthouse\\target\\final-1.0.25\\engine.jar",
+    "total": 3829,
+    "candidateSha256": "97C0A752BD72CB55CBC8B2898661713DD484F1BAF69144C1EA6F156E3EF6A032"
+  },
+  "engine": "NeoForge 1.0.25",
+  "installedApplicationModified": false,
+  "date": "2026-10-18"
+}

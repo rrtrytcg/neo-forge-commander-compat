@@ -1,0 +1,281 @@
+{
+  "engine": "NeoForge 1.0.27",
+  "revision": "6d7928985607a068aa9b9d6677ed81920cfdcebf",
+  "candidateSha256": "313E41D979848AD1D60B6ABB3D57E1F97A9A75382A12AE109E191BD68B67F16B",
+  "base": "<development-checkout>\\arena\\choice-wipes\\target\\final-1.0.27-r2",
+  "gate": {
+    "checks": 5734,
+    "suites": 57,
+    "priorChecks": 5721,
+    "newChecks": 13,
+    "newSuiteSha256": "7B992D4C8A6B50ED1FEDBE484C6AB302DC1AE17B29CE331396585B22711C51A5",
+    "baselineChecks": 4,
+    "focusedChecks": 13,
+    "installedHashesChecked": 21729,
+    "installedHashesChangedDuringGate": 0,
+    "installedSnapshotSha256": "10B79B138746EF8BE6C31488E4CA06AFD3794CFAF5875CDB897B8894DA5211A4",
+    "installedHashesDifferFrom1_0_27": 24
+  },
+  "exposure": [
+    {
+      "mode": "off",
+      "seed": 128011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 0,
+        "control": 0,
+        "resolutions": 0
+      },
+      "lastTurn": 17.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1419 ms. Ai(2)-Confiscation Coup exposure: Affordable and expensive targets has won!",
+      "logSha256": "95E01675041693F73828F4DB725CD2FC7922292234D64402BA54F3F0A8B52DB5",
+      "deckSha256": [
+        "BD99A55245395CD60CCB2CC62C8B87B47B9BFD4E19DB4B4A00CEF1E454307C42",
+        "034027F71D9AFFBAC1A3D8DB080C4CAE6E8ABDB12D555D9D53EB7D81DD2117A7"
+      ],
+      "witnesses": {
+        "cast": [],
+        "resolution": [],
+        "control": [],
+        "highTarget": []
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 128011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 6,
+        "control": 6,
+        "resolutions": 6
+      },
+      "lastTurn": 22.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 2111 ms. Ai(1)-Confiscation Coup exposure: Energy takers has won!",
+      "logSha256": "560D7DC7F0568FBDD71533522AAF21745B8C485F4B3A28FA3C1EF77F49E5586C",
+      "deckSha256": [
+        "BD99A55245395CD60CCB2CC62C8B87B47B9BFD4E19DB4B4A00CEF1E454307C42",
+        "034027F71D9AFFBAC1A3D8DB080C4CAE6E8ABDB12D555D9D53EB7D81DD2117A7"
+      ],
+      "witnesses": {
+        "cast": [
+          {
+            "line": 205,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 247,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 289,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 337,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 387,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 441,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          }
+        ],
+        "resolution": [
+          {
+            "line": 206,
+            "text": "Resolve Stack: Confiscation Coup (31) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (106)."
+          },
+          {
+            "line": 248,
+            "text": "Resolve Stack: Confiscation Coup (28) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (110)."
+          },
+          {
+            "line": 290,
+            "text": "Resolve Stack: Confiscation Coup (21) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (104)."
+          },
+          {
+            "line": 338,
+            "text": "Resolve Stack: Confiscation Coup (40) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (107)."
+          },
+          {
+            "line": 388,
+            "text": "Resolve Stack: Confiscation Coup (24) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (120)."
+          },
+          {
+            "line": 442,
+            "text": "Resolve Stack: Confiscation Coup (46) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (111)."
+          }
+        ],
+        "control": [
+          {
+            "line": 206,
+            "text": "Resolve Stack: Confiscation Coup (31) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (106)."
+          },
+          {
+            "line": 248,
+            "text": "Resolve Stack: Confiscation Coup (28) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (110)."
+          },
+          {
+            "line": 290,
+            "text": "Resolve Stack: Confiscation Coup (21) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (104)."
+          },
+          {
+            "line": 338,
+            "text": "Resolve Stack: Confiscation Coup (40) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (107)."
+          },
+          {
+            "line": 388,
+            "text": "Resolve Stack: Confiscation Coup (24) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (120)."
+          },
+          {
+            "line": 442,
+            "text": "Resolve Stack: Confiscation Coup (46) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (111)."
+          }
+        ],
+        "highTarget": [
+          {
+            "line": 428,
+            "text": "Resolve Stack: Craw Wurm - Creature 6 / 4"
+          },
+          {
+            "line": 486,
+            "text": "Resolve Stack: Craw Wurm - Creature 6 / 4"
+          }
+        ]
+      }
+    },
+    {
+      "mode": "off",
+      "seed": 128012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 0,
+        "control": 0,
+        "resolutions": 0
+      },
+      "lastTurn": 18.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1403 ms. Ai(2)-Confiscation Coup exposure: Affordable and expensive targets has won!",
+      "logSha256": "3A173170FDD5DB84C0A0FF4BD8CD7EE93E6547B07FCADA501938470CA1C47F7D",
+      "deckSha256": [
+        "BD99A55245395CD60CCB2CC62C8B87B47B9BFD4E19DB4B4A00CEF1E454307C42",
+        "034027F71D9AFFBAC1A3D8DB080C4CAE6E8ABDB12D555D9D53EB7D81DD2117A7"
+      ],
+      "witnesses": {
+        "cast": [],
+        "resolution": [],
+        "control": [],
+        "highTarget": []
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 128012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 6,
+        "control": 6,
+        "resolutions": 6
+      },
+      "lastTurn": 19.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1485 ms. Ai(1)-Confiscation Coup exposure: Energy takers has won!",
+      "logSha256": "CE8924E0645C2F5A804A72066A1ACC610C39BE032E352C979F7FE8C83E800E86",
+      "deckSha256": [
+        "BD99A55245395CD60CCB2CC62C8B87B47B9BFD4E19DB4B4A00CEF1E454307C42",
+        "034027F71D9AFFBAC1A3D8DB080C4CAE6E8ABDB12D555D9D53EB7D81DD2117A7"
+      ],
+      "witnesses": {
+        "cast": [
+          {
+            "line": 180,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 223,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 269,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 317,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 366,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          },
+          {
+            "line": 418,
+            "text": "Add To Stack: Ai(1)-Confiscation Coup exposure: Energy takers cast Confiscation Coup"
+          }
+        ],
+        "resolution": [
+          {
+            "line": 181,
+            "text": "Resolve Stack: Confiscation Coup (31) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (103)."
+          },
+          {
+            "line": 224,
+            "text": "Resolve Stack: Confiscation Coup (27) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (113)."
+          },
+          {
+            "line": 270,
+            "text": "Resolve Stack: Confiscation Coup (19) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (105)."
+          },
+          {
+            "line": 318,
+            "text": "Resolve Stack: Confiscation Coup (35) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (119)."
+          },
+          {
+            "line": 367,
+            "text": "Resolve Stack: Confiscation Coup (26) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (111)."
+          },
+          {
+            "line": 419,
+            "text": "Resolve Stack: Confiscation Coup (25) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (107)."
+          }
+        ],
+        "control": [
+          {
+            "line": 181,
+            "text": "Resolve Stack: Confiscation Coup (31) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (103)."
+          },
+          {
+            "line": 224,
+            "text": "Resolve Stack: Confiscation Coup (27) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (113)."
+          },
+          {
+            "line": 270,
+            "text": "Resolve Stack: Confiscation Coup (19) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (105)."
+          },
+          {
+            "line": 318,
+            "text": "Resolve Stack: Confiscation Coup (35) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (119)."
+          },
+          {
+            "line": 367,
+            "text": "Resolve Stack: Confiscation Coup (26) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (111)."
+          },
+          {
+            "line": 419,
+            "text": "Resolve Stack: Confiscation Coup (25) - Ai(1)-Confiscation Coup exposure: Energy takers gets four energy counters. Ai(1)-Confiscation Coup exposure: Energy takers gains control of Hill Giant (107)."
+          }
+        ],
+        "highTarget": []
+      }
+    }
+  ],
+  "scope": "Paired custom-deck card-use and target-selection evidence only; no winner or strength claim."
+}

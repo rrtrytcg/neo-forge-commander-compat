@@ -1,0 +1,507 @@
+{
+  "card": "Command Beacon",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "installedApplicationModified": false,
+  "nativeGate": {
+    "total": 2090,
+    "results": [
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0",
+        "checks": 116,
+        "suite": "BiomassMutationTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+        "checks": 115,
+        "suite": "NestingGroundsTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+        "checks": 127,
+        "suite": "ToxicDelugeTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+        "checks": 76,
+        "suite": "AdaptiveEnchantmentTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+        "checks": 349,
+        "suite": "LandManaFamilyTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+        "checks": 77,
+        "suite": "AhoyMateysTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\BeastWithinTests.log",
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+        "checks": 13,
+        "suite": "BeastWithinTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A",
+        "checks": 36,
+        "suite": "CurseOfTheSwineTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\FilterLandsTests.log",
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+        "checks": 10,
+        "suite": "FilterLandsTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+        "checks": 6,
+        "suite": "PsychosisCrawlerTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE",
+        "checks": 12,
+        "suite": "WallOfLimbsTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50",
+        "checks": 18,
+        "suite": "SlaughterTheStrongTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77",
+        "checks": 48,
+        "suite": "MirrorEntityTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16",
+        "checks": 69,
+        "suite": "DecreeOfPainTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+        "checks": 100,
+        "suite": "OreskosExplorerTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\DispatchTests.log",
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE",
+        "checks": 61,
+        "suite": "DispatchTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+        "checks": 132,
+        "suite": "TragicArroganceTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "checks": 135,
+        "suite": "MarshalsAnthemTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5",
+        "checks": 87,
+        "suite": "DarksteelMutationTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688",
+        "checks": 139,
+        "suite": "CorpseAugurTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "checks": 21,
+        "suite": "AssaultSuitTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\SelvalaTests.log",
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C",
+        "checks": 13,
+        "suite": "SelvalaTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\TradingPostTests.log",
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101",
+        "checks": 60,
+        "suite": "TradingPostTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\GazeOfGraniteTests.log",
+        "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6",
+        "checks": 40,
+        "suite": "GazeOfGraniteTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\GreaterGoodTests.log",
+        "sha256": "C71A88ED767012410A120FF6790B7C404EC3D0DF7B147DB5C1F701EBE513D67D",
+        "checks": 75,
+        "suite": "GreaterGoodTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\HuntersInsightTests.log",
+        "sha256": "0B922A5327AC6290E85C966CD14B09A3639FA8E8B3F8E514BDBEA58F817844DB",
+        "checks": 72,
+        "suite": "HuntersInsightTests"
+      },
+      {
+        "log": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\CommandBeaconTests.log",
+        "sha256": "BB686AE48F7875D11186E1DB1235C07B57F4619545E230CF3CC5B4F215C3BF4B",
+        "checks": 83,
+        "suite": "CommandBeaconTests"
+      }
+    ],
+    "candidate": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\engine.jar",
+    "candidateSha256": "49498E73457A787AC922AE58D5F255F69CC845C799BFCF62CAB6FDB73069CC06"
+  },
+  "status": "verified",
+  "cardUse": {
+    "checks": 252,
+    "engine": "NeoForge 1.0.25",
+    "scope": "Autonomous native Commander card use with deliberately nonstandard decks; no completion, winner or strength claim",
+    "runs": [
+      {
+        "sha256": "AA9D76AE77BACC7D6B26653CC64BCB07341366A686A7ED3E39FF03A25AECAB01",
+        "clockReached": true,
+        "activations": 10,
+        "returns": 10,
+        "seed": 100011,
+        "matchedHandCasts": 10,
+        "profile": "on",
+        "summary": "<development-checkout>\\arena\\command-beacon\\target\\card-use\\commander-on-100011\\summary.json"
+      },
+      {
+        "sha256": "395AAF1EA269C6D8E5488F7604D6A8F4BF9E320B4FF3A4B187B1CA85FA0CAA06",
+        "clockReached": true,
+        "activations": 10,
+        "returns": 10,
+        "seed": 100012,
+        "matchedHandCasts": 10,
+        "profile": "on",
+        "summary": "<development-checkout>\\arena\\command-beacon\\target\\card-use\\commander-on-100012\\summary.json"
+      },
+      {
+        "sha256": "699AC5EF2D978EF9D3F169B7C2314C02448562BD4725283E91E5873331CD7B27",
+        "clockReached": true,
+        "activations": 0,
+        "returns": 0,
+        "seed": 100011,
+        "matchedHandCasts": 0,
+        "profile": "off",
+        "summary": "<development-checkout>\\arena\\command-beacon\\target\\card-use\\commander-off-100011\\summary.json"
+      }
+    ],
+    "candidateSha256": "49498E73457A787AC922AE58D5F255F69CC845C799BFCF62CAB6FDB73069CC06"
+  },
+  "coverage": {
+    "inventory": {
+      "decks": 184,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past"
+      ],
+      "decksWithZeroBlocked": 37
+    },
+    "unlocked": 47,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "blocked": {
+      "topRemaining": [
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Prophetic Prism",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Viscera Seer",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Misleading Signpost",
+          "decks": 3
+        },
+        {
+          "card": "Thespian's Stage",
+          "decks": 3
+        },
+        {
+          "card": "Call the Coppercoats",
+          "decks": 3
+        },
+        {
+          "card": "Bosh, Iron Golem",
+          "decks": 3
+        },
+        {
+          "card": "Black Sun's Zenith",
+          "decks": 3
+        }
+      ],
+      "distinctRemaining": 326,
+      "occurrencesUnlocked": 239,
+      "occurrencesRemaining": 491
+    },
+    "verified": 37
+  },
+  "originalScriptMatchesInstalled": true,
+  "scope": "Opt-in bounded commander tax relief; native correctness and autonomous card use only, no strength/winner/completion claim",
+  "files": [
+    {
+      "sha256": "1BF1365E7B6DE93363F62469ADE011D68DE0DBE3403D51319331E9AC9DD9BB0B",
+      "path": "<development-checkout>\\arena\\command-beacon\\CardUseProbe.java"
+    },
+    {
+      "sha256": "575F22633A0C51A52C60079518A229DBCBFAF98352228A84BC18E63247D43CDE",
+      "path": "<development-checkout>\\arena\\command-beacon\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "6ABF477752CA1B001C3DDA412505033A75F5106EA16D7DF60E8AE444D86816CF",
+      "path": "<development-checkout>\\arena\\command-beacon\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "57337376C005B0AC5AB848DB2B639E30C33017D11DDA5F8151385D93316BE996",
+      "path": "<development-checkout>\\arena\\command-beacon\\CommandBeaconTests.java"
+    },
+    {
+      "sha256": "2A51E5674B8964AB5BC9431048C77EA7A235E56C6EE3109A387AA982BE426FC7",
+      "path": "<development-checkout>\\arena\\command-beacon\\README.md"
+    },
+    {
+      "sha256": "DC05BEBA2639AA8AE47B605DDD0E7FE9CFF6F61578863FA582184E66334A9FBD",
+      "path": "<development-checkout>\\arena\\command-beacon\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "10C0652E2FF4132118ED58AE9ECC846BB157FF13E538E9C90F921CAA320008E4",
+      "path": "<development-checkout>\\arena\\command-beacon\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "B3ADE84CC9EBEE7C27BB3B813258E59D2F5A321E78DA29E3D1C3419E7708EB4E",
+      "path": "<development-checkout>\\arena\\command-beacon\\decks\\Beacon.dck"
+    },
+    {
+      "sha256": "1E248605EC5E054FA590A29B5832D757B0969034761B66276DECBF11A9AE53CA",
+      "path": "<development-checkout>\\arena\\command-beacon\\decks\\Removal.dck"
+    },
+    {
+      "sha256": "D3E676524794A4DF92F64FB3C9DF710551DB80CD8AE4E5C2C071CA0B3765F8CF",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\CommandBeaconAi.java"
+    },
+    {
+      "sha256": "EEF8445D984BBE036B3455225FB0F9B31D190D21995D9DB2B000F6BDD6FE92D5",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java"
+    },
+    {
+      "sha256": "E7DE02F7453E547239F993D68E1B82A282772ABC2F907F43CD570044EA43A8FA",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java"
+    },
+    {
+      "sha256": "C4FF80B11C108F5D301190956C0C1A7E28ABA7B5FC23268C8FB9142241703769",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtilMana.java"
+    },
+    {
+      "sha256": "3B72DB59FBC2DEA48493B278F29F7331AF8AA7A290A6FC9393DD6297F98F809D",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\simulation\\GameCopier.java"
+    },
+    {
+      "sha256": "4918E024FC8332F7BCDF6773736B36CA7BE2A458C7D0DEDA00DBB3B6ED1AB41D",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\command-beacon.properties"
+    },
+    {
+      "sha256": "5637865C50AE03F6DFD2F8FE0AC892466C74F42ACA7B5C8FE58E4D271C92C235",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "84D91BEF90B424727A2F18B0D6DCABEA2C4552C981E6B4897DB525F77656F971",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "EB9FF4754570DA86748CAF62BFDEFE6CBA4775712EED9F9651339EF6E65929EF",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "DA84A899435888953F73D37465CBEC33124235EE978DF401B650D647AD2A0BA8",
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md"
+    },
+    {
+      "sha256": "AAC5C04CC9229493C29E65A483B5A66483BF0F48B40E002FE4A829C1CBF2AB23",
+      "path": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "111358045782B4B632A028F3A50F1EDC07AEF79CA9A3D725E73164A10674090A",
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\c\\command_beacon.txt"
+    },
+    {
+      "sha256": "0E2A1125E33346EBEFFDCD442635D0D88F5B73E41E34AB6F8C86670863560F19",
+      "path": "<development-checkout>\\arena\\command-beacon\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "49498E73457A787AC922AE58D5F255F69CC845C799BFCF62CAB6FDB73069CC06",
+      "path": "<development-checkout>\\arena\\command-beacon\\target\\final-1.0.25\\engine.jar"
+    },
+    {
+      "sha256": "54944E06F582A3FA9E2C78DDA3E4AD52E5D4794371F902D885FAEB7A9AC1F45E",
+      "path": "<development-checkout>\\arena\\command-beacon\\card-use-evidence.json"
+    }
+  ],
+  "date": "2026-10-17",
+  "revision": "f8c59aebc78d42d07b43bf17e81c4b2fdb2927f9",
+  "engine": "NeoForge 1.0.25"
+}

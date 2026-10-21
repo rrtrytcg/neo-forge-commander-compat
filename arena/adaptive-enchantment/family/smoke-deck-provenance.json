@@ -1,0 +1,19 @@
+{
+  "source": "forge-gui\\res\\quest\\commanderprecons\\Adaptive Enchantment [C18] [2018].dck",
+  "source_sha256": "0d130f204b28240aaa73f88b2dd7724ab0bc58e7bf8563ccebfd73d59fc6b20d",
+  "commander": "Tuvasa the Sunlit",
+  "cards": 100,
+  "replacements": {
+    "Arixmethes, Slumbering Isle": "Market Festival",
+    "Empyrial Storm": "Utopia Sprawl",
+    "Genesis Storm": "Shimmerwilds Growth",
+    "Hydra Omnivore": "Trace of Abundance",
+    "Martial Coup": "Glittering Frost",
+    "Phyrexian Rebirth": "Verdant Haven",
+    "Loyal Unicorn": "Wolfwillow Haven",
+    "Loyal Drake": "Abundant Growth",
+    "Loyal Guardian": "Gift of Paradise",
+    "Daxos of Meletis": "Sheltered Aerie",
+    "Bant Charm": "Urban Utopia"
+  }
+}

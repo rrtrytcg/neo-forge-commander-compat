@@ -1,0 +1,49 @@
+{
+  "runs": [
+    {
+      "sha256": "5E8AABDC52DB89006A83008016C621AD5C476A8BABAF05714A64B4DD7CF47DE9",
+      "profile": "on",
+      "resolvedParleys": 13,
+      "seed": 96901,
+      "summary": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use\\on-96901\\summary.json",
+      "casts": 1,
+      "parleys": 13,
+      "clockReached": false
+    },
+    {
+      "sha256": "D0629B3A07EE1B93EDBF705687DB9A1BEE6C862EDF67DFC7F15EFB935E6D74BA",
+      "profile": "on",
+      "resolvedParleys": 10,
+      "seed": 96902,
+      "summary": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use\\on-96902\\summary.json",
+      "casts": 1,
+      "parleys": 10,
+      "clockReached": false
+    },
+    {
+      "sha256": "EB2BCA2CA48BB1B857903700EF213BBDE42B4EF261B336CC4D5F60A9EE01B860",
+      "profile": "off",
+      "resolvedParleys": 0,
+      "seed": 96901,
+      "summary": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use\\off-96901\\summary.json",
+      "casts": 0,
+      "parleys": 0,
+      "clockReached": false
+    },
+    {
+      "sha256": "928FDC9B263418F07C4BD159242DD7389450FFEFB50CC838EDD3A87AA72893D2",
+      "profile": "off",
+      "resolvedParleys": 0,
+      "seed": 96902,
+      "summary": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use\\off-96902\\summary.json",
+      "casts": 0,
+      "parleys": 0,
+      "clockReached": false
+    }
+  ],
+  "checkLog": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use-check.log",
+  "candidateSha256": "1D944CFC1D8423B9445E4C4C6A83F2F81E3199FF70736A463A6893FDDEEE7013",
+  "engine": "NeoForge 1.0.25",
+  "checkLogSha256": "E4554B15E9DFA7774D9C2D35BF0DEB6A70E8DA17AA6270996C71775F224456F8",
+  "checks": 155
+}

@@ -1,0 +1,57 @@
+{
+  "checkLog": "<development-checkout>\\arena\\assault-suit\\target\\card-use-check.log",
+  "candidateSha256": "5240473B8A22A77ADEA6836E648B54F53EA10CF4460B7DF6A8A785D728260A0E",
+  "runs": [
+    {
+      "seed": 96801,
+      "attachments": 5,
+      "accepted": 8,
+      "equips": 5,
+      "casts": 5,
+      "sha256": "D32FA652023FF17B71D369AE54CA99ABDED26C31D066F320304B41BBC68100F7",
+      "clockReached": false,
+      "profile": "on",
+      "summary": "<development-checkout>\\arena\\assault-suit\\target\\card-use\\on-96801\\summary.json",
+      "declined": 41
+    },
+    {
+      "seed": 96802,
+      "attachments": 2,
+      "accepted": 18,
+      "equips": 2,
+      "casts": 2,
+      "sha256": "705132C3085ADC5A8B0E2831514B1291FC4E1CC064FD64A3F304C55AD5CAB2B7",
+      "clockReached": false,
+      "profile": "on",
+      "summary": "<development-checkout>\\arena\\assault-suit\\target\\card-use\\on-96802\\summary.json",
+      "declined": 15
+    },
+    {
+      "seed": 96801,
+      "attachments": 0,
+      "accepted": 0,
+      "equips": 0,
+      "casts": 0,
+      "sha256": "45596C44FE84C55C86D95123E4AE5197ED5AC0021AE5AD343C18BB377603ECA4",
+      "clockReached": false,
+      "profile": "off",
+      "summary": "<development-checkout>\\arena\\assault-suit\\target\\card-use\\off-96801\\summary.json",
+      "declined": 0
+    },
+    {
+      "seed": 96802,
+      "attachments": 0,
+      "accepted": 0,
+      "equips": 0,
+      "casts": 0,
+      "sha256": "10D3BA49A8C72846B253F527998E897B1C5CDAB2781D4876070D608D8C88395A",
+      "clockReached": false,
+      "profile": "off",
+      "summary": "<development-checkout>\\arena\\assault-suit\\target\\card-use\\off-96802\\summary.json",
+      "declined": 0
+    }
+  ],
+  "checkLogSha256": "A62C38998B092886881AF51F466F6C59FB4862D88FA061AFD688CA6E195D1645",
+  "engine": "NeoForge 1.0.25",
+  "checks": 234
+}

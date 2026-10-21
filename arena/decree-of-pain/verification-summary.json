@@ -1,0 +1,155 @@
+{
+  "installedApplicationModified": false,
+  "nativeEvidence": {
+    "files": [
+      {
+        "sha256": "677541B96DC3E78D8FDBD18A59CE27AF8351D3DF16D0B716CD706A88E4D01EC1",
+        "path": "<development-checkout>\\arena\\decree-of-pain\\target\\final\\engine.jar"
+      },
+      {
+        "sha256": "3026FC87001150139E4EE68BD2739C9010C667C4C853A0832544E7BB14C2B49F",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\decree-of-pain.properties"
+      },
+      {
+        "sha256": "174A6A80BEEA2C8F5D5A5920A9E096FEEE1137BEA75078A465360CA8C749F134",
+        "path": "<development-checkout>\\arena\\decree-of-pain\\Check-DecreeOfPain.ps1"
+      },
+      {
+        "sha256": "768FBA1CA6ED28C55FF92E982C646CDF8A2D9CC156793582F0382DEE5766CDE9",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiOverrideProfile.java"
+      },
+      {
+        "sha256": "CD0C1DA3A1D6CDC6ABABE479212033A5EDFD91888284C7649A42F80610FCBF76",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiProfileUtil.java"
+      },
+      {
+        "sha256": "828390906FDF53AF51DE924E59096BB2DDE54BC74E798461BBEED34988ABF704",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DecreeOfPainAi.java"
+      },
+      {
+        "sha256": "B5D9637B3BE606787CF497DD3D98B3BE95043E2DA859F29CAD4655B64F5E03DF",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\DrawAi.java"
+      },
+      {
+        "sha256": "6715D520566B5506AF6EDEC1BFA86D97676656422D65764E3C65275AA4A3AD72",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\DestroyAllAi.java"
+      },
+      {
+        "sha256": "D4B61C4BA1E720B10635DF58E82C8BCE8C91B92F353924D27EF1E42C1F748A8B",
+        "path": "<development-checkout>\\arena\\decree-of-pain\\DecreeOfPainTests.java"
+      }
+    ],
+    "scope": "Native correctness and regression only; not strength evidence",
+    "revision": "270b31e85b01cd08a58843f802142003eb215b81"
+  },
+  "originalScriptsAndDecksGitDiff": "empty",
+  "date": "2026-10-16",
+  "coverageStatus": "verified",
+  "claim": "Native bounded-rule correctness plus autonomous custom-deck casting/cycling witnesses; no Commander-precon use, completed-game or strength claim from these probes",
+  "coverage": {
+    "verified": 20,
+    "unlockedTotal": 30,
+    "decksWithZeroBlocked": 22,
+    "unlockedOnly": 10
+  },
+  "missingVerification": null,
+  "commanderElapsedMs": 7750,
+  "priorSmokes": [
+    {
+      "turn": 10,
+      "decreeUsed": false,
+      "seed": 95551,
+      "elapsedMs": 8071
+    },
+    {
+      "turn": 10,
+      "decreeUsed": false,
+      "seed": 95552,
+      "elapsedMs": 10313
+    },
+    {
+      "turn": 10,
+      "decreeUsed": false,
+      "seed": 95553,
+      "elapsedMs": 8844
+    }
+  ],
+  "build": {
+    "checkstyleViolations": 0,
+    "genericMavenTestsSkipped": true,
+    "passed": true
+  },
+  "originalScriptAndDeckHashes": [
+    {
+      "sha256": "4023288D2A366658FCF226461CF866333A4368BA3783D1CFB5D3E5E841491259",
+      "path": "forge-gui/res/cardsfolder/d/decree_of_pain.txt"
+    },
+    {
+      "sha256": "1ED8039C9F363D81929652F811E0BCCE6B53CB54A5E0A04E62E965DEB1221786",
+      "path": "forge-gui/res/quest/commanderprecons/Squirreled Away [BLC] [2024].dck"
+    },
+    {
+      "sha256": "F936E5F4669014A68299648C2F649234F754DFFF6D78B50BA586DEC2F8D452A0",
+      "path": "forge-gui/res/quest/commanderprecons/Endless Punishment [DSC] [2024].dck"
+    }
+  ],
+  "commanderSmoke": {
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\decree-of-pain\\target\\commander-final\\candidate.jar",
+        "sha256": "677541B96DC3E78D8FDBD18A59CE27AF8351D3DF16D0B716CD706A88E4D01EC1"
+      },
+      {
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\decree-of-pain.properties",
+        "sha256": "3026FC87001150139E4EE68BD2739C9010C667C4C853A0832544E7BB14C2B49F"
+      },
+      {
+        "path": "<development-checkout>\\arena\\decree-of-pain\\Run-CommanderSmoke.ps1",
+        "sha256": "1662107612A0112D501B831FB06509D6FFDD4A5F57544D8CB2C84C53270811C5"
+      },
+      {
+        "path": "<development-checkout>\\forge-gui\\res\\quest\\commanderprecons\\Squirreled Away [BLC] [2024].dck",
+        "sha256": "1ED8039C9F363D81929652F811E0BCCE6B53CB54A5E0A04E62E965DEB1221786"
+      },
+      {
+        "path": "<development-checkout>\\forge-gui\\res\\quest\\commanderprecons\\Endless Punishment [DSC] [2024].dck",
+        "sha256": "F936E5F4669014A68299648C2F649234F754DFFF6D78B50BA586DEC2F8D452A0"
+      }
+    ],
+    "seed": 95551,
+    "policyCardCasts": [],
+    "normalCompletion": true,
+    "scope": "Commander runtime smoke only; not strength evidence",
+    "clockSeconds": 180
+  },
+  "nativeChecks": 69,
+  "baseRevision": "270b31e85b01cd08a58843f802142003eb215b81",
+  "ahoyRegressionChecks": 77,
+  "runtimeCandidateJarMatchesNativeTestsAndAhoyRegression": true,
+  "priorSmokeScope": "Before final nested-trigger safety refinement; historical runtime evidence only",
+  "commanderTurn": 10,
+  "cardUseEvidence": {
+    "path": "arena/decree-of-pain/card-use-evidence.json",
+    "cycleOn": [
+      3,
+      1
+    ],
+    "castOff": [
+      0,
+      0
+    ],
+    "castOn": [
+      3,
+      3
+    ],
+    "completedGameRequired": false,
+    "sha256": "8F79CA9647FD563ABF55FCAEC433EA927F0D82A9F3B2B825D7608AF3329855E3",
+    "cycleOff": [
+      0,
+      0
+    ],
+    "originalCommanderUseObserved": false,
+    "date": "2026-10-17",
+    "nativeCodeChanged": false
+  }
+}

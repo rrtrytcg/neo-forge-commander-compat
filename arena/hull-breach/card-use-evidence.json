@@ -1,0 +1,86 @@
+{
+  "engine": "NeoForge 1.0.27",
+  "candidateSha256": "CA41A6B3BC1C08569A841142F4E4B14D05728D8EA1599CB7A1770C6036FAA0F2",
+  "checks": 406,
+  "runs": [
+    {
+      "scenario": "artifact",
+      "profile": "on",
+      "seed": 112011,
+      "casts": 4,
+      "destroyed": 4,
+      "artifactOnly": 4,
+      "enchantmentOnly": 0,
+      "both": 0,
+      "clockReached": true,
+      "summary": "<development-checkout>\\arena\\hull-breach\\target\\card-use\\artifact-on-112011\\summary.json",
+      "sha256": "BAF83F9817EE3B29F0E4DE30A8FED38D9A6454796A8E9850B3BC0A24DEA80D39"
+    },
+    {
+      "scenario": "artifact",
+      "profile": "off",
+      "seed": 112011,
+      "casts": 0,
+      "destroyed": 0,
+      "artifactOnly": 0,
+      "enchantmentOnly": 0,
+      "both": 0,
+      "clockReached": true,
+      "summary": "<development-checkout>\\arena\\hull-breach\\target\\card-use\\artifact-off-112011\\summary.json",
+      "sha256": "AD86D54B81F88B442C88EF2B418819FDE69D98528280628B573481D8C45F3C1C"
+    },
+    {
+      "scenario": "enchantment",
+      "profile": "on",
+      "seed": 112021,
+      "casts": 9,
+      "destroyed": 9,
+      "artifactOnly": 0,
+      "enchantmentOnly": 9,
+      "both": 0,
+      "clockReached": false,
+      "summary": "<development-checkout>\\arena\\hull-breach\\target\\card-use\\enchantment-on-112021\\summary.json",
+      "sha256": "13347A6A2EA05B482EAE9610EA62D47E650641F2DECA385E5CE03806218B2C72"
+    },
+    {
+      "scenario": "enchantment",
+      "profile": "off",
+      "seed": 112021,
+      "casts": 0,
+      "destroyed": 0,
+      "artifactOnly": 0,
+      "enchantmentOnly": 0,
+      "both": 0,
+      "clockReached": true,
+      "summary": "<development-checkout>\\arena\\hull-breach\\target\\card-use\\enchantment-off-112021\\summary.json",
+      "sha256": "D021CB100039D0FC288291F0105F98A696E3469241A3E366A50D66A51C9E72EF"
+    },
+    {
+      "scenario": "both",
+      "profile": "on",
+      "seed": 112031,
+      "casts": 4,
+      "destroyed": 7,
+      "artifactOnly": 0,
+      "enchantmentOnly": 1,
+      "both": 3,
+      "clockReached": false,
+      "summary": "<development-checkout>\\arena\\hull-breach\\target\\card-use\\both-on-112031\\summary.json",
+      "sha256": "AC21B0BE462F845BFF3F1F09BE7E765657091E9B27E926E2DE0F2F147309569E"
+    },
+    {
+      "scenario": "both",
+      "profile": "off",
+      "seed": 112031,
+      "casts": 0,
+      "destroyed": 0,
+      "artifactOnly": 0,
+      "enchantmentOnly": 0,
+      "both": 0,
+      "clockReached": false,
+      "summary": "<development-checkout>\\arena\\hull-breach\\target\\card-use\\both-off-112031\\summary.json",
+      "sha256": "91CEE790EDCF834C90D773D90D1076F643C4A63AA56EA91BA51390A6B21F22E2"
+    }
+  ],
+  "scope": "Native autonomous card-use only; no completion, winner or strength claim"
+}

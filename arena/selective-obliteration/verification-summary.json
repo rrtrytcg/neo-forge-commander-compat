@@ -1,0 +1,76 @@
+{
+  "card": "Selective Obliteration",
+  "profile": "selective-obliteration",
+  "engine": "NeoForge 1.0.28",
+  "baselineChecks": 3.0,
+  "focusedChecks": 16.0,
+  "fullGate": {
+    "checks": 5736.0,
+    "suites": 57,
+    "priorChecks": 5720.0,
+    "newChecks": 16,
+    "candidateSha256": "E6ED56DDBD23F818EE964127C335598291A61AB3098FDE03CBEA53AD283DF4D0"
+  },
+  "installedHashesChecked": 21729,
+  "installedHashesChanged": 0,
+  "exposures": [
+    {
+      "clockSeconds": 120,
+      "seed": 129011,
+      "log": "<development-checkout>\\arena\\selective-obliteration\\target\\exposure-r2\\off-129011\\game.log",
+      "logSha256": "0501D880202D17746D32D029983B1A9A228D9F1442A20F17B4A8D55F47A12DDD",
+      "lastTurn": 21.0,
+      "witnesses": [],
+      "exceptions": 0,
+      "mode": "off",
+      "result": "Game Result: Game 1 ended in 2501 ms. Ai(2)-Selective Obliteration exposure: red majority and green minority has won!",
+      "exit": 0,
+      "resolutions": 0
+    },
+    {
+      "clockSeconds": 120,
+      "seed": 129011,
+      "log": "<development-checkout>\\arena\\selective-obliteration\\target\\exposure-r2\\on-129011\\game.log",
+      "logSha256": "BEC4B4A5A3244723E5E92698FAEF6B1AB5759EEE5398AF12D9C26E06DFE1B593",
+      "lastTurn": 21.0,
+      "witnesses": [
+        "Resolve Stack: Selective Obliteration (72) - Each player chooses a color. Then exile each permanent unless it's colorless or it's only the color its controller chose. "
+      ],
+      "exceptions": 0,
+      "mode": "on",
+      "result": "Game Result: Game 1 ended in 2708 ms. Ai(2)-Selective Obliteration exposure: red majority and green minority has won!",
+      "exit": 0,
+      "resolutions": 1
+    },
+    {
+      "clockSeconds": 120,
+      "seed": 129012,
+      "log": "<development-checkout>\\arena\\selective-obliteration\\target\\exposure-r2\\off-129012\\game.log",
+      "logSha256": "D0D6A7D51C8A87237AF6C5875DA8A7BDDCAAC0824FE3D0A9A572171B30B9B0C2",
+      "lastTurn": 28.0,
+      "witnesses": [],
+      "exceptions": 0,
+      "mode": "off",
+      "result": "Game Result: Game 1 ended in 3847 ms. Ai(2)-Selective Obliteration exposure: red majority and green minority has won!",
+      "exit": 0,
+      "resolutions": 0
+    },
+    {
+      "clockSeconds": 120,
+      "seed": 129012,
+      "log": "<development-checkout>\\arena\\selective-obliteration\\target\\exposure-r2\\on-129012\\game.log",
+      "logSha256": "2997549A18DAE35DD62F50B59380B11A843D299F3B51D7CAEB68D4B3DD7FEF48",
+      "lastTurn": 31.0,
+      "witnesses": [
+        "Resolve Stack: Selective Obliteration (62) - Each player chooses a color. Then exile each permanent unless it's colorless or it's only the color its controller chose. ",
+        "Resolve Stack: Selective Obliteration (64) - Each player chooses a color. Then exile each permanent unless it's colorless or it's only the color its controller chose. "
+      ],
+      "exceptions": 0,
+      "mode": "on",
+      "result": "Game Result: Game 1 ended in 2980 ms. Ai(1)-Selective Obliteration exposure: green board and repeated spells has won!",
+      "exit": 0,
+      "resolutions": 2
+    }
+  ],
+  "scope": "Card-use and native decision evidence only; no winner or strength claim"
+}

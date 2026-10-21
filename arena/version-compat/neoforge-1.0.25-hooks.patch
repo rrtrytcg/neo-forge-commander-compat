@@ -1,0 +1,355 @@
+diff --git a/forge-ai/src/main/java/forge/ai/AiAttackController.java b/forge-ai/src/main/java/forge/ai/AiAttackController.java
+index bfc470fc..d3e64305 100644
+--- a/forge-ai/src/main/java/forge/ai/AiAttackController.java
++++ b/forge-ai/src/main/java/forge/ai/AiAttackController.java
+@@ -92,6 +92,15 @@ public class AiAttackController {
+ 
+     public AiAttackController(final Player ai, boolean nextTurn) {
+         this.ai = ai;
++        if (CombatLite.enabled(ai)) {
++            this.nextTurn = nextTurn;
++            this.myList = ai.getCreaturesInPlay();
++            this.attackers = new ArrayList<>(myList);
++            this.blockers = new ArrayList<>();
++            this.oppList = new ArrayList<>();
++            this.defendingOpponent = CombatLite.preferredDefender(ai);
++            return;
++        }
+         defendingOpponent = choosePreferredDefenderPlayer(ai, true);
+         myList = ai.getCreaturesInPlay();
+         this.nextTurn = nextTurn;
+@@ -100,6 +109,15 @@ public class AiAttackController {
+ 
+     public AiAttackController(final Player ai, Card attacker) {
+         this.ai = ai;
++        if (CombatLite.enabled(ai)) {
++            this.nextTurn = false;
++            this.myList = ai.getCreaturesInPlay();
++            this.attackers = new ArrayList<>(List.of(attacker));
++            this.blockers = new ArrayList<>();
++            this.oppList = new ArrayList<>();
++            this.defendingOpponent = CombatLite.preferredDefender(ai);
++            return;
++        }
+         defendingOpponent = choosePreferredDefenderPlayer(ai, true);
+         this.oppList = getOpponentCreatures(defendingOpponent);
+         myList = ai.getCreaturesInPlay();
+@@ -195,6 +213,7 @@ public class AiAttackController {
+         return choosePreferredDefenderPlayer(ai, false);
+     }
+     public static Player choosePreferredDefenderPlayer(Player ai, boolean forCombatDmg) {
++        if (CombatLite.enabled(ai)) { return CombatLite.preferredDefender(ai); }
+         PlayerCollection opponents = ai.getOpponents();
+         if (opponents.size() < 2) {
+             return Iterables.getFirst(opponents, null);
+@@ -340,6 +359,7 @@ public class AiAttackController {
+     // this checks to make sure that the computer player doesn't lose when the human player attacks
+     public final List<Card> notNeededAsBlockers(final List<Card> currentAttackers, final List<Card> potentialAttackers) {
+         AITimeoutTracker.check();
++        if (CombatLite.enabled(ai)) { return new ArrayList<>(potentialAttackers); }
+         // check for time walks
+         if (ai.getGame().getPhaseHandler().getNextTurn().equals(ai)) {
+             return potentialAttackers;
+@@ -503,6 +523,7 @@ public class AiAttackController {
+     }
+     public void reinforceWithBanding(final Combat combat, final Card test) {
+         AITimeoutTracker.check();
++        if (CombatLite.enabled(ai)) { return; }
+         CardCollection attackers = combat.getAttackers();
+         if (attackers.isEmpty()) {
+             return;
+@@ -809,6 +830,10 @@ public class AiAttackController {
+      * @return a {@link forge.game.combat.Combat} object.
+      */
+     public final int declareAttackers(final Combat combat) {
++        if (CombatLite.enabled(ai)) {
++            if (nextTurn || combat != ai.getGame().getCombat()) { return CombatLite.aggression(ai); }
++            return CombatLite.attack(ai, combat, attackers);
++        }
+         final long id = AITimeoutTracker.key(ai.getGame().getId(), ai.getId());
+         final long timeoutNanos = TimeUnit.SECONDS.toNanos(ai.getGame().getAITimeout());
+         // predicting a HUMAN player's attack must not light up that player's timer bar
+@@ -1516,6 +1541,14 @@ public class AiAttackController {
+      */
+     public final boolean shouldAttack(final Card attacker, final List<Card> defenders, final Combat combat, final GameEntity defender) {
+         AITimeoutTracker.check();
++        if (CombatLite.enabled(ai)) {
++            if (!CombatUtil.canAttack(attacker, defender)) { return false; }
++            int score = Math.max(0, attacker.getNetCombatDamage()) * CombatLite.damageWeight(ai);
++            for (Card blocker : defenders) {
++                if (CombatUtil.canBlock(attacker, blocker)) { score = Math.min(score, CombatLite.pairValue(ai, attacker, blocker)); }
++            }
++            return score > 0;
++        }
+         // Is it a creature that has a more valuable ability with a tap cost than what it can do by attacking?
+         if (attacker.hasSVar("NonCombatPriority") && !attacker.hasKeyword(Keyword.VIGILANCE)) {
+             // For each level of priority, enemy has to have life as much as the creature's power
+diff --git a/forge-ai/src/main/java/forge/ai/AiBlockController.java b/forge-ai/src/main/java/forge/ai/AiBlockController.java
+index 8b145f0a..08a521fb 100644
+--- a/forge-ai/src/main/java/forge/ai/AiBlockController.java
++++ b/forge-ai/src/main/java/forge/ai/AiBlockController.java
+@@ -1072,6 +1072,12 @@ public class AiBlockController {
+         }
+     }
+     public void assignBlockersForCombat(final Combat combat, final CardCollection excludedBlockers) {
++        if (CombatLite.enabled(ai)) {
++            List<Card> available = new ArrayList<>(ai.getCreaturesInPlay());
++            if (excludedBlockers != null) { available.removeAll(excludedBlockers); }
++            CombatLite.block(ai, combat, available);
++            return;
++        }
+         List<Card> possibleBlockers = ai.getCreaturesInPlay();
+         if (excludedBlockers != null && !excludedBlockers.isEmpty()) {
+             possibleBlockers.removeAll(excludedBlockers);
+@@ -1085,6 +1091,12 @@ public class AiBlockController {
+      * @param blockers blockers to add in addition to creatures already in play
+      */
+     public void assignAdditionalBlockers(final Combat combat, CardCollectionView blockers) {
++        if (CombatLite.enabled(ai)) {
++            List<Card> available = new ArrayList<>(ai.getCreaturesInPlay());
++            for (Card c : blockers) { if (!available.contains(c)) { available.add(c); } }
++            CombatLite.block(ai, combat, available);
++            return;
++        }
+         List<Card> possibleBlockers = ai.getCreaturesInPlay();
+         for (Card c : blockers) {
+             if (!possibleBlockers.contains(c)) {
+@@ -1102,6 +1114,10 @@ public class AiBlockController {
+      * @param givenAttackers specific attackers to consider
+      */
+     public void assignBlockersGivenAttackers(final Combat combat, List<Card> givenAttackers) {
++        if (CombatLite.enabled(ai)) {
++            CombatLite.block(ai, combat, new ArrayList<>(ai.getCreaturesInPlay()));
++            return;
++        }
+         List<Card> possibleBlockers = ai.getCreaturesInPlay();
+         attackers = givenAttackers;
+         assignBlockers(combat, possibleBlockers);
+diff --git a/forge-ai/src/main/java/forge/ai/AiController.java b/forge-ai/src/main/java/forge/ai/AiController.java
+index 2e6e88f6..9496f06d 100644
+--- a/forge-ai/src/main/java/forge/ai/AiController.java
++++ b/forge-ai/src/main/java/forge/ai/AiController.java
+@@ -96,6 +96,9 @@ public class AiController {
+     private SpellAbilityPicker simPicker;
+     private int lastAttackAggression;
+     private boolean useLivingEnd;
++
++    /** True when the last chooser evaluation ended in a timeout or exception, not a normal pass. */
++    private boolean choiceEvaluationInterrupted;
+     private List<SpellAbility> skipped;
+ 
+     public AiController(final Player computerPlayer, final Game game0) {
+@@ -136,6 +139,10 @@ public class AiController {
+     }
+ 
+     public Combat getPredictedCombat() {
++        if (CombatLite.enabled(player)) {
++            // Spell evaluators may inspect declared current combat, but do not create speculative attacks.
++            return game.getCombat() != null ? game.getCombat() : new Combat(player);
++        }
+         if (predictedCombat == null) {
+             AiAttackController aiAtk = new AiAttackController(player);
+             predictedCombat = new Combat(player);
+@@ -154,6 +161,7 @@ public class AiController {
+     }
+ 
+     public Combat getPredictedCombatNextTurn() {
++        if (CombatLite.enabled(player)) { return new Combat(player); }
+         if (predictedCombatNextTurn == null) {
+             AiAttackController aiAtk = new AiAttackController(player, true);
+             predictedCombatNextTurn = new Combat(player);
+@@ -977,7 +985,13 @@ public class AiController {
+             }
+         }
+ 
+-        return saSideEffects(spellHost, sa);
++        AiPlayDecision decision = saSideEffects(spellHost, sa);
++        if (decision == AiPlayDecision.WillPlay && ((CatOvenSafety.enabled(player)
++                && CatOvenSafety.evaluate(player, sa).vetoes()) || (CatOvenSafetyV2.enabled(player)
++                && CatOvenSafetyV2.evaluate(player, sa).vetoes()))) {
++            return AiPlayDecision.CostNotAcceptable;
++        }
++        return decision;
+     }
+ 
+     private AiPlayDecision saSideEffects(final Card card, final SpellAbility sa) {
+@@ -1096,6 +1110,16 @@ public class AiController {
+             return validCards; //return all valid cards since they will be discarded without filtering needed
+         }
+ 
++        if (AhoyMateysAi.uses(sa, "AhoyLooting")) {
++            final CardCollection preferred = AhoyMateysAi.lootingDiscards(player, validCards, sa, min);
++            if (preferred.size() < min) {
++                final CardCollection remaining = new CardCollection(validCards);
++                remaining.removeAll(preferred);
++                preferred.addAll(getCardsToDiscard(min - preferred.size(), max - preferred.size(), remaining, null));
++            }
++            return preferred;
++        }
++
+         Card sourceCard = null;
+         final CardCollection discardList = new CardCollection();
+         int count = 0;
+@@ -1149,6 +1173,16 @@ public class AiController {
+             }
+         }
+ 
++        // "You may discard any number of cards, then draw that many / get that many counters"
++        // (e.g. Nantuko Cultivator). Classic fills only a forced min, so with min 0 it discards
++        // nothing and the payoff is zero; discard the excess lands so the ability does something.
++        if (sa != null && min == 0) {
++            CardCollection rewardDiscard = DiscardValuePlaybook.chooseDiscardForReward(player, max, validCards, sa);
++            if (rewardDiscard != null) {
++                return rewardDiscard;
++            }
++        }
++
+         // look for good discards
+         while (count < min) {
+             Card prefCard = null;
+@@ -1335,6 +1369,7 @@ public class AiController {
+             try {
+                 // When player != defender, AI should declare blockers for its benefit.
+                 block.assignBlockersForCombat(combat);
++            AristocratsCombatBlockPolicy.afterClassic(defender, combat);
+             } catch (AITimeoutTracker.Expired e) {
+                 // out of time: keep the blocks decided so far (each block is added atomically, so combat stays consistent)
+                 AITimeoutTracker.disarm(limit); // the fallback below must not be cut short again
+@@ -1387,6 +1422,8 @@ public class AiController {
+                 aiAtk.declareAttackers(combat);
+             }
+         }
++        StompyPackAttack.coordinate(attacker, combat);
++        BGPackLeaderPolicy.coordinate(attacker, combat);
+     }
+ 
+     private void removeUnpayableAttackers(Combat combat) {
+@@ -1647,7 +1684,17 @@ public class AiController {
+         saList.removeIf(spellAbility -> {
+             // don't include removedAI cards if somehow the AI can play the ability or gain control of unsupported card
+             // TODO allow when experimental profile?
+-            return spellAbility.isLandAbility() || (spellAbility.getHostCard() != null && ComputerUtilCard.isCardRemAIDeck(spellAbility.getHostCard()));
++            if (spellAbility.isLandAbility()) {
++                return true;
++            }
++            final Card host = spellAbility.getHostCard();
++            if (host == null || !ComputerUtilCard.isCardRemAIDeck(host)) {
++                return false;
++            }
++            // A NeoForge AI override profile may re-enable specific cards for in-game play only
++            // (the AI:RemoveDeck hint still governs deck building). No profile, or a card not listed,
++            // keeps upstream behaviour exactly.
++            return !AiOverrideProfile.get().ignoreRemoveDeckDuringPlay(host);
+         });
+         //removed skipped SA
+         skipped = saList.stream().filter(SpellAbility::isSkip).collect(Collectors.toList());
+@@ -1662,10 +1709,18 @@ public class AiController {
+             return null; // not planning to copy the spell and not marked as something the AI would respond to
+         }
+ 
+-        return chosenSa;
++        // Opt-in deck-specific playbook (stompy-v1 / stompy-v2). No-op for the classic policy.
++        SpellAbility deckSequenced = StompyPlaybook.maybeOverride(player, saList, chosenSa,
++                choiceEvaluationInterrupted);
++        if (deckSequenced != null) {
++            return deckSequenced;
++        }
++
++        return ClaimCleanupPolicy.afterPass(player, chosenSa, choiceEvaluationInterrupted);
+     }
+ 
+     private SpellAbility chooseSpellAbilityToPlayFromList(final List<SpellAbility> all, boolean skipCounter) {
++        choiceEvaluationInterrupted = false;
+         if (all == null || all.isEmpty())
+             return null;
+ 
+@@ -1769,6 +1824,7 @@ public class AiController {
+ 
+                 return null;
+             } catch (AITimeoutTracker.Expired e) {
++                choiceEvaluationInterrupted = true;
+                 return null;
+             } finally {
+                 AITimeoutTracker.disarm(evalLimit); // matters as soon as this runs on a pooled thread
+@@ -1782,6 +1838,7 @@ public class AiController {
+             return future.get(Math.max(0, deadlineNanos - System.nanoTime()), TimeUnit.NANOSECONDS);
+         } catch (InterruptedException | ExecutionException | TimeoutException e) {
+             e.printStackTrace();
++            choiceEvaluationInterrupted = true;
+             if (e instanceof TimeoutException) {
+                 // log where the eval thread currently is - each timeout doubles as a
+                 // profiler sample for diagnosing remaining AI slowdowns from user logs
+diff --git a/forge-ai/src/main/java/forge/ai/ComputerUtil.java b/forge-ai/src/main/java/forge/ai/ComputerUtil.java
+index e74077e8..5a65ed57 100644
+--- a/forge-ai/src/main/java/forge/ai/ComputerUtil.java
++++ b/forge-ai/src/main/java/forge/ai/ComputerUtil.java
+@@ -81,6 +81,10 @@ import java.util.stream.Collectors;
+ public class ComputerUtil {
+ 
+     public static boolean handlePlayingSpellAbility(final Player ai, SpellAbility sa, Consumer<SpellAbility> chooseTargets) {
++        if (!ClaimCleanupPolicy.preflight(ai, sa)) { return false; }
++        // Recheck the fresh public position before any cost or source/stack mutation.
++        if (CatOvenSafety.enabled(ai) && CatOvenSafety.evaluate(ai, sa).vetoes()) { return false; }
++        if (CatOvenSafetyV2.enabled(ai) && CatOvenSafetyV2.evaluate(ai, sa).vetoes()) { return false; }
+         final Card source = sa.getHostCard();
+         final Game game = source.getGame();
+         final Card host = sa.getHostCard();
+@@ -126,7 +130,7 @@ public class ComputerUtil {
+         game.getStack().freezeStack(sa);
+ 
+         final CostPayment pay = new CostPayment(cost, sa);
+-        if (pay.payComputerCosts(new AiCostDecision(ai, sa, false))) {
++        if (pay.payComputerCosts(AiCostDecision.forSpellPayment(ai, sa))) {
+             game.getStack().addAndUnfreeze(sa);
+             if (sa.getSplicedCards() != null && !sa.getSplicedCards().isEmpty()) {
+                 game.getAction().reveal(sa.getSplicedCards(), ai, true, "Computer reveals spliced cards from ");
+@@ -278,6 +282,10 @@ public class ComputerUtil {
+         return getCardPreference(ai, activate, pref, typeList, null);
+     }
+     public static Card getCardPreference(final Player ai, final Card activate, final String pref, final CardCollection typeList, SpellAbility sa) {
++        if ("SacCost".equals(pref) && AristocratsPolicy.enabled(ai)) {
++            Card preferred = AristocratsPolicy.choose(ai, sa, typeList);
++            if (preferred != null) { return preferred; }
++        }
+         final Game game = ai.getGame();
+         String prefDef = "";
+         if (activate != null) {
+@@ -2412,6 +2420,10 @@ public class ComputerUtil {
+     }
+ 
+     public static String chooseSomeType(Player ai, String kindOfType, SpellAbility sa, Collection<String> validTypes) {
++        if ("Card".equals(kindOfType) && validTypes != null
++                && AdaptiveEnchantmentAi.usesLogic(sa, "CreepingRenaissance")) {
++            return AdaptiveEnchantmentAi.recoveryType(ai, validTypes);
++        }
+         final String logic = sa.getParam("AILogic");
+ 
+         if (validTypes == null) {
+@@ -2966,6 +2978,7 @@ public class ComputerUtil {
+                 List.of(AiCache::identity, AiCache::identity), ai, opponent);
+     }
+     private static int evaluateBoardPositionChanged(final Player ai, final Player opponent) {
++        if (CombatLite.enabled(ai)) { return CombatLite.boardValue(opponent); }
+         int rating = 0;
+ 
+         rating += opponent.getCardsIn(ZoneType.Hand).size() * 15;
+@@ -3207,6 +3220,7 @@ public class ComputerUtil {
+     // call this to determine if it's safe to use a life payment spell
+     // or trigger "emergency" strategies such as holding mana for Spike Weaver or Counterspell.
+     public static boolean aiLifeInDanger(Player ai, boolean serious, int payment) {
++        if (CombatLite.enabled(ai)) { return CombatLite.immediateDanger(ai, ai.getGame().getCombat(), payment); }
+         return Integer.MIN_VALUE == AiCache.getCached("aiLifeInDanger", () -> predictNextCombatsRemainingLife(ai, serious, false, payment, null),
+                 List.of(AiCache::identity, Objects::equals, Objects::equals), ai, serious, payment);
+     }
+@@ -3214,6 +3228,11 @@ public class ComputerUtil {
+         return predictNextCombatsRemainingLife(ai, serious, checkDiff, payment, excludedBlockers, ai.getOpponents());
+     }
+     public static int predictNextCombatsRemainingLife(Player ai, boolean serious, boolean checkDiff, int payment, final CardCollection excludedBlockers, final List<Player> opps) {
++        if (CombatLite.enabled(ai)) {
++            CombatLite.predictionBypass();
++            return CombatLite.immediateDanger(ai, ai.getGame().getCombat(), payment)
++                    ? Integer.MIN_VALUE : ai.getLife() - payment;
++        }
+         // life won't change
+         int remainingLife = Integer.MAX_VALUE;
+ 

@@ -1,0 +1,654 @@
+{
+  "nativeGate": {
+    "candidateSha256": "71C5EEA1563F7B7A4E5DF3DF912A937B0DD8BCAAB9E7B7D454330B9866B71BF7",
+    "total": 2886,
+    "candidate": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\engine.jar",
+    "results": [
+      {
+        "checks": 116,
+        "suite": "BiomassMutationTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0"
+      },
+      {
+        "checks": 115,
+        "suite": "NestingGroundsTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287"
+      },
+      {
+        "checks": 127,
+        "suite": "ToxicDelugeTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66"
+      },
+      {
+        "checks": 76,
+        "suite": "AdaptiveEnchantmentTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D"
+      },
+      {
+        "checks": 349,
+        "suite": "LandManaFamilyTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9"
+      },
+      {
+        "checks": 77,
+        "suite": "AhoyMateysTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0"
+      },
+      {
+        "checks": 13,
+        "suite": "BeastWithinTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\BeastWithinTests.log",
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741"
+      },
+      {
+        "checks": 36,
+        "suite": "CurseOfTheSwineTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A"
+      },
+      {
+        "checks": 10,
+        "suite": "FilterLandsTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\FilterLandsTests.log",
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE"
+      },
+      {
+        "checks": 6,
+        "suite": "PsychosisCrawlerTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF"
+      },
+      {
+        "checks": 12,
+        "suite": "WallOfLimbsTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE"
+      },
+      {
+        "checks": 18,
+        "suite": "SlaughterTheStrongTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50"
+      },
+      {
+        "checks": 48,
+        "suite": "MirrorEntityTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77"
+      },
+      {
+        "checks": 69,
+        "suite": "DecreeOfPainTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16"
+      },
+      {
+        "checks": 100,
+        "suite": "OreskosExplorerTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838"
+      },
+      {
+        "checks": 61,
+        "suite": "DispatchTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\DispatchTests.log",
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE"
+      },
+      {
+        "checks": 132,
+        "suite": "TragicArroganceTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A"
+      },
+      {
+        "checks": 135,
+        "suite": "MarshalsAnthemTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D"
+      },
+      {
+        "checks": 87,
+        "suite": "DarksteelMutationTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5"
+      },
+      {
+        "checks": 139,
+        "suite": "CorpseAugurTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688"
+      },
+      {
+        "checks": 21,
+        "suite": "AssaultSuitTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052"
+      },
+      {
+        "checks": 13,
+        "suite": "SelvalaTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\SelvalaTests.log",
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C"
+      },
+      {
+        "checks": 60,
+        "suite": "TradingPostTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\TradingPostTests.log",
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101"
+      },
+      {
+        "checks": 40,
+        "suite": "GazeOfGraniteTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\GazeOfGraniteTests.log",
+        "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6"
+      },
+      {
+        "checks": 75,
+        "suite": "GreaterGoodTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\GreaterGoodTests.log",
+        "sha256": "C71A88ED767012410A120FF6790B7C404EC3D0DF7B147DB5C1F701EBE513D67D"
+      },
+      {
+        "checks": 72,
+        "suite": "HuntersInsightTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\HuntersInsightTests.log",
+        "sha256": "0B922A5327AC6290E85C966CD14B09A3639FA8E8B3F8E514BDBEA58F817844DB"
+      },
+      {
+        "checks": 83,
+        "suite": "CommandBeaconTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\CommandBeaconTests.log",
+        "sha256": "BB686AE48F7875D11186E1DB1235C07B57F4619545E230CF3CC5B4F215C3BF4B"
+      },
+      {
+        "checks": 119,
+        "suite": "VisceraSeerTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\VisceraSeerTests.log",
+        "sha256": "1B3A83EA32C6953FCD016F858F5993BCB98DBC2E5542305339663563AF4C06E8"
+      },
+      {
+        "checks": 157,
+        "suite": "KenrithsTransformationTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\KenrithsTransformationTests.log",
+        "sha256": "E08E786BAA8BC17FA09894C9548DF996CC383CA73320615D4D7F62EBA315ED9B"
+      },
+      {
+        "checks": 147,
+        "suite": "TimelyWardTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\TimelyWardTests.log",
+        "sha256": "11C241FA2736D266CCDD1676F8A1DBB361D342C09119EA5A6F2EFF03CDFF4529"
+      },
+      {
+        "checks": 212,
+        "suite": "CallTheCoppercoatsTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\CallTheCoppercoatsTests.log",
+        "sha256": "D23AE99DAFBA76757508182DB185B87BA298FB4166EBF9EC32CD14D7E6BE0BDD"
+      },
+      {
+        "checks": 161,
+        "suite": "PrismaticLensTests",
+        "log": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\PrismaticLensTests.log",
+        "sha256": "323D28DA8B84A619908646EE6ECF2C1A8BEAFBDE0257DFF5145622AA39FED859"
+      }
+    ]
+  },
+  "card": "Prismatic Lens",
+  "engine": "NeoForge 1.0.25",
+  "status": "verified",
+  "installedApplicationModified": false,
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "scope": "Opt-in one-for-one Any-color filter admission, existing native prediction/payment; native correctness and autonomous card use only, no strength/winner/completion claim",
+  "originalScriptMatchesInstalled": true,
+  "unrelatedBaselineFiles": [
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\CLASSIC_TACTICAL_RECON_20261016.md",
+      "sha256": "765BE86B4AE333402A59A353AED878EE1F678F33127A85BFA4D4A268766D4AF8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\NEXT_LLM_HANDOFF_20261016.md",
+      "sha256": "D80B29D8026DBB2C3E725DE260896F32B0EA473BC8D7BC0FE8C94771C11BE520"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Analyze.ps1",
+      "sha256": "E59D84380752579C21397B4ED4CBE663BF896808694156529325E5DE9E929F8F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\PLAN.md",
+      "sha256": "3B4778C89657EC40ED84ECAD7B5647AD9305FAE8822FF201985415B837CF204C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\REPORT.md",
+      "sha256": "E5F51345066194E612711CECC59091E57FFAAFCB160CB4E3512E53175732D7E1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Run.ps1",
+      "sha256": "9D82A314630ED044ACAD2EB60128C91E444ABAA53809EF91B9924995D9E48313"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Worker.ps1",
+      "sha256": "950757439D4176DAB934C87FF33C58346F4A4AFA62D9068352571A0A5BAFD6C7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Write-Report.ps1",
+      "sha256": "31FF6100611165740DB2147D6D9B7C11C722AE9C295ADD3B04BD608CCC32A6FD"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Analyze.ps1",
+      "sha256": "9326C02110CC4BF43020928D7355B8854C377766E1C15819CFB8A611920545F5"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BLOCKERS.md",
+      "sha256": "F727444B0BBE50DA85E269D5220D08E29E25A7469834DA41F827920CA792DCCB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BOARDS.md",
+      "sha256": "9BBD180819969AE65FCCCA419038BC42757D2E02A11C6FC93691ADA889EAA350"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BuildObserver.java",
+      "sha256": "4A1E3BB772682EEDAA6A932E007F5D95F1D595AB6903A4596571AAD53CCF73FB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\EXCLUSION_FIX_PROPOSAL.md",
+      "sha256": "572A4E020AB4835325771F94AE0752444C7FA487A103BA98E7FBE4CC40DC7928"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\REPORT.md",
+      "sha256": "8FD63B461311FD094955807FEF500900BF101F7ACCBB3C261B1A37529842542E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Run.ps1",
+      "sha256": "D57520356CDAED6CEE98E36B5A89D7AD7E2C28A8D8EBE557994D48AFF6860C50"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\UnsupportedObserver.java",
+      "sha256": "B268DAB20892D8311D30B33FE26B6876304E4CEBDDEC6DF6149FD25AC9F86061"
+    }
+  ],
+  "cardUse": {
+    "engine": "NeoForge 1.0.25",
+    "candidateSha256": "71C5EEA1563F7B7A4E5DF3DF912A937B0DD8BCAAB9E7B7D454330B9866B71BF7",
+    "checks": 212,
+    "runs": [
+      {
+        "profile": "on",
+        "pendingAtStop": 0,
+        "clockReached": true,
+        "scenario": "lens",
+        "diagnostics": [],
+        "resolved": 17,
+        "lateObserverEventsExcluded": 0,
+        "freeColorlessMana": 0,
+        "fizzles": 0,
+        "summary": "<development-checkout>\\arena\\prismatic-lens\\target\\card-use\\lens-on-105011\\summary.json",
+        "sha256": "35BC7FCEFE4B8D053C6443F3DF9889089D93CFB8FCFA10642C08E16542C1A5CC",
+        "filteredMana": 7,
+        "reusedLenses": 2,
+        "lensCasts": 5,
+        "colors": [
+          "B",
+          "G",
+          "R",
+          "W"
+        ],
+        "seed": 105011
+      },
+      {
+        "profile": "on",
+        "pendingAtStop": 0,
+        "clockReached": true,
+        "scenario": "lens",
+        "diagnostics": [],
+        "resolved": 16,
+        "lateObserverEventsExcluded": 0,
+        "freeColorlessMana": 2,
+        "fizzles": 0,
+        "summary": "<development-checkout>\\arena\\prismatic-lens\\target\\card-use\\lens-on-105012\\summary.json",
+        "sha256": "03AD16FB23DD33BE3932B2AE0D49A514EDF71A32BB8CEA9CDCBC1AF16CAE65DA",
+        "filteredMana": 7,
+        "reusedLenses": 2,
+        "lensCasts": 5,
+        "colors": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
+        "seed": 105012
+      },
+      {
+        "profile": "off",
+        "pendingAtStop": 0,
+        "clockReached": true,
+        "scenario": "lens",
+        "diagnostics": [],
+        "resolved": 5,
+        "lateObserverEventsExcluded": 0,
+        "freeColorlessMana": 0,
+        "fizzles": 0,
+        "summary": "<development-checkout>\\arena\\prismatic-lens\\target\\card-use\\lens-off-105011\\summary.json",
+        "sha256": "20CFF6F4DBC8A7326465679753F22060BC17829886D20E6E81404ED65E159CF6",
+        "filteredMana": 0,
+        "reusedLenses": 0,
+        "lensCasts": 0,
+        "colors": [],
+        "seed": 105011
+      },
+      {
+        "profile": "off",
+        "pendingAtStop": 0,
+        "clockReached": true,
+        "scenario": "lens",
+        "diagnostics": [],
+        "resolved": 3,
+        "lateObserverEventsExcluded": 0,
+        "freeColorlessMana": 0,
+        "fizzles": 0,
+        "summary": "<development-checkout>\\arena\\prismatic-lens\\target\\card-use\\lens-off-105012\\summary.json",
+        "sha256": "DD85C31E77BBE7CC2E4A330F736B0604D1F2A20CD69D64135C1C2BBB3F8EC81D",
+        "filteredMana": 0,
+        "reusedLenses": 0,
+        "lensCasts": 0,
+        "colors": [],
+        "seed": 105012
+      }
+    ],
+    "scope": "Autonomous native four-player Commander custom decks; card-use evidence only, no completion/winner/strength claim"
+  },
+  "coverage": {
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "blocked": {
+      "occurrencesUnlocked": 254,
+      "topRemaining": [
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Prophetic Prism",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Illusionist's Gambit",
+          "decks": 3
+        },
+        {
+          "card": "Past in Flames",
+          "decks": 3
+        },
+        {
+          "card": "Epic Experiment",
+          "decks": 3
+        },
+        {
+          "card": "Mystic Confluence",
+          "decks": 3
+        },
+        {
+          "card": "Curse of Chaos",
+          "decks": 3
+        },
+        {
+          "card": "Swan Song",
+          "decks": 3
+        }
+      ],
+      "distinctRemaining": 321,
+      "occurrencesRemaining": 476
+    },
+    "unlocked": 52,
+    "inventory": {
+      "decksWithZeroBlocked": 43,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "DSC - Miracle Worker",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FDC - Tramplesaurus Rex",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "ONC - Rebellion Rising",
+        "OTC - Grand Larceny",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Mardu Surge",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past",
+        "WOC - Virtue and Valor"
+      ],
+      "decks": 184
+    },
+    "verified": 42
+  },
+  "revision": "15e216edf49a8fe4e8df6e59822bfc5ad3cd83f5",
+  "date": "2026-10-17",
+  "files": [
+    {
+      "sha256": "F677F13C904562553BB96CA2BF103812FCF7CF1ECE4C18A1DED3C14A84A38030",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "37387CC6F565A87CED1893810137A01376164DC3F25072E2F766026FA306B61B",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "57DFFED612B0B793951F12020EA3F5FD855E39B6A9487368385DB4E320C3EACA",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\LensProbe.java"
+    },
+    {
+      "sha256": "6FBAD549894F47C170373276E34EBAF3A9D1D5AD944C8C0F609B95EF2B4C76EF",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\PrismaticLensTests.java"
+    },
+    {
+      "sha256": "CD670E180D606AFBC4565D2EF8685ECC707F18A0EDDE7256A304399E748413F1",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\README.md"
+    },
+    {
+      "sha256": "B1DB86959E6C74A05986000905E25375D90708507E1A1B4851CCDC0BF8D5D2D6",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "3E4426CB1B0DF527F0F0798CE5B04285F9D2EE785B06F2B5033DC23566800EFE",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "E5BD93A959E937DF55BBBFA5EEE26AD84E750F2756FE4059252759D463F861C9",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\decks\\Lens.dck"
+    },
+    {
+      "sha256": "8794E74A69377DC0AC4114DD154763D9FD647960C017A377CC3A6A966094E331",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\decks\\Opponents.dck"
+    },
+    {
+      "sha256": "8BB14F1E4A298E641904525EE58BBE34FF657BBA6D19C30BA3AADA54D000B98C",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiOverrideProfile.java"
+    },
+    {
+      "sha256": "99B07A801202C7DC80932C547A89313B1222802081837A70A8982B50419ED088",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtilMana.java"
+    },
+    {
+      "sha256": "7A9DE13D24CD6420D9A16516EF55182B2A4E3937B4A8D5ED2D16119813FFAEF8",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\prismatic-lens.properties"
+    },
+    {
+      "sha256": "EF9ECFB4338481B301F2226CDD1586682F587EB27B3958BB4F902769B0C2010A",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "861AE623018A1762138D876D317B8D459C73ECD245C8818194574F74CFA8ED43",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "BB554B907CDD05DC26C5EF3197A1FB4C848080D44FDBA80951EBFC1B64F308B7",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "41D36C70FB681F96240964965D8F7B7F57024060D7723734B1640F63D5A2CB9B",
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md"
+    },
+    {
+      "sha256": "23505FED9718E2C5B526A17F8E753D4960BA7EE144458FE6D06DE843583EB914",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "F2A279BBBB960BFA4F599D8E7391BC7CFE772CB2C83C2A8E47660DD6AE313578",
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\p\\prismatic_lens.txt"
+    },
+    {
+      "sha256": "AA02FEC79C21EC5950D91EEC62FE1D54F3F70EE510A8FEDE2BE2D7070B40D2E3",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "71C5EEA1563F7B7A4E5DF3DF912A937B0DD8BCAAB9E7B7D454330B9866B71BF7",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\target\\final-1.0.25\\engine.jar"
+    },
+    {
+      "sha256": "C1F61199E2D80A386A1918746F1D1D72662C058FABBFC4094671666EBC2F12B4",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\target\\unrelated-baseline.json"
+    },
+    {
+      "sha256": "DABDADF53DA15B63F36664C245447E190B473A780B61865C82D8A5A6112035DC",
+      "path": "<development-checkout>\\arena\\prismatic-lens\\card-use-evidence.json"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "cardsFound": 42,
+  "explicitLandAuras": 40,
+  "permanentTargetBoundaryCards": 2,
+  "previouslyFixed": [
+    "Dawn's Reflection",
+    "Fertile Ground",
+    "Wild Growth"
+  ],
+  "newlyFixed": [
+    "Blighted Burgeoning",
+    "Buried in the Garden",
+    "Glittering Frost",
+    "Market Festival",
+    "Overgrowth",
+    "Shimmerwilds Growth",
+    "Trace of Abundance",
+    "Utopia Sprawl",
+    "Verdant Haven",
+    "Wolfwillow Haven"
+  ],
+  "nativeGrantCards": 12,
+  "otherUnchangedCards": 17,
+  "nativeFamilyChecks": 349,
+  "adaptiveRegressionChecks": 76,
+  "build": "PASS",
+  "checkstyleViolations": 0,
+  "smoke": {
+    "seed": 95331,
+    "scope": "Commander runtime smoke only; not strength evidence",
+    "files": [
+      {
+        "sha256": "E97BD694EC54764FD3F15694A4B36AEF3D1C46D1026BF49B5DB7379D313F9611",
+        "path": "<development-checkout>\\arena\\adaptive-enchantment\\family\\target\\commander-family\\candidate.jar"
+      },
+      {
+        "sha256": "910647DD6438C576A4F60AF0B10B772A398F4F33B58A407047E2701B06AADA3C",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\adaptive-enchantment.properties"
+      },
+      {
+        "sha256": "9AA20A3C8319875EC6ADF87DB7879D92C29E432BAAC5180CA714E7386A95A217",
+        "path": "<development-checkout>\\arena\\adaptive-enchantment\\family\\Run-CommanderSmoke.ps1"
+      },
+      {
+        "sha256": "05C424A8F51D7A3173B979DE30DBCF34C24FEA61978547169A31C6501076D09B",
+        "path": "<development-checkout>\\arena\\adaptive-enchantment\\family\\decks\\FamilySmoke_A.dck"
+      },
+      {
+        "sha256": "05C424A8F51D7A3173B979DE30DBCF34C24FEA61978547169A31C6501076D09B",
+        "path": "<development-checkout>\\arena\\adaptive-enchantment\\family\\decks\\FamilySmoke_B.dck"
+      }
+    ],
+    "clockSeconds": 180,
+    "manaAuraCasts": [
+      "Dawn's Reflection",
+      "Wolfwillow Haven",
+      "Urban Utopia"
+    ],
+    "normalCompletion": true
+  },
+  "productionClassHashes": {
+    "forge/ai/AiOverrideProfile.class": "a4a44a306e70bea1fb05015e462ba2a5d8bda3e11eb933b76eff8ecf4e5f21fd",
+    "forge/ai/ManaAuraAi.class": "c9c1fb64b8ce28c78849ca967927ac2a4d00c536ee8062cc5d92551dd533ee2c",
+    "forge/ai/ComputerUtilMana.class": "09db6c928a4a380096b8d2dc730df5685947296e2c6aab01529bbe8804a0ab56"
+  },
+  "originalCardScriptHashesVerified": 42,
+  "installedApplicationModified": false,
+  "claims": "Native mechanical correctness and one Commander runtime smoke; not strength or full-card strategy evidence"
+}

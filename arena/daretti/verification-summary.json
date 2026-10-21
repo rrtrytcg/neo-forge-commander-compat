@@ -1,0 +1,102 @@
+{
+  "card": "Daretti, Scrap Savant",
+  "date": "2026-10-21",
+  "profile": "daretti",
+  "rule": "Use +2 in our second main only when excess lands can be discarded; use -2 only when legal artifact graveyard target and sacrifice material exist; preserve native choices, costs, resolution and ultimate.",
+  "baseline": {
+    "path": "arena/daretti/target/baseline-daretti-r1b-baseline",
+    "engine": "NeoForge 1.0.28",
+    "suites": 1,
+    "checks": 1.0,
+    "nativePlusTwo": "declined with excess lands",
+    "nativeMinusTwo": "accepted with legal graveyard artifact and battlefield artifact",
+    "normalSelection": "AI:RemoveDeck blocks Daretti"
+  },
+  "focused": {
+    "path": "arena/daretti/target/focused-daretti-r1g",
+    "suites": 1,
+    "checks": 26
+  },
+  "fullGate": {
+    "path": "arena/daretti/target/final-daretti-r1",
+    "engine": "NeoForge 1.0.28",
+    "suites": 64,
+    "checks": 5861.0,
+    "priorChecks": 5835.0,
+    "newChecks": 26,
+    "candidateSha256": "461B217BD0EC3C027A0469D91C6175E324EE4DF5B38217D328F9B65EDAF5FC26",
+    "installedFilesChecked": 21729,
+    "installedFilesChanged": 0
+  },
+  "exposures": {
+    "decks": [
+      "arena/daretti/decks/Actor.dck",
+      "arena/daretti/decks/Opponent.dck"
+    ],
+    "clockSeconds": 120,
+    "games": [
+      {
+        "seed": 138011,
+        "profileMode": "off",
+        "casts": 0,
+        "activations": 0,
+        "abilityResolutions": 0,
+        "exit": 0,
+        "exceptions": 0,
+        "clockSeconds": 120,
+        "lastTurn": 188.0,
+        "gameResult": "Game Result: Game 1 ended in 30349 ms. Ai(1)-Daretti exposure: repeatable planeswalker and artifacts has won!",
+        "logSha256": "97A8E3F97652F308CEDF83DC6800C45EAD22BE9557C89042AA44E47C4B2FB0A9"
+      },
+      {
+        "seed": 138011,
+        "profileMode": "on",
+        "casts": 1,
+        "activations": 1,
+        "abilityResolutions": 1,
+        "exit": 0,
+        "exceptions": 0,
+        "clockSeconds": 120,
+        "lastTurn": 187.0,
+        "gameResult": "Game Result: Game 1 ended in 27010 ms. Ai(2)-Daretti exposure: safe planeswalker use has won!",
+        "logSha256": "44B81D523ED97A4E2A888FAAB4C5199C900C602C9D605705D1500D40D37B4A54"
+      },
+      {
+        "seed": 138012,
+        "profileMode": "off",
+        "casts": 0,
+        "activations": 0,
+        "abilityResolutions": 0,
+        "exit": 0,
+        "exceptions": 0,
+        "clockSeconds": 120,
+        "lastTurn": 188.0,
+        "gameResult": "Game Result: Game 1 ended in 29147 ms. Ai(1)-Daretti exposure: repeatable planeswalker and artifacts has won!",
+        "logSha256": "FFB181B49D2613D578CA280DA7E2ED871050C38ACC382ADB922030B2AC2CD139"
+      },
+      {
+        "seed": 138012,
+        "profileMode": "on",
+        "casts": 1,
+        "activations": 5,
+        "abilityResolutions": 5,
+        "exit": 0,
+        "exceptions": 0,
+        "clockSeconds": 120,
+        "lastTurn": 173.0,
+        "gameResult": "Game Result: Game 1 ended in 27402 ms. Ai(2)-Daretti exposure: safe planeswalker use has won!",
+        "logSha256": "CF476D7AD5C8C0FB68163B5E3F121FE0629C8709D17317E47BFBE486CEBA9C79"
+      }
+    ],
+    "interpretation": "Card-use evidence only. All games exited 0 with zero exceptions. On-profile seed 138012 had four +2 activations and one ultimate activation. Stack descriptions log draws before resolution; native fixture confirms the shared chooser discard count draws successfully."
+  },
+  "coverage": {
+    "decks": 184,
+    "clearDecks": 88,
+    "unlockedCards": 106,
+    "verifiedCards": 96,
+    "remainingBlockedCards": 267,
+    "remainingBlockedOccurrences": 360
+  },
+  "limits": "No winner or strength claim; card-use exposure only."
+}

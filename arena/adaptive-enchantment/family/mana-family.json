@@ -1,0 +1,574 @@
+[
+  {
+    "name": "Abundant Growth",
+    "path": "forge-gui/res/cardsfolder/a/abundant_growth.txt",
+    "sha256": "fc3616ee2cf4fea58b8fbd4cf46dc68fa1734849b8be78b63c47cd8e251a808d",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Abundant Growth\nManaCost:G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ FreeCard | TriggerDescription$ When CARDNAME enters, draw a card.\nSVar:FreeCard:DB$ Draw\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddAbility$ AbundantGrowthTap | Description$ Enchanted land has \"{T}: Add one mana of any color.\"\nSVar:AbundantGrowthTap:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.\nOracle:Enchant land\\nWhen Abundant Growth enters, draw a card.\\nEnchanted land has \"{T}: Add one mana of any color.\"\n"
+  },
+  {
+    "name": "Bigger on the Inside",
+    "path": "forge-gui/res/cardsfolder/b/bigger_on_the_inside.txt",
+    "sha256": "5ae34e9d8210fae5b9180058072b7fd8966276a61fc5328ad202906fbbd358ff",
+    "groups": [
+      "targeted-grant"
+    ],
+    "enchant": [
+      "Artifact,Land:artifact or land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Bigger on the Inside\nManaCost:3 R G\nTypes:Enchantment Aura\nK:Enchant:Artifact,Land:artifact or land\nSVar:AttachAILogic:Pump\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Permanent | AddAbility$ ABMana | Description$ Enchanted permanent has \"{T}: Target player adds two mana of any one color. The next spell they cast this turn has cascade.\" (When they cast their next spell, they exile cards from the top of their library until they exile a nonland card that costs less. They may cast it without paying its mana cost. They put the exiled cards on the bottom in a random order.)\nSVar:ABMana:AB$ Mana | Cost$ T | Defined$ Targeted | ValidTgts$ Player | Produced$ Any | Amount$ 2 | SubAbility$ DBEffect | SpellDescription$ Target player adds two mana of any one color. The next spell they cast this turn has cascade. (When they cast their next spell, they exile cards from the top of their library until they exile a nonland card that costs less. They may cast it without paying its mana cost. They put the exiled cards on the bottom in a random order.)\nSVar:DBEffect:DB$ Effect | StaticAbilities$ GrantCascade | EffectOwner$ Targeted | ForgetOnCast$ Card.YouCtrl\nSVar:GrantCascade:Mode$ Continuous | Affected$ Card.YouCtrl | AffectedZone$ Stack | AddKeyword$ Cascade | Description$ The next spell you cast this turn has cascade.\nOracle:Enchant artifact or land\\nEnchanted permanent has \"{T}: Target player adds two mana of any one color. The next spell they cast this turn has cascade.\" (When they cast their next spell, they exile cards from the top of their library until they exile a nonland card that costs less. They may cast it without paying its mana cost. They put the exiled cards on the bottom in a random order.)\n"
+  },
+  {
+    "name": "Blighted Burgeoning",
+    "path": "forge-gui/res/cardsfolder/b/blighted_burgeoning.txt",
+    "sha256": "b689314eb8fa5713d902b20da0e33dda0d6e16a4cd4ec0b6321f977c3ff1902d",
+    "groups": [
+      "flexible-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Blighted Burgeoning\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigIncubate | TriggerDescription$ When CARDNAME enters, incubate 2. (Create an Incubator token with two +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.)\nSVar:TrigIncubate:DB$ Incubate | Amount$ 2\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\nSVar:TrigMana:DB$ Mana | Produced$ Any | Amount$ 1 | Defined$ TriggeredCardController\nAI:RemoveDeck:All\nDeckHas:Ability$Counters|Token\nOracle:Enchant land\\nWhen Blighted Burgeoning enters, incubate 2. (Create an Incubator token with two +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.)\\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\n"
+  },
+  {
+    "name": "Buried in the Garden",
+    "path": "forge-gui/res/cardsfolder/b/buried_in_the_garden.txt",
+    "sha256": "0268789d1f4d3b066aa76ef995872f03a7df5ac5dc8c73ba9ad34ab16b78097b",
+    "groups": [
+      "flexible-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Buried in the Garden\nManaCost:2 G W\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters, exile target nonland permanent you don't control until CARDNAME leaves the battlefield.\nSVar:TrigExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Permanent.nonLand+YouDontCtrl | TgtPrompt$ Select target nonland permanent you don't control | Duration$ UntilHostLeavesPlay\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\nSVar:TrigMana:DB$ Mana | Produced$ Any | Amount$ 1 | Defined$ TriggeredCardController\nSVar:PlayMain1:TRUE\nSVar:NeedsToPlay:Permanent.nonLand+YouDontCtrl\nOracle:Enchant land\\nWhen Buried in the Garden enters, exile target nonland permanent you don't control until Buried in the Garden leaves the battlefield.\\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\n"
+  },
+  {
+    "name": "Contaminated Ground",
+    "path": "forge-gui/res/cardsfolder/c/contaminated_ground.txt",
+    "sha256": "9bfb162dab5097602282f3e32ce30a8eda1079edb9ee1c78cdafb851ecd1fc87",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Contaminated Ground\nManaCost:1 B\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:ChangeType\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddType$ Swamp | RemoveLandTypes$ True | Description$ Enchanted land is a Swamp.\nT:Mode$ Taps | ValidCard$ Card.AttachedBy | TriggerZones$ Battlefield | Execute$ TrigLose | TriggerDescription$ Whenever enchanted land becomes tapped, its controller loses 2 life.\nSVar:TrigLose:DB$ LoseLife | Defined$ TriggeredCardController | LifeAmount$ 2\nOracle:Enchant land\\nEnchanted land is a Swamp.\\nWhenever enchanted land becomes tapped, its controller loses 2 life.\n"
+  },
+  {
+    "name": "Convincing Mirage",
+    "path": "forge-gui/res/cardsfolder/c/convincing_mirage.txt",
+    "sha256": "7da981d7794f1397c5cc0c8d05dd94e4dd634f1faf8f38e3797f9304054f636d",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Convincing Mirage\nManaCost:1 U\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:ChangeType\nK:ETBReplacement:Other:DBChooseBasic\nSVar:DBChooseBasic:DB$ ChooseType | Type$ Basic Land | SpellDescription$ As CARDNAME enters, choose a basic land type.\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddType$ ChosenType | RemoveLandTypes$ True | Description$ Enchanted land is the chosen type.\nAI:RemoveDeck:All\nOracle:Enchant land\\nAs Convincing Mirage enters, choose a basic land type.\\nEnchanted land is the chosen type.\n"
+  },
+  {
+    "name": "Dawn's Reflection",
+    "path": "forge-gui/res/cardsfolder/d/dawns_reflection.txt",
+    "sha256": "1b89bbcc4875d91d13172a34abc39324277cb35d54686a6962010d6dedb3c6e4",
+    "groups": [
+      "combination-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Dawn's Reflection\nManaCost:3 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ TapsForMana | ValidCard$ Card.EnchantedBy | TriggerZones$ Battlefield | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional two mana in any combination of colors.\nSVar:TrigMana:DB$ Mana | Produced$ Combo Any | Amount$ 2 | Defined$ TriggeredCardController\nAI:RemoveDeck:All\nOracle:Enchant land\\nWhenever enchanted land is tapped for mana, its controller adds an additional two mana in any combination of colors.\n"
+  },
+  {
+    "name": "Discreet Retreat",
+    "path": "forge-gui/res/cardsfolder/d/discreet_retreat.txt",
+    "sha256": "a1ed74bf45c9b6e9646fc1e04ba29afbd0112db55a2ec64e973ce253fc1e7b23",
+    "groups": [
+      "restricted-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Discreet Retreat\nManaCost:3 B\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddAbility$ RetreatTap | Description$ Enchanted land has \"{T}: Add two mana of any one color. Spend this mana only to cast outlaw spells or activate abilities from outlaw sources.\" (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)\nSVar:RetreatTap:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 2 | RestrictValid$ Spell.Outlaw,Activated.Outlaw | SpellDescription$ Add two mana of any one color. Spend this mana only to cast outlaw spells or activate abilities from outlaw sources. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)\nT:Mode$ SpellCast | ValidCard$ Card.Outlaw | ValidActivatingPlayer$ You | ActivatorThisTurnCast$ EQ1 | TriggerZones$ Battlefield | Execute$ TrigDraw | TriggerDescription$ Whenever you cast your first outlaw spell each turn, you draw a card and you lose 1 life.\nSVar:TrigDraw:DB$ Draw | Defined$ You | SubAbility$ DBLoseLife\nSVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1\nDeckNeeds:Type$Assassin|Mercenary|Pirate|Rogue|Warlock\nOracle:Enchant land\\nEnchanted land has \"{T}: Add two mana of any one color. Spend this mana only to cast outlaw spells or activate abilities from outlaw sources.\" (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)\\nWhenever you cast your first outlaw spell each turn, you draw a card and you lose 1 life.\n"
+  },
+  {
+    "name": "Elemental Resonance",
+    "path": "forge-gui/res/cardsfolder/e/elemental_resonance.txt",
+    "sha256": "6f8c283bafee65ee3c939726df1b969fccecbdd898e1fa5e57cf5795f0388a03",
+    "groups": [
+      "phase-mana"
+    ],
+    "enchant": [
+      "Permanent"
+    ],
+    "ai_flags": [],
+    "script": "Name:Elemental Resonance\nManaCost:2 G G\nTypes:Enchantment Aura\nK:Enchant:Permanent\nSVar:AttachAILogic:Pump\nSVar:AttachAITgts:Card.cmcGE1\nT:Mode$ Phase | Phase$ Main1 | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigMana | TriggerDescription$ At the beginning of your first main phase, add mana equal to enchanted permanent's mana cost. (Mana cost includes color. If a mana symbol has multiple colors, choose one.)\nSVar:TrigMana:DB$ Mana | Produced$ Special EnchantedManaCost\nOracle:Enchant permanent\\nAt the beginning of your first main phase, add mana equal to enchanted permanent's mana cost. (Mana cost includes color. If a mana symbol has multiple colors, choose one.)\n"
+  },
+  {
+    "name": "Elvish Guidance",
+    "path": "forge-gui/res/cardsfolder/e/elvish_guidance.txt",
+    "sha256": "26af7ca1deddea5df3665155b3407f6f2ddd0dd97563f2b1e0c7cce4a95b5e25",
+    "groups": [
+      "variable-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Elvish Guidance\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional {G} for each Elf on the battlefield.\nSVar:TrigMana:DB$ Mana | Produced$ G | Amount$ X | Defined$ TriggeredCardController\nSVar:X:Count$Valid Elf\nDeckNeeds:Type$Elf\nOracle:Enchant land\\nWhenever enchanted land is tapped for mana, its controller adds an additional {G} for each Elf on the battlefield.\n"
+  },
+  {
+    "name": "Evil Presence",
+    "path": "forge-gui/res/cardsfolder/e/evil_presence.txt",
+    "sha256": "b0cf0763f8f94efd092c9bdecf93f906215ba85b0ae10e829f0420703d11faf9",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Evil Presence\nManaCost:B\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:ChangeType\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddType$ Swamp | RemoveLandTypes$ True | Description$ Enchanted land is a Swamp.\nDeckHints:Keyword$Landwalk:Swamp\nOracle:Enchant land\\nEnchanted land is a Swamp.\n"
+  },
+  {
+    "name": "Fertile Ground",
+    "path": "forge-gui/res/cardsfolder/f/fertile_ground.txt",
+    "sha256": "ca696cb8ce84351652bafed9608212104e720415f93b62f06fdecd1b1909966a",
+    "groups": [
+      "flexible-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Fertile Ground\nManaCost:1 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\nSVar:TrigMana:DB$ Mana | Produced$ Any | Amount$ 1 | Defined$ TriggeredCardController\nAI:RemoveDeck:All\nOracle:Enchant land\\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\n"
+  },
+  {
+    "name": "Find the Path",
+    "path": "forge-gui/res/cardsfolder/f/find_the_path.txt",
+    "sha256": "dced9f0dd59760ad5a62d87c226da2e15398eb1efbb9479d8a8a7dcedc534dca",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Find the Path\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ DBVenture | TriggerDescription$ When CARDNAME enters, venture into the dungeon. (Enter the first room or advance to the next room.)\nSVar:DBVenture:DB$ Venture | Defined$ You\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Land | AddAbility$ ABMana | Description$ Enchanted land has \"{T}: Add {G}{G}.\"\nSVar:ABMana:AB$ Mana | Cost$ T | Produced$ G | Amount$ 2 | SpellDescription$ Add {G}{G}.\nOracle:Enchant land\\nWhen Find the Path enters, venture into the dungeon. (Enter the first room or advance to the next room.)\\nEnchanted land has \"{T}: Add {G}{G}.\"\n"
+  },
+  {
+    "name": "Gift of Paradise",
+    "path": "forge-gui/res/cardsfolder/g/gift_of_paradise.txt",
+    "sha256": "182824033078daacbc4be138fe8f0f5985525ac0f3a8277516910663d9f01c99",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Gift of Paradise\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ DBGainLife | TriggerDescription$ When CARDNAME enters, you gain 3 life.\nSVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 3\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddAbility$ AbundantGrowthTap | Description$ Enchanted land has \"{T}: Add two mana of any one color.\"\nSVar:AbundantGrowthTap:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any one color.\nDeckHas:Ability$LifeGain\nOracle:Enchant land\\nWhen Gift of Paradise enters, you gain 3 life.\\nEnchanted land has \"{T}: Add two mana of any one color.\"\n"
+  },
+  {
+    "name": "Glittering Frost",
+    "path": "forge-gui/res/cardsfolder/g/glittering_frost.txt",
+    "sha256": "5ff2d61304ff926710d733e0750d6775f1fcdfbcefde867f000771dc5dfaa804",
+    "groups": [
+      "flexible-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Glittering Frost\nManaCost:2 G\nTypes:Snow Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Land | AddType$ Snow | Description$ Enchanted land is snow.\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | TriggerZones$ Battlefield | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\nSVar:TrigMana:DB$ Mana | Produced$ Any | Defined$ TriggeredCardController\nOracle:Enchant land\\nEnchanted land is snow.\\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\n"
+  },
+  {
+    "name": "Grafted Growth",
+    "path": "forge-gui/res/cardsfolder/g/grafted_growth.txt",
+    "sha256": "2494741d6925622eab717261f3cfc6d3f7ceab47129c8a50c7e7d0b6a22b9c68",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Grafted Growth\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ When CARDNAME enters, put a +1/+1 counter on target creature or Vehicle you control.\nSVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Creature.YouCtrl,Vehicle.YouCtrl | TgtPrompt$ Select target creature or Vehicle you control | CounterType$ P1P1 | CounterNum$ 1\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Land | AddAbility$ ABManaAny2 | Description$ Enchanted land has \"{T}: Add two mana of any one color.\"\nSVar:ABManaAny2:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any one color.\nDeckHas:Ability$Counters\nDeckHints:Type$Vehicle\nOracle:Enchant land\\nWhen Grafted Growth enters, put a +1/+1 counter on target creature or Vehicle you control.\\nEnchanted land has \"{T}: Add two mana of any one color.\"\n"
+  },
+  {
+    "name": "Imprisoned in the Moon",
+    "path": "forge-gui/res/cardsfolder/i/imprisoned_in_the_moon.txt",
+    "sha256": "96ad3e72ee3028b16731c3502f37b47099c01bf839783c303cf42957aca11712",
+    "groups": [
+      "transform-grant"
+    ],
+    "enchant": [
+      "Creature,Land,Planeswalker:creature, land, or planeswalker"
+    ],
+    "ai_flags": [],
+    "script": "Name:Imprisoned in the Moon\nManaCost:2 U\nTypes:Enchantment Aura\nK:Enchant:Creature,Land,Planeswalker:creature, land, or planeswalker\nSVar:AttachAITgts:Card.cmcGE3\nSVar:AttachAILogic:Curse\nS:Mode$ Continuous | AffectedDefined$ Enchanted | SetColor$ Colorless | AddType$ Land | RemoveCardTypes$ True | RemoveAllAbilities$ True | AddAbility$ ABMana | Description$ Enchanted permanent is a colorless land with \"{T}: Add {C}\" and loses all other card types and abilities.\nSVar:ABMana:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.\nSVar:NonStackingAttachEffect:True\nOracle:Enchant creature, land, or planeswalker\\nEnchanted permanent is a colorless land with \"{T}: Add {C}\" and loses all other card types and abilities.\n"
+  },
+  {
+    "name": "Lingering Mirage",
+    "path": "forge-gui/res/cardsfolder/l/lingering_mirage.txt",
+    "sha256": "b2367d8f05d490d2109072915a26a844c4d6c7e36df0e0adebedc4ab342685ae",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Lingering Mirage\nManaCost:1 U\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:ChangeType\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddType$ Island | RemoveLandTypes$ True | Description$ Enchanted land is an Island.\nK:Cycling:2\nOracle:Enchant land\\nEnchanted land is an Island.\\nCycling {2} ({2}, Discard this card: Draw a card.)\n"
+  },
+  {
+    "name": "Lithoform Blight",
+    "path": "forge-gui/res/cardsfolder/l/lithoform_blight.txt",
+    "sha256": "f9c925fd2e4bf753e20a14702d2e98a9250ef775677cb2e8d7d431143eb3aa27",
+    "groups": [
+      "transform-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Lithoform Blight\nManaCost:1 B\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAITgts:Land.nonBasic\nSVar:AttachAILogic:Curse\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.\nSVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Land | RemoveLandTypes$ True | RemoveAllAbilities$ True | AddAbility$ ABManaC & ABManaAny | Description$ Enchanted land loses all land types and abilities and has \"{T}: Add {C}\" and \"{T}, Pay 1 life: Add one mana of any color.\"\nSVar:ABManaC:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.\nSVar:ABManaAny:AB$ Mana | Cost$ T PayLife<1> | Produced$ Any | SpellDescription$ Add one mana of any color.\nOracle:Enchant land\\nWhen Lithoform Blight enters, draw a card.\\nEnchanted land loses all land types and abilities and has \"{T}: Add {C}\" and \"{T}, Pay 1 life: Add one mana of any color.\"\n"
+  },
+  {
+    "name": "Lush Growth",
+    "path": "forge-gui/res/cardsfolder/l/lush_growth.txt",
+    "sha256": "108b4f48ae103c2d24f66d91d664a10579c0e3cc9158d2772cbb3242b0215f4a",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:Random"
+    ],
+    "script": "Name:Lush Growth\nManaCost:G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddType$ Mountain & Forest & Plains | RemoveLandTypes$ True | Description$ Enchanted land is a Mountain, Forest, and Plains.\nAI:RemoveDeck:Random\nOracle:Enchant land\\nEnchanted land is a Mountain, Forest, and Plains.\n"
+  },
+  {
+    "name": "Market Festival",
+    "path": "forge-gui/res/cardsfolder/m/market_festival.txt",
+    "sha256": "3b09ea0309809fa307b734c37ba3de2a1e6135ef329c3fdcd84e8c360873a387",
+    "groups": [
+      "combination-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Market Festival\nManaCost:3 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional two mana in any combination of colors.\nSVar:TrigMana:DB$ Mana | Produced$ Combo Any | Amount$ 2 | Defined$ TriggeredCardController\nAI:RemoveDeck:All\nOracle:Enchant land\\nWhenever enchanted land is tapped for mana, its controller adds an additional two mana in any combination of colors.\n"
+  },
+  {
+    "name": "Nature's Embrace",
+    "path": "forge-gui/res/cardsfolder/n/natures_embrace.txt",
+    "sha256": "e9bf9afbe1177d5d0b7f96c2bc154dfbaa8865b8cea78a415633fbc23d32831b",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Creature,Land:creature or land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Nature's Embrace\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Creature,Land:creature or land\nSVar:AttachAILogic:Pump\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Creature | AddPower$ 2 | AddToughness$ 2 | Description$ As long as enchanted permanent is a creature, it gets +2/+2.\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Land | AddAbility$ DBMana | Description$ As long as enchanted permanent is a land, it has \"{T}: Add two mana of any one color.\"\nSVar:DBMana:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any one color.\nOracle:Enchant creature or land\\nAs long as enchanted permanent is a creature, it gets +2/+2.\\nAs long as enchanted permanent is a land, it has \"{T}: Add two mana of any one color.\"\n"
+  },
+  {
+    "name": "New Horizons",
+    "path": "forge-gui/res/cardsfolder/n/new_horizons.txt",
+    "sha256": "607bf6f3092bdc07354c19f1dd944bf350018869eff79ee1f52f0f5eaf94616c",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:New Horizons\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPutCounter | TriggerDescription$ When CARDNAME enters, put a +1/+1 counter on target creature you control.\nSVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ P1P1 | CounterNum$ 1\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddAbility$ NewHorizonsTap | Description$ Enchanted land has \"{T}: Add two mana of any one color.\"\nSVar:NewHorizonsTap:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any one color.\nDeckHas:Ability$Counters\nOracle:Enchant land\\nWhen New Horizons enters, put a +1/+1 counter on target creature you control.\\nEnchanted land has \"{T}: Add two mana of any one color.\"\n"
+  },
+  {
+    "name": "Nylea's Presence",
+    "path": "forge-gui/res/cardsfolder/n/nyleas_presence.txt",
+    "sha256": "5ae77db5c6535d02c83fa49131cea0388f4855a15318bed9d1b9659c21b05efd",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Nylea's Presence\nManaCost:1 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.\nSVar:TrigDraw:DB$ Draw\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Land | AddType$ AllBasicLandType | Description$ Enchanted land is every basic land type in addition to its other types.\nOracle:Enchant land\\nWhen Nylea's Presence enters, draw a card.\\nEnchanted land is every basic land type in addition to its other types.\n"
+  },
+  {
+    "name": "Overgrowth",
+    "path": "forge-gui/res/cardsfolder/o/overgrowth.txt",
+    "sha256": "73e86aa9cf4b8db8d79ae9ee19d8dd811b83230f018ba865147de3975f1547a4",
+    "groups": [
+      "fixed-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:Random"
+    ],
+    "script": "Name:Overgrowth\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional {G}{G}.\nSVar:TrigMana:DB$ Mana | Produced$ G | Amount$ 2 | Defined$ TriggeredCardController\n# TODO: Mana prediction for lands that produce additional mana (Overgrowth, Mana Flare, etc.)\nAI:RemoveDeck:Random\nOracle:Enchant land\\nWhenever enchanted land is tapped for mana, its controller adds an additional {G}{G}.\n"
+  },
+  {
+    "name": "Phantasmal Terrain",
+    "path": "forge-gui/res/cardsfolder/p/phantasmal_terrain.txt",
+    "sha256": "93743fab7212cec6b9cf57ec751333eddb8672af63a9a3f5b5865e3565349f3f",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:Random"
+    ],
+    "script": "Name:Phantasmal Terrain\nManaCost:U U\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:ChangeType\nK:ETBReplacement:Other:DBChooseBasic\nSVar:DBChooseBasic:DB$ ChooseType | Type$ Basic Land | SpellDescription$ As CARDNAME enters, choose a basic land type.\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddType$ ChosenType | RemoveLandTypes$ True | Description$ Enchanted land is the chosen type.\nAI:RemoveDeck:Random\nOracle:Enchant land\\nAs Phantasmal Terrain enters, choose a basic land type.\\nEnchanted land is the chosen type.\n"
+  },
+  {
+    "name": "Runaway Growth",
+    "path": "forge-gui/res/cardsfolder/r/runaway_growth.txt",
+    "sha256": "06235175d2f399a3d648db0957ba3038724549cc90afd25322fadfb1c4ce9179",
+    "groups": [
+      "variable-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Runaway Growth\nManaCost:3 G\nTypes:Enchantment Aura\nK:Starting intensity:1\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ TapsForMana | ValidCard$ Card.EnchantedBy | TriggerZones$ Battlefield | Execute$ TrigMana | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional amount of {G} equal to CARDNAME's intensity, then perpetually increase its intensity by 1.\nSVar:TrigMana:DB$ Mana | Produced$ G | Amount$ X | Defined$ TriggeredCardController | SubAbility$ DBIntensify\nSVar:DBIntensify:DB$ Intensify\nSVar:X:Count$Intensity\nOracle:Starting intensity 1\\nEnchant land\\nWhenever enchanted land is tapped for mana, its controller adds an additional amount of {G} equal to Runaway Growth's intensity, then perpetually increase its intensity by 1.\n"
+  },
+  {
+    "name": "A-Find the Path",
+    "path": "forge-gui/res/cardsfolder/rebalanced/a-find_the_path.txt",
+    "sha256": "07bab5d7083132d8435869897c1cf4bfd59b6aa9f0de0b4433364ad997ae39fe",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:A-Find the Path\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ DBVenture | TriggerDescription$ When CARDNAME enters, venture into the dungeon.\nSVar:DBVenture:DB$ Venture | Defined$ You\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Land | AddAbility$ ABMana | Description$ Enchanted land has \"{T}: Add two mana of any one color.\"\nSVar:ABMana:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any one color.\nOracle:Enchant land\\nWhen Find the Path enters, venture into the dungeon.\\nEnchanted land has \"{T}: Add two mana of any one color.\"\n"
+  },
+  {
+    "name": "Sea's Claim",
+    "path": "forge-gui/res/cardsfolder/s/seas_claim.txt",
+    "sha256": "5421b9f0a77195d7ba2a188a81e04afb8828b67ec1f514f588996318690731c5",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Sea's Claim\nManaCost:U\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:ChangeType\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddType$ Island | RemoveLandTypes$ True | Description$ Enchanted land is an Island.\nOracle:Enchant land (Target a land as you cast this. This card enters attached to that land.)\\nEnchanted land is an Island.\n"
+  },
+  {
+    "name": "Sheltered Aerie",
+    "path": "forge-gui/res/cardsfolder/s/sheltered_aerie.txt",
+    "sha256": "f43dae91da9bc9d80874f7c7d9eddf7ce6cb7aa784ec3e0d14ce10c8c27d8804",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Sheltered Aerie\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddAbility$ AbundantGrowthTap | Description$ Enchanted land has \"{T}: Add two mana of any one color.\"\nSVar:AbundantGrowthTap:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any one color.\nOracle:Enchant land\\nEnchanted land has \"{T}: Add two mana of any one color.\"\n"
+  },
+  {
+    "name": "Shimmerwilds Growth",
+    "path": "forge-gui/res/cardsfolder/s/shimmerwilds_growth.txt",
+    "sha256": "3da6dfa0cfff7296d1f4617a6beda80b37f7ad4d85e736ac02f0c7a3c11b64c6",
+    "groups": [
+      "chosen-color-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Shimmerwilds Growth\nManaCost:1 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nK:ETBReplacement:Other:ChooseColor\nSVar:ChooseColor:DB$ ChooseColor | Defined$ You | SpellDescription$ As this Aura enters, choose a color.\nS:Mode$ Continuous | AffectedDefined$ AttachedBy Self | SetColor$ ChosenColor | Description$ Enchanted land is the chosen color.\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | TriggerZones$ Battlefield | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional one mana of the chosen color.\nSVar:TrigMana:DB$ Mana | Produced$ Chosen | Defined$ TriggeredCardController\nAI:RemoveDeck:All\nOracle:Enchant land\\nAs this Aura enters, choose a color.\\nEnchanted land is the chosen color.\\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of the chosen color.\n"
+  },
+  {
+    "name": "Song of the Dryads",
+    "path": "forge-gui/res/cardsfolder/s/song_of_the_dryads.txt",
+    "sha256": "d6f17e07ef8e5960360d30347d21018e6346cbdd1dba082301485d8c01512f55",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Permanent:permanent"
+    ],
+    "ai_flags": [],
+    "script": "Name:Song of the Dryads\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Permanent:permanent\nSVar:AttachAITgts:Card.cmcGE3\nSVar:AttachAILogic:Curse\nS:Mode$ Continuous | AffectedDefined$ Enchanted | SetColor$ Colorless | AddType$ Land & Forest | RemoveCardTypes$ True | RemoveLandTypes$ True | Description$ Enchanted permanent is a colorless Forest land.\nSVar:NonStackingAttachEffect:True\nOracle:Enchant permanent\\nEnchanted permanent is a colorless Forest land.\n"
+  },
+  {
+    "name": "Spreading Seas",
+    "path": "forge-gui/res/cardsfolder/s/spreading_seas.txt",
+    "sha256": "b2f3503a0fa2524cd85ec8eec6af0818c4b1a1dc55ed1968d94e4cb9efbec1cf",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Spreading Seas\nManaCost:1 U\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:ChangeType\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddType$ Island | RemoveLandTypes$ True | Description$ Enchanted land is an Island.\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.\nSVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1\nOracle:Enchant land\\nWhen Spreading Seas enters, draw a card.\\nEnchanted land is an Island.\n"
+  },
+  {
+    "name": "Tainted Well",
+    "path": "forge-gui/res/cardsfolder/t/tainted_well.txt",
+    "sha256": "415ce908ae572e0363df0249c6abb4920fa6f5185ea0a886f1e498b619935907",
+    "groups": [
+      "land-type-change"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Tainted Well\nManaCost:2 B\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:ChangeType\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddType$ Swamp | RemoveLandTypes$ True | Description$ Enchanted land is a Swamp.\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters, draw a card.\nSVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1\nOracle:Enchant land\\nWhen Tainted Well enters, draw a card.\\nEnchanted land is a Swamp.\n"
+  },
+  {
+    "name": "Trace of Abundance",
+    "path": "forge-gui/res/cardsfolder/t/trace_of_abundance.txt",
+    "sha256": "30babac1460ebafe73491a3b61d66c6fc8192ca98b4772d48fe41ef7619fd459",
+    "groups": [
+      "flexible-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Trace of Abundance\nManaCost:RW G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nS:Mode$ Continuous | AffectedDefined$ Enchanted | Affected$ Land | AddKeyword$ Shroud | Description$ Enchanted land has shroud. (It can't be the target of spells or abilities.)\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | TriggerZones$ Battlefield | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\nSVar:TrigMana:DB$ Mana | Produced$ Any | Defined$ TriggeredCardController\nAI:RemoveDeck:All\nOracle:Enchant land\\nEnchanted land has shroud. (It can't be the target of spells or abilities.)\\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\n"
+  },
+  {
+    "name": "Unbridled Growth",
+    "path": "forge-gui/res/cardsfolder/u/unbridled_growth.txt",
+    "sha256": "20a46d891e9ef3e5e6fda504e882b1a6230e7840b22cff5a90f1cf95cbc44fdc",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Unbridled Growth\nManaCost:G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddAbility$ UnbridledGrowthTap | Description$ Enchanted land has \"{T}: Add one mana of any color.\"\nSVar:UnbridledGrowthTap:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.\nA:AB$ Draw | Cost$ Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.\nOracle:Enchant land\\nEnchanted land has \"{T}: Add one mana of any color.\"\\nSacrifice Unbridled Growth: Draw a card.\n"
+  },
+  {
+    "name": "Urban Utopia",
+    "path": "forge-gui/res/cardsfolder/u/urban_utopia.txt",
+    "sha256": "6de4cae396d1f883765b7ddbb05c64ed50c7cad349c6ddc6bfb3017b79fefd38",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Urban Utopia\nManaCost:1 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ FreeCard | TriggerDescription$ When CARDNAME enters, draw a card.\nSVar:FreeCard:DB$ Draw | Defined$ You | NumCards$ 1\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddAbility$ AbundantGrowthTap | Description$ Enchanted land has \"{T}: Add one mana of any color.\"\nSVar:AbundantGrowthTap:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.\nOracle:Enchant land\\nWhen Urban Utopia enters, draw a card.\\nEnchanted land has \"{T}: Add one mana of any color.\"\n"
+  },
+  {
+    "name": "Utopia Sprawl",
+    "path": "forge-gui/res/cardsfolder/u/utopia_sprawl.txt",
+    "sha256": "384ae9c401eab85fc197bad9b46be5f6986a914596b234eecfdfc762241192c1",
+    "groups": [
+      "chosen-color-trigger"
+    ],
+    "enchant": [
+      "Forest"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Utopia Sprawl\nManaCost:G\nTypes:Enchantment Aura\nK:Enchant:Forest\nSVar:AttachAILogic:Pump\nK:ETBReplacement:Other:ChooseColor\nSVar:ChooseColor:DB$ ChooseColor | Defined$ You | SpellDescription$ As CARDNAME enters, choose a color.\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | TriggerZones$ Battlefield | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color.\nSVar:TrigMana:DB$ Mana | Produced$ Chosen | Defined$ TriggeredCardController\nAI:RemoveDeck:All\nOracle:Enchant Forest\\nAs Utopia Sprawl enters, choose a color.\\nWhenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color.\n"
+  },
+  {
+    "name": "Verdant Haven",
+    "path": "forge-gui/res/cardsfolder/v/verdant_haven.txt",
+    "sha256": "db9282befc5173a10e0a73158f37c4be919dfe8bc8c1ae3dc61fa77d362e7378",
+    "groups": [
+      "flexible-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Verdant Haven\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters, you gain 2 life.\nSVar:TrigGainLife:DB$ GainLife | LifeAmount$ 2\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\nSVar:TrigMana:DB$ Mana | Produced$ Any | Amount$ 1 | Defined$ TriggeredCardController\nAI:RemoveDeck:All\nOracle:Enchant land\\nWhen Verdant Haven enters, you gain 2 life.\\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.\n"
+  },
+  {
+    "name": "Weirding Wood",
+    "path": "forge-gui/res/cardsfolder/w/weirding_wood.txt",
+    "sha256": "a73fe9bf33f71d9c1592aaeda24439695dacea23f1cc3503b2ded88411f0683e",
+    "groups": [
+      "native-grant"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Weirding Wood\nManaCost:2 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigInvestigate | TriggerDescription$ When CARDNAME enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nSVar:TrigInvestigate:DB$ Investigate\nS:Mode$ Continuous | AffectedDefined$ Enchanted | AddAbility$ WeirdingWoodTap | Description$ Enchanted land has \"{T}: Add two mana of any one color.\"\nSVar:WeirdingWoodTap:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any one color.\nDeckHas:Ability$Investigate|Token\nOracle:Enchant land\\nWhen Weirding Wood enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\\nEnchanted land has \"{T}: Add two mana of any one color.\"\n"
+  },
+  {
+    "name": "Wild Growth",
+    "path": "forge-gui/res/cardsfolder/w/wild_growth.txt",
+    "sha256": "c6edf0e33ef5c81f88a6ea23c6373c13ef5944c4ae3487ea794a6be098944572",
+    "groups": [
+      "fixed-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [
+      "RemoveDeck:All"
+    ],
+    "script": "Name:Wild Growth\nManaCost:G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional {G}.\nSVar:TrigMana:DB$ Mana | Produced$ G | Amount$ 1 | Defined$ TriggeredCardController\nAI:RemoveDeck:All\nOracle:Enchant land\\nWhenever enchanted land is tapped for mana, its controller adds an additional {G}.\n"
+  },
+  {
+    "name": "Wolfwillow Haven",
+    "path": "forge-gui/res/cardsfolder/w/wolfwillow_haven.txt",
+    "sha256": "3bfb3b7945546c00e265b3427663d7bda715ee0781699f1e84a2952b4e295ee0",
+    "groups": [
+      "fixed-trigger"
+    ],
+    "enchant": [
+      "Land"
+    ],
+    "ai_flags": [],
+    "script": "Name:Wolfwillow Haven\nManaCost:1 G\nTypes:Enchantment Aura\nK:Enchant:Land\nSVar:AttachAILogic:Pump\nT:Mode$ TapsForMana | ValidCard$ Card.AttachedBy | Execute$ TrigMana | Static$ True | TriggerDescription$ Whenever enchanted land is tapped for mana, its controller adds an additional {G}.\nSVar:TrigMana:DB$ Mana | Produced$ G | Amount$ 1 | Defined$ TriggeredCardController\nA:AB$ Token | Cost$ 4 G Sac<1/CARDNAME> | TokenScript$ g_2_2_wolf | TokenOwner$ You | PlayerTurn$ True | SpellDescription$ Create a 2/2 green Wolf creature token. Activate only during your turn.\nDeckHas:Ability$Token\nOracle:Enchant land\\nWhenever enchanted land is tapped for mana, its controller adds an additional {G}.\\n{4}{G}, Sacrifice Wolfwillow Haven: Create a 2/2 green Wolf creature token. Activate only during your turn.\n"
+  }
+]

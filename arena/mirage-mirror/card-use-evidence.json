@@ -1,0 +1,284 @@
+{
+  "engine": "NeoForge 1.0.25",
+  "checks": 1021,
+  "scope": "Autonomous four-player Commander card use with intentionally invalid repeated-card decks; no completion, winner or strength claim",
+  "initialDiagnostics": {
+    "files": [
+      {
+        "sha256": "638833B5962C8379FB43FDA4983C6370BD5E90B85E698FAAD04D7211093D6393",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\initial-commander-hold\\MirageMirrorAi.java"
+      },
+      {
+        "sha256": "5343F25587B53163F9E53100EA5BD2D868244864CDAD0A307979BF65B2E417E9",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\initial-commander-hold\\MirageMirrorTests.java"
+      },
+      {
+        "sha256": "1E033389D465EBA5A2CD0209DE35DF462F5E73E33339DEB09CC32E1C8B16C74E",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\initial-commander-hold\\provenance.json"
+      },
+      {
+        "sha256": "8C248B0327874CE1C72B7EF5B9C56324683F4B5379321C9A02FA017E4BD59094",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\initial-commander-hold\\Run-CardUseProbe.ps1"
+      },
+      {
+        "sha256": "F3386388B789EC814FF388DE0C8DF28927C48EB1E8244C5B74F9A8A013988F42",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\defense-on-111021\\summary.json"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\defense-on-111021\\candidate.jar",
+        "sha256": "7E4535FB6B48446BA0976A82BAA2ECA056CF50B613B89A408DC62289153C42A0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\defense-on-111021\\probe.log",
+        "sha256": "AA7C39CB1D36778BB2773569E580C5D0BE4C0F055BC1D8E7B4822E6187BAFD7D"
+      },
+      {
+        "sha256": "3A8C65EC84BD0C6E86A06EBB99878AC4DD84AD5A9C5C09A9CEF6B14A9E25CDDA",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\defense-on-111022\\summary.json"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\defense-on-111022\\candidate.jar",
+        "sha256": "7E4535FB6B48446BA0976A82BAA2ECA056CF50B613B89A408DC62289153C42A0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\defense-on-111022\\probe.log",
+        "sha256": "8B70BA57CA25411648A313B141A49B05086EFB27FFF159D6AEC81A68F03379C3"
+      },
+      {
+        "sha256": "087B99B8E1E73F6711EF6C333242AD52761CF2D5AA3B3F28271E4039E6290CED",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-off-111011\\summary.json"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-off-111011\\candidate.jar",
+        "sha256": "7E4535FB6B48446BA0976A82BAA2ECA056CF50B613B89A408DC62289153C42A0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-off-111011\\probe.log",
+        "sha256": "1487C88849FFA43EEBE20B83ECEC58AC9006C138B70C485666A402A46587B018"
+      },
+      {
+        "sha256": "2A22E9DC56536593073200689D5C047C9B552FEC83F5C631EF836A9263725C31",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-off-111012\\summary.json"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-off-111012\\candidate.jar",
+        "sha256": "7E4535FB6B48446BA0976A82BAA2ECA056CF50B613B89A408DC62289153C42A0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-off-111012\\probe.log",
+        "sha256": "B40065D1E16613BF4899F9EFC7922D63F844C045F2E59B6D04DC61D330630108"
+      },
+      {
+        "sha256": "9F8AD2FEB35E83132AED8F49056725CE692D48F66491A2701A9805443088515F",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-on-111011\\summary.json"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-on-111011\\candidate.jar",
+        "sha256": "7E4535FB6B48446BA0976A82BAA2ECA056CF50B613B89A408DC62289153C42A0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-on-111011\\probe.log",
+        "sha256": "E7BA6E15F91C91B11B4C422C9F91A4826C912EB3CBA65E3B349D33286F7D95A1"
+      },
+      {
+        "sha256": "52C009A3B72284DA8170D8F22F8226FD8007EAD801BECFDAE4FC9877D7736617",
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-on-111012\\summary.json"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-on-111012\\candidate.jar",
+        "sha256": "7E4535FB6B48446BA0976A82BAA2ECA056CF50B613B89A408DC62289153C42A0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-on-111012\\probe.log",
+        "sha256": "B049B21A286D5F8285DBC1518A63DB5A66FCFB88693E0B1504FC18489E9AF982"
+      }
+    ],
+    "scope": "Retained diagnostic exposure failures only, not verification or completed-game evidence",
+    "runs": [
+      {
+        "clockReached": true,
+        "profile": "on",
+        "nativeExit": 0,
+        "sha256": "F3386388B789EC814FF388DE0C8DF28927C48EB1E8244C5B74F9A8A013988F42",
+        "mirrorUses": 0,
+        "scenario": "defense",
+        "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\defense-on-111021\\summary.json",
+        "seed": 111021
+      },
+      {
+        "clockReached": true,
+        "profile": "on",
+        "nativeExit": 0,
+        "sha256": "3A8C65EC84BD0C6E86A06EBB99878AC4DD84AD5A9C5C09A9CEF6B14A9E25CDDA",
+        "mirrorUses": 0,
+        "scenario": "defense",
+        "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\defense-on-111022\\summary.json",
+        "seed": 111022
+      },
+      {
+        "clockReached": true,
+        "profile": "off",
+        "nativeExit": 0,
+        "sha256": "087B99B8E1E73F6711EF6C333242AD52761CF2D5AA3B3F28271E4039E6290CED",
+        "mirrorUses": 0,
+        "scenario": "offense",
+        "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-off-111011\\summary.json",
+        "seed": 111011
+      },
+      {
+        "clockReached": false,
+        "profile": "off",
+        "nativeExit": 0,
+        "sha256": "2A22E9DC56536593073200689D5C047C9B552FEC83F5C631EF836A9263725C31",
+        "mirrorUses": 0,
+        "scenario": "offense",
+        "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-off-111012\\summary.json",
+        "seed": 111012
+      },
+      {
+        "clockReached": true,
+        "profile": "on",
+        "nativeExit": 0,
+        "sha256": "9F8AD2FEB35E83132AED8F49056725CE692D48F66491A2701A9805443088515F",
+        "mirrorUses": 0,
+        "scenario": "offense",
+        "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-on-111011\\summary.json",
+        "seed": 111011
+      },
+      {
+        "clockReached": false,
+        "profile": "on",
+        "nativeExit": 0,
+        "sha256": "52C009A3B72284DA8170D8F22F8226FD8007EAD801BECFDAE4FC9877D7736617",
+        "mirrorUses": 0,
+        "scenario": "offense",
+        "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use\\offense-on-111012\\summary.json",
+        "seed": 111012
+      }
+    ],
+    "reason": "Initial native Commander permission Continuous MayPlay effect was conservatively rejected; six completed observations have no Mirror use and are not witnesses. Remaining initial controls were stopped by the native-input hash guard after the fix."
+  },
+  "runs": [
+    {
+      "restorationWitnesses": 19,
+      "profile": "on",
+      "activations": 19,
+      "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use-final\\offense-on-111011\\summary.json",
+      "clockReached": true,
+      "scenario": "offense",
+      "artifactCasts": 5,
+      "actualAttacks": 0,
+      "actualBlocks": 0,
+      "offensiveActivations": 19,
+      "defensiveActivations": 0,
+      "sha256": "EBCBDD9B13B07491BE488D16F500FF630C0283012FE4C15E500E66658A7A77FE",
+      "seed": 111011
+    },
+    {
+      "restorationWitnesses": 7,
+      "profile": "on",
+      "activations": 11,
+      "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use-final\\offense-on-111012\\summary.json",
+      "clockReached": false,
+      "scenario": "offense",
+      "artifactCasts": 4,
+      "actualAttacks": 11,
+      "actualBlocks": 0,
+      "offensiveActivations": 11,
+      "defensiveActivations": 0,
+      "sha256": "D9628D5FCD2AA7FE56DD43E817C6F22A1F03D9A14B139EFD4E5DB1A11C33B1B4",
+      "seed": 111012
+    },
+    {
+      "restorationWitnesses": 0,
+      "profile": "off",
+      "activations": 0,
+      "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use-final\\offense-off-111011\\summary.json",
+      "clockReached": false,
+      "scenario": "offense",
+      "artifactCasts": 0,
+      "actualAttacks": 0,
+      "actualBlocks": 0,
+      "offensiveActivations": 0,
+      "defensiveActivations": 0,
+      "sha256": "C3194620A4E575B420833E849D689F605BC9BDB4F42DA13C10BA311E97B43343",
+      "seed": 111011
+    },
+    {
+      "restorationWitnesses": 0,
+      "profile": "off",
+      "activations": 0,
+      "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use-final\\offense-off-111012\\summary.json",
+      "clockReached": false,
+      "scenario": "offense",
+      "artifactCasts": 0,
+      "actualAttacks": 0,
+      "actualBlocks": 0,
+      "offensiveActivations": 0,
+      "defensiveActivations": 0,
+      "sha256": "8E91B45EF5BA991701A24A1DC95C8F2736FD4CF43C97416E1909100019447AEB",
+      "seed": 111012
+    },
+    {
+      "restorationWitnesses": 22,
+      "profile": "on",
+      "activations": 22,
+      "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use-final\\defense-on-111021\\summary.json",
+      "clockReached": true,
+      "scenario": "defense",
+      "artifactCasts": 3,
+      "actualAttacks": 0,
+      "actualBlocks": 1,
+      "offensiveActivations": 21,
+      "defensiveActivations": 1,
+      "sha256": "393887AC3E28947FA64D109AF83E57D9913A56B79C870B21AFA9B37EEA6FDE96",
+      "seed": 111021
+    },
+    {
+      "restorationWitnesses": 25,
+      "profile": "on",
+      "activations": 27,
+      "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use-final\\defense-on-111022\\summary.json",
+      "clockReached": true,
+      "scenario": "defense",
+      "artifactCasts": 5,
+      "actualAttacks": 2,
+      "actualBlocks": 0,
+      "offensiveActivations": 27,
+      "defensiveActivations": 0,
+      "sha256": "3DCC35EEDE4BD59103704CA9F4F39452AB9B8D6F79B35C5FB91AD85160E6FB2C",
+      "seed": 111022
+    },
+    {
+      "restorationWitnesses": 0,
+      "profile": "off",
+      "activations": 0,
+      "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use-final\\defense-off-111021\\summary.json",
+      "clockReached": true,
+      "scenario": "defense",
+      "artifactCasts": 0,
+      "actualAttacks": 0,
+      "actualBlocks": 0,
+      "offensiveActivations": 0,
+      "defensiveActivations": 0,
+      "sha256": "745954B15DF1D0D659F8A394C4963D41E3137269B8809F47B47A08832674A5CF",
+      "seed": 111021
+    },
+    {
+      "restorationWitnesses": 0,
+      "profile": "off",
+      "activations": 0,
+      "summary": "<development-checkout>\\arena\\mirage-mirror\\target\\card-use-final\\defense-off-111022\\summary.json",
+      "clockReached": true,
+      "scenario": "defense",
+      "artifactCasts": 0,
+      "actualAttacks": 0,
+      "actualBlocks": 0,
+      "offensiveActivations": 0,
+      "defensiveActivations": 0,
+      "sha256": "B4A75E1B56A2FBC7D3DE364971F3F7520BC4DDF1DE06EB59FECC96BDA45D5078",
+      "seed": 111022
+    }
+  ],
+  "candidateSha256": "204C721A4402C762985444A99C6A75F6D839A985389F9B2FA2CE85518C22D252"
+}

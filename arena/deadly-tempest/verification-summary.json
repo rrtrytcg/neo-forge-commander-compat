@@ -1,0 +1,148 @@
+{
+  "status": "verified",
+  "date": "2026-10-19",
+  "engine": "NeoForge 1.0.27",
+  "sourceRevision": "698164887f4f1db9344e81793ad3d765944277bc",
+  "nativeChecks": 4445,
+  "newNativeChecks": 147,
+  "priorNativeChecks": 4298,
+  "nativeSuites": 41,
+  "deadlineChecks": 20,
+  "probeChecks": 874,
+  "paidResolvedCasts": 25,
+  "enemyDestroyed": 115,
+  "friendlyDestroyed": 14,
+  "lifeLost": 129,
+  "protectedSurvivors": 38,
+  "shieldSurvivors": 8,
+  "indestructibleSurvivors": 30,
+  "clockLimitedRuns": 5,
+  "candidate": "<development-checkout>\\arena\\deadly-tempest\\target\\final-1.0.27\\engine.jar",
+  "candidateSha256": "3AEEE11944B922C4150344FE80671C9CB333F7F175EB9C92307CAD4F2C3AE2F8",
+  "coverage": {
+    "decks": 184,
+    "clear": 46,
+    "mechanicallyUnlocked": 60,
+    "verified": 50,
+    "unlockedOnly": 10
+  },
+  "installedFilesPreserved": 21729,
+  "unrelatedFilesPreserved": 18,
+  "unchangedCandidateEntries": 18228,
+  "compiledOverlayClasses": 8,
+  "scope": "Bounded Deadly Tempest native decisions and autonomous original card use. No completed-game, winner or strength claim.",
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\card-use-evidence.json",
+      "sha256": "075AFF722BE6AC76ABCA92F285CD410987B663C7037769DD146AF87426D04986"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\check-card-use.py",
+      "sha256": "0D0EDC24C8317026327ED2FBAE603F1DB2346B60F180502CD10CDB25BF6E3CBC"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\Check-NeoForge-1.0.27.ps1",
+      "sha256": "6F8582816956CC19048E00CDE06DEC366892FB979D3AE03C5E0BB5B60943F718"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\Check-Timeouts.ps1",
+      "sha256": "E8AA4AA3C91B860A87FEDAE5F84996E20D18B62E78A1FCC44D7F48B0E8792712"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\computer-util-hooks.patch",
+      "sha256": "423E1C4265944360D7AE4DA6FDA718B52E7D01EAFF34C75403470C1EE19A6820"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\DeadlyTempestProbe.java",
+      "sha256": "CCC474652C2B5EBBC9916A47FC1B8044563E4FCEC735162BC6A22E36B73B67BE"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\DeadlyTempestTests.java",
+      "sha256": "B937466668711EE2F8E1CA2ABC2FF6AA14C2533B41318E49557CA2A6534443A5"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\README.md",
+      "sha256": "D3326BFDE1ED69847B9FB136EDB547996FEAC9DBFAB05951541BC81606040C37"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\refresh.py",
+      "sha256": "6069E00A332859C2FD4C8C28E195D92A12157F50A1800F9D63684CAAD6DDBA43"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\Run-CardUseProbe.ps1",
+      "sha256": "0E1BC8E16B58EB731164A05DEAAA508CE2D45E828630F91DA8C9CA5477F16BF2"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\decks\\Actor.dck",
+      "sha256": "1E4D09EC12AF65FF0B2F4EB32EF1B8864A6BEBA48BFCA55B4DC0834F4C1D789E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\decks\\Opponents-ordinary.dck",
+      "sha256": "4706DC898A79B2A8DAB42EC52EB14BC2F7401BFBC97765654FE752292A6C7286"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\decks\\Opponents-protected.dck",
+      "sha256": "F674AD308176EBC11C43F6254624A9C5D4017C41A7BCBECDF7DB59904324A5C8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\target\\final-1.0.27\\provenance.json",
+      "sha256": "AF3B8264E28B5A33EECBB488099C66DAC97BD74C9757B329C4A2844538713395"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\target\\preserved-baseline.json",
+      "sha256": "FBB1C23137282081083FA4905340F0B607172FF3B3DF686B7A383CADE39C710A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\target\\final-1.0.27\\timeout-summary.json",
+      "sha256": "4397D4CDCB4D9DEB65F25A90DF8AC1C0FF7D7F8FA482884F23177E43CA6C1D91"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\target\\card-use-check.log",
+      "sha256": "13F75765FED5575C74584F4A54F162D64DEC135F9AEF8AA3D35B98C82058B42A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\deadly-tempest\\target\\final-1.0.27\\engine.jar",
+      "sha256": "3AEEE11944B922C4150344FE80671C9CB333F7F175EB9C92307CAD4F2C3AE2F8"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\d\\deadly_tempest.txt",
+      "sha256": "EA97AD19997216B1FF88FAF591A4A9BF731D98C5A2A5997A52F3EBAD26B06745"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\HullBreachAi.java",
+      "sha256": "82B068C7CE6297DA7E7B4197913A41E94A31E3B0EEE3FC90280F7A8369168FCC"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DeadlyTempestAi.java",
+      "sha256": "46C2CE00819EC4DE7119B0D8234A9273D0CBA295BC8BFA1926BB5BE788979417"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\DestroyAllAi.java",
+      "sha256": "2F059145D2FB2B68A8A1AFEC14A453C567542C8DEBC7D02B4C72A1EDEB7B1278"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java",
+      "sha256": "87A5D53156DF50B947C6FAE8687BFD4C20D7799839D5CA3C910B3D8B7E98918C"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\deadly-tempest.properties",
+      "sha256": "4BC5E2D406F85CE4F3C5FB6FAF45656B08EDFF0B0C6025AFDFF8E30A9113850B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "0DEBAE598FC0FFAF3CE98B1C5227C909746BAE2F52691500ECB19C33B9720870"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "3EB79E759F79EDC1E8CE0F3BEDE46791E01B511E0BD3F4C06282639684CBE29C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "6D4580F12EEAF85737F51508FBB72B5DE99B67C2D68B3B4D22EEBD589B5D71E7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "F0803D33D49723F36ECBF579F887935C12E58C06CDB4ADD8704C377686F728C9"
+    }
+  ]
+}

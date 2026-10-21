@@ -1,0 +1,38 @@
+{
+  "checks": 252,
+  "engine": "NeoForge 1.0.25",
+  "scope": "Autonomous native Commander card use with deliberately nonstandard decks; no completion, winner or strength claim",
+  "runs": [
+    {
+      "sha256": "AA9D76AE77BACC7D6B26653CC64BCB07341366A686A7ED3E39FF03A25AECAB01",
+      "clockReached": true,
+      "activations": 10,
+      "returns": 10,
+      "seed": 100011,
+      "matchedHandCasts": 10,
+      "profile": "on",
+      "summary": "<development-checkout>\\arena\\command-beacon\\target\\card-use\\commander-on-100011\\summary.json"
+    },
+    {
+      "sha256": "395AAF1EA269C6D8E5488F7604D6A8F4BF9E320B4FF3A4B187B1CA85FA0CAA06",
+      "clockReached": true,
+      "activations": 10,
+      "returns": 10,
+      "seed": 100012,
+      "matchedHandCasts": 10,
+      "profile": "on",
+      "summary": "<development-checkout>\\arena\\command-beacon\\target\\card-use\\commander-on-100012\\summary.json"
+    },
+    {
+      "sha256": "699AC5EF2D978EF9D3F169B7C2314C02448562BD4725283E91E5873331CD7B27",
+      "clockReached": true,
+      "activations": 0,
+      "returns": 0,
+      "seed": 100011,
+      "matchedHandCasts": 0,
+      "profile": "off",
+      "summary": "<development-checkout>\\arena\\command-beacon\\target\\card-use\\commander-off-100011\\summary.json"
+    }
+  ],
+  "candidateSha256": "49498E73457A787AC922AE58D5F255F69CC845C799BFCF62CAB6FDB73069CC06"
+}

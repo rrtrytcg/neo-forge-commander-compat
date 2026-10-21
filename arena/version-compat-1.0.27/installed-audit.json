@@ -1,0 +1,440 @@
+{
+  "engine": "NeoForge 1.0.27",
+  "upstream": "77b6f5ae95f7f11d5a718c52a977470131db0fe1",
+  "build": "# Sellado por Maven al compilar. No editar a mano.\r\nneoVersion=1.0.27\r\nforgeVersion=2.0.16-SNAPSHOT\r\nbuiltAt=2026-10-18\r\n",
+  "modules": [
+    {
+      "module": "core",
+      "jar": {
+        "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+        "sha256": "0ECCF24A3726DEB4F565351D94CE91E108F00AAFC8588435A0E382CEC4C92D06"
+      },
+      "changed": [
+        "forge/card/CardDb$CardArtPreference.class",
+        "forge/card/CardDb$CardRequest.class",
+        "forge/card/CardDb$Editor.class",
+        "forge/card/CardDb.class",
+        "forge/card/CardEdition$Collection$1.class",
+        "forge/card/CardEdition$Collection.class",
+        "forge/card/CardEdition$Predicates.class",
+        "forge/card/CardEdition$Reader.class",
+        "forge/card/CardEdition.class",
+        "forge/card/DraftOptions.class",
+        "forge/deck/CardPool.class",
+        "forge/deck/Deck$1.class",
+        "forge/deck/Deck$UnplayableAICards.class",
+        "forge/deck/Deck.class",
+        "forge/deck/DeckFormat$5.class",
+        "forge/deck/DeckFormat.class",
+        "forge/deck/generation/DeckGenPool.class",
+        "forge/StaticData.class",
+        "forge/token/TokenDb.class"
+      ],
+      "added": []
+    },
+    {
+      "module": "game",
+      "jar": {
+        "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+        "sha256": "4B686ADB54429BEA0435C0B96B650CE969B9117B4857A04C4A45DB882F916DD5"
+      },
+      "changed": [
+        "forge/game/GameFormat$Collection.class",
+        "forge/game/GameFormat$FormatSubType.class",
+        "forge/game/GameFormat$FormatType.class",
+        "forge/game/GameFormat$InverseDateComparator.class",
+        "forge/game/GameFormat$Reader.class",
+        "forge/game/GameFormat.class",
+        "forge/game/player/PlayerView.class",
+        "forge/trackable/TrackableProperty$FreezeMode.class",
+        "forge/trackable/TrackableProperty.class"
+      ],
+      "added": []
+    },
+    {
+      "module": "ai",
+      "jar": {
+        "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+        "sha256": "02D9821E13E87245EAFD144FA66752ECD75066626E251B6F52A3EC6160B00B23"
+      },
+      "changed": [
+        "forge/ai/ability/ChangeZoneAi.class",
+        "forge/ai/AiBlockController.class",
+        "forge/ai/ComputerUtilCombat.class",
+        "forge/ai/ComputerUtilMana.class"
+      ],
+      "added": []
+    },
+    {
+      "module": "gui",
+      "jar": {
+        "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+        "sha256": "87666358A470F055F7931C31CD0A6656C7C8E929C3BC9C54A4DF813F92D0F60A"
+      },
+      "changed": [
+        "forge/deck/DeckgenUtil$1.class",
+        "forge/deck/DeckgenUtil.class",
+        "forge/deck/DeckImportController$1.class",
+        "forge/deck/DeckImportController.class",
+        "forge/deck/DeckProxy$ThemeDeckGenerator.class",
+        "forge/deck/DeckProxy.class",
+        "forge/gamemodes/limited/BoosterDraft.class",
+        "forge/gamemodes/limited/CommanderDraftDeckBuilder.class",
+        "forge/gamemodes/limited/CommanderLimitedPlayerAI.class",
+        "forge/gamemodes/limited/GauntletMini.class",
+        "forge/gamemodes/match/AbstractGuiGame$1.class",
+        "forge/gamemodes/match/AbstractGuiGame$2.class",
+        "forge/gamemodes/match/AbstractGuiGame$3.class",
+        "forge/gamemodes/match/AbstractGuiGame.class",
+        "forge/gamemodes/match/HostedMatch$1.class",
+        "forge/gamemodes/match/HostedMatch$MatchUiEventVisitor.class",
+        "forge/gamemodes/match/HostedMatch.class",
+        "forge/gamemodes/match/input/InputAttack.class",
+        "forge/gamemodes/match/input/InputBase.class",
+        "forge/gamemodes/match/input/InputBlock.class",
+        "forge/gamemodes/match/input/InputLondonMulligan.class",
+        "forge/gamemodes/match/input/InputSelectCardsForConvokeOrImprovise.class",
+        "forge/gamemodes/match/input/InputSelectEntitiesFromList.class",
+        "forge/gamemodes/match/input/InputSelectManyBase.class",
+        "forge/gamemodes/match/input/InputSelectStackItems.class",
+        "forge/gamemodes/match/input/InputSelectTargets.class",
+        "forge/gamemodes/match/input/InputSyncronizedBase.class",
+        "forge/gamemodes/match/input/TargetingProgress.class",
+        "forge/gamemodes/match/YieldController.class",
+        "forge/gamemodes/net/client/NetGameController$NetMacroSystem.class",
+        "forge/gamemodes/net/GameProtocolHandler.class",
+        "forge/gamemodes/net/ProtocolGuiGame.class",
+        "forge/gamemodes/net/ProtocolMethod$Mode.class",
+        "forge/gamemodes/net/ProtocolMethod.class",
+        "forge/gamemodes/quest/BoosterUtils$1.class",
+        "forge/gamemodes/quest/BoosterUtils.class",
+        "forge/gui/control/FControlGameEventHandler$1.class",
+        "forge/gui/control/FControlGameEventHandler.class",
+        "forge/gui/download/CdnUuidCache.class",
+        "forge/gui/interfaces/IGuiGame$OrderResult.class",
+        "forge/gui/interfaces/IGuiGame.class",
+        "forge/interfaces/IMacroSystem.class",
+        "forge/localinstance/properties/ForgePreferences$FPref.class",
+        "forge/player/HumanCostDecision$InputSelectCardToRemoveCounter.class",
+        "forge/player/PlayerControllerHuman$1.class",
+        "forge/player/PlayerControllerHuman$2.class",
+        "forge/player/PlayerControllerHuman$3.class",
+        "forge/player/PlayerControllerHuman$DevModeCheats.class",
+        "forge/player/PlayerControllerHuman.class",
+        "forge/player/RecordActionsMacroSystem$DummyTriggerEvent.class",
+        "forge/player/RecordActionsMacroSystem.class",
+        "forge/sound/NoSoundClip.class"
+      ],
+      "added": [
+        "forge/gamemodes/match/Selection.class",
+        "forge/interfaces/IMacroSystem$State.class"
+      ]
+    }
+  ],
+  "cards": {
+    "identical": 34087,
+    "changed": [
+      "a/agonizing_remorse.txt"
+    ],
+    "added": [],
+    "removed": [],
+    "registered": [
+      {
+        "card": "Tower Defense",
+        "script": "t/tower_defense.txt",
+        "changed": false
+      },
+      {
+        "card": "Beast Within",
+        "script": "b/beast_within.txt",
+        "changed": false
+      },
+      {
+        "card": "Psychosis Crawler",
+        "script": "p/psychosis_crawler.txt",
+        "changed": false
+      },
+      {
+        "card": "Slaughter the Strong",
+        "script": "s/slaughter_the_strong.txt",
+        "changed": false
+      },
+      {
+        "card": "Wall of Limbs",
+        "script": "w/wall_of_limbs.txt",
+        "changed": false
+      },
+      {
+        "card": "Twilight Mire",
+        "script": "t/twilight_mire.txt",
+        "changed": false
+      },
+      {
+        "card": "Cascade Bluffs",
+        "script": "c/cascade_bluffs.txt",
+        "changed": false
+      },
+      {
+        "card": "Fetid Heath",
+        "script": "f/fetid_heath.txt",
+        "changed": false
+      },
+      {
+        "card": "Fire-Lit Thicket",
+        "script": "f/fire_lit_thicket.txt",
+        "changed": false
+      },
+      {
+        "card": "Flooded Grove",
+        "script": "f/flooded_grove.txt",
+        "changed": false
+      },
+      {
+        "card": "Graven Cairns",
+        "script": "g/graven_cairns.txt",
+        "changed": false
+      },
+      {
+        "card": "Mystic Gate",
+        "script": "m/mystic_gate.txt",
+        "changed": false
+      },
+      {
+        "card": "Rugged Prairie",
+        "script": "r/rugged_prairie.txt",
+        "changed": false
+      },
+      {
+        "card": "Sunken Ruins",
+        "script": "s/sunken_ruins.txt",
+        "changed": false
+      },
+      {
+        "card": "Wooded Bastion",
+        "script": "w/wooded_bastion.txt",
+        "changed": false
+      },
+      {
+        "card": "Creeping Renaissance",
+        "script": "c/creeping_renaissance.txt",
+        "changed": false
+      },
+      {
+        "card": "Dawn's Reflection",
+        "script": "d/dawns_reflection.txt",
+        "changed": false
+      },
+      {
+        "card": "Fertile Ground",
+        "script": "f/fertile_ground.txt",
+        "changed": false
+      },
+      {
+        "card": "Wild Growth",
+        "script": "w/wild_growth.txt",
+        "changed": false
+      },
+      {
+        "card": "Blighted Burgeoning",
+        "script": "b/blighted_burgeoning.txt",
+        "changed": false
+      },
+      {
+        "card": "Market Festival",
+        "script": "m/market_festival.txt",
+        "changed": false
+      },
+      {
+        "card": "Shimmerwilds Growth",
+        "script": "s/shimmerwilds_growth.txt",
+        "changed": false
+      },
+      {
+        "card": "Trace of Abundance",
+        "script": "t/trace_of_abundance.txt",
+        "changed": false
+      },
+      {
+        "card": "Utopia Sprawl",
+        "script": "u/utopia_sprawl.txt",
+        "changed": false
+      },
+      {
+        "card": "Verdant Haven",
+        "script": "v/verdant_haven.txt",
+        "changed": false
+      },
+      {
+        "card": "Faithless Looting",
+        "script": "f/faithless_looting.txt",
+        "changed": false
+      },
+      {
+        "card": "Rakdos Charm",
+        "script": "r/rakdos_charm.txt",
+        "changed": false
+      },
+      {
+        "card": "Windfall",
+        "script": "w/windfall.txt",
+        "changed": false
+      },
+      {
+        "card": "Decree of Pain",
+        "script": "d/decree_of_pain.txt",
+        "changed": false
+      },
+      {
+        "card": "Curse of the Swine",
+        "script": "c/curse_of_the_swine.txt",
+        "changed": false
+      },
+      {
+        "card": "Mirror Entity",
+        "script": "m/mirror_entity.txt",
+        "changed": false
+      },
+      {
+        "card": "Oreskos Explorer",
+        "script": "o/oreskos_explorer.txt",
+        "changed": false
+      },
+      {
+        "card": "Dispatch",
+        "script": "d/dispatch.txt",
+        "changed": false
+      },
+      {
+        "card": "Tragic Arrogance",
+        "script": "t/tragic_arrogance.txt",
+        "changed": false
+      },
+      {
+        "card": "Marshal's Anthem",
+        "script": "m/marshals_anthem.txt",
+        "changed": false
+      },
+      {
+        "card": "Darksteel Mutation",
+        "script": "d/darksteel_mutation.txt",
+        "changed": false
+      },
+      {
+        "card": "Corpse Augur",
+        "script": "c/corpse_augur.txt",
+        "changed": false
+      },
+      {
+        "card": "Toxic Deluge",
+        "script": "t/toxic_deluge.txt",
+        "changed": false
+      },
+      {
+        "card": "Nesting Grounds",
+        "script": "n/nesting_grounds.txt",
+        "changed": false
+      },
+      {
+        "card": "Biomass Mutation",
+        "script": "b/biomass_mutation.txt",
+        "changed": false
+      },
+      {
+        "card": "Assault Suit",
+        "script": "a/assault_suit.txt",
+        "changed": false
+      },
+      {
+        "card": "Selvala, Explorer Returned",
+        "script": "s/selvala_explorer_returned.txt",
+        "changed": false
+      },
+      {
+        "card": "Trading Post",
+        "script": "t/trading_post.txt",
+        "changed": false
+      },
+      {
+        "card": "Gaze of Granite",
+        "script": "g/gaze_of_granite.txt",
+        "changed": false
+      },
+      {
+        "card": "Greater Good",
+        "script": "g/greater_good.txt",
+        "changed": false
+      },
+      {
+        "card": "Hunter's Insight",
+        "script": "h/hunters_insight.txt",
+        "changed": false
+      },
+      {
+        "card": "Command Beacon",
+        "script": "c/command_beacon.txt",
+        "changed": false
+      },
+      {
+        "card": "Viscera Seer",
+        "script": "v/viscera_seer.txt",
+        "changed": false
+      },
+      {
+        "card": "Kenrith's Transformation",
+        "script": "k/kenriths_transformation.txt",
+        "changed": false
+      },
+      {
+        "card": "Timely Ward",
+        "script": "t/timely_ward.txt",
+        "changed": false
+      },
+      {
+        "card": "Call the Coppercoats",
+        "script": "c/call_the_coppercoats.txt",
+        "changed": false
+      },
+      {
+        "card": "Prismatic Lens",
+        "script": "p/prismatic_lens.txt",
+        "changed": false
+      },
+      {
+        "card": "Prophetic Prism",
+        "script": "p/prophetic_prism.txt",
+        "changed": false
+      },
+      {
+        "card": "Skeletal Scrying",
+        "script": "s/skeletal_scrying.txt",
+        "changed": false
+      },
+      {
+        "card": "Swan Song",
+        "script": "s/swan_song.txt",
+        "changed": false
+      },
+      {
+        "card": "Misleading Signpost",
+        "script": "m/misleading_signpost.txt",
+        "changed": false
+      },
+      {
+        "card": "Arcane Lighthouse",
+        "script": "a/arcane_lighthouse.txt",
+        "changed": false
+      },
+      {
+        "card": "Mirage Mirror",
+        "script": "m/mirage_mirror.txt",
+        "changed": false
+      }
+    ]
+  },
+  "commanderDecks": {
+    "count": 184,
+    "changed": [],
+    "added": [],
+    "removed": []
+  }
+}

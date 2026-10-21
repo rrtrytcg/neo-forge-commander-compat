@@ -1,0 +1,195 @@
+{
+  "engine": "NeoForge 1.0.27",
+  "revision": "f083b8999b6ffbe88c61b7ed29f995b4a7199e82",
+  "candidateSha256": "DDB26C10736D1C2819346B3098E4622D82D6630C2EE342AD3FE6288364DADEFF",
+  "base": "<development-checkout>\\arena\\doomsday-confluence\\target\\final-1.0.27",
+  "gate": {
+    "checks": 5669,
+    "suites": 53,
+    "priorChecks": 5633,
+    "newChecks": 36,
+    "newSuiteSha256": "085292273981C86533DA9F58331BF7FFD341BE5D5ADCF852682D61B5317257B2",
+    "baselineChecks": 1,
+    "installedHashesChecked": 21729,
+    "installedHashesChanged": 0
+  },
+  "exposure": [
+    {
+      "mode": "off",
+      "seed": 124011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 0,
+        "resolved": 0
+      },
+      "lastTurn": 16.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1638 ms. Ai(2)-Immoral Bargain exposure: large creatures and permanents has won!",
+      "logSha256": "57EE1B25826A52D9A1EF47E38E7532CA1025998BCB4FA64D6BC2552E9B51A4D9",
+      "witnesses": {
+        "cast": [],
+        "resolve": [],
+        "sacrifice": [
+          {
+            "line": 316,
+            "text": "Zone Change: Grizzly Bears (9) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 317,
+            "text": "Zone Change: Grizzly Bears (7) was put into Graveyard from Battlefield."
+          }
+        ]
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 124011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 1,
+        "resolved": 1
+      },
+      "lastTurn": 20.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1917 ms. Ai(2)-Immoral Bargain exposure: large creatures and permanents has won!",
+      "logSha256": "34BB71149C7801850BEBBCDAD32D44E7698990F785124A0F66599BB01C6050FE",
+      "witnesses": {
+        "cast": [
+          {
+            "line": 166,
+            "text": "Add To Stack: Ai(1)-Immoral Bargain exposure: expendable bodies cast Immoral Bargain targeting [Craw Wurm (180)]"
+          }
+        ],
+        "resolve": [
+          {
+            "line": 168,
+            "text": "Resolve Stack: Immoral Bargain (36) - Destroy Craw Wurm (180)."
+          }
+        ],
+        "sacrifice": [
+          {
+            "line": 165,
+            "text": "Zone Change: Grizzly Bears (7) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 167,
+            "text": "Zone Change: Craw Wurm (180) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 387,
+            "text": "Zone Change: Isamaru, Hound of Konda (202) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 388,
+            "text": "Zone Change: Grizzly Bears (9) was put into Graveyard from Battlefield."
+          }
+        ]
+      }
+    },
+    {
+      "mode": "off",
+      "seed": 124012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 0,
+        "resolved": 0
+      },
+      "lastTurn": 18.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1696 ms. Ai(2)-Immoral Bargain exposure: large creatures and permanents has won!",
+      "logSha256": "570A25F75FFEDD61B3148CE10947D0316A013F8987DFDE0BB0294165D7EF761B",
+      "witnesses": {
+        "cast": [],
+        "resolve": [],
+        "sacrifice": [
+          {
+            "line": 166,
+            "text": "Zone Change: Grizzly Bears (2) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 167,
+            "text": "Zone Change: Isamaru, Hound of Konda (202) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 372,
+            "text": "Zone Change: Isamaru, Hound of Konda (202) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 373,
+            "text": "Zone Change: Walking Corpse (95) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 374,
+            "text": "Zone Change: Grizzly Bears (9) was put into Graveyard from Battlefield."
+          }
+        ]
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 124012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 2,
+        "resolved": 2
+      },
+      "lastTurn": 20.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1874 ms. Ai(2)-Immoral Bargain exposure: large creatures and permanents has won!",
+      "logSha256": "49484FEC21E7B992A3F1A987983359347C8F617036614DB0ACAEA98ABD496C6C",
+      "witnesses": {
+        "cast": [
+          {
+            "line": 157,
+            "text": "Add To Stack: Ai(1)-Immoral Bargain exposure: expendable bodies cast Immoral Bargain targeting [Isamaru, Hound of Konda (202)]"
+          },
+          {
+            "line": 302,
+            "text": "Add To Stack: Ai(1)-Immoral Bargain exposure: expendable bodies cast Immoral Bargain targeting [Craw Wurm (184)]"
+          }
+        ],
+        "resolve": [
+          {
+            "line": 159,
+            "text": "Resolve Stack: Immoral Bargain (39) - Destroy Isamaru, Hound of Konda (202)."
+          },
+          {
+            "line": 304,
+            "text": "Resolve Stack: Immoral Bargain (35) - Destroy Craw Wurm (184)."
+          }
+        ],
+        "sacrifice": [
+          {
+            "line": 156,
+            "text": "Zone Change: Grizzly Bears (2) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 158,
+            "text": "Zone Change: Isamaru, Hound of Konda (202) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 301,
+            "text": "Zone Change: Grizzly Bears (9) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 303,
+            "text": "Zone Change: Craw Wurm (184) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 430,
+            "text": "Zone Change: Walking Corpse (95) was put into Graveyard from Battlefield."
+          },
+          {
+            "line": 431,
+            "text": "Zone Change: Grizzly Bears (5) was put into Graveyard from Battlefield."
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Paired custom-deck card-use evidence only; no winner or strength claim."
+}

@@ -1,0 +1,79 @@
+{
+  "card": "Phyrexia's Core",
+  "profile": "phyrexias-core",
+  "engine": "NeoForge 1.0.28",
+  "baselineChecks": 2,
+  "focusedChecks": 17,
+  "fullGate": {
+    "checks": 5798,
+    "suites": 61,
+    "priorChecks": 5781,
+    "newChecks": 17,
+    "base": "arena/saltcrusted-steppe/target/final-steppe-r1",
+    "out": "arena/phyrexias-core/target/final-core-r1",
+    "candidateSha256": "58ED853F758505157F947699FBE0B6353CA8A9404AB1DE3CD9E852952D65AA87"
+  },
+  "installedHashesChecked": 21729,
+  "installedHashesChanged": 0,
+  "productionFiles": [
+    "forge-ai/src/main/java/forge/ai/UtilityLandsAi.java",
+    "forge-ai/src/main/java/forge/ai/PhyrexiasCoreAi.java",
+    "forge-gui/res/ai/overrides/phyrexias-core.properties"
+  ],
+  "policy": "Activate only at five or less life or when native combat evaluation says life is in danger; preserve native timing, payment, artifact selection and resolution.",
+  "exposures": [
+    {
+      "profile": "phyrexias-core",
+      "mode": "off",
+      "seed": 135011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "activations": 0,
+      "exceptions": 0,
+      "lastTurn": 20,
+      "candidateSha256": "58ED853F758505157F947699FBE0B6353CA8A9404AB1DE3CD9E852952D65AA87",
+      "log": "arena/phyrexias-core/target/off-135011/off-135011/game.log",
+      "logSha256": "5657BF52924E47699E5FD85435BB927F8F6ABC8DC5DF2C5AD815CE7AEED1AFBC"
+    },
+    {
+      "profile": "phyrexias-core",
+      "mode": "on",
+      "seed": 135011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "activations": 5,
+      "exceptions": 0,
+      "lastTurn": 22,
+      "candidateSha256": "58ED853F758505157F947699FBE0B6353CA8A9404AB1DE3CD9E852952D65AA87",
+      "log": "arena/phyrexias-core/target/on-135011/on-135011/game.log",
+      "logSha256": "A84D63782F020FFEC5A236474C0036F5C642EBAAF7C463AD6E4520AF2D8B8973"
+    },
+    {
+      "profile": "phyrexias-core",
+      "mode": "off",
+      "seed": 135012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "activations": 0,
+      "exceptions": 0,
+      "lastTurn": 20,
+      "candidateSha256": "58ED853F758505157F947699FBE0B6353CA8A9404AB1DE3CD9E852952D65AA87",
+      "log": "arena/phyrexias-core/target/off-135012/off-135012/game.log",
+      "logSha256": "7B1E1CC033A7C449936EB8991C8ABAC6676D267CEC9C12A5EFE2F084AA058F48"
+    },
+    {
+      "profile": "phyrexias-core",
+      "mode": "on",
+      "seed": 135012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "activations": 9,
+      "exceptions": 0,
+      "lastTurn": 22,
+      "candidateSha256": "58ED853F758505157F947699FBE0B6353CA8A9404AB1DE3CD9E852952D65AA87",
+      "log": "arena/phyrexias-core/target/on-135012/on-135012/game.log",
+      "logSha256": "100FA677B1A013302F176BB45D66F6FF7B58AD9F671046690FF9AE59E7AE6185"
+    }
+  ],
+  "scope": "Paired custom-deck card-use evidence only; no winner or strength claim."
+}

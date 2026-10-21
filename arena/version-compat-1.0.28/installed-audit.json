@@ -1,0 +1,52 @@
+{
+  "engine": "NeoForge 1.0.28",
+  "upstream": "84f4983c",
+  "baseline": "arena/version-compat-1.0.27/target/preserved-baseline.json",
+  "build": "# Sellado por Maven al compilar. No editar a mano.\r\nneoVersion=1.0.28\r\nforgeVersion=2.0.16-SNAPSHOT\r\nbuiltAt=2026-10-19\r\n",
+  "installedFiles": 21729,
+  "unchangedFiles": 21705,
+  "changedFiles": [
+    "app\\forge-core-2.0.16-SNAPSHOT.jar",
+    "app\\forge-game-2.0.16-SNAPSHOT.jar",
+    "app\\forge-gui-2.0.16-SNAPSHOT.jar",
+    "app\\forge-gui-mobile-2.0.16-SNAPSHOT.jar",
+    "app\\forge-gui-mobile-dev-2.0.16-SNAPSHOT.jar",
+    "app\\neo.jar",
+    "res\\adventure\\Shandalar\\languages\\adventure-es-ES.properties",
+    "res\\adventure\\common\\ui\\arena_portrait.json",
+    "res\\adventure\\common\\ui\\items_portrait.json",
+    "res\\adventure\\common\\ui\\quests.json",
+    "res\\adventure\\common\\ui\\quests_portrait.json",
+    "res\\adventure\\common\\ui\\spellsmith.json",
+    "res\\adventure\\common\\ui\\spellsmith_portrait.json",
+    "res\\cardsfolder\\cardsfolder.zip",
+    "res\\languages\\de-DE.properties",
+    "res\\languages\\en-US.properties",
+    "res\\languages\\es-ES.properties",
+    "res\\languages\\fr-FR.properties",
+    "res\\languages\\it-IT.properties",
+    "res\\languages\\ja-JP.properties",
+    "res\\languages\\ko-KR.properties",
+    "res\\languages\\pt-BR.properties",
+    "res\\languages\\ru-RU.properties",
+    "res\\languages\\zh-CN.properties"
+  ],
+  "addedFiles": [],
+  "removedFiles": [],
+  "cards": {
+    "identical": 34087,
+    "changed": [
+      "upcoming/magik_illyana_rasputin_darkchild_demon_uncaged.txt"
+    ],
+    "added": [],
+    "removed": [],
+    "registeredCount": 94,
+    "registeredChanged": []
+  },
+  "commanderDecks": {
+    "count": 184,
+    "changed": [],
+    "added": [],
+    "removed": []
+  }
+}

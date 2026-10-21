@@ -1,0 +1,112 @@
+{
+  "engine": "NeoForge 1.0.27",
+  "revision": "525517f7a5696a218ab25ea48c96a33e7a688c72",
+  "candidateSha256": "5835B973A44C91EC26E4EFF6C3D8FE1863F824D24C391C3FE2C86DEF5554F534",
+  "base": "<development-checkout>\\arena\\ghoulcaller-gisa\\target\\final-1.0.27",
+  "gate": {
+    "checks": 5721,
+    "suites": 56,
+    "priorChecks": 5706,
+    "newChecks": 15,
+    "newSuiteSha256": "6BC2B0887E434048A7F275F6E475CC5AEA2443A97C3E7B497C6F49148C5E6B9A",
+    "baselineChecks": 4,
+    "focusedChecks": 15,
+    "installedHashesChecked": 21729,
+    "installedHashesChanged": 0
+  },
+  "exposure": [
+    {
+      "mode": "off",
+      "seed": 127011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 0,
+        "resolutions": 0
+      },
+      "lastTurn": 14.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1912 ms. Ai(2)-Harsh Mercy exposure: Humans and Zombies has won!",
+      "logSha256": "6FC7A2F704858C0298FA61833777EBA46147FCF755FA6CAB8835C73CCA5DD4B7",
+      "witnesses": {
+        "cast": [],
+        "resolution": []
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 127011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 1,
+        "resolutions": 1
+      },
+      "lastTurn": 18.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 2019 ms. Ai(2)-Harsh Mercy exposure: Humans and Zombies has won!",
+      "logSha256": "96797AE60214C2252C9BE37CCED75A05BC7CC2F9541F40A81DD006AD01163E9E",
+      "witnesses": {
+        "cast": [
+          {
+            "line": 164,
+            "text": "Add To Stack: Ai(1)-Harsh Mercy exposure: Bear survivors cast Harsh Mercy"
+          }
+        ],
+        "resolution": [
+          {
+            "line": 167,
+            "text": "Resolve Stack: Harsh Mercy (12) - Each player chooses a creature type. Destroy all creatures that aren't of a type chosen this way. They can't be regenerated.  "
+          }
+        ]
+      }
+    },
+    {
+      "mode": "off",
+      "seed": 127012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 0,
+        "resolutions": 0
+      },
+      "lastTurn": 29.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 4747 ms. Ai(1)-Harsh Mercy exposure: Bear survivors has won!",
+      "logSha256": "78A6C384BA30160FC9E8513E5BBC39D0138D83FDBF661C97A65C48BB2219E93C",
+      "witnesses": {
+        "cast": [],
+        "resolution": []
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 127012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 1,
+        "resolutions": 1
+      },
+      "lastTurn": 21.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 3026 ms. Ai(1)-Harsh Mercy exposure: Bear survivors has won!",
+      "logSha256": "FAA351200561D82440D826EE246ABCA4E43C8ECA47928088A6370C337550A3FF",
+      "witnesses": {
+        "cast": [
+          {
+            "line": 239,
+            "text": "Add To Stack: Ai(1)-Harsh Mercy exposure: Bear survivors cast Harsh Mercy"
+          }
+        ],
+        "resolution": [
+          {
+            "line": 242,
+            "text": "Resolve Stack: Harsh Mercy (29) - Each player chooses a creature type. Destroy all creatures that aren't of a type chosen this way. They can't be regenerated.  "
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Paired custom-deck card-use evidence only; no winner or strength claim."
+}

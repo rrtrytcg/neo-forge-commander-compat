@@ -1,0 +1,3 @@
+# Preserve exact supplied deck bytes and raw evidence across Windows checkouts.
+decks/*.dck -text
+evidence/*.log -text

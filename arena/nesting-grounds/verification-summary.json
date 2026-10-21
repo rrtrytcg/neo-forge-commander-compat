@@ -1,0 +1,3873 @@
+{
+  "cardUseEvidence": {
+    "inputs": [
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\Check-NestingGrounds.ps1",
+        "sha256": "E65F5AD20087C7370329979EFAC550F6E2F340737038553A1AA1945F44C7846F"
+      },
+      {
+        "path": "<development-checkout>\\arena\\toxic-deluge\\target\\final\\provenance.json",
+        "sha256": "5D550DA7CE4BF35E206136421BF10CE2B25612FC558FBDBA5E387A201B457AC2"
+      },
+      {
+        "path": "<development-checkout>\\arena\\toxic-deluge\\target\\final\\engine.jar",
+        "sha256": "FFE951C959F35351D053BC3488736BF5018DE0A3BBB6E3BBDA109DD07185A4C8"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\cardsfolder\\cardsfolder.zip",
+        "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\forge.profile.properties",
+        "sha256": "F3624ABF5806C71E73B4D4FE4B2FBF1A15C08E2432A18046729E8E23F03799DE"
+      },
+      {
+        "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\n\\nesting_grounds.txt",
+        "sha256": "5BB51DC3D4CA39649212D36605A014CE2ADD8B9ADEFDAAA5F9D6D8F93C309EC5"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\CreatureShrinkAi.java",
+        "sha256": "421CA289947BAFDDCEE18983AB5D2896FA1A052E1D356D76703CAB6E3613C14E"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\NestingGroundsAi.java",
+        "sha256": "CCBAC2C950EE0A68A562984872FC8F569D1EF5E3A170E348BDC531E83D7EBD76"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PumpAi.java",
+        "sha256": "9604E2828CD006652E933FE8CEB24112B491D8142989F75B0A2A43390C80479F"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\CountersMoveAi.java",
+        "sha256": "329E5ECBA09CBFC51AFE7875E484D81F632618C64AEFA1F16E8AA37AF64552B8"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\NestingGroundsTests.java",
+        "sha256": "A3F1A2255EDE1E4C8107D7B943617931F2BA459FE6FE0F52C09DF331E3AF33E3"
+      },
+      {
+        "path": "<development-checkout>\\arena\\toxic-deluge\\ToxicDelugeTests.java",
+        "sha256": "63D116C87A7DD4E1B4E329199F23CE87B05C052F094C6CFD5B5BB46337BB8AFD"
+      },
+      {
+        "path": "<development-checkout>\\arena\\adaptive-enchantment\\AdaptiveEnchantmentTests.java",
+        "sha256": "016E0CAC4FEBA10026EA592BAE085981DAEF4EC8F4776095CB83AC6DCF3A4AC5"
+      },
+      {
+        "path": "<development-checkout>\\arena\\adaptive-enchantment\\family\\LandManaFamilyTests.java",
+        "sha256": "FFD13A9114EAB801BE88F18868831268B494051D001A95029C6C1786798424E0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\ahoy-mateys\\AhoyMateysTests.java",
+        "sha256": "57C03155BEF5AB7ECCB1965BBF28190CA3F0E092E9773BC357FED0728C1F5EB2"
+      },
+      {
+        "path": "<development-checkout>\\arena\\beast-within\\BeastWithinTests.java",
+        "sha256": "ADE08973A2BADAE882E4F4A3A7B6D29DE6D9FA3DCB84E11139BDC7E87EC77C9D"
+      },
+      {
+        "path": "<development-checkout>\\arena\\curse-of-the-swine\\CurseOfTheSwineTests.java",
+        "sha256": "AE30D3DF1634442E4F95ACB3419FA3D753A324B480FAE9B3D8C30777D8EFDA26"
+      },
+      {
+        "path": "<development-checkout>\\arena\\filter-lands\\FilterLandsTests.java",
+        "sha256": "FAE266019893C8D095623093498214E584D3BB241CF8E5654AD3C3A539297BC0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\psychosis-crawler\\PsychosisCrawlerTests.java",
+        "sha256": "D7357E28BFFDA185E6A34317CA099B5525D14CD7B88DDB2ADB5DFC9FA23A5762"
+      },
+      {
+        "path": "<development-checkout>\\arena\\wall-of-limbs\\WallOfLimbsTests.java",
+        "sha256": "40BAB8D4C05E56A2A473F8204F43ADD53E05AF76527268F3E265E540BD7928D1"
+      },
+      {
+        "path": "<development-checkout>\\arena\\slaughter\\SlaughterTheStrongTests.java",
+        "sha256": "AF3EDA3A9B63CD5EDF464CEFD5BAF4E7BC250068D736F9D8481FA50915F6E4EF"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java",
+        "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\decree-of-pain\\DecreeOfPainTests.java",
+        "sha256": "D4B61C4BA1E720B10635DF58E82C8BCE8C91B92F353924D27EF1E42C1F748A8B"
+      },
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\OreskosExplorerTests.java",
+        "sha256": "A7A8A90DB93E4A2F6E735B1F66C7311D44EFF8AAFA833D5A88C6D0A25CAB2E57"
+      },
+      {
+        "path": "<development-checkout>\\arena\\dispatch\\DispatchTests.java",
+        "sha256": "B8D4B674759A490C0BB46DF4074887379A5EFC544BAFCC3722A3864E3DE63775"
+      },
+      {
+        "path": "<development-checkout>\\arena\\tragic-arrogance\\TragicArroganceTests.java",
+        "sha256": "84B96D3CE46C5B0F4864F3ECFDA90ACEC29EA0616009251721CC5543FB056F21"
+      },
+      {
+        "path": "<development-checkout>\\arena\\marshals-anthem\\MarshalsAnthemTests.java",
+        "sha256": "6F64D6C4E1713D060CF8DC05C459530B386542670F7CC8FA0916E09E4254D241"
+      },
+      {
+        "path": "<development-checkout>\\arena\\darksteel-mutation\\DarksteelMutationTests.java",
+        "sha256": "3B491B20CD77EAE5727448B480F8B814A3EF14B0685DA1A65B2132D62E5A6514"
+      },
+      {
+        "path": "<development-checkout>\\arena\\corpse-augur\\CorpseAugurTests.java",
+        "sha256": "3CA197701BFCC317EBBE2E38C95F1815F80F6BE8DACAAD28C257CEA231EB1B18"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\abzan-armor.properties",
+        "sha256": "4067A7707D18A7DD94250032FF66B66A7624ABD4C0B349DD656388BDAB1C95DD"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\adaptive-enchantment.properties",
+        "sha256": "910647DD6438C576A4F60AF0B10B772A398F4F33B58A407047E2701B06AADA3C"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\ahoy-mateys.properties",
+        "sha256": "535DAFE239EDF5B1AC3C8CBCF997CD9EB55DA31C377207C9326683D594AB6761"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\corpse-augur.properties",
+        "sha256": "10753CABE44FB416EA9F9BB8D2ED9E16B6F9BF0E58932AF1165E653800B7DE22"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\curse-of-the-swine.properties",
+        "sha256": "70D1565623B7A1EEAC56642DF89C7CBA20B4C590CC8214315A6115CA5D81A4FA"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\darksteel-mutation.properties",
+        "sha256": "DAE99EE8D0AF00853F6110557152FC043BE42B1022E91551B2F55D0D7F371F92"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\decree-of-pain.properties",
+        "sha256": "3026FC87001150139E4EE68BD2739C9010C667C4C853A0832544E7BB14C2B49F"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\dispatch.properties",
+        "sha256": "3CE0130820652371476FDC976FFF612FCDE339C9088EB59D2842E13D883D3F84"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\marshals-anthem.properties",
+        "sha256": "CC6F05BC9FAB9B7E466D0B481ECE76D248CAE6976E9415BE55A3F95BC524D887"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\mirror-entity.properties",
+        "sha256": "51A5838537C630A2220E8EFB8B98D06711BFCA3409EFB90791830C3C047B27C8"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\nesting-grounds.properties",
+        "sha256": "768478383F86DB0FC14830D26F2BFF097065C1872D444A03B010463A9CA38BA9"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\oreskos-explorer.properties",
+        "sha256": "F5C4F772823E0010ACAB02C7648A1726A45E3A914981A7B183A9BEEE867CD83A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\toxic-deluge.properties",
+        "sha256": "954302446FB13A596DD43542C76D169383CFA885B20A37E04E7D457386AD396B"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\tragic-arrogance.properties",
+        "sha256": "539F7F5C83F263F91E44CCCB597DA076A469E919123F7C8B5F26584E5561497C"
+      },
+      {
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\nesting-grounds.properties",
+        "sha256": "768478383F86DB0FC14830D26F2BFF097065C1872D444A03B010463A9CA38BA9"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\NestingGroundsProbe.java",
+        "sha256": "7F593A29DF6DA5134F6ADDB15B0CA6C71DC8D8EDC891EFD4C3C94A008414667C"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\Run-CardUseProbe.ps1",
+        "sha256": "7A7231F4E0E12F12A101C0C2AA06644DEB0223B951F52CF6892DEF2EF04463CC"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\Check-CardUseEvidence.ps1",
+        "sha256": "C7DCF02FF273FC99820C49EF2BDB3179C0F662906A531E38059E40F8EC5F7101"
+      }
+    ],
+    "candidateSha256": "4C2DDAE661E8B1A97EB9EC7F438DF87988D11554AA64FE2B9ADEA72A6EA2355B",
+    "date": "2026-10-17",
+    "runs": [
+      {
+        "profile": "on",
+        "pendingAtClockStop": 0,
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "seed": 96671,
+        "scalesActivations": 2,
+        "payments": [
+          {
+            "manaSourceId": 83,
+            "line": "Mana: Forest (83) - {T}: Add {G}."
+          },
+          {
+            "manaSourceId": 114,
+            "line": "Mana: Forest (114) - {T}: Add {G}."
+          }
+        ],
+        "mode": "positive",
+        "summary": "<development-checkout>\\arena\\nesting-grounds\\target\\card-use\\positive-on-96671\\summary.json",
+        "sha256": "53E17BC72F373A6334F05F962FF04000F0FF2CEC8475F7F2AA59B7F7EA838BD1",
+        "clockReached": false,
+        "activations": 2,
+        "recipientCountersAdded": 4.0,
+        "lethalNegative": 0
+      },
+      {
+        "profile": "on",
+        "pendingAtClockStop": 0,
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "seed": 96672,
+        "scalesActivations": 4,
+        "payments": [
+          {
+            "manaSourceId": 87,
+            "line": "Mana: Forest (87) - {T}: Add {G}."
+          },
+          {
+            "manaSourceId": 87,
+            "line": "Mana: Forest (87) - {T}: Add {G}."
+          },
+          {
+            "manaSourceId": 99,
+            "line": "Mana: Forest (99) - {T}: Add {G}."
+          },
+          {
+            "manaSourceId": 87,
+            "line": "Mana: Forest (87) - {T}: Add {G}."
+          }
+        ],
+        "mode": "positive",
+        "summary": "<development-checkout>\\arena\\nesting-grounds\\target\\card-use\\positive-on-96672\\summary.json",
+        "sha256": "B0A24E99329B5E2A3359ACFCF2764E3C7FE7041A4071754DD492F7FDE4F83244",
+        "clockReached": false,
+        "activations": 4,
+        "recipientCountersAdded": 13.0,
+        "lethalNegative": 0
+      },
+      {
+        "profile": "off",
+        "pendingAtClockStop": 0,
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "seed": 96671,
+        "scalesActivations": 0,
+        "payments": [],
+        "mode": "positive",
+        "summary": "<development-checkout>\\arena\\nesting-grounds\\target\\card-use\\positive-off-96671\\summary.json",
+        "sha256": "9A6C71C14E36C35C421F2BD3CAF4B0E0E5EEE75B374AD5E20625884729CA28FF",
+        "clockReached": false,
+        "activations": 0,
+        "recipientCountersAdded": null,
+        "lethalNegative": 0
+      },
+      {
+        "profile": "off",
+        "pendingAtClockStop": 0,
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "seed": 96672,
+        "scalesActivations": 0,
+        "payments": [],
+        "mode": "positive",
+        "summary": "<development-checkout>\\arena\\nesting-grounds\\target\\card-use\\positive-off-96672\\summary.json",
+        "sha256": "037807E1933CDF285C1062565F59F68BB30C5AEC04373F3EEA826809AAE9C8A1",
+        "clockReached": false,
+        "activations": 0,
+        "recipientCountersAdded": null,
+        "lethalNegative": 0
+      },
+      {
+        "profile": "on",
+        "pendingAtClockStop": 0,
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "seed": 96671,
+        "scalesActivations": 0,
+        "payments": [
+          {
+            "manaSourceId": 69,
+            "line": "Mana: Plains (69) - {T}: Add {W}."
+          },
+          {
+            "manaSourceId": 69,
+            "line": "Mana: Plains (69) - {T}: Add {W}."
+          },
+          {
+            "manaSourceId": 69,
+            "line": "Mana: Plains (69) - {T}: Add {W}."
+          },
+          {
+            "manaSourceId": 29,
+            "line": "Mana: Plains (29) - {T}: Add {W}."
+          },
+          {
+            "manaSourceId": 17,
+            "line": "Mana: Nesting Grounds (17) - {T}: Add {C}."
+          },
+          {
+            "manaSourceId": 69,
+            "line": "Mana: Plains (69) - {T}: Add {W}."
+          }
+        ],
+        "mode": "negative",
+        "summary": "<development-checkout>\\arena\\nesting-grounds\\target\\card-use\\negative-on-96671\\summary.json",
+        "sha256": "8304FA42863E89FADCD6B0FE51A66B9ED13B45B1FBD55CE93A58EB4CA2EA52B8",
+        "clockReached": false,
+        "activations": 6,
+        "recipientCountersAdded": 6.0,
+        "lethalNegative": 6
+      },
+      {
+        "profile": "on",
+        "pendingAtClockStop": 0,
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "seed": 96672,
+        "scalesActivations": 0,
+        "payments": [
+          {
+            "manaSourceId": 11,
+            "line": "Mana: Nesting Grounds (11) - {T}: Add {C}."
+          },
+          {
+            "manaSourceId": 11,
+            "line": "Mana: Nesting Grounds (11) - {T}: Add {C}."
+          },
+          {
+            "manaSourceId": 8,
+            "line": "Mana: Nesting Grounds (8) - {T}: Add {C}."
+          },
+          {
+            "manaSourceId": 27,
+            "line": "Mana: Plains (27) - {T}: Add {W}."
+          },
+          {
+            "manaSourceId": 11,
+            "line": "Mana: Nesting Grounds (11) - {T}: Add {C}."
+          },
+          {
+            "manaSourceId": 60,
+            "line": "Mana: Plains (60) - {T}: Add {W}."
+          },
+          {
+            "manaSourceId": 60,
+            "line": "Mana: Plains (60) - {T}: Add {W}."
+          }
+        ],
+        "mode": "negative",
+        "summary": "<development-checkout>\\arena\\nesting-grounds\\target\\card-use\\negative-on-96672\\summary.json",
+        "sha256": "D3044649B97704B493F11705BB8F501A4388D45AA952C3C45CB0D300967DA96F",
+        "clockReached": false,
+        "activations": 7,
+        "recipientCountersAdded": 7.0,
+        "lethalNegative": 7
+      },
+      {
+        "profile": "off",
+        "pendingAtClockStop": 0,
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "seed": 96671,
+        "scalesActivations": 0,
+        "payments": [],
+        "mode": "negative",
+        "summary": "<development-checkout>\\arena\\nesting-grounds\\target\\card-use\\negative-off-96671\\summary.json",
+        "sha256": "55E4D2251B323082F385C6618B443CB9707EAB0493E101F7B434E8406D8BE0C1",
+        "clockReached": false,
+        "activations": 0,
+        "recipientCountersAdded": null,
+        "lethalNegative": 0
+      },
+      {
+        "profile": "off",
+        "pendingAtClockStop": 0,
+        "diagnostics": [],
+        "lateObserverEventsExcluded": 0,
+        "seed": 96672,
+        "scalesActivations": 0,
+        "payments": [],
+        "mode": "negative",
+        "summary": "<development-checkout>\\arena\\nesting-grounds\\target\\card-use\\negative-off-96672\\summary.json",
+        "sha256": "1958046A181A98094E306B7B2D9E461E7B4B18EA1FA84DFD2D83C789652A669D",
+        "clockReached": false,
+        "activations": 0,
+        "recipientCountersAdded": null,
+        "lethalNegative": 0
+      }
+    ],
+    "scope": "Autonomous original-script counter transfers, native payment and actual counter/stat deltas; bounded custom decks, no completion/winner/strength claim",
+    "nativeResults": [
+      {
+        "suite": "NestingGroundsTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\NestingGroundsTests.log",
+        "checks": 115,
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287"
+      },
+      {
+        "suite": "ToxicDelugeTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\ToxicDelugeTests.log",
+        "checks": 127,
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66"
+      },
+      {
+        "suite": "AdaptiveEnchantmentTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\AdaptiveEnchantmentTests.log",
+        "checks": 76,
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D"
+      },
+      {
+        "suite": "LandManaFamilyTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\LandManaFamilyTests.log",
+        "checks": 349,
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9"
+      },
+      {
+        "suite": "AhoyMateysTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\AhoyMateysTests.log",
+        "checks": 77,
+        "sha256": "FD0E0DF94AA1EF473936A49C4ECEA77C49F84FAB7A531A77220F01494305C2DB"
+      },
+      {
+        "suite": "BeastWithinTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\BeastWithinTests.log",
+        "checks": 13,
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741"
+      },
+      {
+        "suite": "CurseOfTheSwineTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\CurseOfTheSwineTests.log",
+        "checks": 36,
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A"
+      },
+      {
+        "suite": "FilterLandsTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\FilterLandsTests.log",
+        "checks": 10,
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE"
+      },
+      {
+        "suite": "PsychosisCrawlerTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\PsychosisCrawlerTests.log",
+        "checks": 6,
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF"
+      },
+      {
+        "suite": "WallOfLimbsTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\WallOfLimbsTests.log",
+        "checks": 12,
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE"
+      },
+      {
+        "suite": "SlaughterTheStrongTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\SlaughterTheStrongTests.log",
+        "checks": 18,
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50"
+      },
+      {
+        "suite": "MirrorEntityTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\MirrorEntityTests.log",
+        "checks": 48,
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77"
+      },
+      {
+        "suite": "DecreeOfPainTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\DecreeOfPainTests.log",
+        "checks": 69,
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16"
+      },
+      {
+        "suite": "OreskosExplorerTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\OreskosExplorerTests.log",
+        "checks": 100,
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838"
+      },
+      {
+        "suite": "DispatchTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\DispatchTests.log",
+        "checks": 61,
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE"
+      },
+      {
+        "suite": "TragicArroganceTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\TragicArroganceTests.log",
+        "checks": 132,
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A"
+      },
+      {
+        "suite": "MarshalsAnthemTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\MarshalsAnthemTests.log",
+        "checks": 135,
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D"
+      },
+      {
+        "suite": "DarksteelMutationTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\DarksteelMutationTests.log",
+        "checks": 87,
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5"
+      },
+      {
+        "suite": "CorpseAugurTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\CorpseAugurTests.log",
+        "checks": 139,
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688"
+      }
+    ],
+    "engine": "NeoForge 1.0.25",
+    "witnesses": [
+      {
+        "profile": "on",
+        "mode": "positive",
+        "seed": 96671,
+        "activations": [
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 944,
+              "sourceId": 71,
+              "player": "NestingProbe-0",
+              "turn": 25,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 39,
+                "name": "Phantom Tiger",
+                "timestamp": 57,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 3,
+                "toughness": 2,
+                "damage": 0,
+                "value": 181
+              },
+              "recipient": {
+                "id": 1,
+                "name": "Grizzly Bears",
+                "timestamp": 102,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "value": 211
+              },
+              "scales": 1
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 944,
+              "sourceId": 71,
+              "player": "NestingProbe-0",
+              "turn": 25,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 39,
+                "name": "Phantom Tiger",
+                "timestamp": 57,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 4,
+                "toughness": 3,
+                "damage": 0,
+                "value": 206
+              },
+              "recipient": {
+                "id": 1,
+                "name": "Grizzly Bears",
+                "timestamp": 102,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 161
+              },
+              "scales": 1
+            },
+            "seed": 96671,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 944,
+              "sourceId": 71,
+              "player": "NestingProbe-0",
+              "turn": 25,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 39,
+                "name": "Phantom Tiger",
+                "timestamp": 57,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 3,
+                "toughness": 2,
+                "damage": 0,
+                "value": 181
+              },
+              "recipient": {
+                "id": 1,
+                "name": "Grizzly Bears",
+                "timestamp": 102,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "value": 211
+              },
+              "scales": 1
+            },
+            "payment": {
+              "manaSourceId": 83,
+              "line": "Mana: Forest (83) - {T}: Add {G}."
+            },
+            "mode": "positive",
+            "recipientCountersAdded": 2,
+            "lethalNegative": false
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 968,
+              "sourceId": 71,
+              "player": "NestingProbe-0",
+              "turn": 32,
+              "phase": "END_OF_TURN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 34,
+                "name": "Phantom Tiger",
+                "timestamp": 71,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 1,
+                "minus": 0,
+                "power": 2,
+                "toughness": 1,
+                "damage": 0,
+                "value": 155
+              },
+              "recipient": {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "timestamp": 133,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "value": 211
+              },
+              "scales": 1
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 968,
+              "sourceId": 71,
+              "player": "NestingProbe-0",
+              "turn": 32,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 34,
+                "name": "Phantom Tiger",
+                "timestamp": 71,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 3,
+                "toughness": 2,
+                "damage": 0,
+                "value": 180
+              },
+              "recipient": {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "timestamp": 133,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 161
+              },
+              "scales": 1
+            },
+            "seed": 96671,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 968,
+              "sourceId": 71,
+              "player": "NestingProbe-0",
+              "turn": 32,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 34,
+                "name": "Phantom Tiger",
+                "timestamp": 71,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 1,
+                "minus": 0,
+                "power": 2,
+                "toughness": 1,
+                "damage": 0,
+                "value": 155
+              },
+              "recipient": {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "timestamp": 133,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "value": 211
+              },
+              "scales": 1
+            },
+            "payment": {
+              "manaSourceId": 114,
+              "line": "Mana: Forest (114) - {T}: Add {G}."
+            },
+            "mode": "positive",
+            "recipientCountersAdded": 2,
+            "lethalNegative": false
+          }
+        ]
+      },
+      {
+        "profile": "on",
+        "mode": "positive",
+        "seed": 96672,
+        "activations": [
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 914,
+              "sourceId": 57,
+              "player": "NestingProbe-0",
+              "turn": 24,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 35,
+                "name": "Phantom Tiger",
+                "timestamp": 89,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 4,
+                "toughness": 3,
+                "damage": 0,
+                "value": 206
+              },
+              "recipient": {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "timestamp": 54,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "value": 236
+              },
+              "scales": 2
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 914,
+              "sourceId": 57,
+              "player": "NestingProbe-0",
+              "turn": 24,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 35,
+                "name": "Phantom Tiger",
+                "timestamp": 89,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 4,
+                "minus": 0,
+                "power": 5,
+                "toughness": 4,
+                "damage": 0,
+                "value": 231
+              },
+              "recipient": {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "timestamp": 54,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 161
+              },
+              "scales": 2
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 914,
+              "sourceId": 57,
+              "player": "NestingProbe-0",
+              "turn": 24,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 35,
+                "name": "Phantom Tiger",
+                "timestamp": 89,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 4,
+                "toughness": 3,
+                "damage": 0,
+                "value": 206
+              },
+              "recipient": {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "timestamp": 54,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "value": 236
+              },
+              "scales": 2
+            },
+            "payment": {
+              "manaSourceId": 87,
+              "line": "Mana: Forest (87) - {T}: Add {G}."
+            },
+            "mode": "positive",
+            "recipientCountersAdded": 3,
+            "lethalNegative": false
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 929,
+              "sourceId": 57,
+              "player": "NestingProbe-0",
+              "turn": 28,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "timestamp": 54,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "value": 211
+              },
+              "recipient": {
+                "id": 19,
+                "name": "Grizzly Bears",
+                "timestamp": 67,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "value": 236
+              },
+              "scales": 2
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 929,
+              "sourceId": 57,
+              "player": "NestingProbe-0",
+              "turn": 28,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "timestamp": 54,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "value": 236
+              },
+              "recipient": {
+                "id": 19,
+                "name": "Grizzly Bears",
+                "timestamp": 67,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 161
+              },
+              "scales": 2
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 929,
+              "sourceId": 57,
+              "player": "NestingProbe-0",
+              "turn": 28,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "timestamp": 54,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "value": 211
+              },
+              "recipient": {
+                "id": 19,
+                "name": "Grizzly Bears",
+                "timestamp": 67,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "value": 236
+              },
+              "scales": 2
+            },
+            "payment": {
+              "manaSourceId": 87,
+              "line": "Mana: Forest (87) - {T}: Add {G}."
+            },
+            "mode": "positive",
+            "recipientCountersAdded": 3,
+            "lethalNegative": false
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 931,
+              "sourceId": 63,
+              "player": "NestingProbe-0",
+              "turn": 28,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "timestamp": 54,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 1,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "timestamp": 77,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "value": 236
+              },
+              "scales": 2
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 931,
+              "sourceId": 63,
+              "player": "NestingProbe-0",
+              "turn": 28,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "timestamp": 54,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "value": 211
+              },
+              "recipient": {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "timestamp": 77,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 161
+              },
+              "scales": 2
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 931,
+              "sourceId": 63,
+              "player": "NestingProbe-0",
+              "turn": 28,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "timestamp": 54,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 1,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "timestamp": 77,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "value": 236
+              },
+              "scales": 2
+            },
+            "payment": {
+              "manaSourceId": 99,
+              "line": "Mana: Forest (99) - {T}: Add {G}."
+            },
+            "mode": "positive",
+            "recipientCountersAdded": 3,
+            "lethalNegative": false
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 953,
+              "sourceId": 57,
+              "player": "NestingProbe-0",
+              "turn": 32,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 19,
+                "name": "Grizzly Bears",
+                "timestamp": 67,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "value": 211
+              },
+              "recipient": {
+                "id": 13,
+                "name": "Grizzly Bears",
+                "timestamp": 109,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 4,
+                "minus": 0,
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "value": 261
+              },
+              "scales": 3
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 953,
+              "sourceId": 57,
+              "player": "NestingProbe-0",
+              "turn": 32,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 19,
+                "name": "Grizzly Bears",
+                "timestamp": 67,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 3,
+                "minus": 0,
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "value": 236
+              },
+              "recipient": {
+                "id": 13,
+                "name": "Grizzly Bears",
+                "timestamp": 109,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 161
+              },
+              "scales": 3
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 953,
+              "sourceId": 57,
+              "player": "NestingProbe-0",
+              "turn": 32,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 19,
+                "name": "Grizzly Bears",
+                "timestamp": 67,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 2,
+                "minus": 0,
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "value": 211
+              },
+              "recipient": {
+                "id": 13,
+                "name": "Grizzly Bears",
+                "timestamp": 109,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 4,
+                "minus": 0,
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "value": 261
+              },
+              "scales": 3
+            },
+            "payment": {
+              "manaSourceId": 87,
+              "line": "Mana: Forest (87) - {T}: Add {G}."
+            },
+            "mode": "positive",
+            "recipientCountersAdded": 4,
+            "lethalNegative": false
+          }
+        ]
+      },
+      {
+        "profile": "off",
+        "mode": "positive",
+        "seed": 96671,
+        "activations": []
+      },
+      {
+        "profile": "off",
+        "mode": "positive",
+        "seed": 96672,
+        "activations": []
+      },
+      {
+        "profile": "on",
+        "mode": "negative",
+        "seed": 96671,
+        "activations": [
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 904,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 17,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 99,
+                "name": "Bloodied Ghost",
+                "timestamp": 86,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 163,
+                "name": "Eager Cadet",
+                "timestamp": 99,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 904,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 17,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 99,
+                "name": "Bloodied Ghost",
+                "timestamp": 86,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 163,
+                "name": "Eager Cadet",
+                "timestamp": 47,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96671,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 904,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 17,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 99,
+                "name": "Bloodied Ghost",
+                "timestamp": 86,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 163,
+                "name": "Eager Cadet",
+                "timestamp": 47,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 69,
+              "line": "Mana: Plains (69) - {T}: Add {W}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 919,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 21,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 98,
+                "name": "Bloodied Ghost",
+                "timestamp": 100,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 110,
+                "name": "Eager Cadet",
+                "timestamp": 110,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 919,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 21,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 98,
+                "name": "Bloodied Ghost",
+                "timestamp": 100,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 110,
+                "name": "Eager Cadet",
+                "timestamp": 58,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96671,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 919,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 21,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 98,
+                "name": "Bloodied Ghost",
+                "timestamp": 100,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 110,
+                "name": "Eager Cadet",
+                "timestamp": 58,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 69,
+              "line": "Mana: Plains (69) - {T}: Add {W}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 948,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 25,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 97,
+                "name": "Bloodied Ghost",
+                "timestamp": 111,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 119,
+                "name": "Eager Cadet",
+                "timestamp": 132,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 948,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 25,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 97,
+                "name": "Bloodied Ghost",
+                "timestamp": 111,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 119,
+                "name": "Eager Cadet",
+                "timestamp": 59,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 130
+              },
+              "scales": 0
+            },
+            "seed": 96671,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 948,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 25,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 97,
+                "name": "Bloodied Ghost",
+                "timestamp": 111,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 119,
+                "name": "Eager Cadet",
+                "timestamp": 59,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 105
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 69,
+              "line": "Mana: Plains (69) - {T}: Add {W}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 955,
+              "sourceId": 17,
+              "player": "NestingProbe-0",
+              "turn": 25,
+              "phase": "END_OF_TURN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 92,
+                "name": "Bloodied Ghost",
+                "timestamp": 133,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 133,
+                "name": "Eager Cadet",
+                "timestamp": 135,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 955,
+              "sourceId": 17,
+              "player": "NestingProbe-0",
+              "turn": 25,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 92,
+                "name": "Bloodied Ghost",
+                "timestamp": 133,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 133,
+                "name": "Eager Cadet",
+                "timestamp": 72,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 130
+              },
+              "scales": 0
+            },
+            "seed": 96671,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 955,
+              "sourceId": 17,
+              "player": "NestingProbe-0",
+              "turn": 25,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 92,
+                "name": "Bloodied Ghost",
+                "timestamp": 133,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 133,
+                "name": "Eager Cadet",
+                "timestamp": 72,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 105
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 29,
+              "line": "Mana: Plains (29) - {T}: Add {W}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 973,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 28,
+              "phase": "END_OF_TURN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 74,
+                "name": "Bloodied Ghost",
+                "timestamp": 142,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 128,
+                "name": "Eager Cadet",
+                "timestamp": 145,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 973,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 28,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 74,
+                "name": "Bloodied Ghost",
+                "timestamp": 142,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 128,
+                "name": "Eager Cadet",
+                "timestamp": 88,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96671,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 973,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 28,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 74,
+                "name": "Bloodied Ghost",
+                "timestamp": 142,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 128,
+                "name": "Eager Cadet",
+                "timestamp": 88,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 17,
+              "line": "Mana: Nesting Grounds (17) - {T}: Add {C}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 982,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 31,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 75,
+                "name": "Bloodied Ghost",
+                "timestamp": 143,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 350,
+                "name": "Eager Cadet",
+                "timestamp": 153,
+                "controller": "NestingProbe-3",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 982,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 31,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 75,
+                "name": "Bloodied Ghost",
+                "timestamp": 143,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 350,
+                "name": "Eager Cadet",
+                "timestamp": 67,
+                "controller": "NestingProbe-3",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96671,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 982,
+              "sourceId": 14,
+              "player": "NestingProbe-0",
+              "turn": 31,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 75,
+                "name": "Bloodied Ghost",
+                "timestamp": 143,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 350,
+                "name": "Eager Cadet",
+                "timestamp": 67,
+                "controller": "NestingProbe-3",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 69,
+              "line": "Mana: Plains (69) - {T}: Add {W}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          }
+        ]
+      },
+      {
+        "profile": "on",
+        "mode": "negative",
+        "seed": 96672,
+        "activations": [
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 933,
+              "sourceId": 8,
+              "player": "NestingProbe-0",
+              "turn": 23,
+              "phase": "END_OF_TURN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 85,
+                "name": "Bloodied Ghost",
+                "timestamp": 95,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 137,
+                "name": "Eager Cadet",
+                "timestamp": 97,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 933,
+              "sourceId": 8,
+              "player": "NestingProbe-0",
+              "turn": 23,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 85,
+                "name": "Bloodied Ghost",
+                "timestamp": 95,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 137,
+                "name": "Eager Cadet",
+                "timestamp": 39,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 933,
+              "sourceId": 8,
+              "player": "NestingProbe-0",
+              "turn": 23,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 85,
+                "name": "Bloodied Ghost",
+                "timestamp": 95,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 137,
+                "name": "Eager Cadet",
+                "timestamp": 39,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 11,
+              "line": "Mana: Nesting Grounds (11) - {T}: Add {C}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 955,
+              "sourceId": 8,
+              "player": "NestingProbe-0",
+              "turn": 27,
+              "phase": "END_OF_TURN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 102,
+                "name": "Bloodied Ghost",
+                "timestamp": 106,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 165,
+                "name": "Eager Cadet",
+                "timestamp": 108,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 955,
+              "sourceId": 8,
+              "player": "NestingProbe-0",
+              "turn": 27,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 102,
+                "name": "Bloodied Ghost",
+                "timestamp": 106,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 165,
+                "name": "Eager Cadet",
+                "timestamp": 52,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 955,
+              "sourceId": 8,
+              "player": "NestingProbe-0",
+              "turn": 27,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 102,
+                "name": "Bloodied Ghost",
+                "timestamp": 106,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 165,
+                "name": "Eager Cadet",
+                "timestamp": 52,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 11,
+              "line": "Mana: Nesting Grounds (11) - {T}: Add {C}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 971,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 31,
+              "phase": "END_OF_TURN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 88,
+                "name": "Bloodied Ghost",
+                "timestamp": 117,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 151,
+                "name": "Eager Cadet",
+                "timestamp": 119,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 971,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 31,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 88,
+                "name": "Bloodied Ghost",
+                "timestamp": 117,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 151,
+                "name": "Eager Cadet",
+                "timestamp": 53,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 971,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 31,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 88,
+                "name": "Bloodied Ghost",
+                "timestamp": 117,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 151,
+                "name": "Eager Cadet",
+                "timestamp": 53,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 8,
+              "line": "Mana: Nesting Grounds (8) - {T}: Add {C}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 991,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 35,
+              "phase": "END_OF_TURN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 97,
+                "name": "Bloodied Ghost",
+                "timestamp": 129,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 146,
+                "name": "Eager Cadet",
+                "timestamp": 131,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 991,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 35,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 97,
+                "name": "Bloodied Ghost",
+                "timestamp": 129,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 146,
+                "name": "Eager Cadet",
+                "timestamp": 65,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 991,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 35,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 97,
+                "name": "Bloodied Ghost",
+                "timestamp": 129,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 146,
+                "name": "Eager Cadet",
+                "timestamp": 65,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 27,
+              "line": "Mana: Plains (27) - {T}: Add {W}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 1033,
+              "sourceId": 8,
+              "player": "NestingProbe-0",
+              "turn": 39,
+              "phase": "END_OF_TURN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 73,
+                "name": "Bloodied Ghost",
+                "timestamp": 160,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 373,
+                "name": "Eager Cadet",
+                "timestamp": 163,
+                "controller": "NestingProbe-3",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 1033,
+              "sourceId": 8,
+              "player": "NestingProbe-0",
+              "turn": 39,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 73,
+                "name": "Bloodied Ghost",
+                "timestamp": 160,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 373,
+                "name": "Eager Cadet",
+                "timestamp": 157,
+                "controller": "NestingProbe-3",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 1033,
+              "sourceId": 8,
+              "player": "NestingProbe-0",
+              "turn": 39,
+              "phase": "MAIN2",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 73,
+                "name": "Bloodied Ghost",
+                "timestamp": 160,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 373,
+                "name": "Eager Cadet",
+                "timestamp": 157,
+                "controller": "NestingProbe-3",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 11,
+              "line": "Mana: Nesting Grounds (11) - {T}: Add {C}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 1044,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 42,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 81,
+                "name": "Bloodied Ghost",
+                "timestamp": 161,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 343,
+                "name": "Eager Cadet",
+                "timestamp": 171,
+                "controller": "NestingProbe-3",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 1044,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 42,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 81,
+                "name": "Bloodied Ghost",
+                "timestamp": 161,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 343,
+                "name": "Eager Cadet",
+                "timestamp": 167,
+                "controller": "NestingProbe-3",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 1044,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 42,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 81,
+                "name": "Bloodied Ghost",
+                "timestamp": 161,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 343,
+                "name": "Eager Cadet",
+                "timestamp": 167,
+                "controller": "NestingProbe-3",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 60,
+              "line": "Mana: Plains (60) - {T}: Add {W}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          },
+          {
+            "after": {
+              "stage": "settled",
+              "abilityId": 1062,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 47,
+              "phase": "COMBAT_BEGIN",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 98,
+                "name": "Bloodied Ghost",
+                "timestamp": 178,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 129,
+                "name": "Eager Cadet",
+                "timestamp": 183,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": false,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "before": {
+              "stage": "stacked",
+              "abilityId": 1062,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 47,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 98,
+                "name": "Bloodied Ghost",
+                "timestamp": 178,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "value": 186
+              },
+              "recipient": {
+                "id": 129,
+                "name": "Eager Cadet",
+                "timestamp": 180,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 1,
+                "toughness": 1,
+                "damage": 0,
+                "value": 131
+              },
+              "scales": 0
+            },
+            "seed": 96672,
+            "resolved": {
+              "stage": "resolved",
+              "abilityId": 1062,
+              "sourceId": 1,
+              "player": "NestingProbe-0",
+              "turn": 47,
+              "phase": "MAIN1",
+              "playerTurn": "NestingProbe-0",
+              "fizzled": false,
+              "spell": false,
+              "trigger": false,
+              "landTapped": true,
+              "donor": {
+                "id": 98,
+                "name": "Bloodied Ghost",
+                "timestamp": 178,
+                "controller": "NestingProbe-0",
+                "opponent": false,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 0,
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "value": 221
+              },
+              "recipient": {
+                "id": 129,
+                "name": "Eager Cadet",
+                "timestamp": 180,
+                "controller": "NestingProbe-1",
+                "opponent": true,
+                "battlefield": true,
+                "creature": true,
+                "plus": 0,
+                "minus": 1,
+                "power": 0,
+                "toughness": 0,
+                "damage": 0,
+                "value": 106
+              },
+              "scales": 0
+            },
+            "payment": {
+              "manaSourceId": 60,
+              "line": "Mana: Plains (60) - {T}: Add {W}."
+            },
+            "mode": "negative",
+            "recipientCountersAdded": 1,
+            "lethalNegative": true
+          }
+        ]
+      },
+      {
+        "profile": "off",
+        "mode": "negative",
+        "seed": 96671,
+        "activations": []
+      },
+      {
+        "profile": "off",
+        "mode": "negative",
+        "seed": 96672,
+        "activations": []
+      }
+    ]
+  },
+  "scope": "Opt-in bounded native correctness and autonomous custom-deck card use; no game-completion, winner or strength claim",
+  "installedApplicationModified": false,
+  "nativeEvidence": {
+    "engine": "NeoForge 1.0.25",
+    "runtime": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime",
+    "candidate": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\engine.jar",
+    "date": "2026-10-17",
+    "scope": "Original-script native correctness and previous Commander regressions on the 1.0.25 engine; no strength claim",
+    "candidateSha256": "4C2DDAE661E8B1A97EB9EC7F438DF87988D11554AA64FE2B9ADEA72A6EA2355B",
+    "revision": "4037a0a6a5f3214ad7cfdc7543e0f0cb74fbb996",
+    "results": [
+      {
+        "suite": "NestingGroundsTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\NestingGroundsTests.log",
+        "checks": 115,
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287"
+      },
+      {
+        "suite": "ToxicDelugeTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\ToxicDelugeTests.log",
+        "checks": 127,
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66"
+      },
+      {
+        "suite": "AdaptiveEnchantmentTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\AdaptiveEnchantmentTests.log",
+        "checks": 76,
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D"
+      },
+      {
+        "suite": "LandManaFamilyTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\LandManaFamilyTests.log",
+        "checks": 349,
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9"
+      },
+      {
+        "suite": "AhoyMateysTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\AhoyMateysTests.log",
+        "checks": 77,
+        "sha256": "FD0E0DF94AA1EF473936A49C4ECEA77C49F84FAB7A531A77220F01494305C2DB"
+      },
+      {
+        "suite": "BeastWithinTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\BeastWithinTests.log",
+        "checks": 13,
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741"
+      },
+      {
+        "suite": "CurseOfTheSwineTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\CurseOfTheSwineTests.log",
+        "checks": 36,
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A"
+      },
+      {
+        "suite": "FilterLandsTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\FilterLandsTests.log",
+        "checks": 10,
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE"
+      },
+      {
+        "suite": "PsychosisCrawlerTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\PsychosisCrawlerTests.log",
+        "checks": 6,
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF"
+      },
+      {
+        "suite": "WallOfLimbsTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\WallOfLimbsTests.log",
+        "checks": 12,
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE"
+      },
+      {
+        "suite": "SlaughterTheStrongTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\SlaughterTheStrongTests.log",
+        "checks": 18,
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50"
+      },
+      {
+        "suite": "MirrorEntityTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\MirrorEntityTests.log",
+        "checks": 48,
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77"
+      },
+      {
+        "suite": "DecreeOfPainTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\DecreeOfPainTests.log",
+        "checks": 69,
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16"
+      },
+      {
+        "suite": "OreskosExplorerTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\OreskosExplorerTests.log",
+        "checks": 100,
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838"
+      },
+      {
+        "suite": "DispatchTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\DispatchTests.log",
+        "checks": 61,
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE"
+      },
+      {
+        "suite": "TragicArroganceTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\TragicArroganceTests.log",
+        "checks": 132,
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A"
+      },
+      {
+        "suite": "MarshalsAnthemTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\MarshalsAnthemTests.log",
+        "checks": 135,
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D"
+      },
+      {
+        "suite": "DarksteelMutationTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\DarksteelMutationTests.log",
+        "checks": 87,
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5"
+      },
+      {
+        "suite": "CorpseAugurTests",
+        "log": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\CorpseAugurTests.log",
+        "checks": 139,
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688"
+      }
+    ],
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\Check-NestingGrounds.ps1",
+        "sha256": "E65F5AD20087C7370329979EFAC550F6E2F340737038553A1AA1945F44C7846F"
+      },
+      {
+        "path": "<development-checkout>\\arena\\toxic-deluge\\target\\final\\provenance.json",
+        "sha256": "5D550DA7CE4BF35E206136421BF10CE2B25612FC558FBDBA5E387A201B457AC2"
+      },
+      {
+        "path": "<development-checkout>\\arena\\toxic-deluge\\target\\final\\engine.jar",
+        "sha256": "FFE951C959F35351D053BC3488736BF5018DE0A3BBB6E3BBDA109DD07185A4C8"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\cardsfolder\\cardsfolder.zip",
+        "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\forge.profile.properties",
+        "sha256": "F3624ABF5806C71E73B4D4FE4B2FBF1A15C08E2432A18046729E8E23F03799DE"
+      },
+      {
+        "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\n\\nesting_grounds.txt",
+        "sha256": "5BB51DC3D4CA39649212D36605A014CE2ADD8B9ADEFDAAA5F9D6D8F93C309EC5"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\CreatureShrinkAi.java",
+        "sha256": "421CA289947BAFDDCEE18983AB5D2896FA1A052E1D356D76703CAB6E3613C14E"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\NestingGroundsAi.java",
+        "sha256": "CCBAC2C950EE0A68A562984872FC8F569D1EF5E3A170E348BDC531E83D7EBD76"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PumpAi.java",
+        "sha256": "9604E2828CD006652E933FE8CEB24112B491D8142989F75B0A2A43390C80479F"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\CountersMoveAi.java",
+        "sha256": "329E5ECBA09CBFC51AFE7875E484D81F632618C64AEFA1F16E8AA37AF64552B8"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\NestingGroundsTests.java",
+        "sha256": "A3F1A2255EDE1E4C8107D7B943617931F2BA459FE6FE0F52C09DF331E3AF33E3"
+      },
+      {
+        "path": "<development-checkout>\\arena\\toxic-deluge\\ToxicDelugeTests.java",
+        "sha256": "63D116C87A7DD4E1B4E329199F23CE87B05C052F094C6CFD5B5BB46337BB8AFD"
+      },
+      {
+        "path": "<development-checkout>\\arena\\adaptive-enchantment\\AdaptiveEnchantmentTests.java",
+        "sha256": "016E0CAC4FEBA10026EA592BAE085981DAEF4EC8F4776095CB83AC6DCF3A4AC5"
+      },
+      {
+        "path": "<development-checkout>\\arena\\adaptive-enchantment\\family\\LandManaFamilyTests.java",
+        "sha256": "FFD13A9114EAB801BE88F18868831268B494051D001A95029C6C1786798424E0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\ahoy-mateys\\AhoyMateysTests.java",
+        "sha256": "57C03155BEF5AB7ECCB1965BBF28190CA3F0E092E9773BC357FED0728C1F5EB2"
+      },
+      {
+        "path": "<development-checkout>\\arena\\beast-within\\BeastWithinTests.java",
+        "sha256": "ADE08973A2BADAE882E4F4A3A7B6D29DE6D9FA3DCB84E11139BDC7E87EC77C9D"
+      },
+      {
+        "path": "<development-checkout>\\arena\\curse-of-the-swine\\CurseOfTheSwineTests.java",
+        "sha256": "AE30D3DF1634442E4F95ACB3419FA3D753A324B480FAE9B3D8C30777D8EFDA26"
+      },
+      {
+        "path": "<development-checkout>\\arena\\filter-lands\\FilterLandsTests.java",
+        "sha256": "FAE266019893C8D095623093498214E584D3BB241CF8E5654AD3C3A539297BC0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\psychosis-crawler\\PsychosisCrawlerTests.java",
+        "sha256": "D7357E28BFFDA185E6A34317CA099B5525D14CD7B88DDB2ADB5DFC9FA23A5762"
+      },
+      {
+        "path": "<development-checkout>\\arena\\wall-of-limbs\\WallOfLimbsTests.java",
+        "sha256": "40BAB8D4C05E56A2A473F8204F43ADD53E05AF76527268F3E265E540BD7928D1"
+      },
+      {
+        "path": "<development-checkout>\\arena\\slaughter\\SlaughterTheStrongTests.java",
+        "sha256": "AF3EDA3A9B63CD5EDF464CEFD5BAF4E7BC250068D736F9D8481FA50915F6E4EF"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java",
+        "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\decree-of-pain\\DecreeOfPainTests.java",
+        "sha256": "D4B61C4BA1E720B10635DF58E82C8BCE8C91B92F353924D27EF1E42C1F748A8B"
+      },
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\OreskosExplorerTests.java",
+        "sha256": "A7A8A90DB93E4A2F6E735B1F66C7311D44EFF8AAFA833D5A88C6D0A25CAB2E57"
+      },
+      {
+        "path": "<development-checkout>\\arena\\dispatch\\DispatchTests.java",
+        "sha256": "B8D4B674759A490C0BB46DF4074887379A5EFC544BAFCC3722A3864E3DE63775"
+      },
+      {
+        "path": "<development-checkout>\\arena\\tragic-arrogance\\TragicArroganceTests.java",
+        "sha256": "84B96D3CE46C5B0F4864F3ECFDA90ACEC29EA0616009251721CC5543FB056F21"
+      },
+      {
+        "path": "<development-checkout>\\arena\\marshals-anthem\\MarshalsAnthemTests.java",
+        "sha256": "6F64D6C4E1713D060CF8DC05C459530B386542670F7CC8FA0916E09E4254D241"
+      },
+      {
+        "path": "<development-checkout>\\arena\\darksteel-mutation\\DarksteelMutationTests.java",
+        "sha256": "3B491B20CD77EAE5727448B480F8B814A3EF14B0685DA1A65B2132D62E5A6514"
+      },
+      {
+        "path": "<development-checkout>\\arena\\corpse-augur\\CorpseAugurTests.java",
+        "sha256": "3CA197701BFCC317EBBE2E38C95F1815F80F6BE8DACAAD28C257CEA231EB1B18"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\abzan-armor.properties",
+        "sha256": "4067A7707D18A7DD94250032FF66B66A7624ABD4C0B349DD656388BDAB1C95DD"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\adaptive-enchantment.properties",
+        "sha256": "910647DD6438C576A4F60AF0B10B772A398F4F33B58A407047E2701B06AADA3C"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\ahoy-mateys.properties",
+        "sha256": "535DAFE239EDF5B1AC3C8CBCF997CD9EB55DA31C377207C9326683D594AB6761"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\corpse-augur.properties",
+        "sha256": "10753CABE44FB416EA9F9BB8D2ED9E16B6F9BF0E58932AF1165E653800B7DE22"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\curse-of-the-swine.properties",
+        "sha256": "70D1565623B7A1EEAC56642DF89C7CBA20B4C590CC8214315A6115CA5D81A4FA"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\darksteel-mutation.properties",
+        "sha256": "DAE99EE8D0AF00853F6110557152FC043BE42B1022E91551B2F55D0D7F371F92"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\decree-of-pain.properties",
+        "sha256": "3026FC87001150139E4EE68BD2739C9010C667C4C853A0832544E7BB14C2B49F"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\dispatch.properties",
+        "sha256": "3CE0130820652371476FDC976FFF612FCDE339C9088EB59D2842E13D883D3F84"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\marshals-anthem.properties",
+        "sha256": "CC6F05BC9FAB9B7E466D0B481ECE76D248CAE6976E9415BE55A3F95BC524D887"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\mirror-entity.properties",
+        "sha256": "51A5838537C630A2220E8EFB8B98D06711BFCA3409EFB90791830C3C047B27C8"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\nesting-grounds.properties",
+        "sha256": "768478383F86DB0FC14830D26F2BFF097065C1872D444A03B010463A9CA38BA9"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\oreskos-explorer.properties",
+        "sha256": "F5C4F772823E0010ACAB02C7648A1726A45E3A914981A7B183A9BEEE867CD83A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\toxic-deluge.properties",
+        "sha256": "954302446FB13A596DD43542C76D169383CFA885B20A37E04E7D457386AD396B"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\runtime\\res\\ai\\overrides\\tragic-arrogance.properties",
+        "sha256": "539F7F5C83F263F91E44CCCB597DA076A469E919123F7C8B5F26584E5561497C"
+      },
+      {
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\nesting-grounds.properties",
+        "sha256": "768478383F86DB0FC14830D26F2BFF097065C1872D444A03B010463A9CA38BA9"
+      }
+    ],
+    "completeRegressionGate": true
+  },
+  "sharedHooksMatchPinnedUpstreamAfterRemovingOptIn": {
+    "paths": [
+      "forge-ai/src/main/java/forge/ai/ability/CountersMoveAi.java",
+      "forge-ai/src/main/java/forge/ai/ability/PumpAi.java"
+    ],
+    "match": true,
+    "upstreamRef": "64569999b8b99dd7176ab9d3e1e6008f3ab68590"
+  },
+  "card": "Nesting Grounds",
+  "candidateSha256": "4C2DDAE661E8B1A97EB9EC7F438DF87988D11554AA64FE2B9ADEA72A6EA2355B",
+  "status": "verified",
+  "coverage": {
+    "occurrencesUnlocked": 205,
+    "distinctRemaining": 334,
+    "occurrencesRemaining": 525,
+    "inventory": {
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "ONC - Corrupting Influence",
+        "PIP - Hail, Caesar",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past"
+      ],
+      "decks": 184,
+      "decksWithZeroBlocked": 30
+    },
+    "strategicallyVerified": 29,
+    "mechanicallyUnlocked": 39,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ]
+  },
+  "files": [
+    {
+      "sha256": "78037430199BC0E32BAB708B9F4AF4431ECDDBF27182924915519F2D8530F23F",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\card-use-evidence.json"
+    },
+    {
+      "sha256": "C7DCF02FF273FC99820C49EF2BDB3179C0F662906A531E38059E40F8EC5F7101",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "E65F5AD20087C7370329979EFAC550F6E2F340737038553A1AA1945F44C7846F",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\Check-NestingGrounds.ps1"
+    },
+    {
+      "sha256": "0EE765EBF144BE9462AA5853AD136F44DDADA62EB05FDAA3A6026D0052B46D3A",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\Check-Timeouts.ps1"
+    },
+    {
+      "sha256": "7F593A29DF6DA5134F6ADDB15B0CA6C71DC8D8EDC891EFD4C3C94A008414667C",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\NestingGroundsProbe.java"
+    },
+    {
+      "sha256": "A3F1A2255EDE1E4C8107D7B943617931F2BA459FE6FE0F52C09DF331E3AF33E3",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\NestingGroundsTests.java"
+    },
+    {
+      "sha256": "32A5A52FE7394D8227CA0DAF7DA7787E756924B4F92B05C1819B57DD5650C2A1",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\README.md"
+    },
+    {
+      "sha256": "4E0CB9E4C90C5DB19F98598A6CD66E0ABE3EF74C2AAAC939B9AF09398567C27B",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "7A7231F4E0E12F12A101C0C2AA06644DEB0223B951F52CF6892DEF2EF04463CC",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "575ECBE110B8A84EEB0641D1A417939CC70B55EDBB6464B3074EFF65B6206F3F",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\decks\\Negative.dck"
+    },
+    {
+      "sha256": "CFFC71CC713DC9FD916063839D2755A8653B39B451B7ABA9AA6BED7F4D499F58",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\decks\\Opponent.dck"
+    },
+    {
+      "sha256": "D3E815D77328A5765FC2A7D718CFB98133F9AD75EF154E5B268F506488E3DF66",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\decks\\Positive.dck"
+    },
+    {
+      "sha256": "CCBAC2C950EE0A68A562984872FC8F569D1EF5E3A170E348BDC531E83D7EBD76",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\NestingGroundsAi.java"
+    },
+    {
+      "sha256": "9604E2828CD006652E933FE8CEB24112B491D8142989F75B0A2A43390C80479F",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PumpAi.java"
+    },
+    {
+      "sha256": "329E5ECBA09CBFC51AFE7875E484D81F632618C64AEFA1F16E8AA37AF64552B8",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\CountersMoveAi.java"
+    },
+    {
+      "sha256": "768478383F86DB0FC14830D26F2BFF097065C1872D444A03B010463A9CA38BA9",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\nesting-grounds.properties"
+    },
+    {
+      "sha256": "7C9C3075645FB8F23BF998D23D5BE644FCDB32828663A4CA922B9E5ACA80B5A1",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "DF5BA0D1ED39D6C70722EE06743D9623FCF369B2C6853117A8B03B1F21AF96A9",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "4E5417A67D61998131E16309A163C413B931A832D841446A571D641FF0946FD6",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "C6BE4071CAAD97806E4C5BF69F1CEBE069CBC1E879C230A10ED20F40B5799928",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\provenance.json"
+    },
+    {
+      "sha256": "C7D1185BAA3C729FC7290DC844320EA0CF0035625A686F37C4CBD65502641B71",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\timeout-summary.json"
+    },
+    {
+      "sha256": "B92238E1FCFB8B874DB3D654572FBB3D19682632D1A731633E19C493BAACF136",
+      "path": "<development-checkout>\\arena\\nesting-grounds\\target\\coverage-audit.log"
+    }
+  ],
+  "revision": "4037a0a6a5f3214ad7cfdc7543e0f0cb74fbb996",
+  "unrelatedFilesUnchanged": [
+    {
+      "sha256": "765BE86B4AE333402A59A353AED878EE1F678F33127A85BFA4D4A268766D4AF8",
+      "path": "<development-checkout>\\arena\\aristocrats\\CLASSIC_TACTICAL_RECON_20261016.md"
+    },
+    {
+      "sha256": "D80B29D8026DBB2C3E725DE260896F32B0EA473BC8D7BC0FE8C94771C11BE520",
+      "path": "<development-checkout>\\arena\\aristocrats\\NEXT_LLM_HANDOFF_20261016.md"
+    },
+    {
+      "sha256": "E59D84380752579C21397B4ED4CBE663BF896808694156529325E5DE9E929F8F",
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Analyze.ps1"
+    },
+    {
+      "sha256": "3B4778C89657EC40ED84ECAD7B5647AD9305FAE8822FF201985415B837CF204C",
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\PLAN.md"
+    },
+    {
+      "sha256": "E5F51345066194E612711CECC59091E57FFAAFCB160CB4E3512E53175732D7E1",
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\REPORT.md"
+    },
+    {
+      "sha256": "9D82A314630ED044ACAD2EB60128C91E444ABAA53809EF91B9924995D9E48313",
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Run.ps1"
+    },
+    {
+      "sha256": "950757439D4176DAB934C87FF33C58346F4A4AFA62D9068352571A0A5BAFD6C7",
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Worker.ps1"
+    },
+    {
+      "sha256": "31FF6100611165740DB2147D6D9B7C11C722AE9C295ADD3B04BD608CCC32A6FD",
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Write-Report.ps1"
+    },
+    {
+      "sha256": "9326C02110CC4BF43020928D7355B8854C377766E1C15819CFB8A611920545F5",
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Analyze.ps1"
+    },
+    {
+      "sha256": "F727444B0BBE50DA85E269D5220D08E29E25A7469834DA41F827920CA792DCCB",
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BLOCKERS.md"
+    },
+    {
+      "sha256": "9BBD180819969AE65FCCCA419038BC42757D2E02A11C6FC93691ADA889EAA350",
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BOARDS.md"
+    },
+    {
+      "sha256": "4A1E3BB772682EEDAA6A932E007F5D95F1D595AB6903A4596571AAD53CCF73FB",
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BuildObserver.java"
+    },
+    {
+      "sha256": "572A4E020AB4835325771F94AE0752444C7FA487A103BA98E7FBE4CC40DC7928",
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\EXCLUSION_FIX_PROPOSAL.md"
+    },
+    {
+      "sha256": "8FD63B461311FD094955807FEF500900BF101F7ACCBB3C261B1A37529842542E",
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\REPORT.md"
+    },
+    {
+      "sha256": "D57520356CDAED6CEE98E36B5A89D7AD7E2C28A8D8EBE557994D48AFF6860C50",
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Run.ps1"
+    },
+    {
+      "sha256": "B268DAB20892D8311D30B33FE26B6876304E4CEBDDEC6DF6149FD25AC9F86061",
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\UnsupportedObserver.java"
+    }
+  ],
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "date": "2026-10-17",
+  "originalScriptMatchesInstalled": true,
+  "engine": "NeoForge 1.0.25",
+  "timeoutEvidence": {
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\engine.jar",
+        "sha256": "4C2DDAE661E8B1A97EB9EC7F438DF87988D11554AA64FE2B9ADEA72A6EA2355B"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\AITimeoutTrackerTest.java",
+        "sha256": "A847C68C3F31F83A0D2EF988C13CE0FCCF601ABC5DB21BA2FC638FF29A4750D0"
+      },
+      {
+        "path": "<development-checkout>\\arena\\version-compat\\CompatibilityTimeoutTests.java",
+        "sha256": "AA773A8948AE32D1FCC30549E3781ED667C45BEDB35B0C82F4D8EE247B42BE8C"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\Check-Timeouts.ps1",
+        "sha256": "0EE765EBF144BE9462AA5853AD136F44DDADA62EB05FDAA3A6026D0052B46D3A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\.tools\\m2\\org\\testng\\testng\\7.10.2\\testng-7.10.2.jar",
+        "sha256": "225FD56447F2E5E439DB3B483A79CD9F294FAD9F357F8352B12EE6A3411EBB15"
+      },
+      {
+        "path": "<development-checkout>\\arena\\.tools\\m2\\com\\beust\\jcommander\\1.82\\jcommander-1.82.jar",
+        "sha256": "DEEAC157C8DE6822878D85D0C7BC8467A19CC8484D37788F7804F039DDE280B1"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\upstream-timeouts.log",
+        "sha256": "A3EE7704053CD4D0C6C9238A4FEC90BB1D5C22FFEED411AC90BA49808E41500F"
+      },
+      {
+        "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\CompatibilityTimeoutTests.log",
+        "sha256": "ECB3F0174FC4CA49663A3713FC074EA58FD9D906D29B34F0A5F551E69867190E"
+      }
+    ],
+    "candidateSha256": "4C2DDAE661E8B1A97EB9EC7F438DF87988D11554AA64FE2B9ADEA72A6EA2355B",
+    "integrationChecks": 9,
+    "upstream": "Total tests run: 11, Passes: 11, Failures: 0, Skips: 0"
+  }
+}

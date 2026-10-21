@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-18",
+  "status": "verified",
+  "nativeGate": {
+    "total": 3314,
+    "candidate": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\engine.jar",
+    "candidateSha256": "BB542D899B26922A7CA5F588E7A4D405CA1213A1E3A39746F176BCF4C009B133",
+    "results": [
+      {
+        "sha256": "F562623ECD9F1BCB2774F2B54EC3227930BB1CBB352872DFA70ACE41D737B720",
+        "checks": 116,
+        "suite": "BiomassMutationTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\BiomassMutationTests.log"
+      },
+      {
+        "sha256": "25FC0BEBE7B047AA0CEF481C8057CB30D23FBC61FAE9A92837649EB6B61F9BA5",
+        "checks": 115,
+        "suite": "NestingGroundsTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\NestingGroundsTests.log"
+      },
+      {
+        "sha256": "65B487FD6DD81F195D5585757A9987DF988F4C1C8130DA98477EA9F4569D858B",
+        "checks": 127,
+        "suite": "ToxicDelugeTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\ToxicDelugeTests.log"
+      },
+      {
+        "sha256": "744D0C79578096C297DC797885DE4523D71706910B5E109A50DD267C34CDFC1A",
+        "checks": 76,
+        "suite": "AdaptiveEnchantmentTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log"
+      },
+      {
+        "sha256": "19ADE0EF80E2CAF28646391CE16BDA339DB4231B86B5AF510F21A6417629880F",
+        "checks": 349,
+        "suite": "LandManaFamilyTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\LandManaFamilyTests.log"
+      },
+      {
+        "sha256": "FD0E0DF94AA1EF473936A49C4ECEA77C49F84FAB7A531A77220F01494305C2DB",
+        "checks": 77,
+        "suite": "AhoyMateysTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\AhoyMateysTests.log"
+      },
+      {
+        "sha256": "734ED89404AA66CB1FAEF6C42ED6D5CFDFADCBD821E5F60E73C22DD73912E59B",
+        "checks": 13,
+        "suite": "BeastWithinTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\BeastWithinTests.log"
+      },
+      {
+        "sha256": "20965E06F05D59578DF668A0555E8A4770D75A1802B601250C6DDDCE3FB67022",
+        "checks": 36,
+        "suite": "CurseOfTheSwineTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\CurseOfTheSwineTests.log"
+      },
+      {
+        "sha256": "6F2DC4CE8CE714D050AB2BA341D2D6249D77960966A8F6F4492C750B3223EE11",
+        "checks": 10,
+        "suite": "FilterLandsTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\FilterLandsTests.log"
+      },
+      {
+        "sha256": "2D3A9A97528176F9397858541955A5283DC72D893D8AF0D3F05FF26E3800BC4E",
+        "checks": 6,
+        "suite": "PsychosisCrawlerTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\PsychosisCrawlerTests.log"
+      },
+      {
+        "sha256": "E99D3B3496E551B2779A214B7105D768E619E62B31BF648F573F7D36B932609C",
+        "checks": 12,
+        "suite": "WallOfLimbsTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\WallOfLimbsTests.log"
+      },
+      {
+        "sha256": "A0554E2DBFF7F2FAD07DC859A255A5DB0CABA6A5926CD2320F9FA66483CF0C1F",
+        "checks": 18,
+        "suite": "SlaughterTheStrongTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\SlaughterTheStrongTests.log"
+      },
+      {
+        "sha256": "98EF49B4624473BA4E9E2224151550A9DC5AB696BB71B5B1D9BCB4C11ED71724",
+        "checks": 48,
+        "suite": "MirrorEntityTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\MirrorEntityTests.log"
+      },
+      {
+        "sha256": "39D675476FC10AC5B6291A3B0BEEA2DADB90E108EA766D31436973070EA58522",
+        "checks": 69,
+        "suite": "DecreeOfPainTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\DecreeOfPainTests.log"
+      },
+      {
+        "sha256": "105934455CBF19245DA678DDB18FF07B65D4DF207E6706CDBF0CC8351A939C83",
+        "checks": 100,
+        "suite": "OreskosExplorerTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\OreskosExplorerTests.log"
+      },
+      {
+        "sha256": "9DEB2BED2BF565B43B48DC9093855B56062EEB5FD25946198B424D6736255426",
+        "checks": 61,
+        "suite": "DispatchTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\DispatchTests.log"
+      },
+      {
+        "sha256": "19C9D5033B765F2D3FDD631A046A59EC67186A42C4E0DF25B4895622533DE9D0",
+        "checks": 132,
+        "suite": "TragicArroganceTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\TragicArroganceTests.log"
+      },
+      {
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "checks": 135,
+        "suite": "MarshalsAnthemTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\MarshalsAnthemTests.log"
+      },
+      {
+        "sha256": "3E642E1423EC261764E6013EB3622C68DA7452F2019A82CB3D004875BC5D78EC",
+        "checks": 87,
+        "suite": "DarksteelMutationTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\DarksteelMutationTests.log"
+      },
+      {
+        "sha256": "0B3165B5CEB7E0669BBEF9DC2E424A2477DD381A02DAE8B103208B4B63C5AD52",
+        "checks": 139,
+        "suite": "CorpseAugurTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\CorpseAugurTests.log"
+      },
+      {
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "checks": 21,
+        "suite": "AssaultSuitTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\AssaultSuitTests.log"
+      },
+      {
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C",
+        "checks": 13,
+        "suite": "SelvalaTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\SelvalaTests.log"
+      },
+      {
+        "sha256": "09985AF0AEC6B7E6BF4924217FF903B8EE63B718390E9DF4070A9628B3BAEB64",
+        "checks": 60,
+        "suite": "TradingPostTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\TradingPostTests.log"
+      },
+      {
+        "sha256": "88DCF6141F79597FD48836C5557655D2329C3048865CE784DBBF8F6F3451352D",
+        "checks": 40,
+        "suite": "GazeOfGraniteTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\GazeOfGraniteTests.log"
+      },
+      {
+        "sha256": "414E3F0A558A2F462BFC73395B572FED82C435583ED3464CD661FFE9060698EB",
+        "checks": 75,
+        "suite": "GreaterGoodTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\GreaterGoodTests.log"
+      },
+      {
+        "sha256": "1FD70D88157588C4268A8BF3E526376C331F91F779B6EDBFB9A56786498A6471",
+        "checks": 72,
+        "suite": "HuntersInsightTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\HuntersInsightTests.log"
+      },
+      {
+        "sha256": "3EB9C8CB5973843718B85B65538FAD90F29ACFB01DB6EC76ECF09310B364CC0D",
+        "checks": 83,
+        "suite": "CommandBeaconTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\CommandBeaconTests.log"
+      },
+      {
+        "sha256": "1B3A83EA32C6953FCD016F858F5993BCB98DBC2E5542305339663563AF4C06E8",
+        "checks": 119,
+        "suite": "VisceraSeerTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\VisceraSeerTests.log"
+      },
+      {
+        "sha256": "729B24722A0DCA894B13536C70661398FC34D26F6A1C23D815AF3880BB10204A",
+        "checks": 157,
+        "suite": "KenrithsTransformationTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\KenrithsTransformationTests.log"
+      },
+      {
+        "sha256": "33333D132B2D29EB91169D6011ED6B481711EF5E971E9B4A94D6AA22286A3BDA",
+        "checks": 147,
+        "suite": "TimelyWardTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\TimelyWardTests.log"
+      },
+      {
+        "sha256": "F533241571C40139FFADBEDBE20C4DBCE87433C4BE3451F97EA55C6478B534C4",
+        "checks": 212,
+        "suite": "CallTheCoppercoatsTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\CallTheCoppercoatsTests.log"
+      },
+      {
+        "sha256": "323D28DA8B84A619908646EE6ECF2C1A8BEAFBDE0257DFF5145622AA39FED859",
+        "checks": 161,
+        "suite": "PrismaticLensTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\PrismaticLensTests.log"
+      },
+      {
+        "sha256": "0387DDA4BDDEB68C7BCCB847A8417D7BE87EAC6EF2F5B002DD5F242C36237E0B",
+        "checks": 194,
+        "suite": "PropheticPrismTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\PropheticPrismTests.log"
+      },
+      {
+        "sha256": "4329704C539545DAEA718E7268C8A9B29A8AEE3F2C266CF124063809B1257492",
+        "checks": 234,
+        "suite": "SkeletalScryingTests",
+        "log": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\SkeletalScryingTests.log"
+      }
+    ]
+  },
+  "installedApplicationModified": false,
+  "originalScriptMatchesInstalled": true,
+  "coverage": {
+    "verified": 44,
+    "blocked": {
+      "distinctRemaining": 319,
+      "occurrencesRemaining": 470,
+      "occurrencesUnlocked": 260,
+      "topRemaining": [
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Throes of Chaos",
+          "decks": 3
+        },
+        {
+          "card": "Misleading Signpost",
+          "decks": 3
+        },
+        {
+          "card": "Past in Flames",
+          "decks": 3
+        },
+        {
+          "card": "Epic Experiment",
+          "decks": 3
+        },
+        {
+          "card": "Mystic Confluence",
+          "decks": 3
+        },
+        {
+          "card": "Curse of Chaos",
+          "decks": 3
+        },
+        {
+          "card": "Swan Song",
+          "decks": 3
+        }
+      ]
+    },
+    "unlocked": 54,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "inventory": {
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C17 - Vampiric Bloodlust",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "DSC - Miracle Worker",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FDC - Tramplesaurus Rex",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "ONC - Rebellion Rising",
+        "OTC - Grand Larceny",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Mardu Surge",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past",
+        "WOC - Virtue and Valor"
+      ],
+      "decks": 184,
+      "decksWithZeroBlocked": 44
+    }
+  },
+  "unrelatedBaselineFiles": [
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\CLASSIC_TACTICAL_RECON_20261016.md",
+      "sha256": "765BE86B4AE333402A59A353AED878EE1F678F33127A85BFA4D4A268766D4AF8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\NEXT_LLM_HANDOFF_20261016.md",
+      "sha256": "D80B29D8026DBB2C3E725DE260896F32B0EA473BC8D7BC0FE8C94771C11BE520"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Analyze.ps1",
+      "sha256": "E59D84380752579C21397B4ED4CBE663BF896808694156529325E5DE9E929F8F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\PLAN.md",
+      "sha256": "3B4778C89657EC40ED84ECAD7B5647AD9305FAE8822FF201985415B837CF204C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\REPORT.md",
+      "sha256": "E5F51345066194E612711CECC59091E57FFAAFCB160CB4E3512E53175732D7E1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Run.ps1",
+      "sha256": "9D82A314630ED044ACAD2EB60128C91E444ABAA53809EF91B9924995D9E48313"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Worker.ps1",
+      "sha256": "950757439D4176DAB934C87FF33C58346F4A4AFA62D9068352571A0A5BAFD6C7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Write-Report.ps1",
+      "sha256": "31FF6100611165740DB2147D6D9B7C11C722AE9C295ADD3B04BD608CCC32A6FD"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Analyze.ps1",
+      "sha256": "9326C02110CC4BF43020928D7355B8854C377766E1C15819CFB8A611920545F5"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BLOCKERS.md",
+      "sha256": "F727444B0BBE50DA85E269D5220D08E29E25A7469834DA41F827920CA792DCCB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BOARDS.md",
+      "sha256": "9BBD180819969AE65FCCCA419038BC42757D2E02A11C6FC93691ADA889EAA350"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BuildObserver.java",
+      "sha256": "4A1E3BB772682EEDAA6A932E007F5D95F1D595AB6903A4596571AAD53CCF73FB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\EXCLUSION_FIX_PROPOSAL.md",
+      "sha256": "572A4E020AB4835325771F94AE0752444C7FA487A103BA98E7FBE4CC40DC7928"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\REPORT.md",
+      "sha256": "8FD63B461311FD094955807FEF500900BF101F7ACCBB3C261B1A37529842542E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Run.ps1",
+      "sha256": "D57520356CDAED6CEE98E36B5A89D7AD7E2C28A8D8EBE557994D48AFF6860C50"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\UnsupportedObserver.java",
+      "sha256": "B268DAB20892D8311D30B33FE26B6876304E4CEBDDEC6DF6149FD25AC9F86061"
+    }
+  ],
+  "card": "Skeletal Scrying",
+  "engine": "NeoForge 1.0.25",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "cardUse": {
+    "scope": "Autonomous native four-player Commander custom decks; card-use evidence only, no completion/winner/strength claim",
+    "candidateSha256": "BB542D899B26922A7CA5F588E7A4D405CA1213A1E3A39746F176BCF4C009B133",
+    "runs": [
+      {
+        "summary": "<development-checkout>\\arena\\skeletal-scrying\\target\\card-use\\scrying-on-107011\\summary.json",
+        "nativeMills": 10,
+        "lateObserverEventsExcluded": 0,
+        "x2": 0,
+        "pendingAtStop": 0,
+        "ordinaryExiles": 0,
+        "clockReached": true,
+        "lifeLost": 3,
+        "sha256": "6C1942C504DB566DEA79C663A8165F279BCBBBA4BB3E3CD3E4E6D93A6AB9FDFA",
+        "diagnostics": [],
+        "drawn": 3,
+        "x3": 1,
+        "fizzles": 0,
+        "pendingMills": 0,
+        "resolved": 1,
+        "protectedGraveyardWitnesses": 1,
+        "profile": "on",
+        "scenario": "scrying",
+        "phases": [
+          "MAIN2"
+        ],
+        "seed": 107011,
+        "casts": 1,
+        "basicExiles": 3
+      },
+      {
+        "summary": "<development-checkout>\\arena\\skeletal-scrying\\target\\card-use\\scrying-on-107012\\summary.json",
+        "nativeMills": 7,
+        "lateObserverEventsExcluded": 0,
+        "x2": 0,
+        "pendingAtStop": 0,
+        "ordinaryExiles": 0,
+        "clockReached": true,
+        "lifeLost": 6,
+        "sha256": "2872AC552AEBD044DF5DD90972EEF47B4A0D5715A155877A778F3FE5EA9D4270",
+        "diagnostics": [],
+        "drawn": 6,
+        "x3": 2,
+        "fizzles": 0,
+        "pendingMills": 0,
+        "resolved": 2,
+        "protectedGraveyardWitnesses": 2,
+        "profile": "on",
+        "scenario": "scrying",
+        "phases": [
+          "MAIN2"
+        ],
+        "seed": 107012,
+        "casts": 2,
+        "basicExiles": 6
+      },
+      {
+        "summary": "<development-checkout>\\arena\\skeletal-scrying\\target\\card-use\\scrying-off-107011\\summary.json",
+        "nativeMills": 11,
+        "lateObserverEventsExcluded": 0,
+        "x2": 0,
+        "pendingAtStop": 0,
+        "ordinaryExiles": 0,
+        "clockReached": true,
+        "lifeLost": 0,
+        "sha256": "579232D97EE80E042E3EF149FFAAB59CE8BC46B14EF0CF7046B9E4EE8F595AF0",
+        "diagnostics": [],
+        "drawn": 0,
+        "x3": 0,
+        "fizzles": 0,
+        "pendingMills": 0,
+        "resolved": 0,
+        "protectedGraveyardWitnesses": 0,
+        "profile": "off",
+        "scenario": "scrying",
+        "phases": [],
+        "seed": 107011,
+        "casts": 0,
+        "basicExiles": 0
+      },
+      {
+        "summary": "<development-checkout>\\arena\\skeletal-scrying\\target\\card-use\\scrying-off-107012\\summary.json",
+        "nativeMills": 4,
+        "lateObserverEventsExcluded": 0,
+        "x2": 0,
+        "pendingAtStop": 0,
+        "ordinaryExiles": 0,
+        "clockReached": true,
+        "lifeLost": 0,
+        "sha256": "3624D3F45FE1AB26E168C2F5F6CC57A856E73F8C5B70651F1A4188F0B1DB087F",
+        "diagnostics": [],
+        "drawn": 0,
+        "x3": 0,
+        "fizzles": 0,
+        "pendingMills": 0,
+        "resolved": 0,
+        "protectedGraveyardWitnesses": 0,
+        "profile": "off",
+        "scenario": "scrying",
+        "phases": [],
+        "seed": 107012,
+        "casts": 0,
+        "basicExiles": 0
+      }
+    ],
+    "checks": 166,
+    "engine": "NeoForge 1.0.25"
+  },
+  "revision": "93570699ba3c3d75e6bad94def200f8c6281c927",
+  "scope": "Opt-in bounded native draw/life loss and protected graveyard payment; native correctness and autonomous card use only, no strength/winner/completion claim",
+  "files": [
+    {
+      "sha256": "FAFFDEBE54AFC3484308203AC42F704F4AF9791CB8616A9C8BC7FFDEAE8416CA",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "6186955E4D4EE7C3D4B8ADFE2D2F73657E5A4CC39DFAD481BD079C7D5C4D0A8E",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "D87475D5427728551EAA4965A8897C5ED53A5385858E11C2DD216A0C057E8944",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\README.md"
+    },
+    {
+      "sha256": "291FC8251D0044EAF23C8931B22256782424930C44643FC234EC3A0388AE55D1",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "A00FF1503BE6261A0165CBE6064FA5E21ADBD7BDC47F4245E1D5AD6DA87BC667",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "324E20EFF12F58A870422E6FE8C200457191DA500B637B3D1928C56958AE18A4",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\ScryingProbe.java"
+    },
+    {
+      "sha256": "3B08C25B16523ED82C86D214FA4B343160BAD276D96662ADA9E0B6350C72E25D",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\SkeletalScryingTests.java"
+    },
+    {
+      "sha256": "2F3687BB0D3EBCC82CC3D0C44C945D86DC3D40E0C02C4BC65BDC3EA57C337035",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\decks\\Actor.dck"
+    },
+    {
+      "sha256": "4F7D01C9C48AA75E95D5EE4D466F8C45F85127E7BE2EBC6E9F3B6BB11097C2EE",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\decks\\Opponents.dck"
+    },
+    {
+      "sha256": "48E493FD2AE514331FC656A005431BB6315BB9E88912B7773E9649DD24EA0984",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\SkeletalScryingAi.java"
+    },
+    {
+      "sha256": "FF9EE781E61B2FA1497E2415126E3F9233DDF78C54E290F3FCBD99110C2AD25B",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\DrawAi.java"
+    },
+    {
+      "sha256": "288BCC279B187F6292C712AC50D308FCB979BE91B109E5AF88AADDEC2CDDADC7",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiController.java"
+    },
+    {
+      "sha256": "8AA7636A3E7C338A1C6AA4BAD6E9AFA718F84BEF283FE49CD2C803C678C81D06",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java"
+    },
+    {
+      "sha256": "AA435A48D5719CF379D2652EDE20FA2BF30B529EF4CCE48F61A52206B58559C1",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\skeletal-scrying.properties"
+    },
+    {
+      "sha256": "63A1D0EADADA5FC195E8940D403FD1AB384AA66D0EC95B3527976BD04C82BEA6",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "A347BCF1496F0B8C401E7723FA7A3A5C5D4F74738575151D48E5E4C714BD10AE",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "A3C561EE993BC846A68AF4F8893F70FBC522DEC23558106E063174F5DD06AB79",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "FFA5F99E9E1BB19D7FAA90A9CD9E21F8E2799862453F596DF73959A97475E947",
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md"
+    },
+    {
+      "sha256": "584FA85731E61138F82971244FD11A709C0FC6954C9EED08E74D8E4FFCBB4DA8",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "7A3F1D7FD441B56C5E9A14B184877BE5AB51D84527ED08195E2E2DF6F049C2D9",
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\s\\skeletal_scrying.txt"
+    },
+    {
+      "sha256": "C62D70C7915FAD01A6F8C4B7DE946C73DFF9D252649A1CD86D5E9A7432F31EB9",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "BB542D899B26922A7CA5F588E7A4D405CA1213A1E3A39746F176BCF4C009B133",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\target\\final-1.0.25\\engine.jar"
+    },
+    {
+      "sha256": "C1F61199E2D80A386A1918746F1D1D72662C058FABBFC4094671666EBC2F12B4",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\target\\unrelated-baseline.json"
+    },
+    {
+      "sha256": "DC9B30CFD47B302CD8D1E3F1413D0C3C44A952A7990558A0961D1C78F2EA2669",
+      "path": "<development-checkout>\\arena\\skeletal-scrying\\card-use-evidence.json"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+target/
+arena/.tools/
+build/*.jar

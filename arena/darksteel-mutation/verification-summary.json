@@ -1,0 +1,213 @@
+{
+  "originalScript": {
+    "sha256": "44480899C89DA96D511896099FDFA76C80D91392DA3CE1BC5742177E59413356",
+    "path": "forge-gui/res/cardsfolder/d/darksteel_mutation.txt"
+  },
+  "nativeChecks": 87,
+  "coverage": {
+    "distinctRemaining": 337,
+    "verified": 26,
+    "unlockedOnly": 10,
+    "decksWithZeroBlocked": 27,
+    "mechanicallyUnlocked": 36,
+    "occurrencesRemaining": 541
+  },
+  "limitations": "Native-scored noncombat utility is bounded; no complete triggered/static ability valuation, combo, response or Aura-removal forecasting",
+  "baseRevision": "e54533d395c431342dc5e6afd0756985d5aa29d1",
+  "regressionChecks": 563.0,
+  "nativeEvidence": {
+    "files": [
+      {
+        "sha256": "DD1EFC4B15F65C85D9E7F144B84EAB688F7209A083D0D6B1056155A426B50754",
+        "path": "<development-checkout>\\arena\\darksteel-mutation\\target\\final\\engine.jar"
+      },
+      {
+        "sha256": "DAE99EE8D0AF00853F6110557152FC043BE42B1022E91551B2F55D0D7F371F92",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\darksteel-mutation.properties"
+      },
+      {
+        "sha256": "02F76E5752AE5E6021E4872B15FDA7574ADC7C58EBFAE918D506A0A2D88658E9",
+        "path": "<development-checkout>\\arena\\darksteel-mutation\\Check-DarksteelMutation.ps1"
+      },
+      {
+        "sha256": "EBBE9F439D590CEBBDB0B868C3EB49935CBF738F74C431A8C59F7F2691F210ED",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\MarshalsAnthemAi.java"
+      },
+      {
+        "sha256": "8C9BAA8F5570EF29383AE2E05F0955116CC1AD3254AACD8D2CBAAC1F046049A8",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PermanentAi.java"
+      },
+      {
+        "sha256": "C7062FE42BEAAB80F388E142D098311EB0856D54EDD38B0DF915FF37F7A10AA3",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\TragicArroganceAi.java"
+      },
+      {
+        "sha256": "E1DA964C9B0EA19F20A183AE04AE5FC1117E575CB9F009215729CAACE497B696",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\RepeatEachAi.java"
+      },
+      {
+        "sha256": "F9EA3D92EB4EACD90DC83B916FCD0C7A9B55DDCEDE1B9F9AD5A77240A2363A68",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChooseCardAi.java"
+      },
+      {
+        "sha256": "7CB56BF32E3364AD9B9E0631D8A0A981F6777F69DA3FF68F76BE510A2C5D7DAA",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DispatchAi.java"
+      },
+      {
+        "sha256": "1CA6DC8C83F3F6CA8396DCE21DA433B99B5B0F6286F50FC40F8931361747A862",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\TapAi.java"
+      },
+      {
+        "sha256": "2A5D257B27BD24AD690EB7C9E637ADAB28697E787F7101FC1D3A7CA4423BDFB9",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java"
+      },
+      {
+        "sha256": "5DF2666D57F25B130FD30579F8A6E84A541E0F7C84A61923F5A2804DAD04FB04",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DarksteelMutationAi.java"
+      },
+      {
+        "sha256": "2FE355B578008C80AEE92A1AA1F6F5BA98491DAD1F2EF61E91A64300349DE31A",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\AttachAi.java"
+      },
+      {
+        "sha256": "3B491B20CD77EAE5727448B480F8B814A3EF14B0685DA1A65B2132D62E5A6514",
+        "path": "<development-checkout>\\arena\\darksteel-mutation\\DarksteelMutationTests.java"
+      }
+    ],
+    "scope": "Native correctness and regression only; not strength evidence",
+    "revision": "e54533d395c431342dc5e6afd0756985d5aa29d1"
+  },
+  "coverageStatus": "verified",
+  "regressionCandidateMatches": true,
+  "probeCandidatesMatch": true,
+  "candidateJarSha256": "DD1EFC4B15F65C85D9E7F144B84EAB688F7209A083D0D6B1056155A426B50754",
+  "build": {
+    "desktopLauncherPackagingAttempted": false,
+    "checkstyleViolations": 0,
+    "aiReactorPassed": true,
+    "genericMavenTestsSkipped": true
+  },
+  "files": [
+    {
+      "sha256": "8F658DBD310A1A3C86C445E681BD0B4E95C13A1A735324B74B16449868EC9FF5",
+      "path": "<development-checkout>\\arena\\darksteel-mutation\\target\\build.log"
+    },
+    {
+      "sha256": "030A888D42EB4AA2BE291D0F42E0C4EB04E68FA0FB76A488C7645157DDCF5D0B",
+      "path": "<development-checkout>\\arena\\darksteel-mutation\\target\\final\\DarksteelMutationTests.log"
+    },
+    {
+      "sha256": "7293DCA4FC35758695BD4F35A06F4CBE82FB3E4B19F3D02A50F14AB7B0D22376",
+      "path": "<development-checkout>\\arena\\darksteel-mutation\\target\\final\\provenance.json"
+    },
+    {
+      "sha256": "6BCDDD4532374214D03BF32E389447B2A4C6439A4880DF8058F4F2BFB3C69BEC",
+      "path": "<development-checkout>\\arena\\darksteel-mutation\\target\\regressions\\summary.json"
+    },
+    {
+      "sha256": "0484AF7E9B5FC4994E5258D058690368FE9D89F74D2131B6B92F4E7DAA088383",
+      "path": "<development-checkout>\\arena\\darksteel-mutation\\target\\coverage-audit.log"
+    }
+  ],
+  "claim": "Bounded neutralization policy and autonomous native card use; not strength or Commander-precon use",
+  "date": "2026-10-17",
+  "candidateOverlay": "Private arena engine snapshot with current policy classes freshly compiled; no installed application changes",
+  "cardUseEvidence": {
+    "seeds": [
+      96341,
+      96342
+    ],
+    "path": "arena/darksteel-mutation/card-use-evidence.json",
+    "paidResolvedCasts": 23.0,
+    "indestructibleThreats": 10,
+    "offControlsZero": true,
+    "sha256": "927FF9CCD87B529DA0B867B720C0A18C1227940CBE9E36A2A244285CBDCDC421",
+    "completedGameRequired": false,
+    "smallManaCreatures": 13,
+    "clockSeconds": 20
+  },
+  "regressionEvidence": {
+    "results": [
+      {
+        "sha256": "0F53E0B804C567FEB43ABA1F7EF495D4FEFEAA2DCD3840AF844C1B3E0FB90494",
+        "suite": "MarshalsAnthemTests",
+        "log": "<development-checkout>\\arena\\darksteel-mutation\\target\\regressions\\MarshalsAnthemTests.log",
+        "checks": 135
+      },
+      {
+        "sha256": "52483BE338E7D9AC25509C445FADE076DBD4A7F76247C269412F89DC8F3CE53B",
+        "suite": "MirrorEntityTests",
+        "log": "<development-checkout>\\arena\\darksteel-mutation\\target\\regressions\\MirrorEntityTests.log",
+        "checks": 48
+      },
+      {
+        "sha256": "F1B9E6E7D496EE2D590932410C8DAD043178CEAB82AA7F3B290BD21CFB7CAB1A",
+        "suite": "DecreeOfPainTests",
+        "log": "<development-checkout>\\arena\\darksteel-mutation\\target\\regressions\\DecreeOfPainTests.log",
+        "checks": 69
+      },
+      {
+        "sha256": "560D376F0D9BE2D3B40DA57E8DA14F7D9D8007E770636C245EEF9CBCD6A53EF8",
+        "suite": "OreskosExplorerTests",
+        "log": "<development-checkout>\\arena\\darksteel-mutation\\target\\regressions\\OreskosExplorerTests.log",
+        "checks": 100
+      },
+      {
+        "sha256": "C5DBCBB0E8007D13B16473AB3A16DAE69890EE45375F4A8BD4A5C22D664E6C66",
+        "suite": "DispatchTests",
+        "log": "<development-checkout>\\arena\\darksteel-mutation\\target\\regressions\\DispatchTests.log",
+        "checks": 61
+      },
+      {
+        "sha256": "660E9C8F994C001B728CCDEE5ECE8304AA3043E0A9F4E69655771B301FEA5350",
+        "suite": "SlaughterTheStrongTests",
+        "log": "<development-checkout>\\arena\\darksteel-mutation\\target\\regressions\\SlaughterTheStrongTests.log",
+        "checks": 18
+      },
+      {
+        "sha256": "888925FFDC25C9BE91665DEECB0607463084C7C21AA06C2B91E9C3549988D951",
+        "suite": "TragicArroganceTests",
+        "log": "<development-checkout>\\arena\\darksteel-mutation\\target\\regressions\\TragicArroganceTests.log",
+        "checks": 132
+      }
+    ],
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\darksteel-mutation\\target\\final\\engine.jar",
+        "sha256": "DD1EFC4B15F65C85D9E7F144B84EAB688F7209A083D0D6B1056155A426B50754"
+      },
+      {
+        "path": "<development-checkout>\\arena\\darksteel-mutation\\Check-Regressions.ps1",
+        "sha256": "4ACCD465D1D96F5149821C055EB8D455041A8913065E2BD143BEF92898DD2F0A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\marshals-anthem\\MarshalsAnthemTests.java",
+        "sha256": "6F64D6C4E1713D060CF8DC05C459530B386542670F7CC8FA0916E09E4254D241"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java",
+        "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\decree-of-pain\\DecreeOfPainTests.java",
+        "sha256": "D4B61C4BA1E720B10635DF58E82C8BCE8C91B92F353924D27EF1E42C1F748A8B"
+      },
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\OreskosExplorerTests.java",
+        "sha256": "A7A8A90DB93E4A2F6E735B1F66C7311D44EFF8AAFA833D5A88C6D0A25CAB2E57"
+      },
+      {
+        "path": "<development-checkout>\\arena\\dispatch\\DispatchTests.java",
+        "sha256": "B8D4B674759A490C0BB46DF4074887379A5EFC544BAFCC3722A3864E3DE63775"
+      },
+      {
+        "path": "<development-checkout>\\arena\\slaughter\\SlaughterTheStrongTests.java",
+        "sha256": "AF3EDA3A9B63CD5EDF464CEFD5BAF4E7BC250068D736F9D8481FA50915F6E4EF"
+      },
+      {
+        "path": "<development-checkout>\\arena\\tragic-arrogance\\TragicArroganceTests.java",
+        "sha256": "84B96D3CE46C5B0F4864F3ECFDA90ACEC29EA0616009251721CC5543FB056F21"
+      }
+    ]
+  }
+}

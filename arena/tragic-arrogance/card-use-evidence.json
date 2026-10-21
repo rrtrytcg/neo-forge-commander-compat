@@ -1,0 +1,2883 @@
+{
+  "runs": [
+    {
+      "indestructibleSacrifices": 7.0,
+      "diagnostics": [],
+      "profile": "on",
+      "enemySacrifices": 24.0,
+      "seed": 96121,
+      "pendingAtClockStop": 0,
+      "resolved": 2,
+      "summary": "<development-checkout>\\arena\\tragic-arrogance\\target\\card-use\\on-96121\\summary.json",
+      "sha256": "FED8432ABEC0B37AD00AF030CE11171322AD1B1FFE7B7405BEBA232910E9255D",
+      "lateObserverEventsExcluded": 0,
+      "casts": 2,
+      "clockReached": false,
+      "friendlySacrifices": 5.0,
+      "payments": [
+        {
+          "mana": [
+            "Mana: Plains (59) - {T}: Add {W}.",
+            "Mana: Plains (52) - {T}: Add {W}.",
+            "Mana: Plains (47) - {T}: Add {W}.",
+            "Mana: Plains (46) - {T}: Add {W}.",
+            "Mana: Plains (41) - {T}: Add {W}."
+          ]
+        },
+        {
+          "mana": [
+            "Mana: Plains (59) - {T}: Add {W}.",
+            "Mana: Plains (52) - {T}: Add {W}.",
+            "Mana: Plains (47) - {T}: Add {W}.",
+            "Mana: Plains (46) - {T}: Add {W}.",
+            "Mana: Plains (41) - {T}: Add {W}."
+          ]
+        }
+      ]
+    },
+    {
+      "indestructibleSacrifices": 5.0,
+      "diagnostics": [],
+      "profile": "on",
+      "enemySacrifices": 13.0,
+      "seed": 96122,
+      "pendingAtClockStop": 0,
+      "resolved": 2,
+      "summary": "<development-checkout>\\arena\\tragic-arrogance\\target\\card-use\\on-96122\\summary.json",
+      "sha256": "6914B7E26CB252286F3BE78BF7BAE79F967C5174E9EFC68C6ADD69C35BFF33E3",
+      "lateObserverEventsExcluded": 0,
+      "casts": 2,
+      "clockReached": false,
+      "friendlySacrifices": 1.0,
+      "payments": [
+        {
+          "mana": [
+            "Mana: Plains (50) - {T}: Add {W}.",
+            "Mana: Plains (42) - {T}: Add {W}.",
+            "Mana: Plains (55) - {T}: Add {W}.",
+            "Mana: Plains (39) - {T}: Add {W}.",
+            "Mana: Plains (57) - {T}: Add {W}."
+          ]
+        },
+        {
+          "mana": [
+            "Mana: Plains (50) - {T}: Add {W}.",
+            "Mana: Plains (42) - {T}: Add {W}.",
+            "Mana: Plains (55) - {T}: Add {W}.",
+            "Mana: Plains (39) - {T}: Add {W}.",
+            "Mana: Plains (57) - {T}: Add {W}."
+          ]
+        }
+      ]
+    },
+    {
+      "indestructibleSacrifices": null,
+      "diagnostics": [],
+      "profile": "off",
+      "enemySacrifices": null,
+      "seed": 96121,
+      "pendingAtClockStop": 0,
+      "resolved": 0,
+      "summary": "<development-checkout>\\arena\\tragic-arrogance\\target\\card-use\\off-96121\\summary.json",
+      "sha256": "AA6A04EA4C60E71EB0C6A1B466B4214BA0924A4A8EA7D6FAD59A76865C9ECEC7",
+      "lateObserverEventsExcluded": 0,
+      "casts": 0,
+      "clockReached": false,
+      "friendlySacrifices": null,
+      "payments": []
+    },
+    {
+      "indestructibleSacrifices": null,
+      "diagnostics": [],
+      "profile": "off",
+      "enemySacrifices": null,
+      "seed": 96122,
+      "pendingAtClockStop": 0,
+      "resolved": 0,
+      "summary": "<development-checkout>\\arena\\tragic-arrogance\\target\\card-use\\off-96122\\summary.json",
+      "sha256": "C2FD593AB118E48419440C77EC44AF25ADCE10B7AC0B5A168A3A8F11B00CBFED",
+      "lateObserverEventsExcluded": 0,
+      "casts": 0,
+      "clockReached": false,
+      "friendlySacrifices": null,
+      "payments": []
+    }
+  ],
+  "resolvedWitnesses": [
+    {
+      "friendlyLost": 4,
+      "friendlyValue": 13.0,
+      "enemyValue": 58.0,
+      "indestructibleSacrificed": 5,
+      "players": [
+        {
+          "savedValue": 6.0,
+          "lost": [
+            8,
+            3,
+            22,
+            2
+          ],
+          "savedVulnerable": [
+            20,
+            6,
+            18
+          ],
+          "oracle": {
+            "value": 6,
+            "count": 3
+          },
+          "opponent": false,
+          "player": "ArroganceProbe-0"
+        },
+        {
+          "savedValue": 4.0,
+          "lost": [
+            85,
+            81,
+            62,
+            71,
+            82,
+            72,
+            69
+          ],
+          "savedVulnerable": [
+            61
+          ],
+          "oracle": {
+            "value": 4,
+            "count": 1
+          },
+          "opponent": true,
+          "player": "ArroganceProbe-1"
+        },
+        {
+          "savedValue": 8.0,
+          "lost": [
+            153,
+            156,
+            152,
+            137,
+            125,
+            134
+          ],
+          "savedVulnerable": [
+            135,
+            128
+          ],
+          "oracle": {
+            "value": 8,
+            "count": 2
+          },
+          "opponent": true,
+          "player": "ArroganceProbe-2"
+        },
+        {
+          "savedValue": 8.0,
+          "lost": [
+            206,
+            199,
+            205,
+            200,
+            204,
+            212,
+            210
+          ],
+          "savedVulnerable": [
+            194,
+            185
+          ],
+          "oracle": {
+            "value": 8,
+            "count": 2
+          },
+          "opponent": true,
+          "player": "ArroganceProbe-3"
+        }
+      ],
+      "seed": 96121,
+      "enemyLost": 20,
+      "turn": 28,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 479,
+        "sourceId": 12,
+        "turn": 28,
+        "player": "ArroganceProbe-0",
+        "fizzled": false,
+        "board": [
+          {
+            "id": 0,
+            "name": "ArroganceProbe-0",
+            "opponent": false,
+            "cards": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 20,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 6,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 18,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 59,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "ArroganceProbe-1",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 114,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 113,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 116,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 61,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 110,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 109,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "ArroganceProbe-2",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 163,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 160,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 167,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 135,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 176,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 164,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 128,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 162,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "ArroganceProbe-3",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 224,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 223,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 238,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 194,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 217,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 237,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 185,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              }
+            ]
+          }
+        ],
+        "rememberedEmpty": true,
+        "nativeSacrifices": [
+          8,
+          3,
+          22,
+          2,
+          85,
+          81,
+          62,
+          71,
+          82,
+          72,
+          69,
+          153,
+          156,
+          152,
+          137,
+          125,
+          134,
+          206,
+          199,
+          205,
+          200,
+          204,
+          212,
+          210
+        ]
+      },
+      "before": {
+        "stage": "stacked",
+        "abilityId": 479,
+        "sourceId": 12,
+        "turn": 28,
+        "player": "ArroganceProbe-0",
+        "fizzled": false,
+        "board": [
+          {
+            "id": 0,
+            "name": "ArroganceProbe-0",
+            "opponent": false,
+            "cards": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 20,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 6,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 18,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 8,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 3,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 22,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 2,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 59,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "ArroganceProbe-1",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 114,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 85,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 113,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 81,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 116,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 61,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 62,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 110,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 71,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 82,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 109,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 72,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 69,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "ArroganceProbe-2",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 163,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 153,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 160,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 156,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 152,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 167,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 135,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 176,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 137,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 164,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 128,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 162,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 125,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 134,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "ArroganceProbe-3",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 224,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 206,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 223,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 238,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 194,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 217,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 199,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 205,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 237,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 200,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 204,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 185,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 212,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 210,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          }
+        ],
+        "rememberedEmpty": true,
+        "nativeSacrifices": []
+      }
+    },
+    {
+      "friendlyLost": 1,
+      "friendlyValue": 1.0,
+      "enemyValue": 14.0,
+      "indestructibleSacrificed": 2,
+      "players": [
+        {
+          "savedValue": 15.0,
+          "lost": [
+            18
+          ],
+          "savedVulnerable": [
+            20,
+            6,
+            25,
+            35
+          ],
+          "oracle": {
+            "value": 15,
+            "count": 4
+          },
+          "opponent": false,
+          "player": "ArroganceProbe-0"
+        },
+        {
+          "savedValue": 8.0,
+          "lost": [
+            63,
+            64,
+            90,
+            73
+          ],
+          "savedVulnerable": [
+            61,
+            79
+          ],
+          "oracle": {
+            "value": 8,
+            "count": 2
+          },
+          "opponent": true,
+          "player": "ArroganceProbe-1"
+        }
+      ],
+      "seed": 96121,
+      "enemyLost": 4,
+      "turn": 45,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 677,
+        "sourceId": 10,
+        "turn": 45,
+        "player": "ArroganceProbe-0",
+        "fizzled": false,
+        "board": [
+          {
+            "id": 0,
+            "name": "ArroganceProbe-0",
+            "opponent": false,
+            "cards": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 20,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 6,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 59,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 25,
+                "name": "Serra Angel",
+                "types": 2,
+                "land": false,
+                "value": 6,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 42,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 35,
+                "name": "Ajani, Caller of the Pride",
+                "types": 8,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 45,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "ArroganceProbe-1",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 114,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 113,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 116,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 61,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 110,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 109,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 79,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 119,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          }
+        ],
+        "rememberedEmpty": true,
+        "nativeSacrifices": [
+          18,
+          63,
+          64,
+          90,
+          73
+        ]
+      },
+      "before": {
+        "stage": "stacked",
+        "abilityId": 677,
+        "sourceId": 10,
+        "turn": 45,
+        "player": "ArroganceProbe-0",
+        "fizzled": false,
+        "board": [
+          {
+            "id": 0,
+            "name": "ArroganceProbe-0",
+            "opponent": false,
+            "cards": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 20,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 6,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 18,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 59,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 25,
+                "name": "Serra Angel",
+                "types": 2,
+                "land": false,
+                "value": 6,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 42,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 35,
+                "name": "Ajani, Caller of the Pride",
+                "types": 8,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 45,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "ArroganceProbe-1",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 114,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 113,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 116,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 61,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 110,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 109,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 79,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 63,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 119,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 64,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 90,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 73,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          }
+        ],
+        "rememberedEmpty": true,
+        "nativeSacrifices": []
+      }
+    },
+    {
+      "friendlyLost": 1,
+      "friendlyValue": 1.0,
+      "enemyValue": 32.0,
+      "indestructibleSacrificed": 4,
+      "players": [
+        {
+          "savedValue": 6.0,
+          "lost": [
+            18
+          ],
+          "savedVulnerable": [
+            17,
+            24,
+            3
+          ],
+          "oracle": {
+            "value": 6,
+            "count": 3
+          },
+          "opponent": false,
+          "player": "ArroganceProbe-0"
+        },
+        {
+          "savedValue": 8.0,
+          "lost": [
+            86,
+            73,
+            80,
+            84,
+            65
+          ],
+          "savedVulnerable": [
+            79,
+            68
+          ],
+          "oracle": {
+            "value": 8,
+            "count": 2
+          },
+          "opponent": true,
+          "player": "ArroganceProbe-1"
+        },
+        {
+          "savedValue": 8.0,
+          "lost": [
+            205,
+            207,
+            184,
+            190,
+            182
+          ],
+          "savedVulnerable": [
+            196,
+            189
+          ],
+          "oracle": {
+            "value": 8,
+            "count": 2
+          },
+          "opponent": true,
+          "player": "ArroganceProbe-3"
+        }
+      ],
+      "seed": 96122,
+      "enemyLost": 10,
+      "turn": 26,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 383,
+        "sourceId": 12,
+        "turn": 26,
+        "player": "ArroganceProbe-0",
+        "fizzled": false,
+        "board": [
+          {
+            "id": 0,
+            "name": "ArroganceProbe-0",
+            "opponent": false,
+            "cards": [
+              {
+                "id": 57,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 17,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 24,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 55,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 3,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 42,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "ArroganceProbe-1",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 103,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 106,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 111,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 79,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 97,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 68,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 120,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "ArroganceProbe-3",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 227,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 218,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 223,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 196,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 217,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 189,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 230,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 236,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 231,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          }
+        ],
+        "rememberedEmpty": true,
+        "nativeSacrifices": [
+          18,
+          86,
+          73,
+          80,
+          84,
+          65,
+          205,
+          207,
+          184,
+          190,
+          182
+        ]
+      },
+      "before": {
+        "stage": "stacked",
+        "abilityId": 383,
+        "sourceId": 12,
+        "turn": 26,
+        "player": "ArroganceProbe-0",
+        "fizzled": false,
+        "board": [
+          {
+            "id": 0,
+            "name": "ArroganceProbe-0",
+            "opponent": false,
+            "cards": [
+              {
+                "id": 57,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 17,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 24,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 55,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 3,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 42,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 18,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "ArroganceProbe-1",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 103,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 86,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 106,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 111,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 79,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 73,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 97,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 80,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 84,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 68,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 120,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 65,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "ArroganceProbe-3",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 227,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 205,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 218,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 207,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 223,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 196,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 217,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 189,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 230,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 184,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 236,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 190,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 231,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 182,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              }
+            ]
+          }
+        ],
+        "rememberedEmpty": true,
+        "nativeSacrifices": []
+      }
+    },
+    {
+      "friendlyLost": 0,
+      "friendlyValue": 0,
+      "enemyValue": 8.0,
+      "indestructibleSacrificed": 1,
+      "players": [
+        {
+          "savedValue": 6.0,
+          "lost": [
+            null
+          ],
+          "savedVulnerable": [
+            17,
+            24,
+            3
+          ],
+          "oracle": {
+            "value": 6,
+            "count": 3
+          },
+          "opponent": false,
+          "player": "ArroganceProbe-0"
+        },
+        {
+          "savedValue": 8.0,
+          "lost": [
+            61,
+            88
+          ],
+          "savedVulnerable": [
+            79,
+            68
+          ],
+          "oracle": {
+            "value": 8,
+            "count": 2
+          },
+          "opponent": true,
+          "player": "ArroganceProbe-1"
+        },
+        {
+          "savedValue": 8.0,
+          "lost": [
+            213
+          ],
+          "savedVulnerable": [
+            196,
+            189
+          ],
+          "oracle": {
+            "value": 8,
+            "count": 2
+          },
+          "opponent": true,
+          "player": "ArroganceProbe-3"
+        }
+      ],
+      "seed": 96122,
+      "enemyLost": 3,
+      "turn": 29,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 388,
+        "sourceId": 9,
+        "turn": 29,
+        "player": "ArroganceProbe-0",
+        "fizzled": false,
+        "board": [
+          {
+            "id": 0,
+            "name": "ArroganceProbe-0",
+            "opponent": false,
+            "cards": [
+              {
+                "id": 57,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 17,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 24,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 55,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 3,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 42,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "ArroganceProbe-1",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 103,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 106,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 111,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 79,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 97,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 68,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 120,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "ArroganceProbe-3",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 227,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 218,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 223,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 196,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 217,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 189,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 230,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 236,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 231,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          }
+        ],
+        "rememberedEmpty": true,
+        "nativeSacrifices": [
+          61,
+          88,
+          213
+        ]
+      },
+      "before": {
+        "stage": "stacked",
+        "abilityId": 388,
+        "sourceId": 9,
+        "turn": 29,
+        "player": "ArroganceProbe-0",
+        "fizzled": false,
+        "board": [
+          {
+            "id": 0,
+            "name": "ArroganceProbe-0",
+            "opponent": false,
+            "cards": [
+              {
+                "id": 57,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 17,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 24,
+                "name": "Ornithopter",
+                "types": 3,
+                "land": false,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 55,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 3,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 42,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "ArroganceProbe-1",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 103,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 106,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 111,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 79,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 97,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 68,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 120,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 61,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 88,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "ArroganceProbe-3",
+            "opponent": true,
+            "cards": [
+              {
+                "id": 227,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 218,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 223,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 196,
+                "name": "Glorious Anthem",
+                "types": 4,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 217,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 189,
+                "name": "Darksteel Myr",
+                "types": 3,
+                "land": false,
+                "value": 4,
+                "sacrificable": true,
+                "indestructible": true
+              },
+              {
+                "id": 230,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 236,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 231,
+                "name": "Plains",
+                "types": 0,
+                "land": true,
+                "value": 1,
+                "sacrificable": true,
+                "indestructible": false
+              },
+              {
+                "id": 213,
+                "name": "Eager Cadet",
+                "types": 2,
+                "land": false,
+                "value": 2,
+                "sacrificable": true,
+                "indestructible": false
+              }
+            ]
+          }
+        ],
+        "rememberedEmpty": true,
+        "nativeSacrifices": []
+      }
+    }
+  ],
+  "nativeChecks": 132,
+  "inputs": [
+    {
+      "sha256": "81F4B9B62655B097CE55823D768D498E4C92C1CC31CF80B19666254890A0CCD8",
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\target\\final\\engine.jar"
+    },
+    {
+      "sha256": "539F7F5C83F263F91E44CCCB597DA076A469E919123F7C8B5F26584E5561497C",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\tragic-arrogance.properties"
+    },
+    {
+      "sha256": "152E6924409F98620083CCFAF0EC9B1B5C482CFB94782F04ECA45F4EDC549A7C",
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\Check-TragicArrogance.ps1"
+    },
+    {
+      "sha256": "C7062FE42BEAAB80F388E142D098311EB0856D54EDD38B0DF915FF37F7A10AA3",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\TragicArroganceAi.java"
+    },
+    {
+      "sha256": "E1DA964C9B0EA19F20A183AE04AE5FC1117E575CB9F009215729CAACE497B696",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\RepeatEachAi.java"
+    },
+    {
+      "sha256": "F9EA3D92EB4EACD90DC83B916FCD0C7A9B55DDCEDE1B9F9AD5A77240A2363A68",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChooseCardAi.java"
+    },
+    {
+      "sha256": "7CB56BF32E3364AD9B9E0631D8A0A981F6777F69DA3FF68F76BE510A2C5D7DAA",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DispatchAi.java"
+    },
+    {
+      "sha256": "1CA6DC8C83F3F6CA8396DCE21DA433B99B5B0F6286F50FC40F8931361747A862",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\TapAi.java"
+    },
+    {
+      "sha256": "8F9D5495050E83B3C18E280DED4362CC7E8420D61A647257C74A8D842C5629C9",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java"
+    },
+    {
+      "sha256": "84B96D3CE46C5B0F4864F3ECFDA90ACEC29EA0616009251721CC5543FB056F21",
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\TragicArroganceTests.java"
+    },
+    {
+      "sha256": "9202B58AB8709BF55B7D0ECC848CA06B34034BF0FAC37AABA5C0648ADB2E0AE3",
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\TragicArroganceProbe.java"
+    },
+    {
+      "sha256": "0C2AB48C8DE1AFDAD10851C2CDD9C1C01AA8602CBA6C840AFEC44CA08A98A3FD",
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "5A318644C836B5F8A969804422F1DA8CE06C075BB930C5C745374F3E57FBC1A6",
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\Check-CardUseEvidence.ps1"
+    }
+  ],
+  "observer": "Read-only subscriber; no forced actions, hands, draws, phases, choices or payment",
+  "scope": "Bounded survivor/cast policy and autonomous custom-deck use; no Commander-precon or strength claim",
+  "oracle": "Independent exhaustive category combinations on before-state snapshots, compared with actual native survivors and sacrifice events",
+  "date": "2026-10-17"
+}

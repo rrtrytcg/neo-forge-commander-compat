@@ -1,0 +1,92 @@
+{
+  "engine": "NeoForge 1.0.27",
+  "candidateSha256": "FB2EBF52C6321E1AB5655B7715FC71F5AA0D141F486143C245C55C80C1442824",
+  "checks": 555,
+  "runs": [
+    {
+      "scenario": "cast",
+      "profile": "on",
+      "seed": 115011,
+      "casts": 6,
+      "cycles": 1,
+      "damage": 134,
+      "basics": 1,
+      "shuffles": 1,
+      "landPlays": 12,
+      "clockReached": false,
+      "summary": "<development-checkout>\\arena\\treacherous-terrain\\target\\card-use\\cast-on-115011\\summary.json",
+      "sha256": "CF5C309644359C005AC06EDA08D991E4588630280F4FE5C32B0BE3F79EEB49D2"
+    },
+    {
+      "scenario": "cast",
+      "profile": "off",
+      "seed": 115011,
+      "casts": 0,
+      "cycles": 0,
+      "damage": 0,
+      "basics": 0,
+      "shuffles": 0,
+      "landPlays": 17,
+      "clockReached": true,
+      "summary": "<development-checkout>\\arena\\treacherous-terrain\\target\\card-use\\cast-off-115011\\summary.json",
+      "sha256": "790BD7B2314FFE4E33C24B0EA96A1574E4BE0DD57DCFEE11062B64781E856D0C"
+    },
+    {
+      "scenario": "cast",
+      "profile": "on",
+      "seed": 115012,
+      "casts": 5,
+      "cycles": 1,
+      "damage": 82,
+      "basics": 1,
+      "shuffles": 1,
+      "landPlays": 8,
+      "clockReached": false,
+      "summary": "<development-checkout>\\arena\\treacherous-terrain\\target\\card-use\\cast-on-115012\\summary.json",
+      "sha256": "5B524D9E3B6008054B53333167C35A9CF43EF8ABBD4E95BB6A9346378258451B"
+    },
+    {
+      "scenario": "cast",
+      "profile": "off",
+      "seed": 115012,
+      "casts": 0,
+      "cycles": 0,
+      "damage": 0,
+      "basics": 0,
+      "shuffles": 0,
+      "landPlays": 13,
+      "clockReached": true,
+      "summary": "<development-checkout>\\arena\\treacherous-terrain\\target\\card-use\\cast-off-115012\\summary.json",
+      "sha256": "E03955758B413570DE47191E57499EF4DBAD9018048D020D89C7AE6FFD6F7C53"
+    },
+    {
+      "scenario": "cycle",
+      "profile": "on",
+      "seed": 115021,
+      "casts": 4,
+      "cycles": 2,
+      "damage": 134,
+      "basics": 2,
+      "shuffles": 2,
+      "landPlays": 8,
+      "clockReached": false,
+      "summary": "<development-checkout>\\arena\\treacherous-terrain\\target\\card-use\\cycle-on-115021\\summary.json",
+      "sha256": "F0E76BE19DB716618A4C6C43AE9C3855F8DBAD689DCC275FB33565008138CE50"
+    },
+    {
+      "scenario": "cycle",
+      "profile": "off",
+      "seed": 115021,
+      "casts": 0,
+      "cycles": 0,
+      "damage": 0,
+      "basics": 0,
+      "shuffles": 0,
+      "landPlays": 10,
+      "clockReached": true,
+      "summary": "<development-checkout>\\arena\\treacherous-terrain\\target\\card-use\\cycle-off-115021\\summary.json",
+      "sha256": "1419D956C6CF0E0E04DDBF5FC55B2AC487CF1FC01FDC1D08D655FE1E9347CAB4"
+    }
+  ],
+  "scope": "Autonomous card use only; invalid repeated-card Commander exposure decks; no completion, winner or strength claim"
+}

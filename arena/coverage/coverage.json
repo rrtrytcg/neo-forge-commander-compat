@@ -1,0 +1,326 @@
+{
+  "generated": "2026-10-21T08:49:32",
+  "revision": "8707f1fe",
+  "inventory": {
+    "decksWithZeroBlocked": 89,
+    "zeroBlockedDecks": [
+      "40K - Forces of the Imperium",
+      "40K - Necron Dynasties",
+      "40K - Tyranid Swarm",
+      "AFC - Aura of Courage",
+      "BLC - Animated Army",
+      "BLC - Family Matters",
+      "BLC - Squirreled Away",
+      "BRC - Urza's Iron Alliance",
+      "C17 - Feline Ferocity",
+      "C17 - Vampiric Bloodlust",
+      "C18 - Adaptive Enchantment",
+      "C18 - Exquisite Invention",
+      "C18 - Nature's Vengeance",
+      "C21 - Lorehold Legacies",
+      "C21 - Quantum Quandrix",
+      "C21 - Witherbloom Witchcraft",
+      "CMM - Enduring Enchantments",
+      "CMM - Sliver Swarm",
+      "CMR - Reap the Tides",
+      "DMC - Legends' Legacy",
+      "DRC - Eternal Might",
+      "DSC - Death Toll",
+      "DSC - Endless Punishment",
+      "DSC - Miracle Worker",
+      "EOC - Counter Intelligence",
+      "EOC - World Shaper",
+      "FDC - Calling All Angels",
+      "FDC - Keen Engineering",
+      "FDC - Reign of Dragons",
+      "FDC - Tramplesaurus Rex",
+      "FDC - Wretched Ranks",
+      "FIC - Counter Blitz",
+      "FIC - Limit Break",
+      "FIC - Revival Trance",
+      "FIC - Scions & Spellcraft",
+      "HOB - There And Back Again",
+      "LCC - Ahoy Mateys",
+      "LCC - Blood Rites",
+      "LCC - Veloci-Ramp-Tor",
+      "LTC - Elven Council",
+      "LTC - Food and Fellowship",
+      "LTC - Riders of Rohan",
+      "LTC - The Host of Mordor",
+      "M3C - Creative Energy",
+      "M3C - Eldrazi Incursion",
+      "M3C - Graveyard Overdrive",
+      "MKC - Blame Game",
+      "MKC - Deep Clue Sea",
+      "MOC - Cavalry Charge",
+      "MOC - Tinker Time",
+      "MSC - Avengers Assemble",
+      "MSC - Doom Prevails",
+      "MSC - The Fantastic Four",
+      "MSC - Wakanda Forever",
+      "NCC - Cabaretti Cacophony",
+      "NEC - Upgrades Unleashed",
+      "ONC - Corrupting Influence",
+      "ONC - Rebellion Rising",
+      "OTC - Grand Larceny",
+      "OTC - Most Wanted",
+      "PIP - Hail, Caesar",
+      "PIP - Mutant Menace",
+      "PIP - Science!",
+      "SCD - Draconic Destruction",
+      "SCD - First Flight",
+      "SLD - 20 Ways to Win",
+      "SLD - Angels They're Just Like Us",
+      "SLD - From Cute to Brute",
+      "SLD - Literally 99 Wastes",
+      "SLD - Raining Cats and Dogs",
+      "SLD - War of Whtz",
+      "SOC - Prismari Artistry",
+      "SOC - Witherbloom Pestilence",
+      "TD0 - Deathdancer Xira",
+      "TDC - Abzan Armor",
+      "TDC - Jeskai Striker",
+      "TDC - Mardu Surge",
+      "TDC - Temur Roar",
+      "TMC - Turtle Power!",
+      "TMP - Old Border Green",
+      "VOC - Spirit Squadron",
+      "VOC - Vampiric Bloodline",
+      "WHO - Blast from the Past",
+      "WHO - Masters of Evil",
+      "WHO - Paradox Power",
+      "WHO - Timey-Wimey",
+      "WOC - Virtue and Valor",
+      "ZNC - Land's Wrath",
+      "ZNC - Sneak Attack"
+    ],
+    "decks": 184
+  },
+  "blocked": {
+    "topRemaining": [
+      {
+        "card": "Cataclysmic Gearhulk",
+        "decks": 4
+      },
+      {
+        "card": "Dualcaster Mage",
+        "decks": 4
+      },
+      {
+        "card": "Wild Ricochet",
+        "decks": 4
+      },
+      {
+        "card": "Strionic Resonator",
+        "decks": 4
+      },
+      {
+        "card": "Profane Command",
+        "decks": 4
+      },
+      {
+        "card": "Disciple of Bolas",
+        "decks": 4
+      },
+      {
+        "card": "Reins of Power",
+        "decks": 4
+      },
+      {
+        "card": "Oblivion Stone",
+        "decks": 4
+      },
+      {
+        "card": "Past in Flames",
+        "decks": 3
+      },
+      {
+        "card": "Phyrexian Reclamation",
+        "decks": 3
+      },
+      {
+        "card": "Phyrexian Delver",
+        "decks": 3
+      },
+      {
+        "card": "Synthetic Destiny",
+        "decks": 3
+      },
+      {
+        "card": "Epic Experiment",
+        "decks": 3
+      },
+      {
+        "card": "Izzet Chemister",
+        "decks": 3
+      },
+      {
+        "card": "Nightmare Unmaking",
+        "decks": 3
+      },
+      {
+        "card": "Curse of Chaos",
+        "decks": 3
+      },
+      {
+        "card": "Black Sun's Zenith",
+        "decks": 3
+      },
+      {
+        "card": "Willbender",
+        "decks": 3
+      },
+      {
+        "card": "Illusionist's Gambit",
+        "decks": 3
+      },
+      {
+        "card": "Disaster Radius",
+        "decks": 2
+      },
+      {
+        "card": "Bane of the Living",
+        "decks": 2
+      },
+      {
+        "card": "Dawnglare Invoker",
+        "decks": 2
+      },
+      {
+        "card": "Perpetual Timepiece",
+        "decks": 2
+      },
+      {
+        "card": "Champion of Stray Souls",
+        "decks": 2
+      },
+      {
+        "card": "Shielded by Faith",
+        "decks": 2
+      }
+    ],
+    "occurrencesUnlocked": 373,
+    "occurrencesRemaining": 357,
+    "distinctRemaining": 266
+  },
+  "cards": {
+    "mechanicallyUnlocked": 107,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "verified": [
+      "Abundance",
+      "Arcane Lighthouse",
+      "Ashling the Pilgrim",
+      "Assault Suit",
+      "Autumn Willow",
+      "Beast Within",
+      "Benevolent Offering",
+      "Biomass Mutation",
+      "Bosh, Iron Golem",
+      "Call for Aid",
+      "Call the Coppercoats",
+      "Carpet of Flowers",
+      "Cascade Bluffs",
+      "Cave of Temptation",
+      "Command Beacon",
+      "Confiscation Coup",
+      "Corpse Augur",
+      "Curse of the Swine",
+      "Dakmor Salvage",
+      "Daretti, Scrap Savant",
+      "Darksteel Mutation",
+      "Dawn's Reflection",
+      "Deadly Tempest",
+      "Decree of Pain",
+      "Dispatch",
+      "Divine Reckoning",
+      "Doomsday Confluence",
+      "Edge of Autumn",
+      "Esix, Fractal Bloom",
+      "Fertile Ground",
+      "Fetid Heath",
+      "Fire-Lit Thicket",
+      "Flooded Grove",
+      "Gaze of Granite",
+      "Ghoulcaller Gisa",
+      "Gideon Jura",
+      "God-Eternal Bontu",
+      "Graven Cairns",
+      "Greater Good",
+      "Harsh Mercy",
+      "HELIOS One",
+      "Hull Breach",
+      "Hunter's Insight",
+      "Immoral Bargain",
+      "Jolrael, Mwonvuli Recluse",
+      "Kenrith's Transformation",
+      "Knollspine Dragon",
+      "Labyrinth of Skophos",
+      "Magus of the Wheel",
+      "Marauding Raptor",
+      "Marsh Flitter",
+      "Marshal's Anthem",
+      "Masterful Replication",
+      "Mirage Mirror",
+      "Mirror Entity",
+      "Misleading Signpost",
+      "Molten Slagheap",
+      "Moonlight Bargain",
+      "Mystic Confluence",
+      "Mystic Gate",
+      "Nesting Grounds",
+      "Nyx Weaver",
+      "Oreskos Explorer",
+      "Pact of the Serpent",
+      "Peel from Reality",
+      "Phyrexia's Core",
+      "Prismatic Lens",
+      "Prophetic Prism",
+      "Psychosis Crawler",
+      "Rakdos Charm",
+      "Recurring Insight",
+      "Ride the Avalanche",
+      "Rugged Prairie",
+      "Saltcrusted Steppe",
+      "Selective Obliteration",
+      "Selvala, Explorer Returned",
+      "Skeletal Scrying",
+      "Slaughter the Strong",
+      "Suffer the Past",
+      "Sunken Ruins",
+      "Swan Song",
+      "Sylvan Offering",
+      "Syr Elenora, the Discerning",
+      "The Prismatic Piper",
+      "Thespian's Stage",
+      "Throes of Chaos",
+      "Timely Ward",
+      "Toxic Deluge",
+      "Trading Post",
+      "Tragic Arrogance",
+      "Treacherous Terrain",
+      "Twilight Mire",
+      "Viscera Seer",
+      "Wall of Limbs",
+      "Wild Growth",
+      "Winter, Cynical Opportunist",
+      "Wooded Bastion"
+    ],
+    "strategicallyVerified": 97,
+    "registryUnwired": []
+  },
+  "hygiene": {
+    "unimplemented": [],
+    "unhandledHints": []
+  }
+}

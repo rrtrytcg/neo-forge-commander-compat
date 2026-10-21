@@ -1,0 +1,125 @@
+{
+  "card": "Ride the Avalanche",
+  "profile": "ride-the-avalanche",
+  "engine": "NeoForge 1.0.28",
+  "baselineChecks": 2,
+  "focusedChecks": 17,
+  "fullGate": {
+    "checks": 5753,
+    "suites": 58,
+    "priorChecks": 5736.0,
+    "newChecks": 17,
+    "candidateSha256": "D5B55E0F74CC63D940343F75792AF9854FF8700AF2D1B1DBE7E70758E23901A9",
+    "base": "arena/selective-obliteration/target/final-1.0.28-r2"
+  },
+  "installedHashesChecked": 21729,
+  "installedHashesChanged": 0,
+  "exposures": [
+    {
+      "seed": 130011,
+      "mode": "off",
+      "clockSeconds": 120,
+      "exit": 0,
+      "lastTurn": 21.0,
+      "exceptions": 0,
+      "counts": {
+        "followupCasts": 5,
+        "followupResolves": 5,
+        "rideCasts": 0,
+        "rideResolves": 0,
+        "triggered": 0,
+        "triggerResolves": 0
+      },
+      "witnesses": [],
+      "log": "<development-checkout>\\arena\\ride-the-avalanche\\target\\exposure-r4\\off-130011\\game.log",
+      "logSha256": "470ED49E6097F7C0EEA6335A637233A4011A258074B93C38729D973B456518AF",
+      "candidateSha256": "D5B55E0F74CC63D940343F75792AF9854FF8700AF2D1B1DBE7E70758E23901A9",
+      "result": "Game Result: Game 1 ended in 2556 ms. Ai(2)-Ride the Avalanche exposure: opposing board has won!"
+    },
+    {
+      "seed": 130011,
+      "mode": "on",
+      "clockSeconds": 120,
+      "exit": 0,
+      "lastTurn": 35.0,
+      "exceptions": 0,
+      "counts": {
+        "followupCasts": 8,
+        "followupResolves": 8,
+        "rideCasts": 4,
+        "rideResolves": 4,
+        "triggered": 4,
+        "triggerResolves": 4
+      },
+      "witnesses": [
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature cast Ride the Avalanche",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature triggered Ride the Avalanche (57)'s Effect targeting [Grizzly Bears (89)]",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature cast Ride the Avalanche",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature triggered Ride the Avalanche (64)'s Effect targeting [Grizzly Bears (89)]",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature cast Ride the Avalanche",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature triggered Ride the Avalanche (60)'s Effect targeting [Grizzly Bears (89)]",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature cast Ride the Avalanche",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature triggered Ride the Avalanche (68)'s Effect targeting [Grizzly Bears (89)]",
+        "Resolve Stack: When you cast your next spell this turn, put X +1/+1 counters on up to one target creature, where X is the mana value of that spell. (Targeting: [[Grizzly Bears (89)]]) [Card: Grizzly Bears (79), Activator: Ai(1)-Ride the Avalanche exposure: cast then creature, SpellAbility: Grizzly Bears - Creature 2 / 2]",
+        "Resolve Stack: When you cast your next spell this turn, put X +1/+1 counters on up to one target creature, where X is the mana value of that spell. (Targeting: [[Grizzly Bears (89)]]) [Card: Grizzly Bears (92), Activator: Ai(1)-Ride the Avalanche exposure: cast then creature, SpellAbility: Grizzly Bears - Creature 2 / 2]",
+        "Resolve Stack: When you cast your next spell this turn, put X +1/+1 counters on up to one target creature, where X is the mana value of that spell. (Targeting: [[Grizzly Bears (89)]]) [Card: Grizzly Bears (84), Activator: Ai(1)-Ride the Avalanche exposure: cast then creature, SpellAbility: Grizzly Bears - Creature 2 / 2]",
+        "Resolve Stack: When you cast your next spell this turn, put X +1/+1 counters on up to one target creature, where X is the mana value of that spell. (Targeting: [[Grizzly Bears (89)]]) [Card: Grizzly Bears (87), Activator: Ai(1)-Ride the Avalanche exposure: cast then creature, SpellAbility: Grizzly Bears - Creature 2 / 2]"
+      ],
+      "log": "<development-checkout>\\arena\\ride-the-avalanche\\target\\exposure-r4\\on-130011\\game.log",
+      "logSha256": "FFEB4EE4E3C36224050B80942D9AC8F8A221092C3CDA432D805B12A3D6AA678E",
+      "candidateSha256": "D5B55E0F74CC63D940343F75792AF9854FF8700AF2D1B1DBE7E70758E23901A9",
+      "result": "Game Result: Game 1 ended in 5253 ms. Ai(2)-Ride the Avalanche exposure: opposing board has won!"
+    },
+    {
+      "seed": 130012,
+      "mode": "off",
+      "clockSeconds": 120,
+      "exit": 0,
+      "lastTurn": 19.0,
+      "exceptions": 0,
+      "counts": {
+        "followupCasts": 4,
+        "followupResolves": 4,
+        "rideCasts": 0,
+        "rideResolves": 0,
+        "triggered": 0,
+        "triggerResolves": 0
+      },
+      "witnesses": [],
+      "log": "<development-checkout>\\arena\\ride-the-avalanche\\target\\exposure-r4\\off-130012\\game.log",
+      "logSha256": "4AE11D99365224575281004150108C5717B4189B002E7F5ED90810F4A1EA446D",
+      "candidateSha256": "D5B55E0F74CC63D940343F75792AF9854FF8700AF2D1B1DBE7E70758E23901A9",
+      "result": "Game Result: Game 1 ended in 2329 ms. Ai(2)-Ride the Avalanche exposure: opposing board has won!"
+    },
+    {
+      "seed": 130012,
+      "mode": "on",
+      "clockSeconds": 120,
+      "exit": 0,
+      "lastTurn": 21.0,
+      "exceptions": 0,
+      "counts": {
+        "followupCasts": 4,
+        "followupResolves": 4,
+        "rideCasts": 3,
+        "rideResolves": 3,
+        "triggered": 2,
+        "triggerResolves": 2
+      },
+      "witnesses": [
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature cast Ride the Avalanche",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature triggered Ride the Avalanche (53)'s Effect targeting [Grizzly Bears (89)]",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature cast Ride the Avalanche",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature cast Ride the Avalanche",
+        "Add To Stack: Ai(1)-Ride the Avalanche exposure: cast then creature triggered Ride the Avalanche (57)'s Effect targeting [Grizzly Bears (89)]",
+        "Resolve Stack: When you cast your next spell this turn, put X +1/+1 counters on up to one target creature, where X is the mana value of that spell. (Targeting: [[Grizzly Bears (89)]]) [Card: Grizzly Bears (78), Activator: Ai(1)-Ride the Avalanche exposure: cast then creature, SpellAbility: Grizzly Bears - Creature 2 / 2]",
+        "Resolve Stack: When you cast your next spell this turn, put X +1/+1 counters on up to one target creature, where X is the mana value of that spell. (Targeting: [[Grizzly Bears (89)]]) [Card: Grizzly Bears (81), Activator: Ai(1)-Ride the Avalanche exposure: cast then creature, SpellAbility: Grizzly Bears - Creature 2 / 2]"
+      ],
+      "log": "<development-checkout>\\arena\\ride-the-avalanche\\target\\exposure-r4\\on-130012\\game.log",
+      "logSha256": "6D7761C6F9864BEF1CAFC38386445FC509F0E4BA313162618E7DCDAB747EC587",
+      "candidateSha256": "D5B55E0F74CC63D940343F75792AF9854FF8700AF2D1B1DBE7E70758E23901A9",
+      "result": "Game Result: Game 1 ended in 2637 ms. Ai(2)-Ride the Avalanche exposure: opposing board has won!"
+    }
+  ],
+  "scope": "Card-use and native decision evidence only; no winner or strength claim"
+}

@@ -1,0 +1,270 @@
+{
+  "engine": "NeoForge 1.0.27",
+  "revision": "5052fd69f94a1b7dae3d05e6fee53228bcf06ad8",
+  "candidateSha256": "09B7D595DCAB6823089D7ADD8B38F7B9B607F12E4ABDC5178161C93850B354D0",
+  "base": "<development-checkout>\\arena\\immoral-bargain\\target\\final-1.0.27",
+  "gate": {
+    "checks": 5687,
+    "suites": 54,
+    "priorChecks": 5669,
+    "newChecks": 18,
+    "newSuiteSha256": "61B54B9EA4394FD4887211CB419D18E9B661AE9BFC7AFD9F612FF04AFB9E5505",
+    "baselineChecks": 1,
+    "focusedChecks": 18,
+    "installedHashesChecked": 21729,
+    "installedHashesChanged": 0
+  },
+  "exposure": [
+    {
+      "mode": "off",
+      "seed": 125011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 0,
+        "resolved": 0,
+        "triggers": 0
+      },
+      "lastTurn": 20.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1730 ms. Ai(1)-Carpet of Flowers exposure: green mana engine has won!",
+      "logSha256": "3ED92646AD687F11F0053ACE6DA6B8EA420ACAB0C7E6D38F3CFED72ADDF49BBE",
+      "witnesses": {
+        "cast": [],
+        "trigger": [],
+        "resolve": []
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 125011,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 2,
+        "resolved": 2,
+        "triggers": 12
+      },
+      "lastTurn": 14.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1573 ms. Ai(1)-Carpet of Flowers exposure: green mana engine has won!",
+      "logSha256": "3E5BC4433B810C9D7D40FAD13909F404A5CAFE4CFED57B39331EB250A5C6B3FE",
+      "witnesses": {
+        "cast": [
+          {
+            "line": 70,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine cast Carpet of Flowers"
+          },
+          {
+            "line": 97,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine cast Carpet of Flowers"
+          }
+        ],
+        "trigger": [
+          {
+            "line": 94,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 106,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 130,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 131,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 166,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 167,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 205,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 206,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 246,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 247,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 290,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 291,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          }
+        ],
+        "resolve": [
+          {
+            "line": 71,
+            "text": "Resolve Stack: Carpet of Flowers"
+          },
+          {
+            "line": 98,
+            "text": "Resolve Stack: Carpet of Flowers"
+          }
+        ]
+      }
+    },
+    {
+      "mode": "off",
+      "seed": 125012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 0,
+        "resolved": 0,
+        "triggers": 0
+      },
+      "lastTurn": 22.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1633 ms. Ai(1)-Carpet of Flowers exposure: green mana engine has won!",
+      "logSha256": "5B0DD5FE7F5BBA3D5ABF2D99E0DDEB5F24195DA5C4D25E3C1F16460A7687C5FD",
+      "witnesses": {
+        "cast": [],
+        "trigger": [],
+        "resolve": []
+      }
+    },
+    {
+      "mode": "on",
+      "seed": 125012,
+      "clockSeconds": 120,
+      "exit": 0,
+      "counts": {
+        "casts": 6,
+        "resolved": 6,
+        "triggers": 13
+      },
+      "lastTurn": 12.0,
+      "exceptions": 0,
+      "result": "Game Result: Game 1 ended in 1396 ms. Ai(1)-Carpet of Flowers exposure: green mana engine has won!",
+      "logSha256": "8E39C4CECF2CE18A14F3516E7E0A946AF7E846168EE5A88CE4B853409158C57E",
+      "witnesses": {
+        "cast": [
+          {
+            "line": 66,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine cast Carpet of Flowers"
+          },
+          {
+            "line": 193,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine cast Carpet of Flowers"
+          },
+          {
+            "line": 221,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine cast Carpet of Flowers"
+          },
+          {
+            "line": 223,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine cast Carpet of Flowers"
+          },
+          {
+            "line": 225,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine cast Carpet of Flowers"
+          },
+          {
+            "line": 283,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine cast Carpet of Flowers"
+          }
+        ],
+        "trigger": [
+          {
+            "line": 90,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 128,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 171,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 217,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 218,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 244,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 245,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 246,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 273,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 274,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 275,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 276,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          },
+          {
+            "line": 277,
+            "text": "Add To Stack: Ai(1)-Carpet of Flowers exposure: green mana engine triggered Carpet of Flowers targeting [Ai(2)-Carpet of Flowers exposure: Islands]"
+          }
+        ],
+        "resolve": [
+          {
+            "line": 67,
+            "text": "Resolve Stack: Carpet of Flowers"
+          },
+          {
+            "line": 194,
+            "text": "Resolve Stack: Carpet of Flowers"
+          },
+          {
+            "line": 222,
+            "text": "Resolve Stack: Carpet of Flowers"
+          },
+          {
+            "line": 224,
+            "text": "Resolve Stack: Carpet of Flowers"
+          },
+          {
+            "line": 226,
+            "text": "Resolve Stack: Carpet of Flowers"
+          },
+          {
+            "line": 284,
+            "text": "Resolve Stack: Carpet of Flowers"
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Paired custom-deck card-use evidence only; no winner or strength claim."
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "NeoForge 1.0.25",
+  "scope": "Bounded native custom-deck card use, not completion/winner/strength evidence",
+  "candidateSha256": "CAE437E5FEA4A34CCED629EA3B5E4F5FFEAFB4F58AA0A62A68EEFF7D96821C83",
+  "runs": [
+    {
+      "seed": 98011,
+      "removalResponses": 11,
+      "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\removal-on-98011\\summary.json",
+      "clockReached": true,
+      "scenario": "removal",
+      "casts": 1,
+      "profile": "on",
+      "resolved": 11,
+      "combatRescues": 0,
+      "sha256": "769E68C5F18ED50E2E3C642A5152969BA470FDD4F5FEAAC9D909B3EF1AA929EE"
+    },
+    {
+      "seed": 98012,
+      "removalResponses": 4,
+      "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\removal-on-98012\\summary.json",
+      "clockReached": true,
+      "scenario": "removal",
+      "casts": 1,
+      "profile": "on",
+      "resolved": 4,
+      "combatRescues": 0,
+      "sha256": "47DF1ADA4EEE93E82BD55B4ED595DB32B09AC49196526AE64813C7F3C8CC78CD"
+    },
+    {
+      "seed": 98021,
+      "removalResponses": 0,
+      "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\combat-on-98021\\summary.json",
+      "clockReached": false,
+      "scenario": "combat",
+      "casts": 1,
+      "profile": "on",
+      "resolved": 1,
+      "combatRescues": 1,
+      "sha256": "C3D69CEB99A7FBBC98071D784E768D874D4372957333A30480276194650CA103"
+    },
+    {
+      "seed": 98011,
+      "removalResponses": 0,
+      "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\removal-off-98011\\summary.json",
+      "clockReached": true,
+      "scenario": "removal",
+      "casts": 0,
+      "profile": "off",
+      "resolved": 0,
+      "combatRescues": 0,
+      "sha256": "BCD5D3C0F5568BE5E060E8E61378DABB22DFF927A73894241426CC0249824E1E"
+    },
+    {
+      "seed": 98021,
+      "removalResponses": 0,
+      "summary": "<development-checkout>\\arena\\greater-good\\target\\card-use\\combat-off-98021\\summary.json",
+      "clockReached": false,
+      "scenario": "combat",
+      "casts": 0,
+      "profile": "off",
+      "resolved": 0,
+      "combatRescues": 0,
+      "sha256": "8699C566B783A4B6ECFFC5C1BC28B4E34F6D9E52A221EE688C8C43D1429946C1"
+    }
+  ],
+  "checks": 181
+}

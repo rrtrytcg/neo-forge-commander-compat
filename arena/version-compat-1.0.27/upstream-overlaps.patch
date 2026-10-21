@@ -1,0 +1,234 @@
+diff --git a/forge-ai/src/main/java/forge/ai/AiBlockController.java b/forge-ai/src/main/java/forge/ai/AiBlockController.java
+index 8b145f0a..8d5d6a7b 100644
+--- a/forge-ai/src/main/java/forge/ai/AiBlockController.java
++++ b/forge-ai/src/main/java/forge/ai/AiBlockController.java
+@@ -175,11 +175,10 @@ public class AiBlockController {
+             }
+         }
+ 
+-        if (ComputerUtilCombat.lifeInDanger(ai, combat)) {
++        if (!sortedAttackers.isEmpty() && !firstAttacker.isEmpty() && ComputerUtilCombat.lifeInDanger(ai, combat)) {
+             // add creatures attacking the Player to the front of the list
+             sortedAttackers.addAll(0, firstAttacker);
+         } else {
+-            // add creatures attacking the Player to the back of the list
+             sortedAttackers.addAll(firstAttacker);
+         }
+         return sortedAttackers;
+diff --git a/forge-ai/src/main/java/forge/ai/ComputerUtilCombat.java b/forge-ai/src/main/java/forge/ai/ComputerUtilCombat.java
+index 0c917c46..2b9520cb 100644
+--- a/forge-ai/src/main/java/forge/ai/ComputerUtilCombat.java
++++ b/forge-ai/src/main/java/forge/ai/ComputerUtilCombat.java
+@@ -49,6 +49,7 @@ import forge.util.MyRandom;
+ import forge.util.TextUtil;
+ import forge.util.collect.FCollection;
+ 
++import java.util.Collections;
+ import java.util.List;
+ import java.util.Map;
+ 
+@@ -366,10 +367,23 @@ public class ComputerUtilCombat {
+ 
+     public static List<Card> getLifeThreateningCommanders(final Player ai, final Combat combat) {
+         List<Card> res = Lists.newArrayList();
+-        for (Card c : combat.getAttackers()) {
+-            if (c.isCommander() && combat.isAttacking(c, ai)) {
++        for (Card c : combat.getAttackersOf(ai)) {
++            if (c.isCommander()) {
++                CardCollection blockers = combat.getBlockers(c);
+                 int currentCommanderDamage = ai.getCommanderDamage(c);
+-                if (damageIfUnblocked(c, ai, combat, false) + currentCommanderDamage >= 21) {
++                if (currentCommanderDamage >= 21) {
++                    // if a loss gets delayed there's no point to check for more
++                    return Collections.emptyList();
++                }
++                if (c.hasKeyword(Keyword.TRAMPLE)) {
++                    int dmgAfterShielding = getAttack(c) - totalShieldDamage(c, blockers);
++                    if (dmgAfterShielding > 0) {
++                        currentCommanderDamage += dmgAfterShielding;
++                    }
++                } else if (blockers.isEmpty()) {
++                    currentCommanderDamage += damageIfUnblocked(c, ai, combat, false);
++                }
++                if (currentCommanderDamage >= 21) {
+                     res.add(c);
+                 }
+             }
+diff --git a/forge-ai/src/main/java/forge/ai/ComputerUtilMana.java b/forge-ai/src/main/java/forge/ai/ComputerUtilMana.java
+index a9bc4f08..fb628677 100644
+--- a/forge-ai/src/main/java/forge/ai/ComputerUtilMana.java
++++ b/forge-ai/src/main/java/forge/ai/ComputerUtilMana.java
+@@ -1378,7 +1378,7 @@ public class ComputerUtilMana {
+         Zone castFromBackup = null;
+         if (test && sa.isSpell() && !host.isInZone(ZoneType.Stack)) {
+             castFromBackup = host.getCastFrom();
+-            host.setCastFrom(host.getZone() != null ? host.getZone() : null);
++            host.setCastFrom(host.getLastKnownZone());
+         }
+ 
+         Cost payCosts;
+diff --git a/forge-ai/src/main/java/forge/ai/ability/ChangeZoneAi.java b/forge-ai/src/main/java/forge/ai/ability/ChangeZoneAi.java
+index a31cfbed..c9e8d8c6 100644
+--- a/forge-ai/src/main/java/forge/ai/ability/ChangeZoneAi.java
++++ b/forge-ai/src/main/java/forge/ai/ability/ChangeZoneAi.java
+@@ -1839,14 +1839,14 @@ public class ChangeZoneAi extends SpellAbilityAi {
+         return new AiAbilityDecision(0, AiPlayDecision.CantPlayAi);
+     }
+ 
+-    public AiAbilityDecision doReturnCommanderLogic(SpellAbility sa, Player aiPlayer) {
++    public AiAbilityDecision doReturnCommanderLogic(SpellAbility sa, Player ai) {
+         @SuppressWarnings("unchecked")
+         Map<AbilityKey, Object> originalParams = (Map<AbilityKey, Object>)sa.getReplacingObject(AbilityKey.OriginalParams);
+         SpellAbility causeSa = (SpellAbility)originalParams.get(AbilityKey.Cause);
+         SpellAbility causeSub = null;
+         ZoneType destination = (ZoneType)originalParams.get(AbilityKey.Destination);
+ 
+-        if (ZoneType.Hand.equals(destination)) {
++        if (destination == ZoneType.Hand) {
+             // don't replace since its easier to cast it again
+             return new AiAbilityDecision(0, AiPlayDecision.CantPlayAi);
+         }
+@@ -1860,24 +1860,18 @@ public class ChangeZoneAi extends SpellAbilityAi {
+         if (causeSa != null && (causeSub = causeSa.getSubAbility()) != null) {
+             ApiType subApi = causeSub.getApi();
+ 
+-            if (subApi == ApiType.ChangeZone && "Exile".equals(causeSub.getParam("Origin"))
+-                    && "Battlefield".equals(causeSub.getParam("Destination"))) {
++            if (subApi == ApiType.ChangeZone
++                    && "Exile".equals(causeSub.getParam("Origin")) && "Battlefield".equals(causeSub.getParam("Destination"))) {
+                 // A blink effect implemented using ChangeZone API
+                 return new AiAbilityDecision(0, AiPlayDecision.CantPlayAi);
+             } else if (subApi == ApiType.DelayedTrigger) {
+                 SpellAbility exec = causeSub.getAdditionalAbility("Execute");
+-                if (exec != null && exec.getApi() == ApiType.ChangeZone) {
++                if (exec != null && exec.getApi() == ApiType.ChangeZone
++                        && "Exile".equals(exec.getParam("Origin")) && "Battlefield".equals(exec.getParam("Destination"))) {
+                     // A blink effect implemented using a delayed trigger
+-                    if (!"Exile".equals(exec.getParam("Origin")) || !"Battlefield".equals(exec.getParam("Destination"))) {
+-                        return new AiAbilityDecision(100, AiPlayDecision.WillPlay);
+-                    }
+                     return new AiAbilityDecision(0, AiPlayDecision.CantPlayAi);
+                 }
+-            } else {
+-                if (causeSa.getHostCard() == null || !causeSa.getHostCard().equals(sa.getReplacingObject(AbilityKey.Card))
+-                        || !causeSa.getActivatingPlayer().equals(aiPlayer)) {
+-                    return new AiAbilityDecision(100, AiPlayDecision.WillPlay);
+-                }
++            } else if (sa.getReplacingObject(AbilityKey.Card).equals(causeSa.getHostCard()) && causeSa.getActivatingPlayer().equals(ai)) {
+                 return new AiAbilityDecision(0, AiPlayDecision.CantPlayAi);
+             }
+         }
+diff --git a/forge-game/src/main/java/forge/trackable/TrackableProperty.java b/forge-game/src/main/java/forge/trackable/TrackableProperty.java
+index 1ec41f5d..28edb39c 100644
+--- a/forge-game/src/main/java/forge/trackable/TrackableProperty.java
++++ b/forge-game/src/main/java/forge/trackable/TrackableProperty.java
+@@ -45,7 +45,6 @@ public enum TrackableProperty {
+     SplitCard(TrackableTypes.BooleanType),
+     MergedCards(TrackableTypes.StringType),
+     MergedCardsCollection(TrackableTypes.CardViewCollectionType, FreezeMode.IgnoresFreeze),
+-    RevealedCardsCollection(TrackableTypes.CardViewCollectionType, FreezeMode.IgnoresFreeze),
+     PaperCardBackup(TrackableTypes.IPaperCardType),
+ 
+     Attacking(TrackableTypes.BooleanType),
+@@ -94,6 +93,7 @@ public enum TrackableProperty {
+     CloneOrigin(TrackableTypes.CardViewType),
+     ExiledWith(TrackableTypes.CardViewType),
+     PreparedSpell(TrackableTypes.CardViewType),
++
+     WasDestroyed(TrackableTypes.BooleanType),
+     NeedsTransformAnimation(TrackableTypes.BooleanType, FreezeMode.IgnoresFreeze),
+     NeedsUntapAnimation(TrackableTypes.BooleanType, FreezeMode.IgnoresFreeze),
+@@ -117,26 +117,26 @@ public enum TrackableProperty {
+ 
+     //Card State
+     Name(TrackableTypes.StringType),
++    OracleName(TrackableTypes.StringType),
++    ImageKey(TrackableTypes.StringType),
+     Colors(TrackableTypes.ColorSetType),
+     OriginalColors(TrackableTypes.ColorSetType),
+-    ImageKey(TrackableTypes.StringType),
+     Type(TrackableTypes.CardTypeViewType),
+     ManaCost(TrackableTypes.ManaCostType),
+     OriginalManaCost(TrackableTypes.ManaCostType),
+     SetCode(TrackableTypes.StringType),
+     Rarity(TrackableTypes.EnumType(CardRarity.class)),
+-    FunctionalVariant(TrackableTypes.StringType),
+     OracleText(TrackableTypes.StringType),
+     RulesText(TrackableTypes.StringType),
+-    OracleName(TrackableTypes.StringType),
++    HasPrintedPT(TrackableTypes.BooleanType),
+     Power(TrackableTypes.IntegerType),
+     Toughness(TrackableTypes.IntegerType),
+     Loyalty(TrackableTypes.StringType),
+     Defense(TrackableTypes.StringType),
++    FunctionalVariant(TrackableTypes.StringType),
+     AttractionLights(TrackableTypes.IntegerSetType),
+     ChangedColorWords(TrackableTypes.StringMapType),
+     HasChangedColors(TrackableTypes.BooleanType),
+-    HasPrintedPT(TrackableTypes.BooleanType),
+     ChangedTypes(TrackableTypes.StringMapType),
+ 
+     //check produce mana for BG
+@@ -171,7 +171,6 @@ public enum TrackableProperty {
+     MaxLandPlay(TrackableTypes.IntegerType),
+     HasUnlimitedLandPlay(TrackableTypes.BooleanType),
+     NumLandThisTurn(TrackableTypes.IntegerType),
+-    NumManaShards(TrackableTypes.IntegerType),
+     DraftNotes(TrackableTypes.StringMapType),
+     NumDrawnThisTurn(TrackableTypes.IntegerType),
+     AdditionalVote(TrackableTypes.IntegerType),
+@@ -205,10 +204,13 @@ public enum TrackableProperty {
+     IsExtraTurn(TrackableTypes.BooleanType),
+     ExtraTurnCount(TrackableTypes.IntegerType),
+     HasPriority(TrackableTypes.BooleanType, FreezeMode.IgnoresFreeze),
+-    AvatarLifeDifference(TrackableTypes.IntegerType, FreezeMode.IgnoresFreeze),
+     HasLost(TrackableTypes.BooleanType),
+     HasAvailableActions(TrackableTypes.BooleanType),
+ 
++    AvatarLifeDifference(TrackableTypes.IntegerType, FreezeMode.IgnoresFreeze),
++
++    NumManaShards(TrackableTypes.IntegerType),
++
+     //SpellAbility
+     HostCard(TrackableTypes.CardViewType),
+     Description(TrackableTypes.StringType),
+@@ -230,32 +232,33 @@ public enum TrackableProperty {
+     OptionalCosts(TrackableTypes.StringType),
+ 
+     //Combat
++    CombatView(TrackableTypes.CombatViewType, FreezeMode.IgnoresFreeze),
+     AttackersWithDefenders(TrackableTypes.GenericMapType, FreezeMode.IgnoresFreeze),
+     AttackersWithBlockers(TrackableTypes.GenericMapType, FreezeMode.IgnoresFreeze),
++    AttackersWithPlannedBlockers(TrackableTypes.GenericMapType, FreezeMode.IgnoresFreeze),
+     BandsWithDefenders(TrackableTypes.GenericMapType, FreezeMode.IgnoresFreeze),
+     BandsWithBlockers(TrackableTypes.GenericMapType, FreezeMode.IgnoresFreeze),
+-    AttackersWithPlannedBlockers(TrackableTypes.GenericMapType, FreezeMode.IgnoresFreeze),
+     BandsWithPlannedBlockers(TrackableTypes.GenericMapType, FreezeMode.IgnoresFreeze),
+-    CombatView(TrackableTypes.CombatViewType, FreezeMode.IgnoresFreeze),
+ 
+     //Game
+     Players(TrackableTypes.PlayerViewCollectionType),
+     GameType(TrackableTypes.EnumType(GameType.class)),
+     Title(TrackableTypes.StringType),
+     Turn(TrackableTypes.IntegerType),
++    PlayerTurn(TrackableTypes.PlayerViewType, FreezeMode.IgnoresFreeze),
++    Phase(TrackableTypes.EnumType(PhaseType.class), FreezeMode.IgnoresFreeze),
+     WinningPlayerName(TrackableTypes.StringType),
+     WinningTeam(TrackableTypes.IntegerType),
+-    MatchOver(TrackableTypes.BooleanType),
+     Mulligan(TrackableTypes.BooleanType),
++    GameOver(TrackableTypes.BooleanType),
++    MatchOver(TrackableTypes.BooleanType),
+     NumGamesInMatch(TrackableTypes.IntegerType),
+     NumPlayedGamesInMatch(TrackableTypes.IntegerType),
+     Stack(TrackableTypes.StackItemViewListType),
+     StormCount(TrackableTypes.IntegerType),
+-    GameOver(TrackableTypes.BooleanType),
+     PoisonCountersToLose(TrackableTypes.IntegerType),
+-    PlayerTurn(TrackableTypes.PlayerViewType, FreezeMode.IgnoresFreeze),
+-    Phase(TrackableTypes.EnumType(PhaseType.class), FreezeMode.IgnoresFreeze),
+     Object(TrackableTypes.ObjectType, FreezeMode.IgnoresFreeze),
++    RevealedCardsCollection(TrackableTypes.CardViewCollectionType, FreezeMode.IgnoresFreeze),
+     Dependencies(TrackableTypes.StringType);
+ 
+     public enum FreezeMode {

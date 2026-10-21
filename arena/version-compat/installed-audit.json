@@ -1,0 +1,950 @@
+{
+  "cards": {
+    "zipSha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76",
+    "zipPath": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+    "changed": [
+      {
+        "path": "b/bilbo_thief_in_the_night.txt",
+        "name": "Bilbo, Thief in the Night"
+      },
+      {
+        "path": "c/cavalier_of_gales.txt",
+        "name": "Cavalier of Gales"
+      },
+      {
+        "path": "c/collected_conjuring.txt",
+        "name": "Collected Conjuring"
+      },
+      {
+        "path": "c/counterpoint.txt",
+        "name": "Counterpoint"
+      },
+      {
+        "path": "d/diviner_of_mist.txt",
+        "name": "Diviner of Mist"
+      },
+      {
+        "path": "h/hidetsugu_and_kairi.txt",
+        "name": "Hidetsugu and Kairi"
+      },
+      {
+        "path": "j/jace_the_mind_sculptor.txt",
+        "name": "Jace, the Mind Sculptor"
+      },
+      {
+        "path": "j/jaces_mindseeker.txt",
+        "name": "Jace's Mindseeker"
+      },
+      {
+        "path": "j/jeleva_nephalias_scourge.txt",
+        "name": "Jeleva, Nephalia's Scourge"
+      },
+      {
+        "path": "k/ken_burning_brawler.txt",
+        "name": "Ken, Burning Brawler"
+      },
+      {
+        "path": "m/metamorphose.txt",
+        "name": "Metamorphose"
+      },
+      {
+        "path": "r/riverwise_augur.txt",
+        "name": "Riverwise Augur"
+      },
+      {
+        "path": "s/skyway_robber.txt",
+        "name": "Skyway Robber"
+      },
+      {
+        "path": "s/sorcerous_squall.txt",
+        "name": "Sorcerous Squall"
+      },
+      {
+        "path": "t/tetsuo_imperial_champion.txt",
+        "name": "Tetsuo, Imperial Champion"
+      },
+      {
+        "path": "t/the_earth_crystal.txt",
+        "name": "The Earth Crystal"
+      }
+    ],
+    "hintChanges": [],
+    "added": [
+      {
+        "path": "upcoming/beta_ray_bill.txt",
+        "name": "Beta Ray Bill"
+      },
+      {
+        "path": "upcoming/doctor_strange_master_of_magic.txt",
+        "name": "Doctor Strange, Master of Magic"
+      }
+    ],
+    "same": 34070,
+    "registeredChanged": []
+  },
+  "installedNeo": {
+    "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+    "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+  },
+  "scope": "Read-only installed snapshot versus frozen Classic classes and current source scripts; bytecode differences alone are not behavioral claims",
+  "comparisonBase": {
+    "path": "<development-checkout>\\arena\\.tools\\frozen\\forge-classic.jar",
+    "sha256": "7D93F2471DD0EEFD0BD2B8605A48425603A71B6BCE63BC74818D776B8338AA50"
+  },
+  "date": "2026-10-17",
+  "installedCommanderDecks": [
+    {
+      "name": "40K - Forces of the Imperium",
+      "sha256": "B4163F75876A2E8B22B3DDFE373155C0F503E576CB993259F1A4EE18BEDFB5C7"
+    },
+    {
+      "name": "40K - Necron Dynasties",
+      "sha256": "F41217C73A01F1D05072C2A5DADB7E04A6AADB4175B8898F485FE13244328680"
+    },
+    {
+      "name": "40K - The Ruinous Powers",
+      "sha256": "E429E234FF046953CF60C7A56502CF7641773ECEAACB3BEB2683000FCC0D96D3"
+    },
+    {
+      "name": "40K - Tyranid Swarm",
+      "sha256": "5E37AD5B47471A4AE0B5F026A87973690071F4A211AA86556EC3328E66278EF7"
+    },
+    {
+      "name": "AFC - Aura of Courage",
+      "sha256": "72474BF02FB0C9C370F48909E796F1B5FE92D10A4FA2B8618D65D5D66CBEF277"
+    },
+    {
+      "name": "AFC - Draconic Rage",
+      "sha256": "A1B530ABCAE27FB35B0AD6B98F91E9D1903972E02F07B5F4EB1266BD4A57BC27"
+    },
+    {
+      "name": "AFC - Dungeons of Death",
+      "sha256": "D9D07CE6027C700622C72AE3278B288AD97E222609C509BB60560A057A5F2B5F"
+    },
+    {
+      "name": "AFC - Planar Portal",
+      "sha256": "296BEE929647BA87FF59F8F7CE7CDEB756FA1866FA52C0CC269FF7CAC224C3D8"
+    },
+    {
+      "name": "BLC - Animated Army",
+      "sha256": "5E7ED7F8587387D2765915BC5B490D660B8C49FE9D8BE83C2A744D29975F238F"
+    },
+    {
+      "name": "BLC - Family Matters",
+      "sha256": "4A99DD672C7DC40E9385C117C88534E4EAFC8C372A8A940ACBDA03D9D3299A41"
+    },
+    {
+      "name": "BLC - Peace Offering",
+      "sha256": "6B24DD7B40EBDADDD2A74CDC22CF9FD4F0A856B465FB6F4512DB80870215E07B"
+    },
+    {
+      "name": "BLC - Squirreled Away",
+      "sha256": "1ED8039C9F363D81929652F811E0BCCE6B53CB54A5E0A04E62E965DEB1221786"
+    },
+    {
+      "name": "BRC - Mishra's Burnished Banner",
+      "sha256": "7599FF5C7F4E7E222A4BF53FDB017DC3BC312AD0A6E8D37249CE6C9B52C95D4D"
+    },
+    {
+      "name": "BRC - Urza's Iron Alliance",
+      "sha256": "A7F84C406CECDDDD135B9A8A27FB4B8DE4C42FE71F532806504E7B5F656888CA"
+    },
+    {
+      "name": "C13 - Eternal Bargain",
+      "sha256": "77F4948742F8FFB031E082C62EA2F98F3EF71EE9C8F134FCA3A4EA2E0B3D564C"
+    },
+    {
+      "name": "C13 - Evasive Maneuvers",
+      "sha256": "FD545D63275A6904B8DAA5355BD9E465699A3054651CEBA6C722D866E29BE77D"
+    },
+    {
+      "name": "C13 - Mind Seize",
+      "sha256": "DBAD0D90B1E205BD25CE9F27C7CE3F3EC7A93F0BE517993E4AE77C2FEA4F49A8"
+    },
+    {
+      "name": "C13 - Nature of the Beast",
+      "sha256": "ED3EBE3B6DF22B4AE8E2F5EA42A4D210A05335B8D83539B907728D4450930FE8"
+    },
+    {
+      "name": "C13 - Power Hungry",
+      "sha256": "4F30226A4720582A9FC680E1435E47E2D488EC2EF2E5C30EE1859D35F96587AB"
+    },
+    {
+      "name": "C14 - Built from Scratch",
+      "sha256": "B8CC1231FC5DCEF172F6420780FF98A6419EB74AEC1804F83CAEF041CDEEA065"
+    },
+    {
+      "name": "C14 - Forged in Stone",
+      "sha256": "DAA82104389D7C08433E4F1FB35E00FAE1B4D09DCF1347D413F78AC4BD7F3880"
+    },
+    {
+      "name": "C14 - Guided by Nature",
+      "sha256": "114EC7C07C03F8A9AFD50BF6FA94F22E1A6C7596DE7E6583A25981DE9E7FE26A"
+    },
+    {
+      "name": "C14 - Peer Through Time",
+      "sha256": "746FBA2D29E7ECA2331A87999C91ECD6C87A8610A6276B695C167C53408D54F6"
+    },
+    {
+      "name": "C14 - Sworn to Darkness",
+      "sha256": "6BFD7D8ABAC7D5BDB1BEE08A59AF9733CEA7F590158F7097976D6055463E0DAB"
+    },
+    {
+      "name": "C15 - Call the Spirits",
+      "sha256": "EEA1ABDAE6CCA958F026CF728594BB4DC626EB2998B240B2BF244BACF3B432F8"
+    },
+    {
+      "name": "C15 - Plunder the Graves",
+      "sha256": "0679C0F5DF9FCC13FF8FA294C6CA6061EF23F993A2BFF51643FBED93CF98A0C5"
+    },
+    {
+      "name": "C15 - Seize Control",
+      "sha256": "370DEBEE5CFDA71833A038BBD78F096571228E03067B4C67675AC7F16EF77EBB"
+    },
+    {
+      "name": "C15 - Swell the Host",
+      "sha256": "2E84EA57BF50D062DED4476F8FEB5E18C7EF4373602B1B7670ACA3BD4303A8DC"
+    },
+    {
+      "name": "C15 - Wade into Battle",
+      "sha256": "520F8BE1EE488FF157DBCEC02C50324A8EA6E90D78740CA4F388B4C237F96954"
+    },
+    {
+      "name": "C16 - Breed Lethality",
+      "sha256": "6CC341CEBF65006D7B07444C4C9CFC2E078D66F184BB50BC27A9EBEAF5AA38AE"
+    },
+    {
+      "name": "C16 - Entropic Uprising",
+      "sha256": "455CA35246B45A85986500244474009B2C5AC9B0533A6E467FE4B231E231A5B6"
+    },
+    {
+      "name": "C16 - Invent Superiority",
+      "sha256": "F383C82E318E3C02E535FEAF1E9464E3F8DAA923C72136BBE464F4143C51FAD3"
+    },
+    {
+      "name": "C16 - Open Hostility",
+      "sha256": "EBDF9908B34600E1B1BBE8072551BD36E25B100DB580E15A815A19C7C1D90B6D"
+    },
+    {
+      "name": "C16 - Stalwart Unity",
+      "sha256": "21734592B21713B443F7B56C3AD8C4844FDC43EFF7E899DF33EA22BD37B24F50"
+    },
+    {
+      "name": "C17 - Arcane Wizardry",
+      "sha256": "680A23CEC51657F7E9F98162BDEBA3DBC30F694E09256DEFAA67E44AC3AD5E18"
+    },
+    {
+      "name": "C17 - Draconic Domination",
+      "sha256": "C8432BB24F14EEF8252CB3411EEEBB5347AF5D4396D9C8D90D40AD22E43032EA"
+    },
+    {
+      "name": "C17 - Feline Ferocity",
+      "sha256": "0F62F133E35A1810274B93489EFF6D09BBC20812F011F28C7AE7060DD27505EE"
+    },
+    {
+      "name": "C17 - Vampiric Bloodlust",
+      "sha256": "238F1ACCD6FC5B5D1D6FFCADD6BFA5A68596CD71B4439E7BA9AB9590D5E92180"
+    },
+    {
+      "name": "C18 - Adaptive Enchantment",
+      "sha256": "0D130F204B28240AAA73F88B2DD7724AB0BC58E7BF8563CCEBFD73D59FC6B20D"
+    },
+    {
+      "name": "C18 - Exquisite Invention",
+      "sha256": "38A1329737B9F197A4A8F5B525D08A35691A0DE9A898E4AF36487BF167B774B1"
+    },
+    {
+      "name": "C18 - Nature's Vengeance",
+      "sha256": "7A3FBBE809748A8DB3DF1D81ECB0EE7788BF3AA40A0FEEC37A9865822346334C"
+    },
+    {
+      "name": "C18 - Subjective Reality",
+      "sha256": "74753F650C8A34D3F0A814FBD1B1CE318B718EA282280B34DBCEF51334029F84"
+    },
+    {
+      "name": "C19 - Faceless Menace",
+      "sha256": "4F27FE32EBE29D51508BF30953AC627881A1AC4E08F17C9D3FF45BD65530AC09"
+    },
+    {
+      "name": "C19 - Merciless Rage",
+      "sha256": "A7A4D7B2F33D9B20E18AB376A2572DF635C79AF75F9DE533D9E97760B89E4C14"
+    },
+    {
+      "name": "C19 - Mystic Intellect",
+      "sha256": "E3B9BEAA6DAE830FE21B88B12D3D38513EE5367596A405B78ED2CA340011090B"
+    },
+    {
+      "name": "C19 - Primal Genesis",
+      "sha256": "3BB2AA9DAF6F8ABB1526F8C7D9204F6C73D8990B03BF01EC0021057FEE7E8BE7"
+    },
+    {
+      "name": "C20 - Arcane Maelstrom",
+      "sha256": "D08D58861E654AB1CAD7878CF365087671CB4466E530A6631E6F255EDB440B37"
+    },
+    {
+      "name": "C20 - Enhanced Evolution",
+      "sha256": "01778D19FCBB8EB96ECAB47242B549926B94206488FD7472B1894F79F0BF150C"
+    },
+    {
+      "name": "C20 - Ruthless Regiment",
+      "sha256": "84698A9A0EB57B3B3B72BB82BCC8AD55BFB0EB0DBE752C68379DD8CE9DE74603"
+    },
+    {
+      "name": "C20 - Symbiotic Swarm",
+      "sha256": "AD4368F0D439A9E2C78423AFE63E3D184ED1534C7B8C190E1F66B634C95DFFF6"
+    },
+    {
+      "name": "C20 - Timeless Wisdom",
+      "sha256": "00FBA20CCB2BA5098AD3FBF0880624CDE34DD4BB066A74EC1A72036A59FB22E5"
+    },
+    {
+      "name": "C21 - Lorehold Legacies",
+      "sha256": "9BC992E76B1A1D4BF302E1844E8C0D80D23E341104D9CC4FC6171629F424DB7D"
+    },
+    {
+      "name": "C21 - Prismari Performance",
+      "sha256": "071BE8F0CD18484680093BFDF9FABF15F75B512535D48E57268395F1D993EE45"
+    },
+    {
+      "name": "C21 - Quantum Quandrix",
+      "sha256": "16F0E6F3EFE6E830F560F4162C51D0B7F3EDF9EE3849331099CB19AEC0061535"
+    },
+    {
+      "name": "C21 - Silverquill Statement",
+      "sha256": "5F3717974A00DDAEA73C0E79C4B9EBB271D71B39AA132355DC6818BB71240CDB"
+    },
+    {
+      "name": "C21 - Witherbloom Witchcraft",
+      "sha256": "6D2CA4CA469F7870D59264D7FD2B7BFF3F9412A4CA10D1FCABBA76870369C0A1"
+    },
+    {
+      "name": "CLB - Draconic Dissent",
+      "sha256": "38CD3AA4E5B544819D145FCB9B64E4E562FEB2C5E6925686778E21403219FAB2"
+    },
+    {
+      "name": "CLB - Exit from Exile",
+      "sha256": "6BF17D0A772BD68C4D22444CA4A6D6D10995D386909064931AA1D0E9E97A5767"
+    },
+    {
+      "name": "CLB - Mind Flayarrrs",
+      "sha256": "A88C24F34B7D9EE0517A46BAA2E85762C28C2106A0F157F82142A916055E10D9"
+    },
+    {
+      "name": "CLB - Party Time",
+      "sha256": "F6A78689BCAEA3F1CC9C53D032FFED841B22ED872866F8837C74E50FB5DA0AF5"
+    },
+    {
+      "name": "CMM - Eldrazi Unbound",
+      "sha256": "1F92F6B33C942ECF9873A43F27C0E7317EA110BD6D8DCE4001EAD7CF6E0D1611"
+    },
+    {
+      "name": "CMM - Enduring Enchantments",
+      "sha256": "8841E0E902B772EFC35407CC2BC75C13FFE87F2ACD6688F413DC4BB9A0BA46CE"
+    },
+    {
+      "name": "CMM - Planeswalker Party",
+      "sha256": "372E13173E2A79CFA84D893FD9DCFBCEF1BEA884705FAD0815CC984BD68FB770"
+    },
+    {
+      "name": "CMM - Sliver Swarm",
+      "sha256": "0BDD34D60C5CCEF9724C7A38AAE741A165C40DA43C9C1C8F32F3FC0F45F38720"
+    },
+    {
+      "name": "CMR - Arm for Battle",
+      "sha256": "BF5D3D9829E239EE35D1851252A75E3BEE2A410731D2D1EC60F22D5264554427"
+    },
+    {
+      "name": "CMR - Reap the Tides",
+      "sha256": "EA238F333F05B66BF50EF5562AE56ABC8C96EF73071E1B04C002C613A3A01624"
+    },
+    {
+      "name": "COM - Counterpunch",
+      "sha256": "C207A637FFD42AF5292E2CD0B87A073A3921850F8E60211E990A213F8909E03F"
+    },
+    {
+      "name": "COM - Devour for Power",
+      "sha256": "574229F52E4F8E04899E05597E3D716B9EAB4166579AF10B99E5AE6C11FBA3CB"
+    },
+    {
+      "name": "COM - Heavenly Inferno",
+      "sha256": "174565FF2268929B21EF94924EC060ADE5E9AFDBCB962FD43C281F9AB9E5EFC3"
+    },
+    {
+      "name": "COM - Mirror Mastery",
+      "sha256": "3CDCB1968A32330B8C1F6D1B56DF0ED0DD2C21886922A98DAA3AB2522FF2EE14"
+    },
+    {
+      "name": "COM - Political Puppets",
+      "sha256": "E9178FD789EBBF063963683BEF7AD7F9223890927336FB098351F2E1F0AB9CED"
+    },
+    {
+      "name": "DMC - Legends' Legacy",
+      "sha256": "02D4FACB0EAD9C4AB06A1F96DB0381EE0ACC729C3D30BAC8AADB1D1A016E1788"
+    },
+    {
+      "name": "DMC - Painbow",
+      "sha256": "DD0175A1DD6A110A0FBCEC5173602EAED0E06C8C2CFEB998219DD4E7710A9AB0"
+    },
+    {
+      "name": "DRC - Eternal Might",
+      "sha256": "10DC902975614D221DAB214A28CE5D4CFA6136F28765A37B63DF9CCD9B9C6111"
+    },
+    {
+      "name": "DRC - Living Energy",
+      "sha256": "956D54DE39BF9F92A01C923C1F0AC43D15935A58DE045F7395BFA58F9A8D4F8C"
+    },
+    {
+      "name": "DSC - Death Toll",
+      "sha256": "432D71FEA367E1F6768980C49B714F51E310571F121CAEB14B46F5E798737364"
+    },
+    {
+      "name": "DSC - Endless Punishment",
+      "sha256": "F936E5F4669014A68299648C2F649234F754DFFF6D78B50BA586DEC2F8D452A0"
+    },
+    {
+      "name": "DSC - Jump Scare!",
+      "sha256": "8955D1AB45C2AADB4644A77981BD440BDD1BBF1E7DC744B9A15255D750DCA73A"
+    },
+    {
+      "name": "DSC - Miracle Worker",
+      "sha256": "90DC990D32A8B40785C90CF711FE3DC19168A396487D3C1C812B74D875FE518E"
+    },
+    {
+      "name": "ECC - Blight Curse",
+      "sha256": "6FC1F00D7CBC52133A64C20F230E150E7B682B65DDAD4D8C55FE08ACD6FE7367"
+    },
+    {
+      "name": "ECC - Dance of the Elements",
+      "sha256": "CD33B9E222321B04C375DD4AE1EDF043C7451DA72E292030A57431E4F4E91795"
+    },
+    {
+      "name": "EOC - Counter Intelligence",
+      "sha256": "FB3E25C49BB12172FBD5D12E9EB25036EC5A3672EC6EFDAAC5AF57EF685F63F9"
+    },
+    {
+      "name": "EOC - World Shaper",
+      "sha256": "BC6B2B88045E3EFA8E1247D147BFCDA2CF592196463006FE019883E6B1FCC793"
+    },
+    {
+      "name": "FDC - Calling All Angels",
+      "sha256": "059F83955ACA2F2CE0B5130057200DC401A5C83E547EA96FDC4EF2A38335B83C"
+    },
+    {
+      "name": "FDC - Keen Engineering",
+      "sha256": "D5C7FDBD48E0FF24790F2BA7C006816754C4B594A7FB1B5FCC3EF5FF9EB24C43"
+    },
+    {
+      "name": "FDC - Reign of Dragons",
+      "sha256": "E166D440D3C157C2AAC202A5BB6D564037851DBC2F1027D3BED5CDDF9DAE45C5"
+    },
+    {
+      "name": "FDC - Tramplesaurus Rex",
+      "sha256": "74BB27F10D30F6A47C0042B039FC0EBEF49CE36D98F175CD5BDF8DB1F55EBDA7"
+    },
+    {
+      "name": "FDC - Wretched Ranks",
+      "sha256": "F0F581AB7D298B071078EF013E10F603DC5D473449B1E576DB6140BD78C39E2A"
+    },
+    {
+      "name": "FIC - Counter Blitz",
+      "sha256": "B78963B66DF24976D52B701790CC6DEA78C5BA59007CB9343653FCB086A04BE3"
+    },
+    {
+      "name": "FIC - Limit Break",
+      "sha256": "8B7ABE73DEC2B4B04752D6772EC510A3623C82C2D19E2CFBB84E1C9057E116C0"
+    },
+    {
+      "name": "FIC - Revival Trance",
+      "sha256": "E2873E0CEDECDF2B995BD468B05A60D529AF803B9EED599DE35B0FA6F87DF8EF"
+    },
+    {
+      "name": "FIC - Scions & Spellcraft",
+      "sha256": "1EFF030F18405A206357BEFB4BA5547700D2787D9CB93D453898E328DFC8A371"
+    },
+    {
+      "name": "FRC - Multiverse Reforged",
+      "sha256": "BFA810E514AC67A0B4639E0ECF0EC1086EFB0EF64CC804D3AD92C73DE74E5DE1"
+    },
+    {
+      "name": "HOB - There And Back Again",
+      "sha256": "812AC947A3EB4293C51BAB75C1AE6FD56F946548FA6E3189CA3CB121DABEB4B3"
+    },
+    {
+      "name": "KHC - Elven Empire",
+      "sha256": "3ED84085C69120EAF235A4E8EC90995BBE912AA10F4CE946B441CB90CC74090E"
+    },
+    {
+      "name": "KHC - Phantom Premonition",
+      "sha256": "70DC47DBB791C29A5943A1CD808A788A7509B0659E248E671AEEAAF2B8830EAE"
+    },
+    {
+      "name": "LCC - Ahoy Mateys",
+      "sha256": "A9F79C6AD83FEBB330DACFA3F7B9D839CB3403615E406365FB47F4FD486A6C98"
+    },
+    {
+      "name": "LCC - Blood Rites",
+      "sha256": "7EAC0131C005FFCA1147DDA15E207E2A02B4C6EA2A031A3CCB76E579409D6810"
+    },
+    {
+      "name": "LCC - Explorers of the Deep",
+      "sha256": "C08A008558AA4DBFC5519E612F1C4171C2E7C3BCA4C118E77C5BBA1EF342B0AC"
+    },
+    {
+      "name": "LCC - Veloci-Ramp-Tor",
+      "sha256": "23CF6492839314C524591B1619FE272E8FC6BA348B1000A572DF35FDC9DD96B2"
+    },
+    {
+      "name": "LTC - Elven Council",
+      "sha256": "BEF28F7943F7D1D74F28C6B36852C173FF70F7DFAF59FB19113719BB935492D7"
+    },
+    {
+      "name": "LTC - Food and Fellowship",
+      "sha256": "F6586AD27BEEF61DDDE253F60801544936B7327A5B1E18C868C6BC3E576C4B27"
+    },
+    {
+      "name": "LTC - Riders of Rohan",
+      "sha256": "96EB1AC9AED87A2B9AB7714CD019AF947CB3F44ADC646AD72DA700A46A291266"
+    },
+    {
+      "name": "LTC - The Host of Mordor",
+      "sha256": "7C051C480ECB9E950C21635C68F12C090C690600C3275759503FB39A0B2B241A"
+    },
+    {
+      "name": "M3C - Creative Energy",
+      "sha256": "5FA7C90FF0DEF35E751FE713EE06F9D59514ECB0DB750A399FFE79CE782A6AA7"
+    },
+    {
+      "name": "M3C - Eldrazi Incursion",
+      "sha256": "F7D61AFE977FE5E420091812E7010D971748113A6AA657D3EDF57DA8D476D3CD"
+    },
+    {
+      "name": "M3C - Graveyard Overdrive",
+      "sha256": "C7ACB813E4D0F49EAEBFC737C1986DE953C2F2BC8DF65CD4E00DE4C661F9B166"
+    },
+    {
+      "name": "M3C - Tricky Terrain",
+      "sha256": "6BF56588DE9ED0A87FED52FB63149075DB0A51487A89971A2CD2CE8AE3D73D09"
+    },
+    {
+      "name": "MIC - Coven Counters",
+      "sha256": "F0CB8EE715A4A70FEFDD27AE76A4C155E6074EFE008FD01ADCBA03508037AA19"
+    },
+    {
+      "name": "MIC - Undead Unleashed",
+      "sha256": "1F29530EC88034394F38A30F55C963391D91D417C075FFC9E1F2FC7B29B1E9A2"
+    },
+    {
+      "name": "MKC - Blame Game",
+      "sha256": "B66CAF5CEA4370F50EE499CFAF41C6B9EAE87FEC52FEC1578FBABA74B6F09CCF"
+    },
+    {
+      "name": "MKC - Deadly Disguise",
+      "sha256": "3342A837175C84E66EAF35E81781A196166F9DE2F17E5E9884D0BD040D48A3E1"
+    },
+    {
+      "name": "MKC - Deep Clue Sea",
+      "sha256": "1B3F11A68B43C953774879E75109470F31B581063A776EA91B935ECC398B033D"
+    },
+    {
+      "name": "MKC - Revenant Recon",
+      "sha256": "289FE92FE9875ED890FCD5C9AC65835E9BD9D71ECD558B557327E130F79B8140"
+    },
+    {
+      "name": "MOC - Call for Backup",
+      "sha256": "A15A8BD893ED8BE6F3EB91AE595C119905C352DA79167C95F650F1BD445EDE4F"
+    },
+    {
+      "name": "MOC - Cavalry Charge",
+      "sha256": "500CAC2E61FA0CAD72A5A6697A63084E3415524BBCB63298C7AD6B3D2F8E970A"
+    },
+    {
+      "name": "MOC - Divine Convocation",
+      "sha256": "DB2343849B7588BBED8B364A422CF40A6BA4BE83E0A7C86A6B80D0FB3F40008F"
+    },
+    {
+      "name": "MOC - Growing Threat",
+      "sha256": "F16F2D0783E77991D577D604566508755753B8F1163D0F8ECDC02680D9E10C3D"
+    },
+    {
+      "name": "MOC - Tinker Time",
+      "sha256": "CDDD69D7D522B4BF2D4B50291943197FCFC3EC20F4BF2DD992E728031869E1E1"
+    },
+    {
+      "name": "MSC - Avengers Assemble",
+      "sha256": "238E6053BFA50673326CBA958AA4AD97BDD261C873C9A1AD1728C29246642B1D"
+    },
+    {
+      "name": "MSC - Doom Prevails",
+      "sha256": "AE1F35505A4B695470B3C90BE0509E398DCE39897EBD1FA6A4663910565416A3"
+    },
+    {
+      "name": "MSC - The Fantastic Four",
+      "sha256": "BA76406D9E22CF5DE4697586B555AAE32C7091696BC70719872CB0E272E9F907"
+    },
+    {
+      "name": "MSC - Wakanda Forever",
+      "sha256": "4876AB6DA83B378D9F7113502735F6F7D942455B3BD0E8AA358115E119F57731"
+    },
+    {
+      "name": "NCC - Bedecked Brokers",
+      "sha256": "2743A54BAB2C5D688D7C7ACE3A7050580BD86705B57B87741B68FA235B5E8669"
+    },
+    {
+      "name": "NCC - Cabaretti Cacophony",
+      "sha256": "D6EA060C312DBED453E0D8C772AF9D70B08B0D32BF0A0AAF663759CC7FD29D75"
+    },
+    {
+      "name": "NCC - Maestros Massacre",
+      "sha256": "3ED8FD78DB2532203F85505F1FDEC082719DF7FC274052D309E6670499694742"
+    },
+    {
+      "name": "NCC - Obscura Operation",
+      "sha256": "D910B08DCE25697C2F6E5E2FD562BC5655F99F2689CA90E075A29B42CD93419C"
+    },
+    {
+      "name": "NCC - Riveteer Rampage",
+      "sha256": "57C675F6016E839AC623B3E2E3FE1B5A36F9DF7BBEAC7292E95A11B41C0EEB87"
+    },
+    {
+      "name": "NEC - Buckle Up",
+      "sha256": "009159EFED4AA18033A7865E298D47B7C7DF0F6C84D211DD9BB1418990B77818"
+    },
+    {
+      "name": "NEC - Upgrades Unleashed",
+      "sha256": "C00825EFD718D713D19EA8CBD074656A6F2BC1A43E0B6483903FF948191B071C"
+    },
+    {
+      "name": "ONC - Corrupting Influence",
+      "sha256": "3E1F0759E0A869F66636FA5691D3539B0480CF047999CA792BFA10B6E338504F"
+    },
+    {
+      "name": "ONC - Rebellion Rising",
+      "sha256": "7414EE3141FF19722317AB25D67EBD2044CD2650743177C8E109FA0F870E01BE"
+    },
+    {
+      "name": "OTC - Desert Bloom",
+      "sha256": "4C493F75AB9994E47AA658F789FADDED23672B7D7F54B263F5A1866CC1D7F6C4"
+    },
+    {
+      "name": "OTC - Grand Larceny",
+      "sha256": "88A83F87C1CC95238B2579E00675D9A1148F200E0C57A2C2DF95A4587F30507C"
+    },
+    {
+      "name": "OTC - Most Wanted",
+      "sha256": "30C4E4F2B449AF6DC6943D60BA62339F01F35D63042D7D49193BB5B0DC894668"
+    },
+    {
+      "name": "OTC - Quick Draw",
+      "sha256": "22D44811B7DD046F48131FDE1AA23CE44C50F6BA1A509A2DB7BBAA87A1A3FB4E"
+    },
+    {
+      "name": "PIP - Hail, Caesar",
+      "sha256": "AEBF7E6B5D9CA35A4E156CAE67FF6CACA06893BF0FA721A1026129589ED4CB35"
+    },
+    {
+      "name": "PIP - Mutant Menace",
+      "sha256": "6D0B00462AEA9460ED5AECD209C752A3646AD2ED11385820567A63E8BE93D7B6"
+    },
+    {
+      "name": "PIP - Science!",
+      "sha256": "4D9554FF4F11055D22D277214916E7B3D2EA3800AFE4963AA972FAA92B5B8B02"
+    },
+    {
+      "name": "PIP - Scrappy Survivors",
+      "sha256": "58BF2512C5F10C340778842BA2573081494EF5D1CE0EFB6503FE7A4D4B21CF8E"
+    },
+    {
+      "name": "SCD - Chaos Incarnate",
+      "sha256": "01F69D159601584D38D2FC8BB4C020B1376D5350657C41BC8EF8D1EDC919B705"
+    },
+    {
+      "name": "SCD - Draconic Destruction",
+      "sha256": "AEBEAAAB3EE60A9C60337245EB35BCDECD48FE610BF2186BA0A9130212E39450"
+    },
+    {
+      "name": "SCD - First Flight",
+      "sha256": "CAFAD0447BFDEE732BB88C01819FEDB8D0C0CB9B433DF70309D2A4BEFBC51838"
+    },
+    {
+      "name": "SCD - Grave Danger",
+      "sha256": "3AC0C2314D661242212329837BBA43A79422A358967D6F5537BC15FE890026A2"
+    },
+    {
+      "name": "SCD - Token Triumph",
+      "sha256": "63240AC5A8244E1BAAE4E5C9A02C850FDA968C62CD2F7CB7F6B97D51DA814DE9"
+    },
+    {
+      "name": "SLD - 20 Ways to Win",
+      "sha256": "DFC8F6583A2156CD7367058C7D3860885E27D6B8F1AEB4469169D321579B25E5"
+    },
+    {
+      "name": "SLD - Angels They're Just Like Us",
+      "sha256": "72B38F2CF0CD269AA22939E7E0BF2740BA0843A51BAE4A06AB1799C75151EE88"
+    },
+    {
+      "name": "SLD - Everyone's Invited",
+      "sha256": "5133EC80391DC8DEB74C046FA5563953D852119612C329BC94090C0B687009F7"
+    },
+    {
+      "name": "SLD - From Cute to Brute",
+      "sha256": "7FA8FDFB1F35AC3B577792E3A57A761BC068F65738643ADC7D9C5107E95CDEB9"
+    },
+    {
+      "name": "SLD - Goblin Storm",
+      "sha256": "FDFFAAEB45871171CBF6E1A47E0B8C9E289B157141C679BCA743FA7D8E9482EF"
+    },
+    {
+      "name": "SLD - Hatsune Miku",
+      "sha256": "800F8DDC844F0EF9E59EC5D0FBC4B2803E0AF93041D71D2486182C5720551157"
+    },
+    {
+      "name": "SLD - Heads I Win, Tails You Lose",
+      "sha256": "14E6575F823092E5AA27A852F978C059DF5838DE61F7507A5E4EA77FCBEDC543"
+    },
+    {
+      "name": "SLD - Literally 99 Wastes",
+      "sha256": "EEC94B9DA240DC77B75DB1627F153B8CB7591477979AC7F4EC2A8DB65CD9852F"
+    },
+    {
+      "name": "SLD - Odds and Ends",
+      "sha256": "50FCA0109FB802FF7C218E3EB0FC8EAA68D21083342F172495C02C50F635F304"
+    },
+    {
+      "name": "SLD - Raining Cats and Dogs",
+      "sha256": "151BFF8B828868A06813464843FF075BE0B5452C18A7DE7C2A1FA194E7642364"
+    },
+    {
+      "name": "SLD - War of Whtz",
+      "sha256": "55CB10DFA01A62E5EBD7A00021C09733736CE1C2DDA6AF1CCAD198464D3A8D66"
+    },
+    {
+      "name": "SOC - Lorehold Spirit",
+      "sha256": "D3A0A5CB71D7653C6D05DD7ECC9C1DDEAE90E122F438E5D817A5E33D0E2A36D9"
+    },
+    {
+      "name": "SOC - Prismari Artistry",
+      "sha256": "412E59287EA0D25F880447D739708C9064FCE0D0BA4BBD7C78E077246B0C4D06"
+    },
+    {
+      "name": "SOC - Quandrix Unlimited",
+      "sha256": "27C51465CD15426D71C0F0BD4CFA04A98F88944AAA92DE38C976A6DD86F2A5E2"
+    },
+    {
+      "name": "SOC - Silverquill Influence",
+      "sha256": "13D10D8CC8EF35FF8EF74433456E2EC823F0D8ECCC4D12FC54A05E9D0F156936"
+    },
+    {
+      "name": "SOC - Witherbloom Pestilence",
+      "sha256": "72D6DEA8D80FF4EEE9A60F19C5E81FC9C932F7A35491D0C02A9FAEFB9AD6DE0A"
+    },
+    {
+      "name": "TD0 - Deathdancer Xira",
+      "sha256": "875B7ED4821EAB66A914E5B4B0B01885C382758E6668D471A6AD16328EDC7C54"
+    },
+    {
+      "name": "TD0 - Enchantress Rubinia",
+      "sha256": "DD3F4A0B0A4059C912066DE40E43B9737222E36CEE4A496E3B07270DA03E69AC"
+    },
+    {
+      "name": "TDC - Abzan Armor",
+      "sha256": "A996BF23267351DB38E06123F01142573D973B5859132E58AA302B4A870C93FD"
+    },
+    {
+      "name": "TDC - Jeskai Striker",
+      "sha256": "2377F76A3B0784EFF01E5D8827814A17E452DB28FFEA8D4BDC605F4E847F20F1"
+    },
+    {
+      "name": "TDC - Mardu Surge",
+      "sha256": "6AECEB235554334CAA67C2205C48651CBC5A809D54D740A9941FD21E66D567D4"
+    },
+    {
+      "name": "TDC - Sultai Arisen",
+      "sha256": "2F9FCA523730FE04B48155A8A85C07877809E472D1EB9CF1BEC82BCD786D65BC"
+    },
+    {
+      "name": "TDC - Temur Roar",
+      "sha256": "53DD512589F315A6F6E61C6C775CACA14C72EB0E0A741B1D15A12D516D849680"
+    },
+    {
+      "name": "TMC - Turtle Power!",
+      "sha256": "E96C2C485F4F38F2DAD01452948EA85C69CAA7BF489CD8A3BFB7BD985749AD7B"
+    },
+    {
+      "name": "TMP - Old Border Black",
+      "sha256": "919228084FCE14FBEEF869ABF11D71C46F63F7623260079801224260DD21BA92"
+    },
+    {
+      "name": "TMP - Old Border Blue",
+      "sha256": "7FB548D4D4B2CDF3D359ABFCF0BBB07813077B39C55E5A1F571E3221F028F130"
+    },
+    {
+      "name": "TMP - Old Border Green",
+      "sha256": "C68042AB5C864C429F1197446DF5B38D043ECB58BFD62AD7986A61BD724F534D"
+    },
+    {
+      "name": "TMP - Old Border Red",
+      "sha256": "52F0DD79D7B821FAB2D52B663FC765E4D28BEA5F0F9F63AFD98F53E009996266"
+    },
+    {
+      "name": "TMP - Old Border White",
+      "sha256": "784342D499C7089686C809A7294ED6C3E44DE3C381BEA7E4094EE717CB10C8B0"
+    },
+    {
+      "name": "VOC - Spirit Squadron",
+      "sha256": "DBB0B7275E56AADF6FCD5D88DC13D3404400758B6050C56DBC5ADF2811A3E03B"
+    },
+    {
+      "name": "VOC - Vampiric Bloodline",
+      "sha256": "1BE5550E84354E3451764A159DABBE3B35F3ECEA4A10EB0D8E26A8125AF2CC9C"
+    },
+    {
+      "name": "WHO - Blast from the Past",
+      "sha256": "33DA8E3BE82D9B090171EAD69DBA0BBB23C2074FF41DEF402F2A236A81784117"
+    },
+    {
+      "name": "WHO - Masters of Evil",
+      "sha256": "FEB747831EFCB39E6348E22910FE9B14B1FDA882A072C1E9FFC3F38A7F64DF75"
+    },
+    {
+      "name": "WHO - Paradox Power",
+      "sha256": "32B092BDBBF5310508DB1FFD446EEDEC3A8F501C74A4730185E06D630B3CE0E6"
+    },
+    {
+      "name": "WHO - Timey-Wimey",
+      "sha256": "FA0E769E9B8E653623AEEE19AE68C74C458FF4BBD57EF51DF3E670344BE40BDA"
+    },
+    {
+      "name": "WOC - Fae Dominion",
+      "sha256": "6947CF230EF342360FB17D0EC4DB770E0867C44B73A6EB1BD7A67642F506158B"
+    },
+    {
+      "name": "WOC - Virtue and Valor",
+      "sha256": "2EF552070A42729A3F8D746CE475A72B7334251EDC3D1B51E42D00A7654526CC"
+    },
+    {
+      "name": "ZNC - Land's Wrath",
+      "sha256": "09BE2C235676BEB3BEFCA115E7FA452A7C5FA8D3DB4C764CD77E540E17C050F8"
+    },
+    {
+      "name": "ZNC - Sneak Attack",
+      "sha256": "83BF87EB9EEE5EC58CE45A390242007BE9F29583670BF2FC454D0A41C87472ED"
+    }
+  ],
+  "modules": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "installedClasses": 244,
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962",
+      "module": "core",
+      "added": [
+        "forge/util/AITimeoutTracker.class",
+        "forge/util/AITimeoutTracker$Expired.class",
+        "forge/util/AITimeoutTracker$Limit.class",
+        "forge/util/AITimeoutTracker$Slot.class"
+      ],
+      "changed": []
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "installedClasses": 929,
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC",
+      "module": "game",
+      "added": [],
+      "changed": [
+        "forge/game/card/sticker/AppliedSticker.class",
+        "forge/game/card/sticker/AppliedSticker$1.class",
+        "forge/game/spellability/SpellAbilityStackInstance.class",
+        "forge/game/spellability/StackItemView.class",
+        "forge/game/zone/MagicStack.class",
+        "forge/trackable/TrackableProperty.class",
+        "forge/trackable/TrackableProperty$FreezeMode.class"
+      ]
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "installedClasses": 265,
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017",
+      "module": "ai",
+      "added": [],
+      "changed": [
+        "forge/ai/AiAttackController.class",
+        "forge/ai/AiAttackController$SpellAbilityFactors.class",
+        "forge/ai/AiBlockController.class",
+        "forge/ai/AiController.class",
+        "forge/ai/AiController$1.class",
+        "forge/ai/ComputerUtil.class"
+      ]
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "installedClasses": 772,
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F",
+      "module": "gui",
+      "added": [
+        "forge/gamemodes/match/input/InputSelectStackItems.class",
+        "forge/gamemodes/match/input/TargetingProgress.class",
+        "forge/gamemodes/net/client/ReplayClient.class",
+        "forge/gamemodes/net/client/ReplayPlayer.class",
+        "forge/gamemodes/net/client/ReplayPlayer$1.class",
+        "forge/gamemodes/net/client/ReplayPlayer$2.class",
+        "forge/gamemodes/replay/RecordingGuiGame.class",
+        "forge/gamemodes/replay/ReplayLauncher.class",
+        "forge/gamemodes/replay/ReplayReader.class",
+        "forge/gamemodes/replay/ReplayRecorder.class",
+        "forge/gamemodes/replay/ReplaySession.class",
+        "forge/gamemodes/replay/ReplayStore.class",
+        "forge/gamemodes/replay/ReplayStore$Info.class"
+      ],
+      "changed": [
+        "forge/deck/DeckgenUtil.class",
+        "forge/deck/DeckgenUtil$1.class",
+        "forge/gamemodes/gauntlet/GauntletUtil.class",
+        "forge/gamemodes/gauntlet/GauntletUtil$1.class",
+        "forge/gamemodes/match/AbstractGuiGame.class",
+        "forge/gamemodes/match/AbstractGuiGame$1.class",
+        "forge/gamemodes/match/AbstractGuiGame$2.class",
+        "forge/gamemodes/match/AbstractGuiGame$3.class",
+        "forge/gamemodes/match/HostedMatch.class",
+        "forge/gamemodes/match/HostedMatch$1.class",
+        "forge/gamemodes/match/HostedMatch$MatchUiEventVisitor.class",
+        "forge/gamemodes/match/input/InputSelectTargets.class",
+        "forge/gamemodes/net/client/NetGameController.class",
+        "forge/gamemodes/net/client/NetGameController$NetMacroSystem.class",
+        "forge/gamemodes/net/CompatibleObjectEncoder.class",
+        "forge/gamemodes/net/DeltaPacket.class",
+        "forge/gamemodes/net/ProtocolGuiGame.class",
+        "forge/gamemodes/net/ProtocolMethod.class",
+        "forge/gamemodes/net/ProtocolMethod$Mode.class",
+        "forge/gamemodes/net/ReplyPool.class",
+        "forge/gamemodes/net/ReplyPool$CompletableFuture.class",
+        "forge/gamemodes/net/server/DeltaSyncManager.class",
+        "forge/gamemodes/net/server/FServerManager$DeregisterClientHandler.class",
+        "forge/gamemodes/net/server/FServerManager$DeregisterClientHandler$1.class",
+        "forge/gamemodes/net/server/FServerManager$RegisterClientHandler.class",
+        "forge/gamemodes/quest/QuestController.class",
+        "forge/gamemodes/quest/QuestController$1.class",
+        "forge/gamemodes/quest/QuestController$2.class",
+        "forge/gamemodes/quest/QuestUtilCards.class",
+        "forge/gamemodes/quest/QuestWinLoseController.class",
+        "forge/gamemodes/quest/QuestWinLoseController$1.class",
+        "forge/gui/control/WatchLocalGame.class",
+        "forge/gui/interfaces/IGuiBase.class",
+        "forge/gui/interfaces/IGuiGame.class",
+        "forge/interfaces/IGameController.class",
+        "forge/localinstance/properties/ForgeConstants.class",
+        "forge/localinstance/properties/ForgeConstants$CounterDisplayLocation.class",
+        "forge/localinstance/properties/ForgeConstants$CounterDisplayType.class",
+        "forge/localinstance/properties/ForgePreferences.class",
+        "forge/localinstance/properties/ForgePreferences$FPref.class",
+        "forge/player/PlayerControllerHuman.class",
+        "forge/player/PlayerControllerHuman$1.class",
+        "forge/player/PlayerControllerHuman$2.class",
+        "forge/player/PlayerControllerHuman$3.class",
+        "forge/player/PlayerControllerHuman$DevModeCheats.class",
+        "forge/player/TargetSelection.class"
+      ]
+    }
+  ],
+  "revision": "76b02a69d033062aead47864f47af62a4e6b92ce",
+  "installedBuild": "# Sellado por Maven al compilar. No editar a mano.\r\nneoVersion=1.0.25\r\nforgeVersion=2.0.16-SNAPSHOT\r\nbuiltAt=2026-10-16\r\n"
+}

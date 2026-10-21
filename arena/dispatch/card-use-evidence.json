@@ -1,0 +1,1090 @@
+{
+  "date": "2026-10-17",
+  "resolvedWitnesses": [
+    {
+      "seed": 96011,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 373,
+        "sourceId": 58,
+        "turn": 6,
+        "phase": "UPKEEP",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 228,
+            "name": "Goblin Brigand",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": false,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 373,
+        "sourceId": 58,
+        "turn": 6,
+        "phase": "UPKEEP",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 228,
+            "name": "Goblin Brigand",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": false,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Goblin Brigand",
+      "indestructibleBefore": false,
+      "turn": 6
+    },
+    {
+      "seed": 96011,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 452,
+        "sourceId": 55,
+        "turn": 14,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 5,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 131,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 452,
+        "sourceId": 55,
+        "turn": 14,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 5,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 131,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 14
+    },
+    {
+      "seed": 96011,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 531,
+        "sourceId": 57,
+        "turn": 47,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 9,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 71,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 531,
+        "sourceId": 57,
+        "turn": 47,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 9,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 71,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 47
+    },
+    {
+      "seed": 96011,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 542,
+        "sourceId": 60,
+        "turn": 50,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 9,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 64,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 542,
+        "sourceId": 60,
+        "turn": 50,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 9,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 64,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 50
+    },
+    {
+      "seed": 96011,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 565,
+        "sourceId": 53,
+        "turn": 59,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 10,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 65,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 565,
+        "sourceId": 53,
+        "turn": 59,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 10,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 65,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 59
+    },
+    {
+      "seed": 96011,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 588,
+        "sourceId": 52,
+        "turn": 68,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 11,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 72,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 588,
+        "sourceId": 52,
+        "turn": 68,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 11,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 72,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 68
+    },
+    {
+      "seed": 96011,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 643,
+        "sourceId": 54,
+        "turn": 92,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 16,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 70,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 643,
+        "sourceId": 54,
+        "turn": 92,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 16,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 70,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 92
+    },
+    {
+      "seed": 96011,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 655,
+        "sourceId": 56,
+        "turn": 95,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 16,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 181,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 655,
+        "sourceId": 56,
+        "turn": 95,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 16,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 181,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 95
+    },
+    {
+      "seed": 96011,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 680,
+        "sourceId": 50,
+        "turn": 105,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 19,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 184,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 680,
+        "sourceId": 50,
+        "turn": 105,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 19,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 184,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 105
+    },
+    {
+      "seed": 96012,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 375,
+        "sourceId": 53,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 64,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 375,
+        "sourceId": 53,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 64,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 29
+    },
+    {
+      "seed": 96012,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 379,
+        "sourceId": 57,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 61,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 379,
+        "sourceId": 57,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 61,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 29
+    },
+    {
+      "seed": 96012,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 381,
+        "sourceId": 60,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 69,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 381,
+        "sourceId": 60,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 69,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 29
+    },
+    {
+      "seed": 96012,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 420,
+        "sourceId": 56,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 63,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 420,
+        "sourceId": 56,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 63,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 29
+    },
+    {
+      "seed": 96012,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 450,
+        "sourceId": 55,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 65,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 450,
+        "sourceId": 55,
+        "turn": 29,
+        "phase": "MAIN1",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 65,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 29
+    },
+    {
+      "seed": 96012,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 516,
+        "sourceId": 49,
+        "turn": 33,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 127,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 516,
+        "sourceId": 49,
+        "turn": 33,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 127,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 33
+    },
+    {
+      "seed": 96012,
+      "before": {
+        "stage": "stacked",
+        "abilityId": 529,
+        "sourceId": 58,
+        "turn": 37,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 71,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": true,
+            "tapped": false,
+            "indestructible": true,
+            "exiled": false,
+            "onBattlefield": true
+          }
+        ]
+      },
+      "tappedBefore": false,
+      "after": {
+        "stage": "resolved",
+        "abilityId": 529,
+        "sourceId": 58,
+        "turn": 37,
+        "phase": "DRAW",
+        "player": "DispatchProbe-0",
+        "fizzled": false,
+        "artifacts": 3,
+        "metalcraft": true,
+        "targets": [
+          {
+            "id": 71,
+            "name": "Darksteel Myr",
+            "creature": true,
+            "opponent": true,
+            "legal": false,
+            "tapped": true,
+            "indestructible": true,
+            "exiled": true,
+            "onBattlefield": false
+          }
+        ]
+      },
+      "target": "Darksteel Myr",
+      "indestructibleBefore": true,
+      "turn": 37
+    }
+  ],
+  "scope": "Bounded native removal rules and autonomous custom-deck card use; no Commander-precon or strength claim",
+  "observer": "Read-only subscriber; no forced actions, hands, draws, phases or payment",
+  "runs": [
+    {
+      "resolvedExiles": 9,
+      "diagnostics": [],
+      "tappedTargets": 0,
+      "indestructibleTargets": 8,
+      "profile": "on",
+      "casts": 9,
+      "sha256": "1076ED38D2D4D33F245E5F31B89F640195482EC868149F62130B29E886B5ACF3",
+      "clockReached": true,
+      "pendingAtClockStop": 0,
+      "seed": 96011,
+      "payments": [
+        {
+          "targetId": 228,
+          "mana": [
+            "Mana: Plains (31) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 131,
+          "mana": [
+            "Mana: Plains (31) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 71,
+          "mana": [
+            "Mana: Plains (31) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 64,
+          "mana": [
+            "Mana: Plains (31) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 65,
+          "mana": [
+            "Mana: Plains (31) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 72,
+          "mana": [
+            "Mana: Plains (31) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 70,
+          "mana": [
+            "Mana: Plains (31) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 181,
+          "mana": [
+            "Mana: Plains (31) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 184,
+          "mana": [
+            "Mana: Plains (31) - {T}: Add {W}."
+          ]
+        }
+      ],
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\dispatch\\target\\card-use\\on-96011\\summary.json"
+    },
+    {
+      "resolvedExiles": 7,
+      "diagnostics": [],
+      "tappedTargets": 0,
+      "indestructibleTargets": 7,
+      "profile": "on",
+      "casts": 7,
+      "sha256": "6A7A3F3269516B9FF5780886EF4E7DD73405056E3F939B90FD20D41860704AB8",
+      "clockReached": false,
+      "pendingAtClockStop": 0,
+      "seed": 96012,
+      "payments": [
+        {
+          "targetId": 64,
+          "mana": [
+            "Mana: Plains (36) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 61,
+          "mana": [
+            "Mana: Plains (43) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 69,
+          "mana": [
+            "Mana: Plains (41) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 63,
+          "mana": [
+            "Mana: Plains (39) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 65,
+          "mana": [
+            "Mana: Plains (32) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 127,
+          "mana": [
+            "Mana: Plains (36) - {T}: Add {W}."
+          ]
+        },
+        {
+          "targetId": 71,
+          "mana": [
+            "Mana: Plains (36) - {T}: Add {W}."
+          ]
+        }
+      ],
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\dispatch\\target\\card-use\\on-96012\\summary.json"
+    },
+    {
+      "resolvedExiles": 0,
+      "diagnostics": [],
+      "tappedTargets": 0,
+      "indestructibleTargets": 0,
+      "profile": "off",
+      "casts": 0,
+      "sha256": "44051BD4649EFAF79D0564EC340CF92039834CE284BB2E98CE9E32F6E23025D0",
+      "clockReached": true,
+      "pendingAtClockStop": 0,
+      "seed": 96011,
+      "payments": [],
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\dispatch\\target\\card-use\\off-96011\\summary.json"
+    },
+    {
+      "resolvedExiles": 0,
+      "diagnostics": [],
+      "tappedTargets": 0,
+      "indestructibleTargets": 0,
+      "profile": "off",
+      "casts": 0,
+      "sha256": "3855B094ED1650D263CDE6980A7ED8AB6FBE415FD80D1210EC5810A2C496F011",
+      "clockReached": true,
+      "pendingAtClockStop": 0,
+      "seed": 96012,
+      "payments": [],
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\dispatch\\target\\card-use\\off-96012\\summary.json"
+    }
+  ],
+  "nativeChecks": 61,
+  "inputs": [
+    {
+      "sha256": "6DE7AA6DA6E33B0D9728D729E8274350E11DD17AC9AEDA415A3B39C2B299E74E",
+      "path": "<development-checkout>\\arena\\dispatch\\target\\final\\engine.jar"
+    },
+    {
+      "sha256": "3CE0130820652371476FDC976FFF612FCDE339C9088EB59D2842E13D883D3F84",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\dispatch.properties"
+    },
+    {
+      "sha256": "EF50F6BABA5EAD3EE3AD93C06CFAA3FAEF2858C3BEAA0ABECDDCDD12B20FCF33",
+      "path": "<development-checkout>\\arena\\dispatch\\Check-Dispatch.ps1"
+    },
+    {
+      "sha256": "7CB56BF32E3364AD9B9E0631D8A0A981F6777F69DA3FF68F76BE510A2C5D7DAA",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DispatchAi.java"
+    },
+    {
+      "sha256": "1CA6DC8C83F3F6CA8396DCE21DA433B99B5B0F6286F50FC40F8931361747A862",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\TapAi.java"
+    },
+    {
+      "sha256": "8F9D5495050E83B3C18E280DED4362CC7E8420D61A647257C74A8D842C5629C9",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java"
+    },
+    {
+      "sha256": "B8D4B674759A490C0BB46DF4074887379A5EFC544BAFCC3722A3864E3DE63775",
+      "path": "<development-checkout>\\arena\\dispatch\\DispatchTests.java"
+    },
+    {
+      "sha256": "655C398D7CE3444B72F9F0346456FAE69095DCDF7CC1A105C0F5B07FC5F1299C",
+      "path": "<development-checkout>\\arena\\dispatch\\DispatchProbe.java"
+    },
+    {
+      "sha256": "A13F0E6B7AD961FB1E071C3042BA080F05860382E750609448B17B948706AF10",
+      "path": "<development-checkout>\\arena\\dispatch\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "9804C9A1A4202BAE4145C2219A1E21B4E1928DFDB9F12CDCEBBDED6683CE6701",
+      "path": "<development-checkout>\\arena\\dispatch\\Check-CardUseEvidence.ps1"
+    }
+  ]
+}

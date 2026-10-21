@@ -1,0 +1,44 @@
+{
+  "card": "Divine Reckoning",
+  "profile": "divine-reckoning",
+  "engine": "NeoForge 1.0.28",
+  "baselineChecks": 2,
+  "baselineGate": "arena/divine-reckoning/target/baseline-divine-r2-baseline",
+  "focusedChecks": 15,
+  "fullGate": {
+    "checks": 5835,
+    "suites": 63,
+    "priorChecks": 5820,
+    "newChecks": 15,
+    "base": "arena/magus-of-the-wheel/target/final-magus-r1",
+    "out": "arena/divine-reckoning/target/final-divine-r1",
+    "candidateSha256": "3EE4C4442482A7237F7FD5BDCE729A431BF3C3E2027949120BB5F897B53894E0"
+  },
+  "installedHashesChecked": 21729,
+  "installedHashesChanged": 0,
+  "productionFiles": [
+    "forge-ai/src/main/java/forge/ai/DivineReckoningAi.java",
+    "forge-ai/src/main/java/forge/ai/ability/ChooseCardAi.java",
+    "forge-gui/res/ai/overrides/divine-reckoning.properties"
+  ],
+  "policy": "In our second main phase with an empty stack, forecast the native best-creature choice for each AI-controlled player and cast only when evaluated opposing creature losses exceed friendly losses. Hold for human-controlled seats. Native payment, choices, destruction and flashback remain intact.",
+  "decks": {
+    "actor": "30 Divine Reckoning, 70 Plains",
+    "opponent": "30 Craw Wurm, 70 Forest"
+  },
+  "exposures": [
+    {
+      "seed": 137011,
+      "clockSeconds": 120,
+      "off": { "casts": 0, "resolutions": 0, "exceptions": 0, "exit": 0, "logSha256": "AED5EE42D456375F03873039370B7C26AC000203F30AF0EF84C07645B2DE86B1" },
+      "on": { "casts": 4, "resolutions": 4, "exceptions": 0, "exit": 0, "logSha256": "52605629CC76C78F838922BDB01C0242F0731994A9998A11CD7A62C2E214D1CA" }
+    },
+    {
+      "seed": 137012,
+      "clockSeconds": 120,
+      "off": { "casts": 0, "resolutions": 0, "exceptions": 0, "exit": 0, "logSha256": "6870CF0267FC009E3D34CED129C5146527E44B0DE91477D8935489A81AD2B053" },
+      "on": { "casts": 6, "resolutions": 6, "exceptions": 0, "exit": 0, "logSha256": "5130451C56C501CDB0E5E76FBBBFE78D2CB40B0B1EE64641A1160BA3C1F4001A" }
+    }
+  ],
+  "scope": "Paired custom-deck card-use observations only; no winner or strength claim"
+}

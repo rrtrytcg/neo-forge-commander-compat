@@ -1,0 +1,365 @@
+{
+  "cardUse": {
+    "runs": [
+      {
+        "sha256": "5E8AABDC52DB89006A83008016C621AD5C476A8BABAF05714A64B4DD7CF47DE9",
+        "profile": "on",
+        "resolvedParleys": 13,
+        "seed": 96901,
+        "summary": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use\\on-96901\\summary.json",
+        "casts": 1,
+        "parleys": 13,
+        "clockReached": false
+      },
+      {
+        "sha256": "D0629B3A07EE1B93EDBF705687DB9A1BEE6C862EDF67DFC7F15EFB935E6D74BA",
+        "profile": "on",
+        "resolvedParleys": 10,
+        "seed": 96902,
+        "summary": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use\\on-96902\\summary.json",
+        "casts": 1,
+        "parleys": 10,
+        "clockReached": false
+      },
+      {
+        "sha256": "EB2BCA2CA48BB1B857903700EF213BBDE42B4EF261B336CC4D5F60A9EE01B860",
+        "profile": "off",
+        "resolvedParleys": 0,
+        "seed": 96901,
+        "summary": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use\\off-96901\\summary.json",
+        "casts": 0,
+        "parleys": 0,
+        "clockReached": false
+      },
+      {
+        "sha256": "928FDC9B263418F07C4BD159242DD7389450FFEFB50CC838EDD3A87AA72893D2",
+        "profile": "off",
+        "resolvedParleys": 0,
+        "seed": 96902,
+        "summary": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use\\off-96902\\summary.json",
+        "casts": 0,
+        "parleys": 0,
+        "clockReached": false
+      }
+    ],
+    "checkLog": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use-check.log",
+    "candidateSha256": "1D944CFC1D8423B9445E4C4C6A83F2F81E3199FF70736A463A6893FDDEEE7013",
+    "engine": "NeoForge 1.0.25",
+    "checkLogSha256": "E4554B15E9DFA7774D9C2D35BF0DEB6A70E8DA17AA6270996C71775F224456F8",
+    "checks": 155
+  },
+  "engine": "NeoForge 1.0.25",
+  "files": [
+    {
+      "sha256": "0054E829548ABDABA0E0E9B8ACF996BEB62A7EAA783C55CD13F79CF98F6B7E14",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "DB6D83D1D616DACF7B2C2742481533C6AE77B00DC47F54EC4ED435EDFD7C878B",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "938CACCAF640EDD5920D4EF71EA5D0FFDA79962AB70A2B024F31B2C5BE530290",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\Check-Selvala.ps1"
+    },
+    {
+      "sha256": "E5AB6B9D580D604B315185CF6111B3F27DC9B593281BA8A88506DA8DDBD8D629",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\README.md"
+    },
+    {
+      "sha256": "65134692E97A268F5D559AA3691044E00D2D5A7C62A03AF5D9185889A4B4C980",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "22E592B54AE4B1B444D5E482CD58C69E8F25868EA925A323A50CCCC5B75A74E0",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "CBA0294ACFE7A6394D87DF0B25EA2E50332F45F64353C8F95299D76A043EDE6B",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\SelvalaProbe.java"
+    },
+    {
+      "sha256": "B19F83BFEB235BEC7F7730553D0432AC948ED12187EF19869B85F40F4AADA15E",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\SelvalaTests.java"
+    },
+    {
+      "sha256": "AB31AF85475871DCE70F909B1C0EDE828A00E8B7B1896D96422EFA1CACC7E7B9",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\decks\\Arena.dck"
+    },
+    {
+      "sha256": "3448C0EEEF9B3B316D51605597ECAD0CD1F9BBD0D7AD4C7FC61B015BD07D0D12",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\decks\\Opponent.dck"
+    },
+    {
+      "sha256": "6A5611C84AC1D1C7FB9670CC1A4EB5780B0853DA5DBC438D5CE4EAD5A204CBE4",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiOverrideProfile.java"
+    },
+    {
+      "sha256": "724CEFB055871740E84F29FFE647EF9E0A852F27B0B7AC61C2E4745EDB05676C",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\selvala-explorer-returned.properties"
+    },
+    {
+      "sha256": "411FA2B42B1AE95B2C78CBAD149401F46A4AED3053659D3207A385EE99A215EA",
+      "path": "<development-checkout>\\arena\\Audit-Deck.ps1"
+    },
+    {
+      "sha256": "16C0A6996F30597E4F92A2E74C0B5ED57A7A79FA76EF70878F6A6132A762B340",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "A29B5A31092F2844E1AE734C2A6798A57B6A04E097FEB1B687562CC8AF5D8524",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "3C1BD89E5F8921D37E9FB5F90228C5FAB1538632699A41B6DA39C670BB71F363",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "51E063FC0C30C25B0DCC0306FE60CD99086BBF777E6096D7A9E6360A6EB0213F",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "E4554B15E9DFA7774D9C2D35BF0DEB6A70E8DA17AA6270996C71775F224456F8",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\SelvalaTests.log"
+    },
+    {
+      "sha256": "1D944CFC1D8423B9445E4C4C6A83F2F81E3199FF70736A463A6893FDDEEE7013",
+      "path": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\engine.jar"
+    }
+  ],
+  "originalScriptMatchesInstalled": true,
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "candidateSha256": "1D944CFC1D8423B9445E4C4C6A83F2F81E3199FF70736A463A6893FDDEEE7013",
+  "coverage": {
+    "occurrencesRemaining": 510,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "inventory": {
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "ONC - Corrupting Influence",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past"
+      ],
+      "decks": 184,
+      "decksWithZeroBlocked": 31
+    },
+    "occurrencesUnlocked": 220,
+    "distinctRemaining": 331,
+    "revision": "35e7c12b",
+    "mechanicallyUnlocked": 42,
+    "strategicallyVerified": 32
+  },
+  "card": "Selvala, Explorer Returned",
+  "revision": "35e7c12b8f1f7b022af8221e4cbe25039b0ac3ee",
+  "nativeGate": {
+    "runtime": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\runtime",
+    "results": [
+      {
+        "suite": "BiomassMutationTests",
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "checks": 116
+      },
+      {
+        "suite": "NestingGroundsTests",
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "checks": 115
+      },
+      {
+        "suite": "ToxicDelugeTests",
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "checks": 127
+      },
+      {
+        "suite": "AdaptiveEnchantmentTests",
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "checks": 76
+      },
+      {
+        "suite": "LandManaFamilyTests",
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "checks": 349
+      },
+      {
+        "suite": "AhoyMateysTests",
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "checks": 77
+      },
+      {
+        "suite": "BeastWithinTests",
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\BeastWithinTests.log",
+        "checks": 13
+      },
+      {
+        "suite": "CurseOfTheSwineTests",
+        "sha256": "20965E06F05D59578DF668A0555E8A4770D75A1802B601250C6DDDCE3FB67022",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "checks": 36
+      },
+      {
+        "suite": "FilterLandsTests",
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\FilterLandsTests.log",
+        "checks": 10
+      },
+      {
+        "suite": "PsychosisCrawlerTests",
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "checks": 6
+      },
+      {
+        "suite": "WallOfLimbsTests",
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "checks": 12
+      },
+      {
+        "suite": "SlaughterTheStrongTests",
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "checks": 18
+      },
+      {
+        "suite": "MirrorEntityTests",
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "checks": 48
+      },
+      {
+        "suite": "DecreeOfPainTests",
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "checks": 69
+      },
+      {
+        "suite": "OreskosExplorerTests",
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "checks": 100
+      },
+      {
+        "suite": "DispatchTests",
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\DispatchTests.log",
+        "checks": 61
+      },
+      {
+        "suite": "TragicArroganceTests",
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "checks": 132
+      },
+      {
+        "suite": "MarshalsAnthemTests",
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "checks": 135
+      },
+      {
+        "suite": "DarksteelMutationTests",
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "checks": 87
+      },
+      {
+        "suite": "CorpseAugurTests",
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "checks": 139
+      },
+      {
+        "suite": "AssaultSuitTests",
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "checks": 21
+      },
+      {
+        "suite": "SelvalaTests",
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C",
+        "log": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\SelvalaTests.log",
+        "checks": 13
+      }
+    ],
+    "candidateSha256": "1D944CFC1D8423B9445E4C4C6A83F2F81E3199FF70736A463A6893FDDEEE7013",
+    "candidate": "<development-checkout>\\arena\\selvala-explorer-returned\\target\\final-1.0.25\\engine.jar",
+    "total": 1760.0
+  },
+  "status": "verified",
+  "installedApplicationModified": false,
+  "date": "2026-10-17",
+  "scope": "Opt-in bounded admission and autonomous custom-deck card use; no game-completion, winner or strength claim"
+}

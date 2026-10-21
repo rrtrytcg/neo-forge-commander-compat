@@ -1,0 +1,144 @@
+{
+  "coverage": {
+    "decksWithZeroBlocked": 24,
+    "unlockedOnly": 10,
+    "mechanicallyUnlocked": 33,
+    "distinctRemaining": 340,
+    "verified": 23,
+    "occurrencesRemaining": 559
+  },
+  "coverageStatus": "verified",
+  "regressionEvidence": {
+    "results": [
+      {
+        "sha256": "52483BE338E7D9AC25509C445FADE076DBD4A7F76247C269412F89DC8F3CE53B",
+        "log": "<development-checkout>\\arena\\dispatch\\target\\regressions\\MirrorEntityTests.log",
+        "suite": "MirrorEntityTests",
+        "checks": 48
+      },
+      {
+        "sha256": "F1B9E6E7D496EE2D590932410C8DAD043178CEAB82AA7F3B290BD21CFB7CAB1A",
+        "log": "<development-checkout>\\arena\\dispatch\\target\\regressions\\DecreeOfPainTests.log",
+        "suite": "DecreeOfPainTests",
+        "checks": 69
+      },
+      {
+        "sha256": "9F64FDE3701B31D5FF5B09F281E664F5A3E72CBE5EBFFB07D0BBAF3DF892B9BF",
+        "log": "<development-checkout>\\arena\\dispatch\\target\\regressions\\OreskosExplorerTests.log",
+        "suite": "OreskosExplorerTests",
+        "checks": 100
+      }
+    ],
+    "files": [
+      {
+        "sha256": "6DE7AA6DA6E33B0D9728D729E8274350E11DD17AC9AEDA415A3B39C2B299E74E",
+        "path": "<development-checkout>\\arena\\dispatch\\target\\final\\engine.jar"
+      },
+      {
+        "sha256": "0491EC4B1D5D779F0ED37BC31A12BC21EED74AF00309425A7867DA04144DDC3A",
+        "path": "<development-checkout>\\arena\\dispatch\\Check-Regressions.ps1"
+      },
+      {
+        "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A",
+        "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java"
+      },
+      {
+        "sha256": "D4B61C4BA1E720B10635DF58E82C8BCE8C91B92F353924D27EF1E42C1F748A8B",
+        "path": "<development-checkout>\\arena\\decree-of-pain\\DecreeOfPainTests.java"
+      },
+      {
+        "sha256": "A7A8A90DB93E4A2F6E735B1F66C7311D44EFF8AAFA833D5A88C6D0A25CAB2E57",
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\OreskosExplorerTests.java"
+      }
+    ]
+  },
+  "nativeEvidence": {
+    "revision": "26c60473e65a45f0bd259e2dd0a3006800fdf6d4",
+    "files": [
+      {
+        "sha256": "6DE7AA6DA6E33B0D9728D729E8274350E11DD17AC9AEDA415A3B39C2B299E74E",
+        "path": "<development-checkout>\\arena\\dispatch\\target\\final\\engine.jar"
+      },
+      {
+        "sha256": "3CE0130820652371476FDC976FFF612FCDE339C9088EB59D2842E13D883D3F84",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\dispatch.properties"
+      },
+      {
+        "sha256": "EF50F6BABA5EAD3EE3AD93C06CFAA3FAEF2858C3BEAA0ABECDDCDD12B20FCF33",
+        "path": "<development-checkout>\\arena\\dispatch\\Check-Dispatch.ps1"
+      },
+      {
+        "sha256": "7CB56BF32E3364AD9B9E0631D8A0A981F6777F69DA3FF68F76BE510A2C5D7DAA",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DispatchAi.java"
+      },
+      {
+        "sha256": "1CA6DC8C83F3F6CA8396DCE21DA433B99B5B0F6286F50FC40F8931361747A862",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\TapAi.java"
+      },
+      {
+        "sha256": "8F9D5495050E83B3C18E280DED4362CC7E8420D61A647257C74A8D842C5629C9",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java"
+      },
+      {
+        "sha256": "B8D4B674759A490C0BB46DF4074887379A5EFC544BAFCC3722A3864E3DE63775",
+        "path": "<development-checkout>\\arena\\dispatch\\DispatchTests.java"
+      }
+    ],
+    "scope": "Native correctness and regression only; not strength evidence"
+  },
+  "originalScript": {
+    "path": "forge-gui/res/cardsfolder/d/dispatch.txt",
+    "sha256": "D22B4BAFCDF93CD85E185B5BC144B09FC77AA7C0E43134A4754BC0B2FF4A63B5"
+  },
+  "date": "2026-10-17",
+  "build": {
+    "aiReactorPassed": true,
+    "checkstyleViolations": 0,
+    "genericMavenTestsSkipped": true,
+    "desktopLauncherPackagingAttempted": false
+  },
+  "candidateJarSha256": "6DE7AA6DA6E33B0D9728D729E8274350E11DD17AC9AEDA415A3B39C2B299E74E",
+  "regressionCandidateMatches": true,
+  "cardUseEvidence": {
+    "tappedTargetCorrectnessInNativeFixtures": true,
+    "completedGameRequired": false,
+    "sha256": "466CD35938A043271B8A8D8E8887814C6CFC30B89187E40C70911813E6A92F16",
+    "clockSeconds": 20,
+    "indestructibleTargets": 15,
+    "path": "arena/dispatch/card-use-evidence.json",
+    "offControlsZero": true,
+    "tappedTargets": 0,
+    "resolvedExiles": 16,
+    "seeds": [
+      96011,
+      96012
+    ]
+  },
+  "candidate": "Private arena engine with freshly compiled DispatchAi/TapAi and the committed ChangeZoneAi search fix",
+  "baseRevision": "26c60473e65a45f0bd259e2dd0a3006800fdf6d4",
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\dispatch\\target\\build.log",
+      "sha256": "523E98482CDF673889790ADCAC57CA9564F80016E6F53285BA215FFB1C844239"
+    },
+    {
+      "path": "<development-checkout>\\arena\\dispatch\\target\\final\\DispatchTests.log",
+      "sha256": "C5DBCBB0E8007D13B16473AB3A16DAE69890EE45375F4A8BD4A5C22D664E6C66"
+    },
+    {
+      "path": "<development-checkout>\\arena\\dispatch\\target\\final\\provenance.json",
+      "sha256": "16EF7FCC2108A11DE8A0169F0338A5C13318C44FFD35C141DC9471A1CB48A9BB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\dispatch\\target\\regressions\\summary.json",
+      "sha256": "41D2B99EE35D21847C2B97BD32C4BA7D2356A57CF8566BDB813CEB7CAFC13FB2"
+    },
+    {
+      "path": "<development-checkout>\\arena\\dispatch\\target\\coverage-audit.log",
+      "sha256": "6D09DE836E4F0C2C0589C86DDA0CD771204413E4B15AED8ADA7B50125DF7042C"
+    }
+  ],
+  "claim": "Bounded metalcraft removal decisions and autonomous custom-deck exiles, not strength or Commander-precon use",
+  "nativeChecks": 61,
+  "probeCandidatesMatch": true
+}

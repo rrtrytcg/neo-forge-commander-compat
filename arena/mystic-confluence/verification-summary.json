@@ -1,0 +1,112 @@
+{
+  "card": "Mystic Confluence",
+  "date": "2026-10-21",
+  "profile": "mystic-confluence",
+  "engine": "NeoForge 1.0.28",
+  "rule": "Cast only when a native useful counter target or legal opposing creature bounce exists; prioritize counter then the highest-valued opposing creature, and fill the three mode choices with native card draw, including repeated draw.",
+  "baseline": {
+    "path": "arena/mystic-confluence/target/baseline-mystic-confluence-r1-baseline",
+    "suites": 1,
+    "checks": 1,
+    "nativeDefect": "Native CharmAi declines the one-useful-target case because it does not repeat the draw mode."
+  },
+  "focused": {
+    "path": "arena/mystic-confluence/target/focused-mystic-confluence-r2",
+    "suites": 1,
+    "checks": 22
+  },
+  "fullGate": {
+    "path": "arena/mystic-confluence/target/final-mystic-confluence-r2",
+    "base": "arena/daretti/target/final-daretti-r1",
+    "suites": 65,
+    "checks": 5883.0,
+    "priorChecks": 5861.0,
+    "newChecks": 22,
+    "candidateSha256": "874FF9F0C5DE4FBE6C0BD6D0430A39A88FAFE2E32AE42376435DC4C0EFDECDCC",
+    "installedFilesChecked": 21729,
+    "installedFilesChanged": 0
+  },
+  "productionFiles": [
+    "forge-ai/src/main/java/forge/ai/MysticConfluenceAi.java",
+    "forge-ai/src/main/java/forge/ai/ability/CharmAi.java",
+    "forge-gui/res/ai/overrides/mystic-confluence.properties"
+  ],
+  "exposures": {
+    "decks": [
+      "arena/mystic-confluence/decks/Actor.dck",
+      "arena/mystic-confluence/decks/Opponent.dck"
+    ],
+    "clockSeconds": 120,
+    "games": [
+      {
+        "seed": 139011,
+        "profileMode": "off",
+        "casts": 0,
+        "resolutions": 0,
+        "bounce": 0,
+        "repeatedDraw": 0,
+        "exit": 0,
+        "exceptions": 0,
+        "clockSeconds": 120,
+        "lastTurn": 12.0,
+        "candidateSha256": "874FF9F0C5DE4FBE6C0BD6D0430A39A88FAFE2E32AE42376435DC4C0EFDECDCC",
+        "log": "arena/mystic-confluence/target/exposure/off-139011/game.log",
+        "logSha256": "7728A7BD9D1BB2306A94B5F3B3CF57BDEFFC72485FECACB4B9E10BA43DE17907"
+      },
+      {
+        "seed": 139011,
+        "profileMode": "on",
+        "casts": 6,
+        "resolutions": 6,
+        "bounce": 6,
+        "repeatedDraw": 6,
+        "exit": 0,
+        "exceptions": 0,
+        "clockSeconds": 120,
+        "lastTurn": 18.0,
+        "candidateSha256": "874FF9F0C5DE4FBE6C0BD6D0430A39A88FAFE2E32AE42376435DC4C0EFDECDCC",
+        "log": "arena/mystic-confluence/target/exposure/on-139011/game.log",
+        "logSha256": "3C3F0C8011B1E553CB938D8E42226CF6E1CD6BF9A2D3BEF151128EB2BB0206D9"
+      },
+      {
+        "seed": 139012,
+        "profileMode": "off",
+        "casts": 0,
+        "resolutions": 0,
+        "bounce": 0,
+        "repeatedDraw": 0,
+        "exit": 0,
+        "exceptions": 0,
+        "clockSeconds": 120,
+        "lastTurn": 17.0,
+        "candidateSha256": "874FF9F0C5DE4FBE6C0BD6D0430A39A88FAFE2E32AE42376435DC4C0EFDECDCC",
+        "log": "arena/mystic-confluence/target/exposure/off-139012/game.log",
+        "logSha256": "C4988346DA0E5DC14173F8E3C1AB9B4DD1213025E04CEFEEC818B696909519DA"
+      },
+      {
+        "seed": 139012,
+        "profileMode": "on",
+        "casts": 12,
+        "resolutions": 12,
+        "bounce": 12,
+        "repeatedDraw": 11,
+        "exit": 0,
+        "exceptions": 0,
+        "clockSeconds": 120,
+        "lastTurn": 33.0,
+        "candidateSha256": "874FF9F0C5DE4FBE6C0BD6D0430A39A88FAFE2E32AE42376435DC4C0EFDECDCC",
+        "log": "arena/mystic-confluence/target/exposure/on-139012/game.log",
+        "logSha256": "254C5D1455403B6309795BE47BD875E777BF19866140A500935B9C74F9B9686D"
+      }
+    ],
+    "interpretation": "Paired card-use games only. Profile-off games have zero casts/resolutions; on-profile games resolve the spell with native mode text, including counter, bounce, and draw. All games exit 0 with zero exceptions; no strength or winner claim."
+  },
+  "coverage": {
+    "decks": 184,
+    "clearDecks": 89,
+    "unlockedCards": 107,
+    "verifiedCards": 97,
+    "remainingBlockedCards": 266,
+    "remainingBlockedOccurrences": 357
+  }
+}

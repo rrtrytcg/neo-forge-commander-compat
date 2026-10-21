@@ -1,0 +1,132 @@
+{
+  "candidateJarSha256": "195F74DA1A8FAFD08C2687DD07E3A371615F20878EEED0EB7C7409231A7AC418",
+  "date": "2026-10-17",
+  "nativeEvidence": {
+    "scope": "Native correctness and regression only; not strength evidence",
+    "revision": "061c71010ad77336186b6ee93f2b8c7960d868c5",
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\target\\final\\engine.jar",
+        "sha256": "195F74DA1A8FAFD08C2687DD07E3A371615F20878EEED0EB7C7409231A7AC418"
+      },
+      {
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\oreskos-explorer.properties",
+        "sha256": "F5C4F772823E0010ACAB02C7648A1726A45E3A914981A7B183A9BEEE867CD83A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\Check-OreskosExplorer.ps1",
+        "sha256": "C9940BF191CDABBC95E4679CB791485E20278C761932871FC2E7AF5EAF8C4DC3"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java",
+        "sha256": "8F9D5495050E83B3C18E280DED4362CC7E8420D61A647257C74A8D842C5629C9"
+      },
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\OreskosExplorerTests.java",
+        "sha256": "A7A8A90DB93E4A2F6E735B1F66C7311D44EFF8AAFA833D5A88C6D0A25CAB2E57"
+      }
+    ]
+  },
+  "claim": "Bounded native casting/search rules and autonomous custom-deck use; no strength or Commander-precon claim",
+  "coverageStatus": "verified",
+  "build": {
+    "aiReactorPassed": true,
+    "checkstyleViolations": 0,
+    "desktopFailure": "Launch4j windres.exe CreateProcess error 623; optional executable wrapper, not native behavior gate",
+    "desktopLauncherPackagingPassed": false,
+    "genericMavenTestsSkipped": true
+  },
+  "cardUseEvidence": {
+    "excludedPendingSearches": 1,
+    "nonbasicPlains": 19,
+    "completedSearches": 12,
+    "path": "arena/oreskos-explorer/card-use-evidence.json",
+    "offControlsZero": true,
+    "clockSeconds": 20,
+    "sha256": "925ABD8A4538050F0C35DCDADCBE668D8D8B88A2446F014791C73BD87D5A8E1F",
+    "seeds": [
+      95901,
+      95902
+    ],
+    "fetchedPlains": 24,
+    "completedGameRequired": false,
+    "resolvedCasts": 13
+  },
+  "nativeChecks": 100,
+  "regressionCandidateMatches": true,
+  "files": [
+    {
+      "sha256": "74A6EAB5C6AEA120D23663E9A35680B3B0BDEB20BE6BA24190155A4584BE4350",
+      "path": "<development-checkout>\\arena\\oreskos-explorer\\target\\build.log"
+    },
+    {
+      "sha256": "EEE0DB525C9142240B17201EF36EA2A3A0564F6781FFAFCECD9AF2B3665E10C3",
+      "path": "<development-checkout>\\arena\\oreskos-explorer\\target\\desktop-package.log"
+    },
+    {
+      "sha256": "9F64FDE3701B31D5FF5B09F281E664F5A3E72CBE5EBFFB07D0BBAF3DF892B9BF",
+      "path": "<development-checkout>\\arena\\oreskos-explorer\\target\\final\\OreskosExplorerTests.log"
+    },
+    {
+      "sha256": "9095B2F6A6309DBE7390FB093320ECE7218D8F9D0B3F04274D0060B240F87A6C",
+      "path": "<development-checkout>\\arena\\oreskos-explorer\\target\\final\\provenance.json"
+    },
+    {
+      "sha256": "7ECE321815FB3FDE79197ECC4137B4F1670BAF0C317E14073651BACEC550CD6A",
+      "path": "<development-checkout>\\arena\\oreskos-explorer\\target\\regressions\\summary.json"
+    },
+    {
+      "sha256": "845C93D512998C0080CB88C6C7EED83AA5AC0D544C291BDD8B81872F05F5D4C8",
+      "path": "<development-checkout>\\arena\\oreskos-explorer\\target\\coverage-audit.log"
+    }
+  ],
+  "probeCandidatesMatch": true,
+  "candidate": "Private arena engine snapshot with freshly compiled ChangeZoneAi.class overlay",
+  "originalScript": {
+    "sha256": "66C59D933ED0B5F4C721E392E15590C03F0AF819727702E41E76291C45DD74E5",
+    "path": "forge-gui/res/cardsfolder/o/oreskos_explorer.txt"
+  },
+  "coverage": {
+    "distinctRemaining": 341,
+    "mechanicallyUnlocked": 32,
+    "verified": 22,
+    "unlockedOnly": 10,
+    "decksWithZeroBlocked": 23,
+    "occurrencesRemaining": 565
+  },
+  "baseRevision": "061c71010ad77336186b6ee93f2b8c7960d868c5",
+  "regressionEvidence": {
+    "results": [
+      {
+        "checks": 48,
+        "suite": "MirrorEntityTests",
+        "sha256": "DB59FF8B234837B714CA44DAA186C4E26B12CC45AA109C1C07826923E9BD52BD",
+        "log": "<development-checkout>\\arena\\oreskos-explorer\\target\\regressions\\MirrorEntityTests.log"
+      },
+      {
+        "checks": 69,
+        "suite": "DecreeOfPainTests",
+        "sha256": "F1B9E6E7D496EE2D590932410C8DAD043178CEAB82AA7F3B290BD21CFB7CAB1A",
+        "log": "<development-checkout>\\arena\\oreskos-explorer\\target\\regressions\\DecreeOfPainTests.log"
+      }
+    ],
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\target\\final\\engine.jar",
+        "sha256": "195F74DA1A8FAFD08C2687DD07E3A371615F20878EEED0EB7C7409231A7AC418"
+      },
+      {
+        "path": "<development-checkout>\\arena\\oreskos-explorer\\Check-Regressions.ps1",
+        "sha256": "D222EDFF8B4CFA77747E3A8C2EA4A3E093C37903A630F7C31B88F3EDA125612E"
+      },
+      {
+        "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java",
+        "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A"
+      },
+      {
+        "path": "<development-checkout>\\arena\\decree-of-pain\\DecreeOfPainTests.java",
+        "sha256": "D4B61C4BA1E720B10635DF58E82C8BCE8C91B92F353924D27EF1E42C1F748A8B"
+      }
+    ]
+  }
+}

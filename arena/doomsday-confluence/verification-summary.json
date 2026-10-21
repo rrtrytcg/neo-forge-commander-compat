@@ -1,0 +1,434 @@
+{
+  "profile": "doomsday-confluence",
+  "engine": "NeoForge 1.0.27",
+  "candidateSha256": "85B3BD41C4D98BD1AB06D04379ECED641D4C355C54A5A094FDA7E85FA14B44F2",
+  "gate": "arena/doomsday-confluence/target/final-1.0.27/provenance.json",
+  "gateSha256": "8E3574C67CEB705E3F5DC8D32633C6DE60811A9A87A84E897222136AF4100A4D",
+  "baseline": "arena/doomsday-confluence/target/final-1.0.27-baseline/provenance.json",
+  "baselineChecks": 3,
+  "nativeChecks": 5633,
+  "suites": 52,
+  "newChecks": 140,
+  "priorChecks": 5493,
+  "priorCountsUnchanged": true,
+  "decks": [
+    {
+      "path": "arena/doomsday-confluence/decks/Actor.dck",
+      "sha256": "B9EDFF5AD9C6622DA18A38F2D8756473A4A0E64B2AABCFE0E9F78C5080E6E447"
+    },
+    {
+      "path": "arena/doomsday-confluence/decks/OpponentA.dck",
+      "sha256": "683083CC76B018E13C1131E146451FEE7A84CEC5975BCA71B9FF166E6E93EDE9"
+    },
+    {
+      "path": "arena/doomsday-confluence/decks/OpponentB.dck",
+      "sha256": "9EC423F569911FF42379CD6B26414CAB292D79BDDC4A2EA686A3EC99E94BE6A1"
+    }
+  ],
+  "games": [
+    {
+      "seed": 123011,
+      "mode": "off",
+      "clockSeconds": 120,
+      "casts": 0,
+      "resolutions": 0,
+      "exceptions": 0,
+      "lastTurn": 51.0,
+      "clockLimited": false,
+      "log": "arena/doomsday-confluence/target/bounded/off-123011/game.log",
+      "logSha256": "539036E7408D0F1B2AF0BB877C644C997E01C4AA17D6A1B1915511AFD8303584",
+      "summary": "arena/doomsday-confluence/target/bounded/off-123011/summary.json",
+      "summarySha256": "57CACFEE750B4C24C277E3388F56EBE5751FF1A27AD0BB6A052C909159D4D4C2",
+      "witnesses": []
+    },
+    {
+      "seed": 123011,
+      "mode": "on",
+      "clockSeconds": 120,
+      "casts": 3,
+      "resolutions": 3,
+      "exceptions": 0,
+      "lastTurn": 49.0,
+      "clockLimited": false,
+      "log": "arena/doomsday-confluence/target/bounded/on-123011/game.log",
+      "logSha256": "A028FB44217D99B7340DEBCAEB3C4EB0FD3FE19314F9A2793599551C8A57D29E",
+      "summary": "arena/doomsday-confluence/target/bounded/on-123011/summary.json",
+      "summarySha256": "C0766A11CD518EE8F7C2D6FB977BFB047B2C719DFB79F103D37355464C2FDCFA",
+      "witnesses": [
+        {
+          "castLine": 103,
+          "resolutionLine": 106,
+          "phase": "Phase: Ai(1)-Doomsday Confluence exposure: artifact army's Main phase, postcombat",
+          "x": 1,
+          "sacrificeModes": 0,
+          "discardModes": 1,
+          "tokenModes": 0,
+          "manaProduced": 3,
+          "manaPayments": [
+            {
+              "line": 101,
+              "text": "Mana: Swamp (62) - {T}: Add {B}."
+            },
+            {
+              "line": 102,
+              "text": "Mana: Sol Ring (93) - {T}: Add {C}{C}."
+            }
+          ],
+          "observedSacrifices": 0,
+          "observedDiscards": 2,
+          "consequenceEvents": [
+            {
+              "line": 104,
+              "text": "Discard: Ai(2)-Doomsday Confluence exposure: drain A discards Swamp (178)."
+            },
+            {
+              "line": 105,
+              "text": "Discard: Ai(3)-Doomsday Confluence exposure: drain B discards Swamp (233)."
+            }
+          ],
+          "cast": "Add To Stack: Ai(1)-Doomsday Confluence exposure: artifact army cast Doomsday Confluence",
+          "resolution": "Resolve Stack: Doomsday Confluence (45) -  Each opponent discards a card. (X=1)"
+        },
+        {
+          "castLine": 160,
+          "resolutionLine": 164,
+          "phase": "Phase: Ai(1)-Doomsday Confluence exposure: artifact army's Main phase, postcombat",
+          "x": 2,
+          "sacrificeModes": 1,
+          "discardModes": 1,
+          "tokenModes": 0,
+          "manaProduced": 5,
+          "manaPayments": [
+            {
+              "line": 156,
+              "text": "Mana: Swamp (62) - {T}: Add {B}."
+            },
+            {
+              "line": 157,
+              "text": "Mana: Sol Ring (93) - {T}: Add {C}{C}."
+            },
+            {
+              "line": 158,
+              "text": "Mana: Swamp (49) - {T}: Add {B}."
+            },
+            {
+              "line": 159,
+              "text": "Mana: Swamp (17) - {T}: Add {B}."
+            }
+          ],
+          "observedSacrifices": 1,
+          "observedDiscards": 2,
+          "consequenceEvents": [
+            {
+              "line": 161,
+              "text": "Zone Change: Walking Corpse (210) was put into Graveyard from Battlefield."
+            },
+            {
+              "line": 162,
+              "text": "Discard: Ai(2)-Doomsday Confluence exposure: drain A discards Swamp (152)."
+            },
+            {
+              "line": 163,
+              "text": "Discard: Ai(3)-Doomsday Confluence exposure: drain B discards Swamp (280)."
+            }
+          ],
+          "cast": "Add To Stack: Ai(1)-Doomsday Confluence exposure: artifact army cast Doomsday Confluence",
+          "resolution": "Resolve Stack: Doomsday Confluence (44) -  Each player sacrifices a nonartifact creature. Each opponent discards a card. (X=2)"
+        },
+        {
+          "castLine": 780,
+          "resolutionLine": 785,
+          "phase": "Phase: Ai(1)-Doomsday Confluence exposure: artifact army's Main phase, postcombat",
+          "x": 7,
+          "sacrificeModes": 1,
+          "discardModes": 1,
+          "tokenModes": 5,
+          "manaProduced": 15,
+          "manaPayments": [
+            {
+              "line": 767,
+              "text": "Mana: Swamp (62) - {T}: Add {B}."
+            },
+            {
+              "line": 768,
+              "text": "Mana: Sol Ring (93) - {T}: Add {C}{C}."
+            },
+            {
+              "line": 769,
+              "text": "Mana: Sol Ring (99) - {T}: Add {C}{C}."
+            },
+            {
+              "line": 770,
+              "text": "Mana: Swamp (49) - {T}: Add {B}."
+            },
+            {
+              "line": 771,
+              "text": "Mana: Swamp (17) - {T}: Add {B}."
+            },
+            {
+              "line": 772,
+              "text": "Mana: Swamp (3) - {T}: Add {B}."
+            },
+            {
+              "line": 773,
+              "text": "Mana: Swamp (13) - {T}: Add {B}."
+            },
+            {
+              "line": 774,
+              "text": "Mana: Swamp (53) - {T}: Add {B}."
+            },
+            {
+              "line": 775,
+              "text": "Mana: Swamp (25) - {T}: Add {B}."
+            },
+            {
+              "line": 776,
+              "text": "Mana: Swamp (24) - {T}: Add {B}."
+            },
+            {
+              "line": 777,
+              "text": "Mana: Swamp (71) - {T}: Add {B}."
+            },
+            {
+              "line": 778,
+              "text": "Mana: Swamp (2) - {T}: Add {B}."
+            },
+            {
+              "line": 779,
+              "text": "Mana: Swamp (1) - {T}: Add {B}."
+            }
+          ],
+          "observedSacrifices": 2,
+          "observedDiscards": 2,
+          "consequenceEvents": [
+            {
+              "line": 781,
+              "text": "Zone Change: Walking Corpse (112) was put into Graveyard from Battlefield."
+            },
+            {
+              "line": 782,
+              "text": "Zone Change: Walking Corpse (207) was put into Graveyard from Battlefield."
+            },
+            {
+              "line": 783,
+              "text": "Discard: Ai(2)-Doomsday Confluence exposure: drain A discards Swamp (131)."
+            },
+            {
+              "line": 784,
+              "text": "Discard: Ai(3)-Doomsday Confluence exposure: drain B discards Swamp (300)."
+            }
+          ],
+          "cast": "Add To Stack: Ai(1)-Doomsday Confluence exposure: artifact army cast Doomsday Confluence",
+          "resolution": "Resolve Stack: Doomsday Confluence (38) -  Each player sacrifices a nonartifact creature. Create a 3/3 black Dalek artifact creature token with menace. Create a 3/3 black Dalek artifact creature token with menace. Create a 3/3 black Dalek artifact creature token with menace. Create a 3/3 black Dalek artifact creature token with menace. Create a 3/3 black Dalek artifact creature token with menace. Each opponent discards a card. (X=7)"
+        }
+      ]
+    },
+    {
+      "seed": 123012,
+      "mode": "off",
+      "clockSeconds": 120,
+      "casts": 0,
+      "resolutions": 0,
+      "exceptions": 0,
+      "lastTurn": 33.0,
+      "clockLimited": false,
+      "log": "arena/doomsday-confluence/target/bounded/off-123012/game.log",
+      "logSha256": "541E9510EB98DFBF1F722897BCD9D4DB358A4287B6E02BFF5FAF81C27B142615",
+      "summary": "arena/doomsday-confluence/target/bounded/off-123012/summary.json",
+      "summarySha256": "B3EA421841FD4A456BAEE2BE913957A10701DA98959B9F8BB51DC52E038FC327",
+      "witnesses": []
+    },
+    {
+      "seed": 123012,
+      "mode": "on",
+      "clockSeconds": 120,
+      "casts": 3,
+      "resolutions": 3,
+      "exceptions": 0,
+      "lastTurn": 39.0,
+      "clockLimited": false,
+      "log": "arena/doomsday-confluence/target/bounded/on-123012/game.log",
+      "logSha256": "9F2A50718903E61283678202688061F45F0ABF06DFF07F415C4B522B29E7F914",
+      "summary": "arena/doomsday-confluence/target/bounded/on-123012/summary.json",
+      "summarySha256": "C4B02474751495249E8B8BA011264BE226B9EDCC1EC0F1F33891473A159BC291",
+      "witnesses": [
+        {
+          "castLine": 136,
+          "resolutionLine": 138,
+          "phase": "Phase: Ai(1)-Doomsday Confluence exposure: artifact army's Main phase, postcombat",
+          "x": 1,
+          "sacrificeModes": 1,
+          "discardModes": 0,
+          "tokenModes": 0,
+          "manaProduced": 3,
+          "manaPayments": [
+            {
+              "line": 134,
+              "text": "Mana: Swamp (47) - {T}: Add {B}."
+            },
+            {
+              "line": 135,
+              "text": "Mana: Sol Ring (93) - {T}: Add {C}{C}."
+            }
+          ],
+          "observedSacrifices": 1,
+          "observedDiscards": 0,
+          "consequenceEvents": [
+            {
+              "line": 137,
+              "text": "Zone Change: Walking Corpse (104) was put into Graveyard from Battlefield."
+            }
+          ],
+          "cast": "Add To Stack: Ai(1)-Doomsday Confluence exposure: artifact army cast Doomsday Confluence",
+          "resolution": "Resolve Stack: Doomsday Confluence (36) -  Each player sacrifices a nonartifact creature. (X=1)"
+        },
+        {
+          "castLine": 203,
+          "resolutionLine": 206,
+          "phase": "Phase: Ai(1)-Doomsday Confluence exposure: artifact army's Main phase, postcombat",
+          "x": 2,
+          "sacrificeModes": 0,
+          "discardModes": 1,
+          "tokenModes": 1,
+          "manaProduced": 5,
+          "manaPayments": [
+            {
+              "line": 199,
+              "text": "Mana: Swamp (47) - {T}: Add {B}."
+            },
+            {
+              "line": 200,
+              "text": "Mana: Sol Ring (93) - {T}: Add {C}{C}."
+            },
+            {
+              "line": 201,
+              "text": "Mana: Swamp (31) - {T}: Add {B}."
+            },
+            {
+              "line": 202,
+              "text": "Mana: Swamp (56) - {T}: Add {B}."
+            }
+          ],
+          "observedSacrifices": 0,
+          "observedDiscards": 2,
+          "consequenceEvents": [
+            {
+              "line": 204,
+              "text": "Discard: Ai(2)-Doomsday Confluence exposure: drain A discards Swamp (144)."
+            },
+            {
+              "line": 205,
+              "text": "Discard: Ai(3)-Doomsday Confluence exposure: drain B discards Swamp (264)."
+            }
+          ],
+          "cast": "Add To Stack: Ai(1)-Doomsday Confluence exposure: artifact army cast Doomsday Confluence",
+          "resolution": "Resolve Stack: Doomsday Confluence (35) -  Create a 3/3 black Dalek artifact creature token with menace. Each opponent discards a card. (X=2)"
+        },
+        {
+          "castLine": 831,
+          "resolutionLine": 834,
+          "phase": "Phase: Ai(1)-Doomsday Confluence exposure: artifact army's Main phase, postcombat",
+          "x": 5,
+          "sacrificeModes": 1,
+          "discardModes": 0,
+          "tokenModes": 4,
+          "manaProduced": 11,
+          "manaPayments": [
+            {
+              "line": 821,
+              "text": "Mana: Swamp (47) - {T}: Add {B}."
+            },
+            {
+              "line": 822,
+              "text": "Mana: Sol Ring (93) - {T}: Add {C}{C}."
+            },
+            {
+              "line": 823,
+              "text": "Mana: Swamp (31) - {T}: Add {B}."
+            },
+            {
+              "line": 824,
+              "text": "Mana: Swamp (56) - {T}: Add {B}."
+            },
+            {
+              "line": 825,
+              "text": "Mana: Swamp (67) - {T}: Add {B}."
+            },
+            {
+              "line": 826,
+              "text": "Mana: Swamp (15) - {T}: Add {B}."
+            },
+            {
+              "line": 827,
+              "text": "Mana: Swamp (2) - {T}: Add {B}."
+            },
+            {
+              "line": 828,
+              "text": "Mana: Swamp (10) - {T}: Add {B}."
+            },
+            {
+              "line": 829,
+              "text": "Mana: Swamp (77) - {T}: Add {B}."
+            },
+            {
+              "line": 830,
+              "text": "Mana: Swamp (64) - {T}: Add {B}."
+            }
+          ],
+          "observedSacrifices": 2,
+          "observedDiscards": 0,
+          "consequenceEvents": [
+            {
+              "line": 832,
+              "text": "Zone Change: Walking Corpse (105) was put into Graveyard from Battlefield."
+            },
+            {
+              "line": 833,
+              "text": "Zone Change: Walking Corpse (212) was put into Graveyard from Battlefield."
+            }
+          ],
+          "cast": "Add To Stack: Ai(1)-Doomsday Confluence exposure: artifact army cast Doomsday Confluence",
+          "resolution": "Resolve Stack: Doomsday Confluence (44) -  Each player sacrifices a nonartifact creature. Create a 3/3 black Dalek artifact creature token with menace. Create a 3/3 black Dalek artifact creature token with menace. Create a 3/3 black Dalek artifact creature token with menace. Create a 3/3 black Dalek artifact creature token with menace. (X=5)"
+        }
+      ]
+    }
+  ],
+  "scope": "Native correctness and autonomous card-use evidence from repeated-card three-player exposure decks; no strength claim.",
+  "excludedAttempt": {
+    "reason": "Wall-only and Craw-Wurm-only opponents hit the unchanged 120-second clock in their first control game. Interrupted each batch, then used low-creature-density opponents with Underworld Dreams to finish through draw-trigger life loss. No evidence from either excluded attempt is counted.",
+    "logs": [
+      {
+        "path": "arena/doomsday-confluence/target/smoke/off-123011/game.log",
+        "sha256": "A96C57FD1806D1269D8895B3977182B3AB84490DD6E0A7E492AAD1A97A6F1E1D"
+      },
+      {
+        "path": "arena/doomsday-confluence/target/smoke/off-123012/game.log",
+        "sha256": "60C80FFA0CD4A3306B119FAB136091151FBFBB0F3A50640831482EA3C8A004D5"
+      },
+      {
+        "path": "arena/doomsday-confluence/target/smoke/on-123011/game.log",
+        "sha256": "F0000CE175BBBF24563D54FE3C9F3B92F1836BB6E2603A112A77827C4E22CAC2"
+      },
+      {
+        "path": "arena/doomsday-confluence/target/paired/off-123011/game.log",
+        "sha256": "A9A70CDCD405755975D1174E2965E45EF55DF093C55A352784087281B6134679"
+      },
+      {
+        "path": "arena/doomsday-confluence/target/paired/off-123012/game.log",
+        "sha256": "7A061A4EDA3DC78FFD6221E028FE6A7E1A9AE901A84E6555F74187A944132961"
+      },
+      {
+        "path": "arena/doomsday-confluence/target/paired/on-123011/game.log",
+        "sha256": "6C791134B027A09B2694439951E1095BE98041556E4CDACDE9C047FE3D3507C0"
+      }
+    ]
+  },
+  "coverage": {
+    "decksClearBefore": 75,
+    "decksClearAfter": 76,
+    "decks": 184,
+    "cleared": "WHO - Masters of Evil",
+    "unlocked": 90,
+    "verified": 80
+  }
+}

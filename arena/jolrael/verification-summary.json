@@ -1,0 +1,305 @@
+{
+  "profile": "jolrael",
+  "engine": "NeoForge 1.0.27",
+  "candidateSha256": "AB430DA844732C568372A134C31EC9B3EB918C39A656C89DA96F35EFFC3CAC40",
+  "gate": "arena/jolrael/target/final-1.0.27/provenance.json",
+  "gateSha256": "A128EA770D6EA7962161A60E15443A2DD2DAAA5EACA37EAB3B19BA9C29FE4304",
+  "baseline": "arena/jolrael/target/baseline-1.0.27-baseline/provenance.json",
+  "baselineChecks": 2,
+  "nativeChecks": 5388,
+  "suites": 50,
+  "priorChecks": 5317,
+  "priorCountsUnchanged": true,
+  "newChecks": 71,
+  "decks": [
+    {
+      "path": "arena/jolrael/decks/Actor.dck",
+      "sha256": "B60727B243D0B78CAEFDBC291EA03DCD0FA84ADC5BB3C5F81F31092F1A47BD6A"
+    },
+    {
+      "path": "arena/jolrael/decks/Opponent.dck",
+      "sha256": "DC209B781C6212D2E189AFD26C39FE3D4002260AD1DAE4ADE058A99886430770"
+    }
+  ],
+  "games": [
+    {
+      "seed": 121011,
+      "mode": "off",
+      "clockSeconds": 120,
+      "casts": 0,
+      "activations": 0,
+      "nativeCatTriggers": 0,
+      "exceptions": 0,
+      "lastTurn": 188.0,
+      "clockLimited": false,
+      "log": "arena/jolrael/target/smoke/off-121011/game.log",
+      "logSha256": "03B9F3FD05A4F60B352D473155E3BD7B92B444E7FDC065F727B01D4FB0A309B4",
+      "summary": "arena/jolrael/target/smoke/off-121011/summary.json",
+      "summarySha256": "B993114152DF82441C1B62A367CFF264749247664E12FB1E1B76B91FD14B63B4",
+      "activationWitnesses": [],
+      "castLines": [],
+      "activationLines": []
+    },
+    {
+      "seed": 121011,
+      "mode": "on",
+      "clockSeconds": 120,
+      "casts": 1,
+      "activations": 4,
+      "nativeCatTriggers": 1,
+      "exceptions": 0,
+      "lastTurn": 20.0,
+      "clockLimited": false,
+      "log": "arena/jolrael/target/smoke/on-121011/game.log",
+      "logSha256": "844E61F6AC0A2845EFD3E89C57A4089918C4119716E3C9FDE211989AA94BC576",
+      "summary": "arena/jolrael/target/smoke/on-121011/summary.json",
+      "summarySha256": "89D739C9F49C3B9D6FB0EA8E450CA7BCA03D768B81B139051754A44A655C5272",
+      "activationWitnesses": [
+        {
+          "turn": "Turn: Turn 14 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 312,
+          "resolutionLine": 313,
+          "attackLine": 315,
+          "forestManaPayments": 6,
+          "damageValues": [
+            6
+          ]
+        },
+        {
+          "turn": "Turn: Turn 16 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 362,
+          "resolutionLine": 363,
+          "attackLine": 365,
+          "forestManaPayments": 6,
+          "damageValues": [
+            6
+          ]
+        },
+        {
+          "turn": "Turn: Turn 18 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 411,
+          "resolutionLine": 412,
+          "attackLine": 414,
+          "forestManaPayments": 6,
+          "damageValues": [
+            7
+          ]
+        },
+        {
+          "turn": "Turn: Turn 20 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 462,
+          "resolutionLine": 463,
+          "attackLine": 465,
+          "forestManaPayments": 6,
+          "damageValues": [
+            8
+          ]
+        }
+      ],
+      "castLines": [
+        184
+      ],
+      "activationLines": [
+        312,
+        362,
+        411,
+        462
+      ]
+    },
+    {
+      "seed": 121012,
+      "mode": "off",
+      "clockSeconds": 120,
+      "casts": 0,
+      "activations": 0,
+      "nativeCatTriggers": 0,
+      "exceptions": 0,
+      "lastTurn": 176.0,
+      "clockLimited": false,
+      "log": "arena/jolrael/target/smoke/off-121012/game.log",
+      "logSha256": "466070261D94BE138055754BEC6C2D8143214110C9369D06B1C2ECFC8BAA3178",
+      "summary": "arena/jolrael/target/smoke/off-121012/summary.json",
+      "summarySha256": "7DE1CAEEA4E8AD71F4D9B407CFB983780DAD2F6C9A5A25795EAEF116563DF142",
+      "activationWitnesses": [],
+      "castLines": [],
+      "activationLines": []
+    },
+    {
+      "seed": 121012,
+      "mode": "on",
+      "clockSeconds": 120,
+      "casts": 1,
+      "activations": 13,
+      "nativeCatTriggers": 2,
+      "exceptions": 0,
+      "lastTurn": 36.0,
+      "clockLimited": false,
+      "log": "arena/jolrael/target/smoke/on-121012/game.log",
+      "logSha256": "EC42D72AADC95540276DC6357419D78E772624B725A894FA8A12CF40FA8F0A67",
+      "summary": "arena/jolrael/target/smoke/on-121012/summary.json",
+      "summarySha256": "378412691CFBF3CBD4A0826BA3B0F2CB5D0B195F2E613C332404CF4AB5B44EDA",
+      "activationWitnesses": [
+        {
+          "turn": "Turn: Turn 12 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 258,
+          "resolutionLine": 259,
+          "attackLine": 261,
+          "forestManaPayments": 6,
+          "damageValues": [
+            6
+          ]
+        },
+        {
+          "turn": "Turn: Turn 14 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 308,
+          "resolutionLine": 309,
+          "attackLine": 311,
+          "forestManaPayments": 6,
+          "damageValues": [
+            6
+          ]
+        },
+        {
+          "turn": "Turn: Turn 16 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 353,
+          "resolutionLine": 354,
+          "attackLine": 356,
+          "forestManaPayments": 6,
+          "damageValues": [
+            6
+          ]
+        },
+        {
+          "turn": "Turn: Turn 18 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 402,
+          "resolutionLine": 403,
+          "attackLine": 405,
+          "forestManaPayments": 6,
+          "damageValues": [
+            5
+          ]
+        },
+        {
+          "turn": "Turn: Turn 20 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 453,
+          "resolutionLine": 454,
+          "attackLine": 456,
+          "forestManaPayments": 6,
+          "damageValues": [
+            4
+          ]
+        },
+        {
+          "turn": "Turn: Turn 22 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 503,
+          "resolutionLine": 504,
+          "attackLine": 506,
+          "forestManaPayments": 6,
+          "damageValues": [
+            4
+          ]
+        },
+        {
+          "turn": "Turn: Turn 24 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 553,
+          "resolutionLine": 554,
+          "attackLine": 556,
+          "forestManaPayments": 6,
+          "damageValues": [
+            4
+          ]
+        },
+        {
+          "turn": "Turn: Turn 26 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 608,
+          "resolutionLine": 609,
+          "attackLine": 611,
+          "forestManaPayments": 6,
+          "damageValues": [
+            4
+          ]
+        },
+        {
+          "turn": "Turn: Turn 28 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 662,
+          "resolutionLine": 663,
+          "attackLine": 665,
+          "forestManaPayments": 6,
+          "damageValues": [
+            4
+          ]
+        },
+        {
+          "turn": "Turn: Turn 30 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 711,
+          "resolutionLine": 712,
+          "attackLine": 714,
+          "forestManaPayments": 6,
+          "damageValues": [
+            4
+          ]
+        },
+        {
+          "turn": "Turn: Turn 32 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 768,
+          "resolutionLine": 769,
+          "attackLine": 771,
+          "forestManaPayments": 6,
+          "damageValues": [
+            6
+          ]
+        },
+        {
+          "turn": "Turn: Turn 34 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 835,
+          "resolutionLine": 836,
+          "attackLine": 838,
+          "forestManaPayments": 6,
+          "damageValues": [
+            7
+          ]
+        },
+        {
+          "turn": "Turn: Turn 36 (Ai(1)-Jolrael exposure: small attackers and card draw)",
+          "activationLine": 904,
+          "resolutionLine": 905,
+          "attackLine": 907,
+          "forestManaPayments": 6,
+          "damageValues": [
+            6
+          ]
+        }
+      ],
+      "castLines": [
+        226
+      ],
+      "activationLines": [
+        258,
+        308,
+        353,
+        402,
+        453,
+        503,
+        553,
+        608,
+        662,
+        711,
+        768,
+        835,
+        904
+      ]
+    }
+  ],
+  "coverage": {
+    "path": "arena/coverage/coverage.json",
+    "sha256": "B1F6BE847CA4A72D3B2007CA5713968B8231940B5A6CA1400E96405993516068",
+    "decksWithZeroBlocked": 74,
+    "mechanicallyUnlocked": 88,
+    "verified": 78,
+    "newlyClearDecks": [
+      "MKC - Deep Clue Sea",
+      "SLD - From Cute to Brute"
+    ]
+  },
+  "scope": "Native correctness and autonomous card-use evidence from repeated-card two-player decks; no strength claim."
+}

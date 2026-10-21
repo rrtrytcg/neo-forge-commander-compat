@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-16",
+  "claim": "Correctness, regression and runtime smoke only; no strength claim",
+  "nativeEvidence": {
+    "scope": "Native correctness and regression only; not strength evidence",
+    "files": [
+      {
+        "sha256": "62967D06D42E9F733ECA91284134D12DD4B5E90DA1ADB4459F69B86D74F3D359",
+        "path": "<development-checkout>\\arena\\ahoy-mateys\\target\\ahoy-built\\engine.jar"
+      },
+      {
+        "sha256": "535DAFE239EDF5B1AC3C8CBCF997CD9EB55DA31C377207C9326683D594AB6761",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\ahoy-mateys.properties"
+      },
+      {
+        "sha256": "2382E32A6B09F0ED4D389FA0EB0B9023E713BE7F92D335020D5831982142301D",
+        "path": "<development-checkout>\\arena\\ahoy-mateys\\Check-AhoyMateys.ps1"
+      },
+      {
+        "sha256": "768FBA1CA6ED28C55FF92E982C646CDF8A2D9CC156793582F0382DEE5766CDE9",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiOverrideProfile.java"
+      },
+      {
+        "sha256": "CD0C1DA3A1D6CDC6ABABE479212033A5EDFD91888284C7649A42F80610FCBF76",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiProfileUtil.java"
+      },
+      {
+        "sha256": "2E5C6966CE64E3DB78FBDA08259EC49FD9708BE136C2E5985758D991FF19760B",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AhoyMateysAi.java"
+      },
+      {
+        "sha256": "FCE722384F0F9B5A56CA5AAB25C3FC3883C8BDFC4F2B26C3ADAA98AF156C74C2",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiController.java"
+      },
+      {
+        "sha256": "DBEDDF685EFFDFE144FB3E615E5B5FD3F29984BD10C3143E37E31D43B279C804",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\DrawAi.java"
+      },
+      {
+        "sha256": "66D0432989BE87D4F89BB20ACA955F29A8A10E36E7C02CB1EBAEE9B8D9F4C115",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\DiscardAi.java"
+      },
+      {
+        "sha256": "1D822CDAA7D8D55745081417B67CFF5D87001770D74E6F950B64C8AF873FC6A4",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\CharmAi.java"
+      },
+      {
+        "sha256": "0C567371A9B89CC1E2CB5340E8478392AB356C05E95BFF7DDDF1A00272DEFCA9",
+        "path": "<development-checkout>\\arena\\ahoy-mateys\\AhoyMateysTests.java"
+      }
+    ],
+    "revision": "f6df85f9d28b83be1018a3165b57a0e494c5f0a0"
+  },
+  "commanderTurn": 12,
+  "originalScriptsAndDeck": [
+    {
+      "sha256": "7314A5D5FF247623D70ABE92B320CE7F0261AAD9F76CA30D3CE3EB5A4DCC16B5",
+      "path": "forge-gui/res/cardsfolder/f/faithless_looting.txt"
+    },
+    {
+      "sha256": "F2F50CD5D71DE65C9203000E7BF3F223684EF99C90FF967E3B73C139AE9CA9E7",
+      "path": "forge-gui/res/cardsfolder/r/rakdos_charm.txt"
+    },
+    {
+      "sha256": "065F4D689D767E326EC2638E7DF822AA76F8FC1652E1494D03FAC8DEA64B98D7",
+      "path": "forge-gui/res/cardsfolder/w/windfall.txt"
+    },
+    {
+      "sha256": "9ED48F2FACA16B4748264F54B9F4B6486B9C3C8CEF8285C5F84A114CB3D2FCDB",
+      "path": "forge-gui/res/cardsfolder/a/admiral_brass_unsinkable.txt"
+    },
+    {
+      "sha256": "A9F79C6AD83FEBB330DACFA3F7B9D839CB3403615E406365FB47F4FD486A6C98",
+      "path": "forge-gui/res/quest/commanderprecons/Ahoy Mateys [LCC] [2023].dck"
+    }
+  ],
+  "commanderSmoke": {
+    "seed": 95441,
+    "normalCompletion": true,
+    "policyCardCasts": [
+      "Rakdos Charm"
+    ],
+    "clockSeconds": 180,
+    "scope": "Commander runtime smoke only; not strength evidence",
+    "files": [
+      {
+        "sha256": "62967D06D42E9F733ECA91284134D12DD4B5E90DA1ADB4459F69B86D74F3D359",
+        "path": "<development-checkout>\\arena\\ahoy-mateys\\target\\commander-ahoy\\candidate.jar"
+      },
+      {
+        "sha256": "535DAFE239EDF5B1AC3C8CBCF997CD9EB55DA31C377207C9326683D594AB6761",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\ahoy-mateys.properties"
+      },
+      {
+        "sha256": "5FCD4979DAA3E8CBF7B892C73F343770523FE36BFBDE2D8BFF52897B191DCD97",
+        "path": "<development-checkout>\\arena\\ahoy-mateys\\Run-CommanderSmoke.ps1"
+      },
+      {
+        "sha256": "A9F79C6AD83FEBB330DACFA3F7B9D839CB3403615E406365FB47F4FD486A6C98",
+        "path": "<development-checkout>\\forge-gui\\res\\quest\\commanderprecons\\Ahoy Mateys [LCC] [2023].dck"
+      }
+    ]
+  },
+  "baseRevision": "f6df85f9d28b83be1018a3165b57a0e494c5f0a0",
+  "adaptiveRegressionChecks": 76,
+  "commanderElapsedMs": 7738,
+  "nativeChecks": 77,
+  "build": {
+    "mavenGenericTestsSkipped": true,
+    "passed": true,
+    "checkstyleViolations": 0
+  },
+  "postVerificationWhitespaceCleanup": {
+    "change": "Removed trailing blank lines at EOF only after the recorded runs; original run provenance above is retained",
+    "files": [
+      {
+        "sha256": "57C03155BEF5AB7ECCB1965BBF28190CA3F0E092E9773BC357FED0728C1F5EB2",
+        "path": "arena/ahoy-mateys/AhoyMateysTests.java"
+      },
+      {
+        "sha256": "D39223533B7CF9F4E29BC3A1BE826AAE70E974FD6C579EB7CA8BD98C54E105CF",
+        "path": "arena/ahoy-mateys/Run-CommanderSmoke.ps1"
+      },
+      {
+        "sha256": "34AC83A5B5014F51C970DEE91B979BCABB4701DDAAC516374AC2356CFF6EFA4E",
+        "path": "forge-ai/src/main/java/forge/ai/AhoyMateysAi.java"
+      }
+    ]
+  }
+}

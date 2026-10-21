@@ -1,0 +1,5168 @@
+{
+  "runs": [
+    {
+      "improvedParticipants": 31.0,
+      "pendingAtClockStop": 0,
+      "payments": [
+        {
+          "mana": 5,
+          "lines": [
+            "Mana: Forest (70) - {T}: Add {G}.",
+            "Mana: Forest (39) - {T}: Add {G}.",
+            "Mana: Forest (45) - {T}: Add {G}.",
+            "Mana: Forest (38) - {T}: Add {G}.",
+            "Mana: Forest (66) - {T}: Add {G}."
+          ],
+          "x": 3
+        },
+        {
+          "mana": 6,
+          "lines": [
+            "Mana: Forest (57) - {T}: Add {G}.",
+            "Mana: Forest (70) - {T}: Add {G}.",
+            "Mana: Forest (39) - {T}: Add {G}.",
+            "Mana: Forest (45) - {T}: Add {G}.",
+            "Mana: Forest (38) - {T}: Add {G}.",
+            "Mana: Forest (66) - {T}: Add {G}."
+          ],
+          "x": 4
+        },
+        {
+          "mana": 8,
+          "lines": [
+            "Mana: Forest (34) - {T}: Add {G}.",
+            "Mana: Forest (33) - {T}: Add {G}.",
+            "Mana: Forest (57) - {T}: Add {G}.",
+            "Mana: Forest (70) - {T}: Add {G}.",
+            "Mana: Forest (39) - {T}: Add {G}.",
+            "Mana: Forest (45) - {T}: Add {G}.",
+            "Mana: Forest (38) - {T}: Add {G}.",
+            "Mana: Forest (66) - {T}: Add {G}."
+          ],
+          "x": 6
+        },
+        {
+          "mana": 8,
+          "lines": [
+            "Mana: Forest (34) - {T}: Add {G}.",
+            "Mana: Forest (33) - {T}: Add {G}.",
+            "Mana: Forest (57) - {T}: Add {G}.",
+            "Mana: Forest (70) - {T}: Add {G}.",
+            "Mana: Forest (39) - {T}: Add {G}.",
+            "Mana: Forest (45) - {T}: Add {G}.",
+            "Mana: Forest (38) - {T}: Add {G}.",
+            "Mana: Forest (66) - {T}: Add {G}."
+          ],
+          "x": 6
+        },
+        {
+          "mana": 19,
+          "lines": [
+            "Mana: Forest (53) - {T}: Add {G}.",
+            "Mana: Forest (52) - {T}: Add {G}.",
+            "Mana: Forest (43) - {T}: Add {G}.",
+            "Mana: Forest (59) - {T}: Add {G}.",
+            "Mana: Forest (37) - {T}: Add {G}.",
+            "Mana: Forest (41) - {T}: Add {G}.",
+            "Mana: Forest (48) - {T}: Add {G}.",
+            "Mana: Forest (62) - {T}: Add {G}.",
+            "Mana: Forest (51) - {T}: Add {G}.",
+            "Mana: Forest (56) - {T}: Add {G}.",
+            "Mana: Forest (72) - {T}: Add {G}.",
+            "Mana: Forest (34) - {T}: Add {G}.",
+            "Mana: Forest (33) - {T}: Add {G}.",
+            "Mana: Forest (57) - {T}: Add {G}.",
+            "Mana: Forest (70) - {T}: Add {G}.",
+            "Mana: Forest (39) - {T}: Add {G}.",
+            "Mana: Forest (45) - {T}: Add {G}.",
+            "Mana: Forest (38) - {T}: Add {G}.",
+            "Mana: Forest (66) - {T}: Add {G}."
+          ],
+          "x": 17
+        }
+      ],
+      "clockReached": true,
+      "profile": "on",
+      "diagnostics": [],
+      "seed": 96781,
+      "sha256": "651A60C2FBD2C36095658017E582569D3FA34263ABF39CBC76DEF4FCD8B70965",
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\biomass-mutation\\target\\card-use\\offense-on-96781\\summary.json",
+      "casts": 5,
+      "xs": [
+        3,
+        4,
+        6,
+        6,
+        17
+      ],
+      "mode": "offense"
+    },
+    {
+      "improvedParticipants": 13.0,
+      "pendingAtClockStop": 0,
+      "payments": [
+        {
+          "mana": 5,
+          "lines": [
+            "Mana: Forest (51) - {T}: Add {G}.",
+            "Mana: Forest (37) - {T}: Add {G}.",
+            "Mana: Forest (53) - {T}: Add {G}.",
+            "Mana: Forest (55) - {T}: Add {G}.",
+            "Mana: Forest (62) - {T}: Add {G}."
+          ],
+          "x": 3
+        },
+        {
+          "mana": 6,
+          "lines": [
+            "Mana: Forest (69) - {T}: Add {G}.",
+            "Mana: Forest (51) - {T}: Add {G}.",
+            "Mana: Forest (37) - {T}: Add {G}.",
+            "Mana: Forest (53) - {T}: Add {G}.",
+            "Mana: Forest (55) - {T}: Add {G}.",
+            "Mana: Forest (62) - {T}: Add {G}."
+          ],
+          "x": 4
+        },
+        {
+          "mana": 6,
+          "lines": [
+            "Mana: Forest (69) - {T}: Add {G}.",
+            "Mana: Forest (51) - {T}: Add {G}.",
+            "Mana: Forest (37) - {T}: Add {G}.",
+            "Mana: Forest (53) - {T}: Add {G}.",
+            "Mana: Forest (55) - {T}: Add {G}.",
+            "Mana: Forest (62) - {T}: Add {G}."
+          ],
+          "x": 4
+        }
+      ],
+      "clockReached": true,
+      "profile": "on",
+      "diagnostics": [],
+      "seed": 96782,
+      "sha256": "D6CA30114C0BC6C9DFFE7BB71CE418EF4C7D5C1ED66256BAE513F2475FF6063B",
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\biomass-mutation\\target\\card-use\\offense-on-96782\\summary.json",
+      "casts": 3,
+      "xs": [
+        3,
+        4,
+        4
+      ],
+      "mode": "offense"
+    },
+    {
+      "improvedParticipants": null,
+      "pendingAtClockStop": 0,
+      "payments": [],
+      "clockReached": true,
+      "profile": "off",
+      "diagnostics": [
+        "java.lang.InterruptedException"
+      ],
+      "seed": 96781,
+      "sha256": "9CE10A2BBADAFC61E6DD502A8B8AE7654C9F86F1A426B893222530C3D142DF3D",
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\biomass-mutation\\target\\card-use\\offense-off-96781\\summary.json",
+      "casts": 0,
+      "xs": [],
+      "mode": "offense"
+    },
+    {
+      "improvedParticipants": null,
+      "pendingAtClockStop": 0,
+      "payments": [],
+      "clockReached": true,
+      "profile": "off",
+      "diagnostics": [],
+      "seed": 96782,
+      "sha256": "9DE477647F83B4A733E5E999067DDFDA805288EB8B8A9062D64357A2852E2E31",
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\biomass-mutation\\target\\card-use\\offense-off-96782\\summary.json",
+      "casts": 0,
+      "xs": [],
+      "mode": "offense"
+    },
+    {
+      "improvedParticipants": 7.0,
+      "pendingAtClockStop": 0,
+      "payments": [
+        {
+          "mana": 7,
+          "lines": [
+            "Mana: Island (16) - {T}: Add {U}.",
+            "Mana: Island (27) - {T}: Add {U}.",
+            "Mana: Island (20) - {T}: Add {U}.",
+            "Mana: Island (39) - {T}: Add {U}.",
+            "Mana: Island (45) - {T}: Add {U}.",
+            "Mana: Island (11) - {T}: Add {U}.",
+            "Mana: Island (38) - {T}: Add {U}."
+          ],
+          "x": 5
+        },
+        {
+          "mana": 9,
+          "lines": [
+            "Mana: Island (33) - {T}: Add {U}.",
+            "Mana: Island (21) - {T}: Add {U}.",
+            "Mana: Island (16) - {T}: Add {U}.",
+            "Mana: Island (27) - {T}: Add {U}.",
+            "Mana: Island (20) - {T}: Add {U}.",
+            "Mana: Island (39) - {T}: Add {U}.",
+            "Mana: Island (45) - {T}: Add {U}.",
+            "Mana: Island (11) - {T}: Add {U}.",
+            "Mana: Island (38) - {T}: Add {U}."
+          ],
+          "x": 7
+        },
+        {
+          "mana": 14,
+          "lines": [
+            "Mana: Island (26) - {T}: Add {U}.",
+            "Mana: Island (10) - {T}: Add {U}.",
+            "Mana: Island (25) - {T}: Add {U}.",
+            "Mana: Island (34) - {T}: Add {U}.",
+            "Mana: Island (28) - {T}: Add {U}.",
+            "Mana: Island (33) - {T}: Add {U}.",
+            "Mana: Island (21) - {T}: Add {U}.",
+            "Mana: Island (16) - {T}: Add {U}.",
+            "Mana: Island (27) - {T}: Add {U}.",
+            "Mana: Island (20) - {T}: Add {U}.",
+            "Mana: Island (39) - {T}: Add {U}.",
+            "Mana: Island (45) - {T}: Add {U}.",
+            "Mana: Island (11) - {T}: Add {U}.",
+            "Mana: Island (38) - {T}: Add {U}."
+          ],
+          "x": 12
+        }
+      ],
+      "clockReached": true,
+      "profile": "on",
+      "diagnostics": [
+        "java.lang.InterruptedException"
+      ],
+      "seed": 96781,
+      "sha256": "8393DBFB83FCE22B8DAC55AF9B8DD9199B20D6059E12F4B6E62462C16404C0FF",
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\biomass-mutation\\target\\card-use\\defense-on-96781\\summary.json",
+      "casts": 3,
+      "xs": [
+        5,
+        7,
+        12
+      ],
+      "mode": "defense"
+    },
+    {
+      "improvedParticipants": 10.0,
+      "pendingAtClockStop": 0,
+      "payments": [
+        {
+          "mana": 7,
+          "lines": [
+            "Mana: Island (20) - {T}: Add {U}.",
+            "Mana: Island (23) - {T}: Add {U}.",
+            "Mana: Island (37) - {T}: Add {U}.",
+            "Mana: Island (28) - {T}: Add {U}.",
+            "Mana: Island (16) - {T}: Add {U}.",
+            "Mana: Island (10) - {T}: Add {U}.",
+            "Mana: Island (26) - {T}: Add {U}."
+          ],
+          "x": 5
+        },
+        {
+          "mana": 7,
+          "lines": [
+            "Mana: Island (20) - {T}: Add {U}.",
+            "Mana: Island (23) - {T}: Add {U}.",
+            "Mana: Island (37) - {T}: Add {U}.",
+            "Mana: Island (28) - {T}: Add {U}.",
+            "Mana: Island (16) - {T}: Add {U}.",
+            "Mana: Island (10) - {T}: Add {U}.",
+            "Mana: Island (26) - {T}: Add {U}."
+          ],
+          "x": 5
+        },
+        {
+          "mana": 8,
+          "lines": [
+            "Mana: Island (30) - {T}: Add {U}.",
+            "Mana: Island (20) - {T}: Add {U}.",
+            "Mana: Island (23) - {T}: Add {U}.",
+            "Mana: Island (37) - {T}: Add {U}.",
+            "Mana: Island (28) - {T}: Add {U}.",
+            "Mana: Island (16) - {T}: Add {U}.",
+            "Mana: Island (10) - {T}: Add {U}.",
+            "Mana: Island (26) - {T}: Add {U}."
+          ],
+          "x": 6
+        },
+        {
+          "mana": 10,
+          "lines": [
+            "Mana: Island (22) - {T}: Add {U}.",
+            "Mana: Island (41) - {T}: Add {U}.",
+            "Mana: Island (30) - {T}: Add {U}.",
+            "Mana: Island (20) - {T}: Add {U}.",
+            "Mana: Island (23) - {T}: Add {U}.",
+            "Mana: Island (37) - {T}: Add {U}.",
+            "Mana: Island (28) - {T}: Add {U}.",
+            "Mana: Island (16) - {T}: Add {U}.",
+            "Mana: Island (10) - {T}: Add {U}.",
+            "Mana: Island (26) - {T}: Add {U}."
+          ],
+          "x": 8
+        },
+        {
+          "mana": 15,
+          "lines": [
+            "Mana: Island (44) - {T}: Add {U}.",
+            "Mana: Island (14) - {T}: Add {U}.",
+            "Mana: Island (13) - {T}: Add {U}.",
+            "Mana: Island (17) - {T}: Add {U}.",
+            "Mana: Island (38) - {T}: Add {U}.",
+            "Mana: Island (22) - {T}: Add {U}.",
+            "Mana: Island (41) - {T}: Add {U}.",
+            "Mana: Island (30) - {T}: Add {U}.",
+            "Mana: Island (20) - {T}: Add {U}.",
+            "Mana: Island (23) - {T}: Add {U}.",
+            "Mana: Island (37) - {T}: Add {U}.",
+            "Mana: Island (28) - {T}: Add {U}.",
+            "Mana: Island (16) - {T}: Add {U}.",
+            "Mana: Island (10) - {T}: Add {U}.",
+            "Mana: Island (26) - {T}: Add {U}."
+          ],
+          "x": 13
+        }
+      ],
+      "clockReached": true,
+      "profile": "on",
+      "diagnostics": [
+        "java.lang.InterruptedException"
+      ],
+      "seed": 96782,
+      "sha256": "FB4854ECF04EDC8C757F73E85638475F73FE8226BABA085CF0B04730988E5D58",
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\biomass-mutation\\target\\card-use\\defense-on-96782\\summary.json",
+      "casts": 5,
+      "xs": [
+        5,
+        5,
+        6,
+        8,
+        13
+      ],
+      "mode": "defense"
+    },
+    {
+      "improvedParticipants": null,
+      "pendingAtClockStop": 0,
+      "payments": [],
+      "clockReached": true,
+      "profile": "off",
+      "diagnostics": [
+        "java.lang.InterruptedException"
+      ],
+      "seed": 96781,
+      "sha256": "C4C726B4AAE8095684D2165CC1434929DE72A6764377A5904C17195B6F4D1559",
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\biomass-mutation\\target\\card-use\\defense-off-96781\\summary.json",
+      "casts": 0,
+      "xs": [],
+      "mode": "defense"
+    },
+    {
+      "improvedParticipants": null,
+      "pendingAtClockStop": 0,
+      "payments": [],
+      "clockReached": true,
+      "profile": "off",
+      "diagnostics": [
+        "java.lang.InterruptedException"
+      ],
+      "seed": 96782,
+      "sha256": "14DA7D1F8F044AE4CB9EA46F19AA597F1791EB2EF0749E4CB7668D277565270A",
+      "lateObserverEventsExcluded": 0,
+      "summary": "<development-checkout>\\arena\\biomass-mutation\\target\\card-use\\defense-off-96782\\summary.json",
+      "casts": 0,
+      "xs": [],
+      "mode": "defense"
+    }
+  ],
+  "candidateSha256": "67793BB4E477C0A108D9B36C2630D646D36F7C711A70D83F5EA33764D4CC0A55",
+  "date": "2026-10-17",
+  "inputs": [
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\Check-BiomassMutation.ps1",
+      "sha256": "906C3BE055A6264279053EAD3C4323EC467FFCBDFF0D81E7714A9FC1A05BDE81"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\provenance.json",
+      "sha256": "C6BE4071CAAD97806E4C5BF69F1CEBE069CBC1E879C230A10ED20F40B5799928"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nesting-grounds\\target\\final\\engine.jar",
+      "sha256": "4C2DDAE661E8B1A97EB9EC7F438DF87988D11554AA64FE2B9ADEA72A6EA2355B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\forge.profile.properties",
+      "sha256": "B148E8E64F48A403AC90666E27CAC8866594088CC8C5991F63B5D88D8763E53C"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\b\\biomass_mutation.txt",
+      "sha256": "5B19BA8F630E1A4E5AE1491F85A10CFBAA9F5E5B602CDB790C2BD6C79253AD64"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\CombatBaseStatsAi.java",
+      "sha256": "041AD5A176843F4D88ABCAA3B3C8EC15857ABC9C072D66BD8F26F6CB6DF12A61"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\MirrorEntityAi.java",
+      "sha256": "A228E6ECB4754FF9158C254D530BF3DA487E90B72BA4252ACA3C8D67748EC408"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\BiomassMutationAi.java",
+      "sha256": "38D6CCC37C3371325B5E93FA9D5C052A4C656AD0CDD9904130C89F987012FD03"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\AnimateAllAi.java",
+      "sha256": "7F848B92CA671ED05F820EE9175FD5B1AA78C2F4CF781AFA5567AE443A0BA1A7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\BiomassMutationTests.java",
+      "sha256": "950AC61DDC12C0DF06A5BE10D3AAC0ECCD779BC78552EEB99AEB3C0D134EC3A4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\nesting-grounds\\NestingGroundsTests.java",
+      "sha256": "A3F1A2255EDE1E4C8107D7B943617931F2BA459FE6FE0F52C09DF331E3AF33E3"
+    },
+    {
+      "path": "<development-checkout>\\arena\\toxic-deluge\\ToxicDelugeTests.java",
+      "sha256": "63D116C87A7DD4E1B4E329199F23CE87B05C052F094C6CFD5B5BB46337BB8AFD"
+    },
+    {
+      "path": "<development-checkout>\\arena\\adaptive-enchantment\\AdaptiveEnchantmentTests.java",
+      "sha256": "016E0CAC4FEBA10026EA592BAE085981DAEF4EC8F4776095CB83AC6DCF3A4AC5"
+    },
+    {
+      "path": "<development-checkout>\\arena\\adaptive-enchantment\\family\\LandManaFamilyTests.java",
+      "sha256": "FFD13A9114EAB801BE88F18868831268B494051D001A95029C6C1786798424E0"
+    },
+    {
+      "path": "<development-checkout>\\arena\\ahoy-mateys\\AhoyMateysTests.java",
+      "sha256": "57C03155BEF5AB7ECCB1965BBF28190CA3F0E092E9773BC357FED0728C1F5EB2"
+    },
+    {
+      "path": "<development-checkout>\\arena\\beast-within\\BeastWithinTests.java",
+      "sha256": "ADE08973A2BADAE882E4F4A3A7B6D29DE6D9FA3DCB84E11139BDC7E87EC77C9D"
+    },
+    {
+      "path": "<development-checkout>\\arena\\curse-of-the-swine\\CurseOfTheSwineTests.java",
+      "sha256": "AE30D3DF1634442E4F95ACB3419FA3D753A324B480FAE9B3D8C30777D8EFDA26"
+    },
+    {
+      "path": "<development-checkout>\\arena\\filter-lands\\FilterLandsTests.java",
+      "sha256": "FAE266019893C8D095623093498214E584D3BB241CF8E5654AD3C3A539297BC0"
+    },
+    {
+      "path": "<development-checkout>\\arena\\psychosis-crawler\\PsychosisCrawlerTests.java",
+      "sha256": "D7357E28BFFDA185E6A34317CA099B5525D14CD7B88DDB2ADB5DFC9FA23A5762"
+    },
+    {
+      "path": "<development-checkout>\\arena\\wall-of-limbs\\WallOfLimbsTests.java",
+      "sha256": "40BAB8D4C05E56A2A473F8204F43ADD53E05AF76527268F3E265E540BD7928D1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\slaughter\\SlaughterTheStrongTests.java",
+      "sha256": "AF3EDA3A9B63CD5EDF464CEFD5BAF4E7BC250068D736F9D8481FA50915F6E4EF"
+    },
+    {
+      "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java",
+      "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\decree-of-pain\\DecreeOfPainTests.java",
+      "sha256": "D4B61C4BA1E720B10635DF58E82C8BCE8C91B92F353924D27EF1E42C1F748A8B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\oreskos-explorer\\OreskosExplorerTests.java",
+      "sha256": "A7A8A90DB93E4A2F6E735B1F66C7311D44EFF8AAFA833D5A88C6D0A25CAB2E57"
+    },
+    {
+      "path": "<development-checkout>\\arena\\dispatch\\DispatchTests.java",
+      "sha256": "B8D4B674759A490C0BB46DF4074887379A5EFC544BAFCC3722A3864E3DE63775"
+    },
+    {
+      "path": "<development-checkout>\\arena\\tragic-arrogance\\TragicArroganceTests.java",
+      "sha256": "84B96D3CE46C5B0F4864F3ECFDA90ACEC29EA0616009251721CC5543FB056F21"
+    },
+    {
+      "path": "<development-checkout>\\arena\\marshals-anthem\\MarshalsAnthemTests.java",
+      "sha256": "6F64D6C4E1713D060CF8DC05C459530B386542670F7CC8FA0916E09E4254D241"
+    },
+    {
+      "path": "<development-checkout>\\arena\\darksteel-mutation\\DarksteelMutationTests.java",
+      "sha256": "3B491B20CD77EAE5727448B480F8B814A3EF14B0685DA1A65B2132D62E5A6514"
+    },
+    {
+      "path": "<development-checkout>\\arena\\corpse-augur\\CorpseAugurTests.java",
+      "sha256": "3CA197701BFCC317EBBE2E38C95F1815F80F6BE8DACAAD28C257CEA231EB1B18"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\abzan-armor.properties",
+      "sha256": "4067A7707D18A7DD94250032FF66B66A7624ABD4C0B349DD656388BDAB1C95DD"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\adaptive-enchantment.properties",
+      "sha256": "910647DD6438C576A4F60AF0B10B772A398F4F33B58A407047E2701B06AADA3C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\ahoy-mateys.properties",
+      "sha256": "535DAFE239EDF5B1AC3C8CBCF997CD9EB55DA31C377207C9326683D594AB6761"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\biomass-mutation.properties",
+      "sha256": "BBCE76D87C420DF47D7E07F8B525A7BE3349B30DFD7143EE9643F826E28075B8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\corpse-augur.properties",
+      "sha256": "10753CABE44FB416EA9F9BB8D2ED9E16B6F9BF0E58932AF1165E653800B7DE22"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\curse-of-the-swine.properties",
+      "sha256": "70D1565623B7A1EEAC56642DF89C7CBA20B4C590CC8214315A6115CA5D81A4FA"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\darksteel-mutation.properties",
+      "sha256": "DAE99EE8D0AF00853F6110557152FC043BE42B1022E91551B2F55D0D7F371F92"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\decree-of-pain.properties",
+      "sha256": "3026FC87001150139E4EE68BD2739C9010C667C4C853A0832544E7BB14C2B49F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\dispatch.properties",
+      "sha256": "3CE0130820652371476FDC976FFF612FCDE339C9088EB59D2842E13D883D3F84"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\marshals-anthem.properties",
+      "sha256": "CC6F05BC9FAB9B7E466D0B481ECE76D248CAE6976E9415BE55A3F95BC524D887"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\mirror-entity.properties",
+      "sha256": "51A5838537C630A2220E8EFB8B98D06711BFCA3409EFB90791830C3C047B27C8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\nesting-grounds.properties",
+      "sha256": "768478383F86DB0FC14830D26F2BFF097065C1872D444A03B010463A9CA38BA9"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\oreskos-explorer.properties",
+      "sha256": "F5C4F772823E0010ACAB02C7648A1726A45E3A914981A7B183A9BEEE867CD83A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\toxic-deluge.properties",
+      "sha256": "954302446FB13A596DD43542C76D169383CFA885B20A37E04E7D457386AD396B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\runtime\\res\\ai\\overrides\\tragic-arrogance.properties",
+      "sha256": "539F7F5C83F263F91E44CCCB597DA076A469E919123F7C8B5F26584E5561497C"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\biomass-mutation.properties",
+      "sha256": "BBCE76D87C420DF47D7E07F8B525A7BE3349B30DFD7143EE9643F826E28075B8"
+    },
+    {
+      "sha256": "BC7FACDF5CCC053D154BC164FEFDAA2688A2B4E9F08A6652FD623EBB984D8801",
+      "path": "<development-checkout>\\arena\\biomass-mutation\\BiomassMutationProbe.java"
+    },
+    {
+      "sha256": "533087CAB38A25A11AF8903B4CBC718C31495D802C45723AD6E39E31B355EFB0",
+      "path": "<development-checkout>\\arena\\biomass-mutation\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "0E7D53020757B5E7DEF45E6ADE8C218238793C3A6D64179B0DFDA741E23E990A",
+      "path": "<development-checkout>\\arena\\biomass-mutation\\Check-CardUseEvidence.ps1"
+    }
+  ],
+  "nativeResults": [
+    {
+      "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0",
+      "checks": 116,
+      "suite": "BiomassMutationTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\BiomassMutationTests.log"
+    },
+    {
+      "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+      "checks": 115,
+      "suite": "NestingGroundsTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\NestingGroundsTests.log"
+    },
+    {
+      "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+      "checks": 127,
+      "suite": "ToxicDelugeTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\ToxicDelugeTests.log"
+    },
+    {
+      "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+      "checks": 76,
+      "suite": "AdaptiveEnchantmentTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\AdaptiveEnchantmentTests.log"
+    },
+    {
+      "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+      "checks": 349,
+      "suite": "LandManaFamilyTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\LandManaFamilyTests.log"
+    },
+    {
+      "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+      "checks": 77,
+      "suite": "AhoyMateysTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\AhoyMateysTests.log"
+    },
+    {
+      "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+      "checks": 13,
+      "suite": "BeastWithinTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\BeastWithinTests.log"
+    },
+    {
+      "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A",
+      "checks": 36,
+      "suite": "CurseOfTheSwineTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\CurseOfTheSwineTests.log"
+    },
+    {
+      "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+      "checks": 10,
+      "suite": "FilterLandsTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\FilterLandsTests.log"
+    },
+    {
+      "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+      "checks": 6,
+      "suite": "PsychosisCrawlerTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\PsychosisCrawlerTests.log"
+    },
+    {
+      "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE",
+      "checks": 12,
+      "suite": "WallOfLimbsTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\WallOfLimbsTests.log"
+    },
+    {
+      "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50",
+      "checks": 18,
+      "suite": "SlaughterTheStrongTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\SlaughterTheStrongTests.log"
+    },
+    {
+      "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77",
+      "checks": 48,
+      "suite": "MirrorEntityTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\MirrorEntityTests.log"
+    },
+    {
+      "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16",
+      "checks": 69,
+      "suite": "DecreeOfPainTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\DecreeOfPainTests.log"
+    },
+    {
+      "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+      "checks": 100,
+      "suite": "OreskosExplorerTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\OreskosExplorerTests.log"
+    },
+    {
+      "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE",
+      "checks": 61,
+      "suite": "DispatchTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\DispatchTests.log"
+    },
+    {
+      "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+      "checks": 132,
+      "suite": "TragicArroganceTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\TragicArroganceTests.log"
+    },
+    {
+      "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+      "checks": 135,
+      "suite": "MarshalsAnthemTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\MarshalsAnthemTests.log"
+    },
+    {
+      "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5",
+      "checks": 87,
+      "suite": "DarksteelMutationTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\DarksteelMutationTests.log"
+    },
+    {
+      "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688",
+      "checks": 139,
+      "suite": "CorpseAugurTests",
+      "log": "<development-checkout>\\arena\\biomass-mutation\\target\\final\\CorpseAugurTests.log"
+    }
+  ],
+  "engine": "NeoForge 1.0.25",
+  "witnesses": [
+    {
+      "profile": "on",
+      "seed": 96781,
+      "mode": "offense",
+      "casts": [
+        {
+          "improvedParticipants": 4,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 420,
+            "sourceId": 27,
+            "turn": 17,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 3,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 420,
+            "sourceId": 27,
+            "turn": 17,
+            "phase": "COMBAT_DECLARE_ATTACKERS",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 3,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 5,
+            "lines": [
+              "Mana: Forest (70) - {T}: Add {G}.",
+              "Mana: Forest (39) - {T}: Add {G}.",
+              "Mana: Forest (45) - {T}: Add {G}.",
+              "Mana: Forest (38) - {T}: Add {G}.",
+              "Mana: Forest (66) - {T}: Add {G}."
+            ],
+            "x": 3
+          },
+          "seed": 96781,
+          "mode": "offense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 420,
+            "sourceId": 27,
+            "turn": 17,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 3,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 5,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 486,
+            "sourceId": 28,
+            "turn": 25,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 4,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 486,
+            "sourceId": 28,
+            "turn": 25,
+            "phase": "COMBAT_DECLARE_ATTACKERS",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 4,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 6,
+            "lines": [
+              "Mana: Forest (57) - {T}: Add {G}.",
+              "Mana: Forest (70) - {T}: Add {G}.",
+              "Mana: Forest (39) - {T}: Add {G}.",
+              "Mana: Forest (45) - {T}: Add {G}.",
+              "Mana: Forest (38) - {T}: Add {G}.",
+              "Mana: Forest (66) - {T}: Add {G}."
+            ],
+            "x": 4
+          },
+          "seed": 96781,
+          "mode": "offense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 486,
+            "sourceId": 28,
+            "turn": 25,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 4,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 6,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 515,
+            "sourceId": 25,
+            "turn": 37,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 6,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 515,
+            "sourceId": 25,
+            "turn": 37,
+            "phase": "COMBAT_DECLARE_ATTACKERS",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 6,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 8,
+            "lines": [
+              "Mana: Forest (34) - {T}: Add {G}.",
+              "Mana: Forest (33) - {T}: Add {G}.",
+              "Mana: Forest (57) - {T}: Add {G}.",
+              "Mana: Forest (70) - {T}: Add {G}.",
+              "Mana: Forest (39) - {T}: Add {G}.",
+              "Mana: Forest (45) - {T}: Add {G}.",
+              "Mana: Forest (38) - {T}: Add {G}.",
+              "Mana: Forest (66) - {T}: Add {G}."
+            ],
+            "x": 6
+          },
+          "seed": 96781,
+          "mode": "offense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 515,
+            "sourceId": 25,
+            "turn": 37,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 6,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 7,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 538,
+            "sourceId": 26,
+            "turn": 45,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 6,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 538,
+            "sourceId": 26,
+            "turn": 45,
+            "phase": "COMBAT_DECLARE_ATTACKERS",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 6,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 8,
+            "lines": [
+              "Mana: Forest (34) - {T}: Add {G}.",
+              "Mana: Forest (33) - {T}: Add {G}.",
+              "Mana: Forest (57) - {T}: Add {G}.",
+              "Mana: Forest (70) - {T}: Add {G}.",
+              "Mana: Forest (39) - {T}: Add {G}.",
+              "Mana: Forest (45) - {T}: Add {G}.",
+              "Mana: Forest (38) - {T}: Add {G}.",
+              "Mana: Forest (66) - {T}: Add {G}."
+            ],
+            "x": 6
+          },
+          "seed": 96781,
+          "mode": "offense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 538,
+            "sourceId": 26,
+            "turn": 45,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 6,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 9,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 656,
+            "sourceId": 32,
+            "turn": 101,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 17,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 7,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 13,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 656,
+            "sourceId": 32,
+            "turn": 101,
+            "phase": "COMBAT_DECLARE_ATTACKERS",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 17,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 7,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 13,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 19,
+            "lines": [
+              "Mana: Forest (53) - {T}: Add {G}.",
+              "Mana: Forest (52) - {T}: Add {G}.",
+              "Mana: Forest (43) - {T}: Add {G}.",
+              "Mana: Forest (59) - {T}: Add {G}.",
+              "Mana: Forest (37) - {T}: Add {G}.",
+              "Mana: Forest (41) - {T}: Add {G}.",
+              "Mana: Forest (48) - {T}: Add {G}.",
+              "Mana: Forest (62) - {T}: Add {G}.",
+              "Mana: Forest (51) - {T}: Add {G}.",
+              "Mana: Forest (56) - {T}: Add {G}.",
+              "Mana: Forest (72) - {T}: Add {G}.",
+              "Mana: Forest (34) - {T}: Add {G}.",
+              "Mana: Forest (33) - {T}: Add {G}.",
+              "Mana: Forest (57) - {T}: Add {G}.",
+              "Mana: Forest (70) - {T}: Add {G}.",
+              "Mana: Forest (39) - {T}: Add {G}.",
+              "Mana: Forest (45) - {T}: Add {G}.",
+              "Mana: Forest (38) - {T}: Add {G}.",
+              "Mana: Forest (66) - {T}: Add {G}."
+            ],
+            "x": 17
+          },
+          "seed": 96781,
+          "mode": "offense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 656,
+            "sourceId": 32,
+            "turn": 101,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 17,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 2,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 21,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 3,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 7,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 13,
+                "name": "Grizzly Bears",
+                "power": 17,
+                "toughness": 17,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        }
+      ]
+    },
+    {
+      "profile": "on",
+      "seed": 96782,
+      "mode": "offense",
+      "casts": [
+        {
+          "improvedParticipants": 3,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 369,
+            "sourceId": 26,
+            "turn": 18,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 3,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 5,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 369,
+            "sourceId": 26,
+            "turn": 18,
+            "phase": "COMBAT_DECLARE_ATTACKERS",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 3,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 5,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 5,
+            "lines": [
+              "Mana: Forest (51) - {T}: Add {G}.",
+              "Mana: Forest (37) - {T}: Add {G}.",
+              "Mana: Forest (53) - {T}: Add {G}.",
+              "Mana: Forest (55) - {T}: Add {G}.",
+              "Mana: Forest (62) - {T}: Add {G}."
+            ],
+            "x": 3
+          },
+          "seed": 96782,
+          "mode": "offense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 369,
+            "sourceId": 26,
+            "turn": 18,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 3,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 5,
+                "name": "Grizzly Bears",
+                "power": 3,
+                "toughness": 3,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 3,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 374,
+            "sourceId": 28,
+            "turn": 22,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 4,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 5,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 374,
+            "sourceId": 28,
+            "turn": 22,
+            "phase": "COMBAT_DECLARE_ATTACKERS",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 4,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 5,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 6,
+            "lines": [
+              "Mana: Forest (69) - {T}: Add {G}.",
+              "Mana: Forest (51) - {T}: Add {G}.",
+              "Mana: Forest (37) - {T}: Add {G}.",
+              "Mana: Forest (53) - {T}: Add {G}.",
+              "Mana: Forest (55) - {T}: Add {G}.",
+              "Mana: Forest (62) - {T}: Add {G}."
+            ],
+            "x": 4
+          },
+          "seed": 96782,
+          "mode": "offense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 374,
+            "sourceId": 28,
+            "turn": 22,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 4,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 5,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 7,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 523,
+            "sourceId": 30,
+            "turn": 34,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 4,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 5,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 6,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 23,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 4,
+                "name": "Grizzly Bears",
+                "power": 2,
+                "toughness": 2,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 523,
+            "sourceId": 30,
+            "turn": 34,
+            "phase": "COMBAT_DECLARE_ATTACKERS",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 4,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 5,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 6,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 23,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 4,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 6,
+            "lines": [
+              "Mana: Forest (69) - {T}: Add {G}.",
+              "Mana: Forest (51) - {T}: Add {G}.",
+              "Mana: Forest (37) - {T}: Add {G}.",
+              "Mana: Forest (53) - {T}: Add {G}.",
+              "Mana: Forest (55) - {T}: Add {G}.",
+              "Mana: Forest (62) - {T}: Add {G}."
+            ],
+            "x": 4
+          },
+          "seed": 96782,
+          "mode": "offense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 523,
+            "sourceId": 30,
+            "turn": 34,
+            "phase": "COMBAT_BEGIN",
+            "turnPlayer": "BiomassProbe-0",
+            "player": "BiomassProbe-0",
+            "x": 4,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 10,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 16,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 5,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 6,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 23,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 20,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 4,
+                "name": "Grizzly Bears",
+                "power": 4,
+                "toughness": 4,
+                "damage": 0,
+                "canAttack": true,
+                "blocking": false,
+                "types": "Creature - Bear",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        }
+      ]
+    },
+    {
+      "profile": "off",
+      "seed": 96781,
+      "mode": "offense",
+      "casts": []
+    },
+    {
+      "profile": "off",
+      "seed": 96782,
+      "mode": "offense",
+      "casts": []
+    },
+    {
+      "profile": "on",
+      "seed": 96781,
+      "mode": "defense",
+      "casts": [
+        {
+          "improvedParticipants": 3,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 372,
+            "sourceId": 2,
+            "turn": 28,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-3",
+            "player": "BiomassProbe-0",
+            "x": 5,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 57,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 372,
+            "sourceId": 2,
+            "turn": 28,
+            "phase": "COMBAT_FIRST_STRIKE_DAMAGE",
+            "turnPlayer": "BiomassProbe-3",
+            "player": "BiomassProbe-0",
+            "x": 5,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 57,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 7,
+            "lines": [
+              "Mana: Island (16) - {T}: Add {U}.",
+              "Mana: Island (27) - {T}: Add {U}.",
+              "Mana: Island (20) - {T}: Add {U}.",
+              "Mana: Island (39) - {T}: Add {U}.",
+              "Mana: Island (45) - {T}: Add {U}.",
+              "Mana: Island (11) - {T}: Add {U}.",
+              "Mana: Island (38) - {T}: Add {U}."
+            ],
+            "x": 5
+          },
+          "seed": 96781,
+          "mode": "defense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 372,
+            "sourceId": 2,
+            "turn": 28,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-3",
+            "player": "BiomassProbe-0",
+            "x": 5,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 57,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 2,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 510,
+            "sourceId": 3,
+            "turn": 35,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-2",
+            "player": "BiomassProbe-0",
+            "x": 7,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 57,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 510,
+            "sourceId": 3,
+            "turn": 35,
+            "phase": "COMBAT_FIRST_STRIKE_DAMAGE",
+            "turnPlayer": "BiomassProbe-2",
+            "player": "BiomassProbe-0",
+            "x": 7,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 7,
+                "toughness": 7,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 7,
+                "toughness": 7,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 57,
+                "name": "Wall of Air",
+                "power": 7,
+                "toughness": 7,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 9,
+            "lines": [
+              "Mana: Island (33) - {T}: Add {U}.",
+              "Mana: Island (21) - {T}: Add {U}.",
+              "Mana: Island (16) - {T}: Add {U}.",
+              "Mana: Island (27) - {T}: Add {U}.",
+              "Mana: Island (20) - {T}: Add {U}.",
+              "Mana: Island (39) - {T}: Add {U}.",
+              "Mana: Island (45) - {T}: Add {U}.",
+              "Mana: Island (11) - {T}: Add {U}.",
+              "Mana: Island (38) - {T}: Add {U}."
+            ],
+            "x": 7
+          },
+          "seed": 96781,
+          "mode": "defense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 510,
+            "sourceId": 3,
+            "turn": 35,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-2",
+            "player": "BiomassProbe-0",
+            "x": 7,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 7,
+                "toughness": 7,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 7,
+                "toughness": 7,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 57,
+                "name": "Wall of Air",
+                "power": 7,
+                "toughness": 7,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 2,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 578,
+            "sourceId": 7,
+            "turn": 62,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 12,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 57,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 72,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 56,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 578,
+            "sourceId": 7,
+            "turn": 62,
+            "phase": "COMBAT_FIRST_STRIKE_DAMAGE",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 12,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 57,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 72,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 56,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 14,
+            "lines": [
+              "Mana: Island (26) - {T}: Add {U}.",
+              "Mana: Island (10) - {T}: Add {U}.",
+              "Mana: Island (25) - {T}: Add {U}.",
+              "Mana: Island (34) - {T}: Add {U}.",
+              "Mana: Island (28) - {T}: Add {U}.",
+              "Mana: Island (33) - {T}: Add {U}.",
+              "Mana: Island (21) - {T}: Add {U}.",
+              "Mana: Island (16) - {T}: Add {U}.",
+              "Mana: Island (27) - {T}: Add {U}.",
+              "Mana: Island (20) - {T}: Add {U}.",
+              "Mana: Island (39) - {T}: Add {U}.",
+              "Mana: Island (45) - {T}: Add {U}.",
+              "Mana: Island (11) - {T}: Add {U}.",
+              "Mana: Island (38) - {T}: Add {U}."
+            ],
+            "x": 12
+          },
+          "seed": 96781,
+          "mode": "defense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 578,
+            "sourceId": 7,
+            "turn": 62,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 12,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 57,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 72,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 56,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 12,
+                "toughness": 12,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        }
+      ]
+    },
+    {
+      "profile": "on",
+      "seed": 96782,
+      "mode": "defense",
+      "casts": [
+        {
+          "improvedParticipants": 2,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 435,
+            "sourceId": 5,
+            "turn": 28,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-2",
+            "player": "BiomassProbe-0",
+            "x": 5,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 435,
+            "sourceId": 5,
+            "turn": 28,
+            "phase": "COMBAT_FIRST_STRIKE_DAMAGE",
+            "turnPlayer": "BiomassProbe-2",
+            "player": "BiomassProbe-0",
+            "x": 5,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 7,
+            "lines": [
+              "Mana: Island (20) - {T}: Add {U}.",
+              "Mana: Island (23) - {T}: Add {U}.",
+              "Mana: Island (37) - {T}: Add {U}.",
+              "Mana: Island (28) - {T}: Add {U}.",
+              "Mana: Island (16) - {T}: Add {U}.",
+              "Mana: Island (10) - {T}: Add {U}.",
+              "Mana: Island (26) - {T}: Add {U}."
+            ],
+            "x": 5
+          },
+          "seed": 96782,
+          "mode": "defense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 435,
+            "sourceId": 5,
+            "turn": 28,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-2",
+            "player": "BiomassProbe-0",
+            "x": 5,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 2,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 450,
+            "sourceId": 6,
+            "turn": 31,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 5,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 450,
+            "sourceId": 6,
+            "turn": 31,
+            "phase": "COMBAT_FIRST_STRIKE_DAMAGE",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 5,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 7,
+            "lines": [
+              "Mana: Island (20) - {T}: Add {U}.",
+              "Mana: Island (23) - {T}: Add {U}.",
+              "Mana: Island (37) - {T}: Add {U}.",
+              "Mana: Island (28) - {T}: Add {U}.",
+              "Mana: Island (16) - {T}: Add {U}.",
+              "Mana: Island (10) - {T}: Add {U}.",
+              "Mana: Island (26) - {T}: Add {U}."
+            ],
+            "x": 5
+          },
+          "seed": 96782,
+          "mode": "defense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 450,
+            "sourceId": 6,
+            "turn": 31,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 5,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 5,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 2,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 494,
+            "sourceId": 4,
+            "turn": 35,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 6,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 494,
+            "sourceId": 4,
+            "turn": 35,
+            "phase": "COMBAT_FIRST_STRIKE_DAMAGE",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 6,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 8,
+            "lines": [
+              "Mana: Island (30) - {T}: Add {U}.",
+              "Mana: Island (20) - {T}: Add {U}.",
+              "Mana: Island (23) - {T}: Add {U}.",
+              "Mana: Island (37) - {T}: Add {U}.",
+              "Mana: Island (28) - {T}: Add {U}.",
+              "Mana: Island (16) - {T}: Add {U}.",
+              "Mana: Island (10) - {T}: Add {U}.",
+              "Mana: Island (26) - {T}: Add {U}."
+            ],
+            "x": 6
+          },
+          "seed": 96782,
+          "mode": "defense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 494,
+            "sourceId": 4,
+            "turn": 35,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 6,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 6,
+                "toughness": 6,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 2,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 586,
+            "sourceId": 2,
+            "turn": 63,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 8,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 63,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 67,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 58,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 586,
+            "sourceId": 2,
+            "turn": 63,
+            "phase": "COMBAT_FIRST_STRIKE_DAMAGE",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 8,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 63,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 67,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 58,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 10,
+            "lines": [
+              "Mana: Island (22) - {T}: Add {U}.",
+              "Mana: Island (41) - {T}: Add {U}.",
+              "Mana: Island (30) - {T}: Add {U}.",
+              "Mana: Island (20) - {T}: Add {U}.",
+              "Mana: Island (23) - {T}: Add {U}.",
+              "Mana: Island (37) - {T}: Add {U}.",
+              "Mana: Island (28) - {T}: Add {U}.",
+              "Mana: Island (16) - {T}: Add {U}.",
+              "Mana: Island (10) - {T}: Add {U}.",
+              "Mana: Island (26) - {T}: Add {U}."
+            ],
+            "x": 8
+          },
+          "seed": 96782,
+          "mode": "defense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 586,
+            "sourceId": 2,
+            "turn": 63,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 8,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 63,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 67,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 58,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 8,
+                "toughness": 8,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        },
+        {
+          "improvedParticipants": 2,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 664,
+            "sourceId": 1,
+            "turn": 99,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 13,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 63,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 67,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 58,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 60,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 65,
+                "name": "Wall of Air",
+                "power": 1,
+                "toughness": 5,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "after": {
+            "stage": "settled",
+            "abilityId": 664,
+            "sourceId": 1,
+            "turn": 99,
+            "phase": "COMBAT_FIRST_STRIKE_DAMAGE",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 13,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 63,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 67,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 58,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 60,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 65,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          },
+          "payment": {
+            "mana": 15,
+            "lines": [
+              "Mana: Island (44) - {T}: Add {U}.",
+              "Mana: Island (14) - {T}: Add {U}.",
+              "Mana: Island (13) - {T}: Add {U}.",
+              "Mana: Island (17) - {T}: Add {U}.",
+              "Mana: Island (38) - {T}: Add {U}.",
+              "Mana: Island (22) - {T}: Add {U}.",
+              "Mana: Island (41) - {T}: Add {U}.",
+              "Mana: Island (30) - {T}: Add {U}.",
+              "Mana: Island (20) - {T}: Add {U}.",
+              "Mana: Island (23) - {T}: Add {U}.",
+              "Mana: Island (37) - {T}: Add {U}.",
+              "Mana: Island (28) - {T}: Add {U}.",
+              "Mana: Island (16) - {T}: Add {U}.",
+              "Mana: Island (10) - {T}: Add {U}.",
+              "Mana: Island (26) - {T}: Add {U}."
+            ],
+            "x": 13
+          },
+          "seed": 96782,
+          "mode": "defense",
+          "resolved": {
+            "stage": "resolved",
+            "abilityId": 664,
+            "sourceId": 1,
+            "turn": 99,
+            "phase": "COMBAT_DECLARE_BLOCKERS",
+            "turnPlayer": "BiomassProbe-1",
+            "player": "BiomassProbe-0",
+            "x": 13,
+            "fizzled": false,
+            "spell": true,
+            "trigger": false,
+            "creatures": [
+              {
+                "id": 62,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 55,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": true,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 53,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 51,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 69,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 63,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 67,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 58,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 70,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 66,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 60,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "id": 65,
+                "name": "Wall of Air",
+                "power": 13,
+                "toughness": 13,
+                "damage": 0,
+                "canAttack": false,
+                "blocking": false,
+                "types": "Creature - Wall",
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            "untappedLands": 0
+          }
+        }
+      ]
+    },
+    {
+      "profile": "off",
+      "seed": 96781,
+      "mode": "defense",
+      "casts": []
+    },
+    {
+      "profile": "off",
+      "seed": 96782,
+      "mode": "defense",
+      "casts": []
+    }
+  ],
+  "scope": "Autonomous original-script combat casting with native hybrid payment, actual P/T and types; bounded custom decks, no completion/winner/strength claim"
+}

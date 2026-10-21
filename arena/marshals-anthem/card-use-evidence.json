@@ -1,0 +1,6798 @@
+{
+  "scope": "Bounded kick/buff decisions and autonomous native card use; no Commander-precon or strength claim",
+  "nativeChecks": 135,
+  "runs": [
+    {
+      "chosenKicks": [
+        1
+      ],
+      "casts": 1,
+      "lateObserverEventsExcluded": 0,
+      "mode": "kicked",
+      "pendingAtClockStop": 0,
+      "triggers": 1,
+      "profile": "on",
+      "sha256": "90E31BFD191727034F855173978ACA01036CA246EA1D8E4E24966A5296B76D12",
+      "payments": [
+        {
+          "mana": [
+            "Mana: Plains (79) - {T}: Add {W}.",
+            "Mana: Plains (103) - {T}: Add {W}.",
+            "Mana: Swamp (7) - {T}: Add {B}.",
+            "Mana: Plains (75) - {T}: Add {W}.",
+            "Mana: Plains (99) - {T}: Add {W}.",
+            "Mana: Plains (73) - {T}: Add {W}."
+          ],
+          "white": 5
+        }
+      ],
+      "clockReached": false,
+      "diagnostics": [],
+      "creaturesReturned": 1,
+      "summary": "<development-checkout>\\arena\\marshals-anthem\\target\\card-use\\kicked-on-96231\\summary.json",
+      "seed": 96231
+    },
+    {
+      "chosenKicks": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "casts": 4,
+      "lateObserverEventsExcluded": 0,
+      "mode": "kicked",
+      "pendingAtClockStop": 0,
+      "triggers": 4,
+      "profile": "on",
+      "sha256": "F7A300100954FE5A1E22FB5DED5DD075A3B4E542E05CC1DAE83E1C543EB0F635",
+      "payments": [
+        {
+          "mana": [
+            "Mana: Plains (101) - {T}: Add {W}.",
+            "Mana: Swamp (5) - {T}: Add {B}.",
+            "Mana: Swamp (3) - {T}: Add {B}.",
+            "Mana: Plains (103) - {T}: Add {W}.",
+            "Mana: Plains (91) - {T}: Add {W}.",
+            "Mana: Plains (88) - {T}: Add {W}."
+          ],
+          "white": 4
+        },
+        {
+          "mana": [
+            "Mana: Plains (75) - {T}: Add {W}.",
+            "Mana: Swamp (16) - {T}: Add {B}.",
+            "Mana: Swamp (5) - {T}: Add {B}.",
+            "Mana: Swamp (3) - {T}: Add {B}.",
+            "Mana: Plains (101) - {T}: Add {W}.",
+            "Mana: Plains (103) - {T}: Add {W}.",
+            "Mana: Plains (91) - {T}: Add {W}.",
+            "Mana: Plains (88) - {T}: Add {W}."
+          ],
+          "white": 5
+        },
+        {
+          "mana": [
+            "Mana: Swamp (1) - {T}: Add {B}.",
+            "Mana: Swamp (16) - {T}: Add {B}.",
+            "Mana: Swamp (5) - {T}: Add {B}.",
+            "Mana: Swamp (3) - {T}: Add {B}.",
+            "Mana: Plains (101) - {T}: Add {W}.",
+            "Mana: Plains (103) - {T}: Add {W}.",
+            "Mana: Plains (91) - {T}: Add {W}.",
+            "Mana: Plains (88) - {T}: Add {W}."
+          ],
+          "white": 4
+        },
+        {
+          "mana": [
+            "Mana: Swamp (1) - {T}: Add {B}.",
+            "Mana: Plains (75) - {T}: Add {W}.",
+            "Mana: Plains (101) - {T}: Add {W}.",
+            "Mana: Plains (103) - {T}: Add {W}.",
+            "Mana: Plains (91) - {T}: Add {W}.",
+            "Mana: Plains (88) - {T}: Add {W}."
+          ],
+          "white": 5
+        }
+      ],
+      "clockReached": false,
+      "diagnostics": [],
+      "creaturesReturned": 6,
+      "summary": "<development-checkout>\\arena\\marshals-anthem\\target\\card-use\\kicked-on-96232\\summary.json",
+      "seed": 96232
+    },
+    {
+      "chosenKicks": [],
+      "casts": 0,
+      "lateObserverEventsExcluded": 0,
+      "mode": "kicked",
+      "pendingAtClockStop": 0,
+      "triggers": 0,
+      "profile": "off",
+      "sha256": "E206FEFE48593356D921350C694C89F41945C62A5DB520A50CCAC8AC42622587",
+      "payments": [],
+      "clockReached": false,
+      "diagnostics": [],
+      "creaturesReturned": 0,
+      "summary": "<development-checkout>\\arena\\marshals-anthem\\target\\card-use\\kicked-off-96231\\summary.json",
+      "seed": 96231
+    },
+    {
+      "chosenKicks": [],
+      "casts": 0,
+      "lateObserverEventsExcluded": 0,
+      "mode": "kicked",
+      "pendingAtClockStop": 0,
+      "triggers": 0,
+      "profile": "off",
+      "sha256": "DACD7E271CDD4F3110608F79390F7E07B67D75601E960B3425F529D34FC7C1DC",
+      "payments": [],
+      "clockReached": false,
+      "diagnostics": [],
+      "creaturesReturned": 0,
+      "summary": "<development-checkout>\\arena\\marshals-anthem\\target\\card-use\\kicked-off-96232\\summary.json",
+      "seed": 96232
+    },
+    {
+      "chosenKicks": [
+        0,
+        0,
+        0
+      ],
+      "casts": 3,
+      "lateObserverEventsExcluded": 0,
+      "mode": "unkicked",
+      "pendingAtClockStop": 0,
+      "triggers": 3,
+      "profile": "on",
+      "sha256": "5197FEBD189CAA505F9291A9365578E156B89A95BC37D3E36889B227A2C99002",
+      "payments": [
+        {
+          "mana": [
+            "Mana: Plains (58) - {T}: Add {W}.",
+            "Mana: Plains (49) - {T}: Add {W}.",
+            "Mana: Plains (39) - {T}: Add {W}.",
+            "Mana: Plains (51) - {T}: Add {W}."
+          ],
+          "white": 4
+        },
+        {
+          "mana": [
+            "Mana: Plains (58) - {T}: Add {W}.",
+            "Mana: Plains (49) - {T}: Add {W}.",
+            "Mana: Plains (39) - {T}: Add {W}.",
+            "Mana: Plains (51) - {T}: Add {W}."
+          ],
+          "white": 4
+        },
+        {
+          "mana": [
+            "Mana: Plains (58) - {T}: Add {W}.",
+            "Mana: Plains (49) - {T}: Add {W}.",
+            "Mana: Plains (39) - {T}: Add {W}.",
+            "Mana: Plains (51) - {T}: Add {W}."
+          ],
+          "white": 4
+        }
+      ],
+      "clockReached": false,
+      "diagnostics": [],
+      "creaturesReturned": 0,
+      "summary": "<development-checkout>\\arena\\marshals-anthem\\target\\card-use\\unkicked-on-96231\\summary.json",
+      "seed": 96231
+    },
+    {
+      "chosenKicks": [
+        0,
+        0,
+        0
+      ],
+      "casts": 3,
+      "lateObserverEventsExcluded": 0,
+      "mode": "unkicked",
+      "pendingAtClockStop": 0,
+      "triggers": 3,
+      "profile": "on",
+      "sha256": "125C0BF657AA1CF856F9B35A486F9783824F86F60560DC896C10D729BE731171",
+      "payments": [
+        {
+          "mana": [
+            "Mana: Plains (47) - {T}: Add {W}.",
+            "Mana: Plains (34) - {T}: Add {W}.",
+            "Mana: Plains (46) - {T}: Add {W}.",
+            "Mana: Plains (41) - {T}: Add {W}."
+          ],
+          "white": 4
+        },
+        {
+          "mana": [
+            "Mana: Plains (47) - {T}: Add {W}.",
+            "Mana: Plains (34) - {T}: Add {W}.",
+            "Mana: Plains (46) - {T}: Add {W}.",
+            "Mana: Plains (41) - {T}: Add {W}."
+          ],
+          "white": 4
+        },
+        {
+          "mana": [
+            "Mana: Plains (47) - {T}: Add {W}.",
+            "Mana: Plains (34) - {T}: Add {W}.",
+            "Mana: Plains (46) - {T}: Add {W}.",
+            "Mana: Plains (41) - {T}: Add {W}."
+          ],
+          "white": 4
+        }
+      ],
+      "clockReached": false,
+      "diagnostics": [],
+      "creaturesReturned": 0,
+      "summary": "<development-checkout>\\arena\\marshals-anthem\\target\\card-use\\unkicked-on-96232\\summary.json",
+      "seed": 96232
+    },
+    {
+      "chosenKicks": [],
+      "casts": 0,
+      "lateObserverEventsExcluded": 0,
+      "mode": "unkicked",
+      "pendingAtClockStop": 0,
+      "triggers": 0,
+      "profile": "off",
+      "sha256": "0ABD722230DF4C7CAA70685DE5E63413CB32E5FB8F58D3CD8563184064272A3D",
+      "payments": [],
+      "clockReached": true,
+      "diagnostics": [],
+      "creaturesReturned": 0,
+      "summary": "<development-checkout>\\arena\\marshals-anthem\\target\\card-use\\unkicked-off-96231\\summary.json",
+      "seed": 96231
+    },
+    {
+      "chosenKicks": [],
+      "casts": 0,
+      "lateObserverEventsExcluded": 0,
+      "mode": "unkicked",
+      "pendingAtClockStop": 0,
+      "triggers": 0,
+      "profile": "off",
+      "sha256": "BF6328CC6948B1FFB9500B456FD98C97A15B1908AD222F0CDB82CDC2A21A17AB",
+      "payments": [],
+      "clockReached": true,
+      "diagnostics": [],
+      "creaturesReturned": 0,
+      "summary": "<development-checkout>\\arena\\marshals-anthem\\target\\card-use\\unkicked-off-96232\\summary.json",
+      "seed": 96232
+    }
+  ],
+  "inputs": [
+    {
+      "sha256": "B8748C33E81277EB063AE754C6D636013DCB66A9D0584F30FFF1C23732BA2CBB",
+      "path": "<development-checkout>\\arena\\marshals-anthem\\target\\final\\engine.jar"
+    },
+    {
+      "sha256": "CC6F05BC9FAB9B7E466D0B481ECE76D248CAE6976E9415BE55A3F95BC524D887",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\marshals-anthem.properties"
+    },
+    {
+      "sha256": "6FB3AE7EE0CB27052938FC60B8126A84CE3C2F1A55601D1165879B0272E0A768",
+      "path": "<development-checkout>\\arena\\marshals-anthem\\Check-MarshalsAnthem.ps1"
+    },
+    {
+      "sha256": "EBBE9F439D590CEBBDB0B868C3EB49935CBF738F74C431A8C59F7F2691F210ED",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\MarshalsAnthemAi.java"
+    },
+    {
+      "sha256": "8C9BAA8F5570EF29383AE2E05F0955116CC1AD3254AACD8D2CBAAC1F046049A8",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PermanentAi.java"
+    },
+    {
+      "sha256": "C7062FE42BEAAB80F388E142D098311EB0856D54EDD38B0DF915FF37F7A10AA3",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\TragicArroganceAi.java"
+    },
+    {
+      "sha256": "E1DA964C9B0EA19F20A183AE04AE5FC1117E575CB9F009215729CAACE497B696",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\RepeatEachAi.java"
+    },
+    {
+      "sha256": "F9EA3D92EB4EACD90DC83B916FCD0C7A9B55DDCEDE1B9F9AD5A77240A2363A68",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChooseCardAi.java"
+    },
+    {
+      "sha256": "7CB56BF32E3364AD9B9E0631D8A0A981F6777F69DA3FF68F76BE510A2C5D7DAA",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DispatchAi.java"
+    },
+    {
+      "sha256": "1CA6DC8C83F3F6CA8396DCE21DA433B99B5B0F6286F50FC40F8931361747A862",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\TapAi.java"
+    },
+    {
+      "sha256": "2A5D257B27BD24AD690EB7C9E637ADAB28697E787F7101FC1D3A7CA4423BDFB9",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java"
+    },
+    {
+      "sha256": "6F64D6C4E1713D060CF8DC05C459530B386542670F7CC8FA0916E09E4254D241",
+      "path": "<development-checkout>\\arena\\marshals-anthem\\MarshalsAnthemTests.java"
+    },
+    {
+      "path": "<development-checkout>\\arena\\marshals-anthem\\MarshalsAnthemProbe.java",
+      "sha256": "4990EF0619F6AEE404BEBD6EAB6B97BA55F2EDDBE5A2687EF5594C15348EC5F6"
+    },
+    {
+      "path": "<development-checkout>\\arena\\marshals-anthem\\Run-CardUseProbe.ps1",
+      "sha256": "11A7B8D97A395A02DD8B9C9ED9517F70D347089DB9E8D8B634DFF3F64AD6FB0E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\marshals-anthem\\Check-CardUseEvidence.ps1",
+      "sha256": "5E2C06B89BB66BAE4FF92C3979B4A5A3F4786592B751ABE33AE3C8BC33B1CDC3"
+    }
+  ],
+  "witnesses": [
+    {
+      "seed": 96231,
+      "mode": "kicked",
+      "triggers": [
+        {
+          "returned": [
+            {
+              "id": 21,
+              "name": "Archangel",
+              "power": 6,
+              "toughness": 6,
+              "tapped": false,
+              "creature": true
+            }
+          ],
+          "mode": "kicked",
+          "sourceId": 62,
+          "kicks": 1,
+          "turn": 28,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 589,
+            "sourceId": 62,
+            "spell": false,
+            "trigger": true,
+            "turn": 28,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 6,
+                "toughness": 6,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 31,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 32,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 40,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 22,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 48,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 73,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 99,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 7,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 79,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 6,
+                "toughness": 6,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96231,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 589,
+            "sourceId": 62,
+            "spell": false,
+            "trigger": true,
+            "turn": 28,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [],
+            "graveyard": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 31,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 32,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 40,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 22,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 48,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 73,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 99,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 7,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 79,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          }
+        }
+      ],
+      "profile": "on",
+      "casts": [
+        {
+          "sourceId": 62,
+          "turn": 28,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 587,
+            "sourceId": 62,
+            "spell": true,
+            "trigger": false,
+            "turn": 28,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [],
+            "graveyard": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 31,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 32,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 40,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 22,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 48,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 73,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 99,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 7,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 79,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96231,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 587,
+            "sourceId": 62,
+            "spell": true,
+            "trigger": false,
+            "turn": 28,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [],
+            "graveyard": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 31,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 32,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 40,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 22,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 48,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 73,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 99,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 7,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 79,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "kicked",
+          "kicks": 1
+        }
+      ]
+    },
+    {
+      "seed": 96232,
+      "mode": "kicked",
+      "triggers": [
+        {
+          "returned": [
+            {
+              "id": 21,
+              "name": "Archangel",
+              "power": 6,
+              "toughness": 6,
+              "tapped": false,
+              "creature": true
+            }
+          ],
+          "mode": "kicked",
+          "sourceId": 50,
+          "kicks": 1,
+          "turn": 23,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 563,
+            "sourceId": 50,
+            "spell": false,
+            "trigger": true,
+            "turn": 23,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 6,
+                "toughness": 6,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 6,
+                "toughness": 6,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96232,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 563,
+            "sourceId": 50,
+            "spell": false,
+            "trigger": true,
+            "turn": 23,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [],
+            "graveyard": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          }
+        },
+        {
+          "returned": [
+            {
+              "id": 25,
+              "name": "Archangel",
+              "power": 7,
+              "toughness": 7,
+              "tapped": false,
+              "creature": true
+            },
+            {
+              "id": 24,
+              "name": "Archangel",
+              "power": 7,
+              "toughness": 7,
+              "tapped": false,
+              "creature": true
+            }
+          ],
+          "mode": "kicked",
+          "sourceId": 57,
+          "kicks": 2,
+          "turn": 31,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 592,
+            "sourceId": 57,
+            "spell": false,
+            "trigger": true,
+            "turn": 31,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 2,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96232,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 592,
+            "sourceId": 57,
+            "spell": false,
+            "trigger": true,
+            "turn": 31,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 2,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          }
+        },
+        {
+          "returned": [
+            {
+              "id": 30,
+              "name": "Archangel",
+              "power": 8,
+              "toughness": 8,
+              "tapped": false,
+              "creature": true
+            },
+            {
+              "id": 23,
+              "name": "Archangel",
+              "power": 8,
+              "toughness": 8,
+              "tapped": false,
+              "creature": true
+            }
+          ],
+          "mode": "kicked",
+          "sourceId": 67,
+          "kicks": 2,
+          "turn": 35,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 610,
+            "sourceId": 67,
+            "spell": false,
+            "trigger": true,
+            "turn": 35,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 2,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 1,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96232,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 610,
+            "sourceId": 67,
+            "spell": false,
+            "trigger": true,
+            "turn": 35,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 2,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 1,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          }
+        },
+        {
+          "returned": [
+            {
+              "id": 20,
+              "name": "Archangel",
+              "power": 9,
+              "toughness": 9,
+              "tapped": false,
+              "creature": true
+            }
+          ],
+          "mode": "kicked",
+          "sourceId": 53,
+          "kicks": 1,
+          "turn": 38,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 630,
+            "sourceId": 53,
+            "spell": false,
+            "trigger": true,
+            "turn": 38,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 28,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 17,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 27,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 38,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 1,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96232,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 630,
+            "sourceId": 53,
+            "spell": false,
+            "trigger": true,
+            "turn": 38,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 28,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 17,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 27,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 38,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 1,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "anthemOnBattlefield": true
+          }
+        }
+      ],
+      "profile": "on",
+      "casts": [
+        {
+          "sourceId": 50,
+          "turn": 23,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 561,
+            "sourceId": 50,
+            "spell": true,
+            "trigger": false,
+            "turn": 23,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [],
+            "graveyard": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96232,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 561,
+            "sourceId": 50,
+            "spell": true,
+            "trigger": false,
+            "turn": 23,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [],
+            "graveyard": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "kicked",
+          "kicks": 1
+        },
+        {
+          "sourceId": 57,
+          "turn": 31,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 590,
+            "sourceId": 57,
+            "spell": true,
+            "trigger": false,
+            "turn": 31,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 2,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 6,
+                "toughness": 6,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 6,
+                "toughness": 6,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96232,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 590,
+            "sourceId": 57,
+            "spell": true,
+            "trigger": false,
+            "turn": 31,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 2,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "kicked",
+          "kicks": 2
+        },
+        {
+          "sourceId": 67,
+          "turn": 35,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 608,
+            "sourceId": 67,
+            "spell": true,
+            "trigger": false,
+            "turn": 35,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 2,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 7,
+                "toughness": 7,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 1,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96232,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 608,
+            "sourceId": 67,
+            "spell": true,
+            "trigger": false,
+            "turn": 35,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 2,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 1,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "kicked",
+          "kicks": 2
+        },
+        {
+          "sourceId": 53,
+          "turn": 38,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 628,
+            "sourceId": 53,
+            "spell": true,
+            "trigger": false,
+            "turn": 38,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 8,
+                "toughness": 8,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 28,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 17,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 27,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 38,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 1,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96232,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 628,
+            "sourceId": 53,
+            "spell": true,
+            "trigger": false,
+            "turn": 38,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 1,
+            "creatures": [
+              {
+                "id": 21,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 25,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 24,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 30,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 23,
+                "name": "Archangel",
+                "power": 9,
+                "toughness": 9,
+                "tapped": false,
+                "creature": true
+              }
+            ],
+            "graveyard": [
+              {
+                "id": 45,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 20,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 35,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 28,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 17,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 27,
+                "name": "Archangel",
+                "power": 5,
+                "toughness": 5,
+                "tapped": false,
+                "creature": true
+              },
+              {
+                "id": 38,
+                "name": "Buried Alive",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "lands": [
+              {
+                "id": 3,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 88,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 5,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 91,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 103,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 101,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 16,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 75,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 1,
+                "name": "Swamp",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "kicked",
+          "kicks": 1
+        }
+      ]
+    },
+    {
+      "seed": 96231,
+      "mode": "kicked",
+      "triggers": [],
+      "profile": "off",
+      "casts": []
+    },
+    {
+      "seed": 96232,
+      "mode": "kicked",
+      "triggers": [],
+      "profile": "off",
+      "casts": []
+    },
+    {
+      "seed": 96231,
+      "mode": "unkicked",
+      "triggers": [
+        {
+          "returned": [],
+          "mode": "unkicked",
+          "sourceId": 28,
+          "kicks": 0,
+          "turn": 16,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 449,
+            "sourceId": 28,
+            "spell": false,
+            "trigger": true,
+            "turn": 16,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96231,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 449,
+            "sourceId": 28,
+            "spell": false,
+            "trigger": true,
+            "turn": 16,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          }
+        },
+        {
+          "returned": [],
+          "mode": "unkicked",
+          "sourceId": 26,
+          "kicks": 0,
+          "turn": 28,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 480,
+            "sourceId": 26,
+            "spell": false,
+            "trigger": true,
+            "turn": 28,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 38,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96231,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 480,
+            "sourceId": 26,
+            "spell": false,
+            "trigger": true,
+            "turn": 28,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 38,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          }
+        },
+        {
+          "returned": [],
+          "mode": "unkicked",
+          "sourceId": 25,
+          "kicks": 0,
+          "turn": 36,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 505,
+            "sourceId": 25,
+            "spell": false,
+            "trigger": true,
+            "turn": 36,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 38,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 43,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96231,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 505,
+            "sourceId": 25,
+            "spell": false,
+            "trigger": true,
+            "turn": 36,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 38,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 43,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          }
+        }
+      ],
+      "profile": "on",
+      "casts": [
+        {
+          "sourceId": 28,
+          "turn": 16,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 355,
+            "sourceId": 28,
+            "spell": true,
+            "trigger": false,
+            "turn": 16,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96231,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 355,
+            "sourceId": 28,
+            "spell": true,
+            "trigger": false,
+            "turn": 16,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "unkicked",
+          "kicks": 0
+        },
+        {
+          "sourceId": 26,
+          "turn": 28,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 473,
+            "sourceId": 26,
+            "spell": true,
+            "trigger": false,
+            "turn": 28,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 38,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96231,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 473,
+            "sourceId": 26,
+            "spell": true,
+            "trigger": false,
+            "turn": 28,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 38,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "unkicked",
+          "kicks": 0
+        },
+        {
+          "sourceId": 25,
+          "turn": 36,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 496,
+            "sourceId": 25,
+            "spell": true,
+            "trigger": false,
+            "turn": 36,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 38,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 43,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96231,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 496,
+            "sourceId": 25,
+            "spell": true,
+            "trigger": false,
+            "turn": 36,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 8,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 5,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 51,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 39,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 49,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 58,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 38,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 52,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 50,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 43,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "unkicked",
+          "kicks": 0
+        }
+      ]
+    },
+    {
+      "seed": 96232,
+      "mode": "unkicked",
+      "triggers": [
+        {
+          "returned": [],
+          "mode": "unkicked",
+          "sourceId": 28,
+          "kicks": 0,
+          "turn": 35,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 481,
+            "sourceId": 28,
+            "spell": false,
+            "trigger": true,
+            "turn": 35,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96232,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 481,
+            "sourceId": 28,
+            "spell": false,
+            "trigger": true,
+            "turn": 35,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          }
+        },
+        {
+          "returned": [],
+          "mode": "unkicked",
+          "sourceId": 26,
+          "kicks": 0,
+          "turn": 47,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 512,
+            "sourceId": 26,
+            "spell": false,
+            "trigger": true,
+            "turn": 47,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 9,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96232,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 512,
+            "sourceId": 26,
+            "spell": false,
+            "trigger": true,
+            "turn": 47,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 9,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          }
+        },
+        {
+          "returned": [],
+          "mode": "unkicked",
+          "sourceId": 25,
+          "kicks": 0,
+          "turn": 51,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 532,
+            "sourceId": 25,
+            "spell": false,
+            "trigger": true,
+            "turn": 51,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 9,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "seed": 96232,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 532,
+            "sourceId": 25,
+            "spell": false,
+            "trigger": true,
+            "turn": 51,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 9,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          }
+        }
+      ],
+      "profile": "on",
+      "casts": [
+        {
+          "sourceId": 28,
+          "turn": 35,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 474,
+            "sourceId": 28,
+            "spell": true,
+            "trigger": false,
+            "turn": 35,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 1,
+                "toughness": 1,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96232,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 474,
+            "sourceId": 28,
+            "spell": true,
+            "trigger": false,
+            "turn": 35,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "unkicked",
+          "kicks": 0
+        },
+        {
+          "sourceId": 26,
+          "turn": 47,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 505,
+            "sourceId": 26,
+            "spell": true,
+            "trigger": false,
+            "turn": 47,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 9,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 2,
+                "toughness": 2,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96232,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 505,
+            "sourceId": 26,
+            "spell": true,
+            "trigger": false,
+            "turn": 47,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 9,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "unkicked",
+          "kicks": 0
+        },
+        {
+          "sourceId": 25,
+          "turn": 51,
+          "before": {
+            "stage": "stacked",
+            "abilityId": 520,
+            "sourceId": 25,
+            "spell": true,
+            "trigger": false,
+            "turn": 51,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 9,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 3,
+                "toughness": 3,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": false
+          },
+          "seed": 96232,
+          "after": {
+            "stage": "resolved",
+            "abilityId": 520,
+            "sourceId": 25,
+            "spell": true,
+            "trigger": false,
+            "turn": 51,
+            "player": "AnthemProbe-0",
+            "fizzled": false,
+            "kicks": 0,
+            "creatures": [
+              {
+                "id": 11,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 22,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 18,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 14,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 3,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 19,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 21,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 20,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 9,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              },
+              {
+                "id": 10,
+                "name": "Eager Cadet",
+                "power": 4,
+                "toughness": 4,
+                "tapped": true,
+                "creature": true
+              }
+            ],
+            "graveyard": [],
+            "lands": [
+              {
+                "id": 41,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 46,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 34,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 47,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": true,
+                "creature": false
+              },
+              {
+                "id": 48,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 40,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              },
+              {
+                "id": 57,
+                "name": "Plains",
+                "power": 0,
+                "toughness": 0,
+                "tapped": false,
+                "creature": false
+              }
+            ],
+            "targets": [],
+            "anthemOnBattlefield": true
+          },
+          "mode": "unkicked",
+          "kicks": 0
+        }
+      ]
+    },
+    {
+      "seed": 96231,
+      "mode": "unkicked",
+      "triggers": [],
+      "profile": "off",
+      "casts": []
+    },
+    {
+      "seed": 96232,
+      "mode": "unkicked",
+      "triggers": [],
+      "profile": "off",
+      "casts": []
+    }
+  ],
+  "observer": "Read-only event subscriber; no forced hands, draws, actions, choices, phases, targets or payment",
+  "date": "2026-10-17"
+}

@@ -1,0 +1,146 @@
+{
+  "status": "verified",
+  "date": "2026-10-19",
+  "engine": "NeoForge 1.0.27",
+  "sourceRevision": "88a62c5cd5c66f1367bd3bd03df23c37edac5007",
+  "nativeChecks": 4298,
+  "newNativeChecks": 238,
+  "priorNativeChecks": 4060,
+  "nativeSuites": 40,
+  "deadlineChecks": 20,
+  "probeChecks": 406,
+  "paidResolvedCasts": 17,
+  "destroyedPermanents": 20,
+  "artifactOnly": 4,
+  "enchantmentOnly": 10,
+  "both": 3,
+  "clockLimitedRuns": 3,
+  "candidate": "<development-checkout>\\arena\\hull-breach\\target\\final-1.0.27\\engine.jar",
+  "candidateSha256": "CA41A6B3BC1C08569A841142F4E4B14D05728D8EA1599CB7A1770C6036FAA0F2",
+  "coverage": {
+    "decks": 184,
+    "clear": 46,
+    "mechanicallyUnlocked": 59,
+    "verified": 49,
+    "unlockedOnly": 10
+  },
+  "installedFilesPreserved": 21729,
+  "unrelatedFilesPreserved": 18,
+  "unchangedCandidateEntries": 18228,
+  "compiledOverlayClasses": 5,
+  "scope": "Bounded Hull Breach native decisions and autonomous original card use. No completed-game, winner or strength claim.",
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\card-use-evidence.json",
+      "sha256": "A7013AF8A3D42B07D9DD10A6626AD493C3A27E0FB44F8F71AE51A653E34DCEC1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\check-card-use.py",
+      "sha256": "B565B87A064C2BB3401C9BC8F1A170E9A0CB3FEA1B8190FCCE0C3DC92F4FE7A0"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\Check-NeoForge-1.0.27.ps1",
+      "sha256": "CF500513EA9C054E28D8CE820C4B75CC2CB54488B07DB782038793E894400E3A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\Check-Timeouts.ps1",
+      "sha256": "E8AA4AA3C91B860A87FEDAE5F84996E20D18B62E78A1FCC44D7F48B0E8792712"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\computer-util-hooks.patch",
+      "sha256": "12F2617DA8121E72483078DA1FDDFDB5B4D64AF8CB7F334357CBA4204CB49AB8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\HullBreachProbe.java",
+      "sha256": "351E34C99A42070D1F05C72F139411BCBD104F67EAE05781C5426052E9CC90C6"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\HullBreachTests.java",
+      "sha256": "63C72CCAFDAEFA1FF5BB3E4C6CA18FCB6F368A430F9DD8ABDE32B2A9D43B19EA"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\README.md",
+      "sha256": "F0CDDEBC259D5FDDD6D8F436DC96F19A00E503B60F75C857F4AF5734F8AEF7E9"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\refresh.py",
+      "sha256": "EB26DD94AB5CBA5DC14553BA8F86BB3599828C84C6D265822F7E63B3A35639A9"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\Run-CardUseProbe.ps1",
+      "sha256": "FA2BD8CE9D671F60AC4EE2675B1419AE24E3344FFF2D689561C6AFE30E84BA3B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\decks\\Actor.dck",
+      "sha256": "3B2A033F119BA1D56DF868EBC3C3E1DFD5901D04C60666F03DA276CB6C72D756"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\decks\\Opponents-artifact.dck",
+      "sha256": "D41ED33C573B401DCB86370BE3021BC59524F6E43795121E5E81642D6E3AF526"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\decks\\Opponents-both.dck",
+      "sha256": "D1BD0D0C2D86CDC7939D701361A365760CEF924D909078CA85055E5D193309A4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\decks\\Opponents-enchantment.dck",
+      "sha256": "6BF176FFFF49E4FC016A6A14CB1169DD259255C0EF48DEE78AC795F6E48DB3B1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\target\\final-1.0.27\\provenance.json",
+      "sha256": "B33FC766BEFB50575E60559156C89E900D79977642A42A65FC289BEF3BCD2195"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\target\\preserved-baseline.json",
+      "sha256": "FBB1C23137282081083FA4905340F0B607172FF3B3DF686B7A383CADE39C710A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\target\\final-1.0.27\\timeout-summary.json",
+      "sha256": "1E2A3C3FB2B27923992469F134049A8335EA0620EC45C0B8F2B0C59D816BBDEF"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\target\\card-use-check.log",
+      "sha256": "6CA28EDA6955B804FDB8AAA869D8DD4DCD0242242342F4885642497D03B6196B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\hull-breach\\target\\final-1.0.27\\engine.jar",
+      "sha256": "CA41A6B3BC1C08569A841142F4E4B14D05728D8EA1599CB7A1770C6036FAA0F2"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\h\\hull_breach.txt",
+      "sha256": "A3C6AD88F46C36F450420850049855751EF9BE49C2037D7CE60AB87CB7EB4E2A"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\HullBreachAi.java",
+      "sha256": "06A2CEC903ACAF27D863944E62152FC5108AB1CEF3129DF7E45E9B28B7F0F600"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\CharmAi.java",
+      "sha256": "723F7F0C1656BDDF750C9CB7CA5430670596F5D4348F393E6FFBD6CF710A7655"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java",
+      "sha256": "F8AFC603F97CE260AB8ACF869C477BC9673FF3FDF3332BDD5FBBE400B9F4B8B8"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\hull-breach.properties",
+      "sha256": "D90EAF0DA207F2D561079AC6EC85E3583E9A89DB98816FD9CF101B78D2976777"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "453B7E8EFBF607DE55257C05EE7F372B569E6DB9D0D15B06E39748BAB49405AF"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "D956502B8D09CCC9C5EA3459E5F3B75855D00736DF9D97DC592137661A856677"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "6B47B6D18D67C67892110EDBE842DEA02767D9273D9CB162C52E31D258FD5345"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "A73ADE4E23C860DDC9BCBD820F622C3AFD5366DD87A9154B5D62DC42C7C84339"
+    }
+  ]
+}

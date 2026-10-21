@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-17",
+  "candidateJarSha256": "35F2DDCC9A5E6C041487EB1C1D89763362EFCD2A505BEDEDE6AFA74D686715AE",
+  "claim": "Documented bounded native combat rules and autonomous custom-deck offensive/defensive use; no Commander-precon use or strength claim",
+  "build": {
+    "genericMavenTestsSkipped": true,
+    "checkstyleViolations": 0,
+    "passed": true
+  },
+  "decreeRegressionChecks": 69,
+  "baseRevision": "077ebf2399c82320a46e84f9b898b3a46d2f88dc",
+  "nativeChecks": 48,
+  "regressionCandidateMatches": true,
+  "coverage": {
+    "unlockedTotal": 31,
+    "verified": 21,
+    "decksWithZeroBlocked": 22,
+    "unlockedOnly": 10
+  },
+  "originalScriptHashes": {
+    "path": "forge-gui/res/cardsfolder/m/mirror_entity.txt",
+    "sha256": "4864B2248E2862B6D4A28CCCFC62FB840A5D191573C7657F3170EBC844E0E5EB"
+  },
+  "coverageStatus": "verified",
+  "cardUseEvidence": {
+    "offensiveActivations": 17,
+    "observerReadOnly": true,
+    "clockSeconds": 20,
+    "defensiveActivations": 19,
+    "path": "arena/mirror-entity/card-use-evidence.json",
+    "seeds": [
+      95881,
+      95882
+    ],
+    "completedGameRequired": false,
+    "paidResolvedActivations": 36,
+    "profileOffActivations": 0,
+    "sha256": "8998260AD0007FAA6BC10E467A29E69E18E66D83CC08569FA334F718FCB7336D"
+  },
+  "installedApplicationModified": false,
+  "originalScriptsAndPresetDecksGitDiff": "empty",
+  "nativeEvidence": {
+    "revision": "077ebf2399c82320a46e84f9b898b3a46d2f88dc",
+    "scope": "Native correctness and regression only; not strength evidence",
+    "files": [
+      {
+        "sha256": "35F2DDCC9A5E6C041487EB1C1D89763362EFCD2A505BEDEDE6AFA74D686715AE",
+        "path": "<development-checkout>\\arena\\mirror-entity\\target\\final\\engine.jar"
+      },
+      {
+        "sha256": "51A5838537C630A2220E8EFB8B98D06711BFCA3409EFB90791830C3C047B27C8",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\mirror-entity.properties"
+      },
+      {
+        "sha256": "B5E9FFFE66E9C4F8795C67B9CB9FCD0ADF24FC7F2225A5C4E85B15BA4E07255F",
+        "path": "<development-checkout>\\arena\\mirror-entity\\Check-MirrorEntity.ps1"
+      },
+      {
+        "sha256": "768FBA1CA6ED28C55FF92E982C646CDF8A2D9CC156793582F0382DEE5766CDE9",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiOverrideProfile.java"
+      },
+      {
+        "sha256": "CD0C1DA3A1D6CDC6ABABE479212033A5EDFD91888284C7649A42F80610FCBF76",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiProfileUtil.java"
+      },
+      {
+        "sha256": "2717695CC79F6A3A9CF73CA36EA50C03F99ECB19FDBC911D56FA545019E45706",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\MirrorEntityAi.java"
+      },
+      {
+        "sha256": "EA0478240A646CA8692F5932DDE6B8610C1FEE3A342081B2AD6FB235CB97C569",
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\AnimateAllAi.java"
+      },
+      {
+        "sha256": "EB02EAF60B3F61A798DCB43353B45C6C34AF4F7C1EA1CC8221E226238F12086A",
+        "path": "<development-checkout>\\arena\\mirror-entity\\MirrorEntityTests.java"
+      }
+    ]
+  }
+}

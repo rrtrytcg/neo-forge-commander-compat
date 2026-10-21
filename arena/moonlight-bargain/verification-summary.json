@@ -1,0 +1,203 @@
+{
+  "profile": "moonlight-bargain",
+  "engine": "NeoForge 1.0.27",
+  "candidateSha256": "BA2747B3E9316A8B02A98A74DC560AB8028297EE48D05230D9414357D41981D0",
+  "gate": "arena/moonlight-bargain/target/final-1.0.27/provenance.json",
+  "gateSha256": "6FC2E0A512EA82AECFE188EE8B12A40FFC98CAE777FA49F560940EA4D31B53E6",
+  "baseline": "arena/moonlight-bargain/target/verified-1.0.27-baseline/provenance.json",
+  "baselineChecks": 5,
+  "nativeChecks": 5493,
+  "suites": 51,
+  "newChecks": 105,
+  "priorChecks": 5388,
+  "priorCountsUnchanged": true,
+  "decks": [
+    {
+      "path": "arena/moonlight-bargain/decks/Actor.dck",
+      "sha256": "6CCB59C5CE9CA2CD733E7C1FCD560855BF472938FF6C427708D4B955B4EE0C41"
+    },
+    {
+      "path": "arena/moonlight-bargain/decks/Opponent.dck",
+      "sha256": "BEE1D4808BBB831744ECD34542B992CD9CD0A1F9010975FAA33FCFD295198863"
+    }
+  ],
+  "games": [
+    {
+      "seed": 122011,
+      "mode": "off",
+      "clockSeconds": 120,
+      "casts": 0,
+      "resolutions": 0,
+      "lifePaid": 0,
+      "paidKeepOffers": 0,
+      "exceptions": 0,
+      "lastTurn": 43.0,
+      "clockLimited": false,
+      "log": "arena/moonlight-bargain/target/smoke/off-122011/game.log",
+      "logSha256": "E78F8F04627CD59C88AD14E158E02D59D52C300356F81E067AF5C4DE3E707190",
+      "summary": "arena/moonlight-bargain/target/smoke/off-122011/summary.json",
+      "summarySha256": "78CA67A350202991FDBCD6C387397E540A975DFA17246BD77D93B0229C3EABF2",
+      "witnesses": []
+    },
+    {
+      "seed": 122011,
+      "mode": "on",
+      "clockSeconds": 120,
+      "casts": 4,
+      "resolutions": 4,
+      "lifePaid": 20,
+      "paidKeepOffers": 10,
+      "exceptions": 0,
+      "lastTurn": 27.0,
+      "clockLimited": false,
+      "log": "arena/moonlight-bargain/target/smoke/on-122011/game.log",
+      "logSha256": "C8311319202171B7AAE98CEE14017E0B980F0279A755A7C8F28EB194ECB8D0F5",
+      "summary": "arena/moonlight-bargain/target/smoke/on-122011/summary.json",
+      "summarySha256": "3F4313DA2106809F00678B290BEE57F9ED9BFC436CAF56EE4853D5B6986B13FB",
+      "witnesses": [
+        {
+          "castLine": 401,
+          "resolutionLine": 405,
+          "swampManaPayments": 5,
+          "lifePaid": 6,
+          "paidKeepOffers": 3,
+          "payments": [
+            {
+              "line": 402,
+              "before": 40,
+              "after": 38
+            },
+            {
+              "line": 403,
+              "before": 38,
+              "after": 36
+            },
+            {
+              "line": 404,
+              "before": 36,
+              "after": 34
+            }
+          ]
+        },
+        {
+          "castLine": 514,
+          "resolutionLine": 518,
+          "swampManaPayments": 5,
+          "lifePaid": 6,
+          "paidKeepOffers": 3,
+          "payments": [
+            {
+              "line": 515,
+              "before": 34,
+              "after": 32
+            },
+            {
+              "line": 516,
+              "before": 32,
+              "after": 30
+            },
+            {
+              "line": 517,
+              "before": 30,
+              "after": 28
+            }
+          ]
+        },
+        {
+          "castLine": 636,
+          "resolutionLine": 640,
+          "swampManaPayments": 5,
+          "lifePaid": 6,
+          "paidKeepOffers": 3,
+          "payments": [
+            {
+              "line": 637,
+              "before": 28,
+              "after": 26
+            },
+            {
+              "line": 638,
+              "before": 26,
+              "after": 24
+            },
+            {
+              "line": 639,
+              "before": 24,
+              "after": 22
+            }
+          ]
+        },
+        {
+          "castLine": 711,
+          "resolutionLine": 713,
+          "swampManaPayments": 5,
+          "lifePaid": 2,
+          "paidKeepOffers": 1,
+          "payments": [
+            {
+              "line": 712,
+              "before": 22,
+              "after": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 122012,
+      "mode": "off",
+      "clockSeconds": 120,
+      "casts": 0,
+      "resolutions": 0,
+      "lifePaid": 0,
+      "paidKeepOffers": 0,
+      "exceptions": 0,
+      "lastTurn": 21.0,
+      "clockLimited": false,
+      "log": "arena/moonlight-bargain/target/smoke/off-122012/game.log",
+      "logSha256": "97B818246B5B9E55067E6B582197709BB44D75AB50F64462D0A8B8950A416FBB",
+      "summary": "arena/moonlight-bargain/target/smoke/off-122012/summary.json",
+      "summarySha256": "55420E02A1B92D5236B8081AC49D37083EBFFDF189C57ED5B5405A8171DB79CC",
+      "witnesses": []
+    },
+    {
+      "seed": 122012,
+      "mode": "on",
+      "clockSeconds": 120,
+      "casts": 1,
+      "resolutions": 1,
+      "lifePaid": 4,
+      "paidKeepOffers": 2,
+      "exceptions": 0,
+      "lastTurn": 21.0,
+      "clockLimited": false,
+      "log": "arena/moonlight-bargain/target/smoke/on-122012/game.log",
+      "logSha256": "A2210A886DBFB738533B6BCF83B2185338A63DB588D37E31AA37576080C01E2B",
+      "summary": "arena/moonlight-bargain/target/smoke/on-122012/summary.json",
+      "summarySha256": "3C728232CEFEF10B10771AD61056E93F53DAC124F7D276D40660BE7A0B054D36",
+      "witnesses": [
+        {
+          "castLine": 424,
+          "resolutionLine": 427,
+          "swampManaPayments": 5,
+          "lifePaid": 4,
+          "paidKeepOffers": 2,
+          "payments": [
+            {
+              "line": 425,
+              "before": 40,
+              "after": 38
+            },
+            {
+              "line": 426,
+              "before": 38,
+              "after": 36
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Native correctness and card-use/payment evidence from repeated-card two-player exposure decks; no strength claim.",
+  "limits": "Native match logs omit library-to-hand/graveyard movements. Exact keep choices and zones, cleanup and no-draw semantics are established by native fixtures."
+}

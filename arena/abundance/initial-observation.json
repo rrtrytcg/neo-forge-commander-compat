@@ -1,0 +1,38 @@
+{
+  "status": "diagnostic-no-use-not-final-evidence",
+  "engine": "NeoForge 1.0.27",
+  "candidate": "<development-checkout>\\arena\\abundance\\target\\initial-commander-hold\\engine.jar",
+  "candidateSha256": "A0D106F172B35AB3291F977BE742D4F24D011105C522A0BE7190DBF8D76AEF3B",
+  "nativeChecks": 4562,
+  "runs": [
+    {
+      "scenario": "demand",
+      "profile": "off",
+      "seed": 114011,
+      "casts": 0,
+      "landPlays": 11,
+      "summary": "<development-checkout>\\arena\\abundance\\target\\initial-card-use\\demand-off-114011\\summary.json",
+      "sha256": "E30AB4DFDF108DD0C46AE496E6915E5B489D2FA8F29A3FC5BDEBCB3E2B37A086"
+    },
+    {
+      "scenario": "demand",
+      "profile": "on",
+      "seed": 114011,
+      "casts": 0,
+      "landPlays": 11,
+      "summary": "<development-checkout>\\arena\\abundance\\target\\initial-card-use\\demand-on-114011\\summary.json",
+      "sha256": "F0BE1F227B64B702AB2D4AF3171F70F13D2AF7E08C334EF2D4B4238BA9452121"
+    },
+    {
+      "scenario": "demand",
+      "profile": "on",
+      "seed": 114012,
+      "casts": 0,
+      "landPlays": 13,
+      "summary": "<development-checkout>\\arena\\abundance\\target\\initial-card-use\\demand-on-114012\\summary.json",
+      "sha256": "3D9A57C8D3710C31E3227ED46060C08BD821CF10FDD0B6E488B224AF44C284AB"
+    }
+  ],
+  "reason": "The movement guard treated the exact native Commander return rule as a competing library movement effect. Initial constructed fixtures did not expose that public Commander rule. Corrected only the exact native template and added Commander fixtures; final evidence uses a new candidate.",
+  "relocation": "Initial raw files were preserved under target/initial-commander-hold and target/initial-card-use. Original embedded absolute paths remain historical and require remapping; source files have since changed. Candidate and archived native log hashes were checked after relocation."
+}

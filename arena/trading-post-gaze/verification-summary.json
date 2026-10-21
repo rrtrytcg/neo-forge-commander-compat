@@ -1,0 +1,485 @@
+{
+  "candidateSha256": "EC8F52BA9CDDCE37E3F042A2CA88A9E621BDA789AA29DD038644987FC3F0E5D7",
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\CardUseProbe.java",
+      "sha256": "85EAAA4C17259630301146E70A7E11EC7CE3E27EDA49E00EE68576C2DDD890AC"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\Check-CardUseEvidence.ps1",
+      "sha256": "C9882F97F28F407ECAAA999893A01D6BF7FD1B5922713CF6D950C1F621327098"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\Check-NeoForge-1.0.25.ps1",
+      "sha256": "03B2660316C203BCB31E7420A46F07664EF693D78A88E8BE66731FE18F554C9E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\GazeOfGraniteTests.java",
+      "sha256": "08F212CE2C045D8A7E7F54A75738F3A292D5DFD71F6A6B2FE31C350081AF1960"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\README.md",
+      "sha256": "156309708FB211585DEB27E453C75FB1BA6069B0CEECB68FE43434BE241861A3"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\Refresh-Verification.ps1",
+      "sha256": "C5399A92FD99AE5949E4C7745529D2520AE08F613C8CD40DE5398AAA19CB7733"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\Run-CardUseProbe.ps1",
+      "sha256": "B3A7DC3702AD6F31C0EA76DB26D99037E2435AA2AE48070F66323EA203924EB7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\TradingPostTests.java",
+      "sha256": "A0AF03C7B0139C1D1455F134E5879404503521171CF3C53F9C97925EE6E78389"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\decks\\Gaze.dck",
+      "sha256": "AE35AE41F1AD28564C5E6F4C3A9BFEE320A8760FE48CEE2AA50DD3AAD991A93F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\decks\\Prisms.dck",
+      "sha256": "4281A1475027E8F8F55740A074A2F2C83B2F8C7B63666657287B1AD6365E755D"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\decks\\TradingPost.dck",
+      "sha256": "7FD2C2540A8271BDC93CB35765E2A26AE2F9D583768F91AE06540B08AD3F09CE"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\decks\\TradingPostReturn.dck",
+      "sha256": "19454F22FB655234154220CBEEC912062D282090CD9A5B5BC5952ACC95F383B2"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\decks\\Walls.dck",
+      "sha256": "75058C889024EBB9496DA5276200D896E539A258F3316362DDF1A964730D31E7"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\GazeOfGraniteAi.java",
+      "sha256": "D26BEB846D424F7CAE0002BB7D4370905F361094D03C349C9861DDC61BED4797"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\TradingPostAi.java",
+      "sha256": "37476753968C3E71ADD51E84CDC05F430E57CF759B91D79FD5E3D1AD9B2217C6"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\DrawAi.java",
+      "sha256": "22A4C5D8C4ECBDFFCE4D833C56644FC2E012E43F99A9D21D749294CC7FBC6ED3"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java",
+      "sha256": "236FB9AA456BD837C0CE8405552168EC117A9294F2388E665953C36DE6E90E6A"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\TokenAi.java",
+      "sha256": "372C71FD4589DDF7117D721B61B3E2704ED3595FAF4B4C6DD31254BAB1961926"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\LifeGainAi.java",
+      "sha256": "689233221AEC6EA123079C91B32D9B7F962D15D00FFA1C8BBC1903EB73505767"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\DestroyAllAi.java",
+      "sha256": "FEA7B91707DCD2D7C7BFFBBDA755C847683786AAF7BF51AAD85627CEF056274E"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiController.java",
+      "sha256": "C6536B240F7B888B0DB84BE0815DAF2A310BEFDE1405DEC9E59E59A49407B1E7"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\SpellAbilityAi.java",
+      "sha256": "7DE4489FC83781FF4F5AE5F4E16B58F69C7C84DF47083B8AFFA077D3034E0F48"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\trading-post.properties",
+      "sha256": "ADC769A7198FDFD64280017D05C287B185326FAA78CEF7BA3EF02C82C6045B0B"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\gaze-of-granite.properties",
+      "sha256": "B91E927571DBE0FB9DD400344770FC5E64FB58A832D6222C7214C1111E3E8938"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "053EB9AEE901B50E50B3AECF549750BC99A1B6F5585B6AE1EF155A09834329AB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "22D10AAE8BF26181ACE24BF7B26A1752ED96625310974E1F6E17191C0873E653"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "9CD62B7514143732717B1E39040434A06A7940BB005A2E737E9D9FA7654C9776"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "47E636B61EBD3A640090A0093F4786AE62F227F15A084DA7D0AE04B390E42BA9"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\provenance.json",
+      "sha256": "6EC1AEA7E9BB46CF9262D95652E4DDCA7BCC93213894E2FC6DB1E302E414727F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use-check.log",
+      "sha256": "A98EF2D00A2894BA77F6731FE7B2D93254EE72AE68E3CCC717BE78BAA0324C89"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\TradingPostTests.log",
+      "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\GazeOfGraniteTests.log",
+      "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6"
+    },
+    {
+      "path": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\engine.jar",
+      "sha256": "EC8F52BA9CDDCE37E3F042A2CA88A9E621BDA789AA29DD038644987FC3F0E5D7"
+    }
+  ],
+  "originalScriptsMatchInstalled": true,
+  "status": "verified",
+  "installedApplicationModified": false,
+  "revision": "30093b58548cbdfdc01bea1acc2ed2e664a470e3",
+  "cards": [
+    "Trading Post",
+    "Gaze of Granite"
+  ],
+  "nativeGate": {
+    "results": [
+      {
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\BiomassMutationTests.log",
+        "checks": 116,
+        "suite": "BiomassMutationTests"
+      },
+      {
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\NestingGroundsTests.log",
+        "checks": 115,
+        "suite": "NestingGroundsTests"
+      },
+      {
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\ToxicDelugeTests.log",
+        "checks": 127,
+        "suite": "ToxicDelugeTests"
+      },
+      {
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\AdaptiveEnchantmentTests.log",
+        "checks": 76,
+        "suite": "AdaptiveEnchantmentTests"
+      },
+      {
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\LandManaFamilyTests.log",
+        "checks": 349,
+        "suite": "LandManaFamilyTests"
+      },
+      {
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\AhoyMateysTests.log",
+        "checks": 77,
+        "suite": "AhoyMateysTests"
+      },
+      {
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\BeastWithinTests.log",
+        "checks": 13,
+        "suite": "BeastWithinTests"
+      },
+      {
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\CurseOfTheSwineTests.log",
+        "checks": 36,
+        "suite": "CurseOfTheSwineTests"
+      },
+      {
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\FilterLandsTests.log",
+        "checks": 10,
+        "suite": "FilterLandsTests"
+      },
+      {
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\PsychosisCrawlerTests.log",
+        "checks": 6,
+        "suite": "PsychosisCrawlerTests"
+      },
+      {
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\WallOfLimbsTests.log",
+        "checks": 12,
+        "suite": "WallOfLimbsTests"
+      },
+      {
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\SlaughterTheStrongTests.log",
+        "checks": 18,
+        "suite": "SlaughterTheStrongTests"
+      },
+      {
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\MirrorEntityTests.log",
+        "checks": 48,
+        "suite": "MirrorEntityTests"
+      },
+      {
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\DecreeOfPainTests.log",
+        "checks": 69,
+        "suite": "DecreeOfPainTests"
+      },
+      {
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\OreskosExplorerTests.log",
+        "checks": 100,
+        "suite": "OreskosExplorerTests"
+      },
+      {
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\DispatchTests.log",
+        "checks": 61,
+        "suite": "DispatchTests"
+      },
+      {
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\TragicArroganceTests.log",
+        "checks": 132,
+        "suite": "TragicArroganceTests"
+      },
+      {
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\MarshalsAnthemTests.log",
+        "checks": 135,
+        "suite": "MarshalsAnthemTests"
+      },
+      {
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\DarksteelMutationTests.log",
+        "checks": 87,
+        "suite": "DarksteelMutationTests"
+      },
+      {
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\CorpseAugurTests.log",
+        "checks": 139,
+        "suite": "CorpseAugurTests"
+      },
+      {
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\AssaultSuitTests.log",
+        "checks": 21,
+        "suite": "AssaultSuitTests"
+      },
+      {
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\SelvalaTests.log",
+        "checks": 13,
+        "suite": "SelvalaTests"
+      },
+      {
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\TradingPostTests.log",
+        "checks": 60,
+        "suite": "TradingPostTests"
+      },
+      {
+        "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6",
+        "log": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\GazeOfGraniteTests.log",
+        "checks": 40,
+        "suite": "GazeOfGraniteTests"
+      }
+    ],
+    "candidate": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\engine.jar",
+    "candidateSha256": "EC8F52BA9CDDCE37E3F042A2CA88A9E621BDA789AA29DD038644987FC3F0E5D7",
+    "total": 1860.0,
+    "runtime": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-1.0.25\\runtime"
+  },
+  "engine": "NeoForge 1.0.25",
+  "coverage": {
+    "occurrencesRemaining": 501,
+    "occurrencesUnlocked": 229,
+    "inventory": {
+      "decksWithZeroBlocked": 32,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "ONC - Corrupting Influence",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past"
+      ],
+      "decks": 184
+    },
+    "revision": "30093b58",
+    "strategicallyVerified": 34,
+    "mechanicallyUnlocked": 44,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "distinctRemaining": 329
+  },
+  "scope": "Opt-in Trading Post targeting/draw safety and conservative Gaze wipe correctness and autonomous custom-deck card use; no game-completion, winner or strength claim",
+  "date": "2026-10-17",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "cardUse": {
+    "runs": [
+      {
+        "resolved": 67,
+        "sha256": "05F065754682D5610BFC564187904C1779C87C50D48F64F5CD4536A6E96FB7A6",
+        "modes": [
+          "ChangeZone",
+          "Draw",
+          "PermanentNoncreature",
+          "Token"
+        ],
+        "scenario": "standard",
+        "casts": 20,
+        "seed": 97021,
+        "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\trading-post-on-97021\\summary.json",
+        "profile": "on",
+        "card": "Trading Post",
+        "clockReached": true
+      },
+      {
+        "resolved": 52,
+        "sha256": "5A343BDA5E714307A610A6E48D4DAAB0D221EEE8A6F69262AABDA7D6313A43BB",
+        "modes": [
+          "ChangeZone",
+          "Draw",
+          "PermanentNoncreature",
+          "Token"
+        ],
+        "scenario": "standard",
+        "casts": 16,
+        "seed": 97022,
+        "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\trading-post-on-97022\\summary.json",
+        "profile": "on",
+        "card": "Trading Post",
+        "clockReached": true
+      },
+      {
+        "resolved": 16,
+        "sha256": "F132589A46BAEF8F76F3C8B294A8CFDCF303FFA4CC2B68572BD60DFABF85484D",
+        "modes": [
+          "ChangeZone",
+          "Draw",
+          "PermanentNoncreature"
+        ],
+        "scenario": "return",
+        "casts": 6,
+        "seed": 97041,
+        "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\trading-post-return-on-97041\\summary.json",
+        "profile": "on",
+        "card": "Trading Post",
+        "clockReached": true
+      },
+      {
+        "resolved": 11,
+        "sha256": "5CB9E6EFC71327D198210673F4E534E8AB579D221B926FC485F58EF9378B8A3B",
+        "destroyed": 64,
+        "casts": 11,
+        "seed": 97031,
+        "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\gaze-of-granite-on-97031\\summary.json",
+        "profile": "on",
+        "card": "Gaze of Granite",
+        "clockReached": true
+      },
+      {
+        "resolved": 12,
+        "sha256": "A4FEC07CE8D78D421AAD8BC821BBE05ABE11D266802DC4B0845CB7CA142A69B3",
+        "destroyed": 65,
+        "casts": 12,
+        "seed": 97032,
+        "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\gaze-of-granite-on-97032\\summary.json",
+        "profile": "on",
+        "card": "Gaze of Granite",
+        "clockReached": true
+      },
+      {
+        "profile": "off",
+        "card": "trading-post",
+        "casts": 0,
+        "clockReached": true,
+        "resolved": 0,
+        "seed": 97021,
+        "sha256": "5980153572636DCD7BDB052C433670BC6678AEBD7A97740FD30D651E41CA8384",
+        "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\trading-post-off-97021\\summary.json"
+      },
+      {
+        "profile": "off",
+        "card": "gaze-of-granite",
+        "casts": 0,
+        "clockReached": true,
+        "resolved": 0,
+        "seed": 97031,
+        "sha256": "970C71FD7ED61FDBA9C373814BE5E05E43B3789A8AFBCD5F0C987F02975C8D36",
+        "summary": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use\\gaze-of-granite-off-97031\\summary.json"
+      }
+    ],
+    "checkLog": "<development-checkout>\\arena\\trading-post-gaze\\target\\repair-card-use-check.log",
+    "checkLogSha256": "A98EF2D00A2894BA77F6731FE7B2D93254EE72AE68E3CCC717BE78BAA0324C89",
+    "checks": 898,
+    "engine": "NeoForge 1.0.25",
+    "candidateSha256": "EC8F52BA9CDDCE37E3F042A2CA88A9E621BDA789AA29DD038644987FC3F0E5D7"
+  }
+}

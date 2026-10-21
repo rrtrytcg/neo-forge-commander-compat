@@ -1,0 +1,572 @@
+{
+  "status": "verified",
+  "installedApplicationModified": false,
+  "revision": "fb924e96bc23ea8c294572a390241ec0c0078f1e",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "cardUse": {
+    "runs": [
+      {
+        "clockReached": true,
+        "resolved": 5,
+        "summary": "<development-checkout>\\arena\\viscera-seer\\target\\card-use\\removal-on-101011\\summary.json",
+        "keptTop": 4,
+        "seed": 101011,
+        "putBottom": 1,
+        "combatRescues": 0,
+        "scenario": "removal",
+        "attackingRescues": 0,
+        "casts": 3,
+        "selfSacrifices": 0,
+        "sha256": "7B9F3DD0A4B4A948AF520A4FAA8CBA9EDC84CAF156EE193D8E09446553F946E1",
+        "removalResponses": 5,
+        "profile": "on"
+      },
+      {
+        "clockReached": true,
+        "resolved": 2,
+        "summary": "<development-checkout>\\arena\\viscera-seer\\target\\card-use\\removal-on-101012\\summary.json",
+        "keptTop": 0,
+        "seed": 101012,
+        "putBottom": 2,
+        "combatRescues": 0,
+        "scenario": "removal",
+        "attackingRescues": 0,
+        "casts": 2,
+        "selfSacrifices": 0,
+        "sha256": "A95A9FDD050C6C55C090A8ED6B47E27E2491BA5DDC8BEDC11FAA598E939652DA",
+        "removalResponses": 2,
+        "profile": "on"
+      },
+      {
+        "clockReached": false,
+        "resolved": 4,
+        "summary": "<development-checkout>\\arena\\viscera-seer\\target\\card-use\\combat-on-101021\\summary.json",
+        "keptTop": 1,
+        "seed": 101021,
+        "putBottom": 3,
+        "combatRescues": 3,
+        "scenario": "combat",
+        "attackingRescues": 1,
+        "casts": 2,
+        "selfSacrifices": 2,
+        "sha256": "766CA2351B3077D7EB259006320462B2764565BEF05CFEB450AEFC21B3D5A830",
+        "removalResponses": 0,
+        "profile": "on"
+      },
+      {
+        "clockReached": true,
+        "resolved": 0,
+        "summary": "<development-checkout>\\arena\\viscera-seer\\target\\card-use\\removal-off-101011\\summary.json",
+        "keptTop": 0,
+        "seed": 101011,
+        "putBottom": 0,
+        "combatRescues": 0,
+        "scenario": "removal",
+        "attackingRescues": 0,
+        "casts": 0,
+        "selfSacrifices": 0,
+        "sha256": "4C8F1A15014315594745F53EA2541E2B84B8BA574159D1C6410CEA7940048DB7",
+        "removalResponses": 0,
+        "profile": "off"
+      },
+      {
+        "clockReached": false,
+        "resolved": 0,
+        "summary": "<development-checkout>\\arena\\viscera-seer\\target\\card-use\\combat-off-101021\\summary.json",
+        "keptTop": 0,
+        "seed": 101021,
+        "putBottom": 0,
+        "combatRescues": 0,
+        "scenario": "combat",
+        "attackingRescues": 0,
+        "casts": 0,
+        "selfSacrifices": 0,
+        "sha256": "D922C5155DCC55F8A62DE15B7DFDBC99DAFEBF1A22BFDABCB35C3FF95CBFB92F",
+        "removalResponses": 0,
+        "profile": "off"
+      }
+    ],
+    "candidateSha256": "F6CAD98A8C77FA5614114CAD3E2B9A63E39B8ECE60E75F18BF553C40139D7CF7",
+    "checks": 164,
+    "scope": "Autonomous four-player custom-deck card use only; no completed-game, winner or strength claim",
+    "engine": "NeoForge 1.0.25"
+  },
+  "originalScriptMatchesInstalled": true,
+  "engine": "NeoForge 1.0.25",
+  "scope": "Opt-in doomed-creature scry; native correctness and autonomous card use only, no strength/winner/completion claim",
+  "nativeGate": {
+    "candidate": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\engine.jar",
+    "candidateSha256": "F6CAD98A8C77FA5614114CAD3E2B9A63E39B8ECE60E75F18BF553C40139D7CF7",
+    "total": 2209,
+    "results": [
+      {
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0",
+        "checks": 116,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "suite": "BiomassMutationTests"
+      },
+      {
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+        "checks": 115,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "suite": "NestingGroundsTests"
+      },
+      {
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+        "checks": 127,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "suite": "ToxicDelugeTests"
+      },
+      {
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+        "checks": 76,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "suite": "AdaptiveEnchantmentTests"
+      },
+      {
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+        "checks": 349,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "suite": "LandManaFamilyTests"
+      },
+      {
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+        "checks": 77,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "suite": "AhoyMateysTests"
+      },
+      {
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+        "checks": 13,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\BeastWithinTests.log",
+        "suite": "BeastWithinTests"
+      },
+      {
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A",
+        "checks": 36,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "suite": "CurseOfTheSwineTests"
+      },
+      {
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+        "checks": 10,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\FilterLandsTests.log",
+        "suite": "FilterLandsTests"
+      },
+      {
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+        "checks": 6,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "suite": "PsychosisCrawlerTests"
+      },
+      {
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE",
+        "checks": 12,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "suite": "WallOfLimbsTests"
+      },
+      {
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50",
+        "checks": 18,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "suite": "SlaughterTheStrongTests"
+      },
+      {
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77",
+        "checks": 48,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "suite": "MirrorEntityTests"
+      },
+      {
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16",
+        "checks": 69,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "suite": "DecreeOfPainTests"
+      },
+      {
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+        "checks": 100,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "suite": "OreskosExplorerTests"
+      },
+      {
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE",
+        "checks": 61,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\DispatchTests.log",
+        "suite": "DispatchTests"
+      },
+      {
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+        "checks": 132,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "suite": "TragicArroganceTests"
+      },
+      {
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "checks": 135,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "suite": "MarshalsAnthemTests"
+      },
+      {
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5",
+        "checks": 87,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "suite": "DarksteelMutationTests"
+      },
+      {
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688",
+        "checks": 139,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "suite": "CorpseAugurTests"
+      },
+      {
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "checks": 21,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "suite": "AssaultSuitTests"
+      },
+      {
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C",
+        "checks": 13,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\SelvalaTests.log",
+        "suite": "SelvalaTests"
+      },
+      {
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101",
+        "checks": 60,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\TradingPostTests.log",
+        "suite": "TradingPostTests"
+      },
+      {
+        "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6",
+        "checks": 40,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\GazeOfGraniteTests.log",
+        "suite": "GazeOfGraniteTests"
+      },
+      {
+        "sha256": "C71A88ED767012410A120FF6790B7C404EC3D0DF7B147DB5C1F701EBE513D67D",
+        "checks": 75,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\GreaterGoodTests.log",
+        "suite": "GreaterGoodTests"
+      },
+      {
+        "sha256": "0B922A5327AC6290E85C966CD14B09A3639FA8E8B3F8E514BDBEA58F817844DB",
+        "checks": 72,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\HuntersInsightTests.log",
+        "suite": "HuntersInsightTests"
+      },
+      {
+        "sha256": "BB686AE48F7875D11186E1DB1235C07B57F4619545E230CF3CC5B4F215C3BF4B",
+        "checks": 83,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\CommandBeaconTests.log",
+        "suite": "CommandBeaconTests"
+      },
+      {
+        "sha256": "1B3A83EA32C6953FCD016F858F5993BCB98DBC2E5542305339663563AF4C06E8",
+        "checks": 119,
+        "log": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\VisceraSeerTests.log",
+        "suite": "VisceraSeerTests"
+      }
+    ]
+  },
+  "coverage": {
+    "unlocked": 48,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "verified": 38,
+    "inventory": {
+      "decks": 184,
+      "decksWithZeroBlocked": 38,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Mardu Surge",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past"
+      ]
+    },
+    "blocked": {
+      "occurrencesUnlocked": 243,
+      "topRemaining": [
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Prophetic Prism",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Misleading Signpost",
+          "decks": 3
+        },
+        {
+          "card": "Thespian's Stage",
+          "decks": 3
+        },
+        {
+          "card": "Call the Coppercoats",
+          "decks": 3
+        },
+        {
+          "card": "Bosh, Iron Golem",
+          "decks": 3
+        },
+        {
+          "card": "Epic Experiment",
+          "decks": 3
+        },
+        {
+          "card": "Black Sun's Zenith",
+          "decks": 3
+        }
+      ],
+      "distinctRemaining": 325,
+      "occurrencesRemaining": 487
+    }
+  },
+  "files": [
+    {
+      "sha256": "F4BEDEFB0F43DEC1FA27AD72C7278D61C4FF8334F8AC35C79A0F77DCDD499C24",
+      "path": "<development-checkout>\\arena\\viscera-seer\\CardUseProbe.java"
+    },
+    {
+      "sha256": "97F68D9D59A9B7FC3AD3074BFCC64D7739544D5FB2281AA20D18FF1578024DD1",
+      "path": "<development-checkout>\\arena\\viscera-seer\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "C07926DB006C410ACD4802DD161DC435705264E85FFEFBA2731FC7E370B6226E",
+      "path": "<development-checkout>\\arena\\viscera-seer\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "1AA85A0B613AC73D24C124E58A5D004488D2D036FBD87D080FFEF5ADB0E070CB",
+      "path": "<development-checkout>\\arena\\viscera-seer\\README.md"
+    },
+    {
+      "sha256": "895762465C4EB12C82E0B1C7E9588DCC5E89A727D020D16EA6D2C0AC4AF78089",
+      "path": "<development-checkout>\\arena\\viscera-seer\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "83007C6C9DAEA96571AEE83C014BC6DBECC9AA8442A02AB7CC4803E3F131CC51",
+      "path": "<development-checkout>\\arena\\viscera-seer\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "8B4382C01E7617D0899FE0DF53DA2FEED71C1400F58C8AB7FDB260DA7BE1B4D7",
+      "path": "<development-checkout>\\arena\\viscera-seer\\VisceraSeerTests.java"
+    },
+    {
+      "sha256": "658CAFB1D5C96EF01B431E88E221392A566E998283804138CFA5FB00B60DEA4B",
+      "path": "<development-checkout>\\arena\\viscera-seer\\decks\\Combat.dck"
+    },
+    {
+      "sha256": "45FBEF46165B2AB67A03413D64F102279C5AECC7C7E640F3A38BD663E67B8D62",
+      "path": "<development-checkout>\\arena\\viscera-seer\\decks\\Removal.dck"
+    },
+    {
+      "sha256": "1CA810A117E93ABB0D2F375F844B85AAC0EA42C20DA3882E11CA9C51309AA573",
+      "path": "<development-checkout>\\arena\\viscera-seer\\decks\\Rescue.dck"
+    },
+    {
+      "sha256": "04EE2677D59D5BA22E322AC38ED8F0A57C98F95B05616E634ACF49A3B76C6C1C",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\VisceraSeerAi.java"
+    },
+    {
+      "sha256": "8402956472AB98314976D857DC999374B07967935230B85090E64F1DF4178C0F",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ScryAi.java"
+    },
+    {
+      "sha256": "77D5F9B6DECB94DE9D253C3C72549E1D6CF87EB3657FD776EF86AFB1D896091C",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java"
+    },
+    {
+      "sha256": "B0078B5BE5910E4B9552201AE1E595333277BCE7720F47D4A58D68176E31D86F",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\DoomedCreatureAi.java"
+    },
+    {
+      "sha256": "08F52E07A19BCE7F8477BC0B46910AE4FD75E7D6B1590284EACBEB8F8065B378",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\GreaterGoodAi.java"
+    },
+    {
+      "sha256": "2E22ED151D6BEF96089268F55FD3EA98A0016D2898BD7FF6C8F678562027A1B7",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiCostDecision.java"
+    },
+    {
+      "sha256": "9956248CBC7338803C8EABAE9528F788A2CAD1284101C160781728908DB081BD",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\viscera-seer.properties"
+    },
+    {
+      "sha256": "558605F12F1DE492406E28F3C4AF5D68235178592C1921275FE3A5D8D018CE8F",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "090C3B2155C6692D83D6C62CEDD2B12F87359E0CB70AF5F8D46DC0A90EC3B25A",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "AC34E234B8D01A9FA5413C74BD2D64DDE14EDA617F77C4F778106FE32D07BE0D",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "2C4B647DEEF5B83D4C959F7E4DB85E9A711D86951CA953F4C2C8E177AAC3A69A",
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md"
+    },
+    {
+      "sha256": "DD7ECDFB79395CAE6BBF3E4A147BA78BEF8D57C40EF5E10655DC119431DCDB5A",
+      "path": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "F3C81FA949046F1088072544E94F6DD90FE0448D57313F181B6CA74891BDDD19",
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\v\\viscera_seer.txt"
+    },
+    {
+      "sha256": "17E5410C40371EA3E460F8FFED52885492A548692DDC88AED976B77048D33C67",
+      "path": "<development-checkout>\\arena\\viscera-seer\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "F6CAD98A8C77FA5614114CAD3E2B9A63E39B8ECE60E75F18BF553C40139D7CF7",
+      "path": "<development-checkout>\\arena\\viscera-seer\\target\\final-1.0.25\\engine.jar"
+    },
+    {
+      "sha256": "640FF24D5128C6BB2FB82AEE64C2806DF7786660EA183C1A3B99E77F3B4370F3",
+      "path": "<development-checkout>\\arena\\viscera-seer\\card-use-evidence.json"
+    }
+  ],
+  "date": "2026-10-17",
+  "card": "Viscera Seer"
+}

@@ -1,0 +1,117 @@
+{
+  "runtimeCandidateMatchesNativeTests": true,
+  "date": "2026-10-16",
+  "baseRevision": "b684c445186c2000f296ee8df1cb8e1f39dd4e4f",
+  "installedApplicationModified": false,
+  "claim": "Native bounded-rule correctness and runtime smoke only; no natural cast or strength claim",
+  "originalScriptAndDeckHashes": [
+    {
+      "path": "forge-gui/res/cardsfolder/c/curse_of_the_swine.txt",
+      "sha256": "D17E184BB2E9E507BB82C566484CD2607078936C04305BBE19A65B57C34DB88B"
+    },
+    {
+      "path": "forge-gui/res/cardsfolder/b/beast_within.txt",
+      "sha256": "F1F14E5FE66C457B3D98165A813BAF57B3394D9FF759161CC154A73EC7F8FC5E"
+    },
+    {
+      "path": "forge-gui/res/quest/commanderprecons/Jeskai Striker [TDC] [2025].dck",
+      "sha256": "2377F76A3B0784EFF01E5D8827814A17E452DB28FFEA8D4BDC605F4E847F20F1"
+    }
+  ],
+  "commanderElapsedMs": 7552,
+  "commanderTurn": 12,
+  "beastWithinRegressionChecks": 13,
+  "coverage": {
+    "decksWithZeroBlocked": 22,
+    "unlockedOnly": 12,
+    "unlockedTotal": 29,
+    "verified": 17
+  },
+  "coverageStatus": "verified",
+  "naturalCastProbe": {
+    "scope": "Natural cast witness; constructed probe, not strength evidence",
+    "decks": ["arena/curse-of-the-swine/decks/CurseProbe.dck", "arena/curse-of-the-swine/decks/BigStats.dck"],
+    "seeds": [95661, 95662, 95663],
+    "profileOnCasts": [4, 2, 1],
+    "profileOffCasts": [0, 0, 0],
+    "logs": ["arena/curse-of-the-swine/target/probe-95661.log", "arena/curse-of-the-swine/target/probe-95662.log", "arena/curse-of-the-swine/target/probe-95663.log", "arena/curse-of-the-swine/target/probe-off-95661.log", "arena/curse-of-the-swine/target/probe-off-95662.log", "arena/curse-of-the-swine/target/probe-off-95663.log"]
+  },
+  "commanderSmoke": {
+    "seed": 95661,
+    "policyCardCasts": [],
+    "normalCompletion": true,
+    "files": [
+      {
+        "sha256": "26CE70FA4F91476A65F474CAA89C7FF096435C63E53B056261C87A9482BD0B5A",
+        "path": "<development-checkout>\\arena\\curse-of-the-swine\\target\\commander-final\\candidate.jar"
+      },
+      {
+        "sha256": "70D1565623B7A1EEAC56642DF89C7CBA20B4C590CC8214315A6115CA5D81A4FA",
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\curse-of-the-swine.properties"
+      },
+      {
+        "sha256": "6A2AD621F89201BCCF54ECE5CE74C82CD1DA3E88FFF453414588AF694A058C48",
+        "path": "<development-checkout>\\arena\\curse-of-the-swine\\Run-CommanderSmoke.ps1"
+      },
+      {
+        "sha256": "2377F76A3B0784EFF01E5D8827814A17E452DB28FFEA8D4BDC605F4E847F20F1",
+        "path": "<development-checkout>\\forge-gui\\res\\quest\\commanderprecons\\Jeskai Striker [TDC] [2025].dck"
+      }
+    ],
+    "clockSeconds": 180,
+    "scope": "Commander runtime smoke only; not strength evidence"
+  },
+  "nativeEvidence": {
+    "revision": "b684c445186c2000f296ee8df1cb8e1f39dd4e4f",
+    "files": [
+      {
+        "path": "<development-checkout>\\arena\\curse-of-the-swine\\target\\final\\engine.jar",
+        "sha256": "26CE70FA4F91476A65F474CAA89C7FF096435C63E53B056261C87A9482BD0B5A"
+      },
+      {
+        "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\curse-of-the-swine.properties",
+        "sha256": "70D1565623B7A1EEAC56642DF89C7CBA20B4C590CC8214315A6115CA5D81A4FA"
+      },
+      {
+        "path": "<development-checkout>\\arena\\curse-of-the-swine\\Check-CurseOfTheSwine.ps1",
+        "sha256": "38FC92A0F16C64CB817BE539D23BDD7386DAC6636426127AB4FDE6D547B44E71"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiOverrideProfile.java",
+        "sha256": "768FBA1CA6ED28C55FF92E982C646CDF8A2D9CC156793582F0382DEE5766CDE9"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AiProfileUtil.java",
+        "sha256": "CD0C1DA3A1D6CDC6ABABE479212033A5EDFD91888284C7649A42F80610FCBF76"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\SpecialCardAi.java",
+        "sha256": "E6D92813489D5BFF95FB48A88051DDB5B2DBC81CD39FAF92B8263DD5F8ABAEDD"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\CurseOfTheSwineAi.java",
+        "sha256": "42D8B0A4646B2D40760A11250134DEE8ABBAA3FF0E7647EFCA8D808C74FD5E49"
+      },
+      {
+        "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ChangeZoneAi.java",
+        "sha256": "34024D946FFDAF495D9A15B8F24DC607C79C6B136799E718DB98C3492126A467"
+      },
+      {
+        "path": "<development-checkout>\\arena\\curse-of-the-swine\\CurseOfTheSwineTests.java",
+        "sha256": "AE30D3DF1634442E4F95ACB3419FA3D753A324B480FAE9B3D8C30777D8EFDA26"
+      },
+      {
+        "path": "<development-checkout>\\arena\\beast-within\\BeastWithinTests.java",
+        "sha256": "ADE08973A2BADAE882E4F4A3A7B6D29DE6D9FA3DCB84E11139BDC7E87EC77C9D"
+      }
+    ],
+    "scope": "Native correctness and regression only; not strength evidence"
+  },
+  "build": {
+    "checkstyleViolations": 0,
+    "genericMavenTestsSkipped": true,
+    "passed": true
+  },
+  "missingVerification": "Curse cast in the Jeskai Striker Commander smoke (the constructed natural-cast probe now covers the in-game witness)",
+  "nativeChecks": 36
+}

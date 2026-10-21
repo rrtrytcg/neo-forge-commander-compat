@@ -1,0 +1,155 @@
+{
+  "card": "Gideon Jura",
+  "profile": "gideon-jura",
+  "engine": "NeoForge 1.0.28",
+  "baselineChecks": 2,
+  "focusedChecks": 15,
+  "fullGate": {
+    "checks": 5735,
+    "suites": 57,
+    "priorChecks": 5720,
+    "newChecks": 15,
+    "candidateSha256": "25047478AB21880A3F2AA54897A70EA47120552EEA1D5BC99B8F4439E9ADD877"
+  },
+  "installedHashesCheckedAfterExposure": 21729,
+  "installedHashesChanged": [],
+  "exposures": [
+    {
+      "seed": 129011,
+      "mode": "off",
+      "exit": 0,
+      "lastTurn": 18.0,
+      "exceptions": 0,
+      "counts": {
+        "activates": 0,
+        "casts": 0,
+        "resolvesDestroy": 0,
+        "resolvesSpell": 0
+      },
+      "examples": {
+        "activates": [],
+        "casts": [],
+        "resolvesDestroy": [],
+        "resolvesSpell": []
+      },
+      "candidateSha256": "25047478AB21880A3F2AA54897A70EA47120552EEA1D5BC99B8F4439E9ADD877",
+      "log": "<development-checkout>\\arena\\gideon-jura\\target\\smoke\\off-129011\\game.log",
+      "logSha256": "7B1CDD81F608267B2C51390B5BBF43E5EE911D1A508F606BC08FE373947E742D"
+    },
+    {
+      "seed": 129011,
+      "mode": "on",
+      "exit": 0,
+      "lastTurn": 34.0,
+      "exceptions": 0,
+      "counts": {
+        "activates": 9,
+        "casts": 9,
+        "resolvesDestroy": 9,
+        "resolvesSpell": 9
+      },
+      "examples": {
+        "activates": [
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Hill Giant (108)]",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Hill Giant (122)]",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Craw Wurm (87)]",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Hill Giant (106)]",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Hill Giant (119)]"
+        ],
+        "casts": [
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura"
+        ],
+        "resolvesDestroy": [
+          "Resolve Stack: Gideon Jura (36) - Destroy Hill Giant (108).",
+          "Resolve Stack: Gideon Jura (54) - Destroy Hill Giant (122).",
+          "Resolve Stack: Gideon Jura (43) - Destroy Craw Wurm (87).",
+          "Resolve Stack: Gideon Jura (37) - Destroy Hill Giant (106).",
+          "Resolve Stack: Gideon Jura (51) - Destroy Hill Giant (119)."
+        ],
+        "resolvesSpell": [
+          "Resolve Stack: Gideon Jura",
+          "Resolve Stack: Gideon Jura",
+          "Resolve Stack: Gideon Jura",
+          "Resolve Stack: Gideon Jura",
+          "Resolve Stack: Gideon Jura"
+        ]
+      },
+      "candidateSha256": "25047478AB21880A3F2AA54897A70EA47120552EEA1D5BC99B8F4439E9ADD877",
+      "log": "<development-checkout>\\arena\\gideon-jura\\target\\smoke\\on-129011\\game.log",
+      "logSha256": "40D2BD8B73E6CE086B3F4937210CCCA70DDEE72F03533FB3B8B9B018381F2227"
+    },
+    {
+      "seed": 129012,
+      "mode": "off",
+      "exit": 0,
+      "lastTurn": 29.0,
+      "exceptions": 0,
+      "counts": {
+        "activates": 0,
+        "casts": 0,
+        "resolvesDestroy": 0,
+        "resolvesSpell": 0
+      },
+      "examples": {
+        "activates": [],
+        "casts": [],
+        "resolvesDestroy": [],
+        "resolvesSpell": []
+      },
+      "candidateSha256": "25047478AB21880A3F2AA54897A70EA47120552EEA1D5BC99B8F4439E9ADD877",
+      "log": "<development-checkout>\\arena\\gideon-jura\\target\\smoke\\off-129012\\game.log",
+      "logSha256": "A517BB7600C9242A1BC026AC68F7D47360081D801CF5FED5A7E77619A044F308"
+    },
+    {
+      "seed": 129012,
+      "mode": "on",
+      "exit": 0,
+      "lastTurn": 67.0,
+      "exceptions": 0,
+      "counts": {
+        "activates": 15,
+        "casts": 15,
+        "resolvesDestroy": 15,
+        "resolvesSpell": 15
+      },
+      "examples": {
+        "activates": [
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Hill Giant (119)]",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Hill Giant (103)]",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Craw Wurm (93)]",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Hill Giant (121)]",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers activated Gideon Jura targeting [Hill Giant (113)]"
+        ],
+        "casts": [
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura",
+          "Add To Stack: Ai(1)-Gideon Jura exposure: tapped attackers cast Gideon Jura"
+        ],
+        "resolvesDestroy": [
+          "Resolve Stack: Gideon Jura (36) - Destroy Hill Giant (119).",
+          "Resolve Stack: Gideon Jura (32) - Destroy Hill Giant (103).",
+          "Resolve Stack: Gideon Jura (38) - Destroy Craw Wurm (93).",
+          "Resolve Stack: Gideon Jura (58) - Destroy Hill Giant (121).",
+          "Resolve Stack: Gideon Jura (50) - Destroy Hill Giant (113)."
+        ],
+        "resolvesSpell": [
+          "Resolve Stack: Gideon Jura",
+          "Resolve Stack: Gideon Jura",
+          "Resolve Stack: Gideon Jura",
+          "Resolve Stack: Gideon Jura",
+          "Resolve Stack: Gideon Jura"
+        ]
+      },
+      "candidateSha256": "25047478AB21880A3F2AA54897A70EA47120552EEA1D5BC99B8F4439E9ADD877",
+      "log": "<development-checkout>\\arena\\gideon-jura\\target\\smoke\\on-129012\\game.log",
+      "logSha256": "2AD219474CD7A9150BBD037F6045C7434F96E5DFE51857B054A0ADAFC4669A96"
+    }
+  ],
+  "scope": "Card-use and native decision evidence only; no winner or strength claim"
+}

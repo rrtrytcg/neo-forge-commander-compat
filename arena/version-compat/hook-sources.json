@@ -1,0 +1,18 @@
+[
+  {
+    "path": "forge-ai/src/main/java/forge/ai/AiAttackController.java",
+    "sha256": "A6E6CF025CFD15D1E7CA0A10D2425F9494EFD79F1D4E0314B8B54D5A8520E010"
+  },
+  {
+    "path": "forge-ai/src/main/java/forge/ai/AiBlockController.java",
+    "sha256": "05D9698F9C2D549A7A3B03B7338E91221EEDF9A1CF6351A3A9F82EC9582FEEF1"
+  },
+  {
+    "path": "forge-ai/src/main/java/forge/ai/AiController.java",
+    "sha256": "FCE722384F0F9B5A56CA5AAB25C3FC3883C8BDFC4F2B26C3ADAA98AF156C74C2"
+  },
+  {
+    "path": "forge-ai/src/main/java/forge/ai/ComputerUtil.java",
+    "sha256": "ED4D85D7D733AF059FB9F27B1AAC87916767334A6A9B0DFA0133ED8FC19F6730"
+  }
+]

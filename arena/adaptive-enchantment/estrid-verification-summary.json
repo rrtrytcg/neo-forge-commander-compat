@@ -1,0 +1,107 @@
+{
+  "status": "verified",
+  "date": "2026-10-19",
+  "engine": "NeoForge 1.0.27",
+  "profile": "adaptive-enchantment",
+  "card": "Estrid, the Masked",
+  "coverageImpact": "none (Estrid has no AI:RemoveDeck tag; play-quality fix)",
+  "nativeChecks": 4484,
+  "newNativeChecks": 39,
+  "priorNativeChecks": 4445,
+  "nativeSuites": 42,
+  "baselineDefectChecks": 2,
+  "installedFilesPreserved": 21729,
+  "candidateSha256": "DF174DF32EFBDD991D1DD813CB11FA5B872E63D1F4900DED6045DCA933CA7681",
+  "smoke": {
+    "off-114011": {
+      "estridCast": 2,
+      "plusTwo": 0,
+      "mask": 2,
+      "maskTargets": [
+        "High Priest of Penance (370)",
+        "High Priest of Penance (370)"
+      ],
+      "ultimate": 0,
+      "exceptions": 0,
+      "outcome": [
+        "Game Outcome: Ai(3)-Nature's Vengeance [C18] [2018] has lost because life total reached 0",
+        "Game Outcome: Ai(4)-Subjective Reality [C18] [2018] has won because all opponents have lost",
+        "Game Result: Game 1 ended in 21448 ms. Ai(4)-Subjective Reality [C18] [2018] has won!"
+      ]
+    },
+    "off-114012": {
+      "estridCast": 1,
+      "plusTwo": 0,
+      "mask": 1,
+      "maskTargets": [
+        "Myr Token (787)"
+      ],
+      "ultimate": 0,
+      "exceptions": 0,
+      "outcome": [
+        "Game Outcome: Ai(3)-Nature's Vengeance [C18] [2018] has won because all opponents have lost",
+        "Game Outcome: Ai(4)-Subjective Reality [C18] [2018] has lost because life total reached 0",
+        "Game Result: Game 1 ended in 96069 ms. Ai(3)-Nature's Vengeance [C18] [2018] has won!"
+      ]
+    },
+    "on-114011": {
+      "estridCast": 3,
+      "plusTwo": 7,
+      "mask": 2,
+      "maskTargets": [
+        "Heavenly Blademaster (30)",
+        "Beast Token (484)"
+      ],
+      "ultimate": 0,
+      "exceptions": 0,
+      "outcome": [
+        "Game Outcome: Ai(3)-Nature's Vengeance [C18] [2018] has lost because life total reached 0",
+        "Game Outcome: Ai(4)-Subjective Reality [C18] [2018] has lost because life total reached 0",
+        "Game Result: Game 1 ended in 42415 ms. Ai(1)-Adaptive Enchantment [C18] [2018] has won!"
+      ]
+    },
+    "on-114012": {
+      "estridCast": 0,
+      "plusTwo": 0,
+      "mask": 0,
+      "maskTargets": [],
+      "ultimate": 0,
+      "exceptions": 0,
+      "outcome": [
+        "Game Outcome: Ai(3)-Nature's Vengeance [C18] [2018] has won because all opponents have lost",
+        "Game Outcome: Ai(4)-Subjective Reality [C18] [2018] has lost because life total reached 0",
+        "Game Result: Game 1 ended in 35899 ms. Ai(3)-Nature's Vengeance [C18] [2018] has won!"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "arena/adaptive-enchantment/Check-EstridUntap.ps1",
+      "sha256": "E9786390AFF3EDC0DFEFFD01CA76E397C6F9C7EA29DDA83BF147A77844B467C4"
+    },
+    {
+      "path": "arena/adaptive-enchantment/EstridUntapTests.java",
+      "sha256": "F7C55189D58ED986BF9D4769B94280A1F33EA8CEBDBF82E2EE5A30894267F817"
+    },
+    {
+      "path": "arena/adaptive-enchantment/Run-EstridSmoke.ps1",
+      "sha256": "7B9F42B5C7177DD91458AD621B6E8CDCF6B174AC06887CBA6C60800573B47237"
+    },
+    {
+      "path": "forge-ai/src/main/java/forge/ai/AdaptiveEnchantmentAi.java",
+      "sha256": "8AA23E74AFC58EE1D6AE14D399E7CA4A76BC5F3024F14079AAB7C1E93D8B9C97"
+    },
+    {
+      "path": "forge-ai/src/main/java/forge/ai/ability/UntapAllAi.java",
+      "sha256": "D3EC74CDD5213B181AB5DFEF1A5E6641677E32600F320DF8E6FB1B57A4CF94B8"
+    },
+    {
+      "path": "forge-ai/src/main/java/forge/ai/ability/TokenAi.java",
+      "sha256": "2880687DD8E8FCA28C335274A13E7E7660D94B8311129FCB1C01627F913362E1"
+    },
+    {
+      "path": "forge-gui/res/ai/overrides/adaptive-enchantment.properties",
+      "sha256": "BFE041062760D3A80F4B22F23B53644B2B6F144F5E56E7826B08A093009EF4BE"
+    }
+  ]
+}

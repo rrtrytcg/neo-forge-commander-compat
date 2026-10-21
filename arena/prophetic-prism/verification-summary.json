@@ -1,0 +1,664 @@
+{
+  "unrelatedBaselineFiles": [
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\CLASSIC_TACTICAL_RECON_20261016.md",
+      "sha256": "765BE86B4AE333402A59A353AED878EE1F678F33127A85BFA4D4A268766D4AF8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\aristocrats\\NEXT_LLM_HANDOFF_20261016.md",
+      "sha256": "D80B29D8026DBB2C3E725DE260896F32B0EA473BC8D7BC0FE8C94771C11BE520"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Analyze.ps1",
+      "sha256": "E59D84380752579C21397B4ED4CBE663BF896808694156529325E5DE9E929F8F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\PLAN.md",
+      "sha256": "3B4778C89657EC40ED84ECAD7B5647AD9305FAE8822FF201985415B837CF204C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\REPORT.md",
+      "sha256": "E5F51345066194E612711CECC59091E57FFAAFCB160CB4E3512E53175732D7E1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Run.ps1",
+      "sha256": "9D82A314630ED044ACAD2EB60128C91E444ABAA53809EF91B9924995D9E48313"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Worker.ps1",
+      "sha256": "950757439D4176DAB934C87FF33C58346F4A4AFA62D9068352571A0A5BAFD6C7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\exposure-8301b1ed\\Write-Report.ps1",
+      "sha256": "31FF6100611165740DB2147D6D9B7C11C722AE9C295ADD3B04BD608CCC32A6FD"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Analyze.ps1",
+      "sha256": "9326C02110CC4BF43020928D7355B8854C377766E1C15819CFB8A611920545F5"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BLOCKERS.md",
+      "sha256": "F727444B0BBE50DA85E269D5220D08E29E25A7469834DA41F827920CA792DCCB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BOARDS.md",
+      "sha256": "9BBD180819969AE65FCCCA419038BC42757D2E02A11C6FC93691ADA889EAA350"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\BuildObserver.java",
+      "sha256": "4A1E3BB772682EEDAA6A932E007F5D95F1D595AB6903A4596571AAD53CCF73FB"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\EXCLUSION_FIX_PROPOSAL.md",
+      "sha256": "572A4E020AB4835325771F94AE0752444C7FA487A103BA98E7FBE4CC40DC7928"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\REPORT.md",
+      "sha256": "8FD63B461311FD094955807FEF500900BF101F7ACCBB3C261B1A37529842542E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\Run.ps1",
+      "sha256": "D57520356CDAED6CEE98E36B5A89D7AD7E2C28A8D8EBE557994D48AFF6860C50"
+    },
+    {
+      "path": "<development-checkout>\\arena\\stompy\\unsupported-review-8301b1ed\\UnsupportedObserver.java",
+      "sha256": "B268DAB20892D8311D30B33FE26B6876304E4CEBDDEC6DF6149FD25AC9F86061"
+    }
+  ],
+  "date": "2026-10-18",
+  "engine": "NeoForge 1.0.25",
+  "status": "verified",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\Check-CardUseEvidence.ps1",
+      "sha256": "A98241E097BE4ACA262A7C8AE7D45B067C5D4AC8EA9B23D89356770C2F16EC8C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\Check-NeoForge-1.0.25.ps1",
+      "sha256": "932FD0AB28C42387D9E23668515B886D0A5F991D03394FD0CE377152BBF97B0F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\PrismProbe.java",
+      "sha256": "F8F23C976B4718FB94AE1A032B3AAE6FB68DD4A961A62EFE7A092FE9A739803F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\PropheticPrismTests.java",
+      "sha256": "9C79B9A86A502FB25A199DED43E9D8A411151233CE58003F34D8FDB5E4E31B41"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\README.md",
+      "sha256": "343B2E023AFCB090EE35E872778F21425C15E7EA143D42F5C4C904132517FF0D"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\Refresh-Verification.ps1",
+      "sha256": "2A77D2CCBB18FCBA47BB1E2DAF083C0E80DB25D69AC4936FECBA354E5B7D71A7"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\Run-CardUseProbe.ps1",
+      "sha256": "4F7AA3B224F995E97D1D14F4D6A5E9A610E582F982F3F71E19ED27B73BA2C293"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\decks\\Opponents.dck",
+      "sha256": "8794E74A69377DC0AC4114DD154763D9FD647960C017A377CC3A6A966094E331"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\decks\\Prism.dck",
+      "sha256": "2271AE3C5F0145C4FA829E18AEF288FD2CE231FE7A50F7F199FB97BA168BF91B"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\CantripPermanentAi.java",
+      "sha256": "B5F0B7CABC2102E878034E8907328C080C523E3800DD3F28CF519B0A0A56627C"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\PermanentNoncreatureAi.java",
+      "sha256": "A374813A369AC8F633F1F2987836FBE43084B9D7CF7A81FB8DAAA5BA15523A2C"
+    },
+    {
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ComputerUtil.java",
+      "sha256": "350F67091C4CE1950AFF92F9E192C77BF463E2B67826A1372BFEF1FCE9B57898"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\prophetic-prism.properties",
+      "sha256": "60657635BA27E18F37B695F14913FD637768B5A8E4E70202794A7BAD4FA96130"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "A3E955BFCD3904994DD034DF46556B675404A48F0D7CB11380D5B1DC6AFE0562"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "0225D6003065139196136ECF95220557A7BD842360D3A1BD033FC318516296B4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "583E236E1D00EE3713C366F0B31F2DFF4DEAC7C03B31C56BACA3B090F211B8A4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "33162AD93029F367A24F3C1560A459B18838718ADCC560A76E78FEDCE889832C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\provenance.json",
+      "sha256": "FD4E3991F3B41B5E13674986B7F6C6BFBF1050785874992026066727D9E0322B"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui\\res\\cardsfolder\\p\\prophetic_prism.txt",
+      "sha256": "068AAA7FB60095857AB4E1C95F69248537C594E8AA23869EFC327DC96B34D3F3"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\target\\card-use-check.log",
+      "sha256": "94CFF1828830F6AB2A7E69DF2B50739DF45D24F1BD64EB88F907150AF63BA237"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\engine.jar",
+      "sha256": "6FE0B13CB2ACFB46E48E3FD583859E26238095604F4F956647D524FB630481F4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\target\\unrelated-baseline.json",
+      "sha256": "C1F61199E2D80A386A1918746F1D1D72662C058FABBFC4094671666EBC2F12B4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\prophetic-prism\\card-use-evidence.json",
+      "sha256": "4A666FBE29A1DD9D2BCDD38DBA4D0207461CC038497D0E6C2001F015C86C1C4B"
+    }
+  ],
+  "originalScriptMatchesInstalled": true,
+  "nativeGate": {
+    "total": 3080,
+    "candidate": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\engine.jar",
+    "results": [
+      {
+        "suite": "BiomassMutationTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "checks": 116,
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0"
+      },
+      {
+        "suite": "NestingGroundsTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "checks": 115,
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287"
+      },
+      {
+        "suite": "ToxicDelugeTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "checks": 127,
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66"
+      },
+      {
+        "suite": "AdaptiveEnchantmentTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "checks": 76,
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D"
+      },
+      {
+        "suite": "LandManaFamilyTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "checks": 349,
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9"
+      },
+      {
+        "suite": "AhoyMateysTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "checks": 77,
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0"
+      },
+      {
+        "suite": "BeastWithinTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\BeastWithinTests.log",
+        "checks": 13,
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741"
+      },
+      {
+        "suite": "CurseOfTheSwineTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "checks": 36,
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A"
+      },
+      {
+        "suite": "FilterLandsTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\FilterLandsTests.log",
+        "checks": 10,
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE"
+      },
+      {
+        "suite": "PsychosisCrawlerTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "checks": 6,
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF"
+      },
+      {
+        "suite": "WallOfLimbsTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "checks": 12,
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE"
+      },
+      {
+        "suite": "SlaughterTheStrongTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "checks": 18,
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50"
+      },
+      {
+        "suite": "MirrorEntityTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "checks": 48,
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77"
+      },
+      {
+        "suite": "DecreeOfPainTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "checks": 69,
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16"
+      },
+      {
+        "suite": "OreskosExplorerTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "checks": 100,
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838"
+      },
+      {
+        "suite": "DispatchTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\DispatchTests.log",
+        "checks": 61,
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE"
+      },
+      {
+        "suite": "TragicArroganceTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "checks": 132,
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A"
+      },
+      {
+        "suite": "MarshalsAnthemTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "checks": 135,
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D"
+      },
+      {
+        "suite": "DarksteelMutationTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "checks": 87,
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5"
+      },
+      {
+        "suite": "CorpseAugurTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "checks": 139,
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688"
+      },
+      {
+        "suite": "AssaultSuitTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "checks": 21,
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052"
+      },
+      {
+        "suite": "SelvalaTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\SelvalaTests.log",
+        "checks": 13,
+        "sha256": "8E669C5B2F7482004E806F2253695BB71692EE01F9926F829AD341BD3271972C"
+      },
+      {
+        "suite": "TradingPostTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\TradingPostTests.log",
+        "checks": 60,
+        "sha256": "D6A364291F64C361B778B7F946E2685FC090708EACA3395625AF6B7B3ADD5101"
+      },
+      {
+        "suite": "GazeOfGraniteTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\GazeOfGraniteTests.log",
+        "checks": 40,
+        "sha256": "95BC3776AB7BAF1F935CADED7A556261501C15F3B0B62C8BEFC258D92A67DDF6"
+      },
+      {
+        "suite": "GreaterGoodTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\GreaterGoodTests.log",
+        "checks": 75,
+        "sha256": "C71A88ED767012410A120FF6790B7C404EC3D0DF7B147DB5C1F701EBE513D67D"
+      },
+      {
+        "suite": "HuntersInsightTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\HuntersInsightTests.log",
+        "checks": 72,
+        "sha256": "0B922A5327AC6290E85C966CD14B09A3639FA8E8B3F8E514BDBEA58F817844DB"
+      },
+      {
+        "suite": "CommandBeaconTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\CommandBeaconTests.log",
+        "checks": 83,
+        "sha256": "BB686AE48F7875D11186E1DB1235C07B57F4619545E230CF3CC5B4F215C3BF4B"
+      },
+      {
+        "suite": "VisceraSeerTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\VisceraSeerTests.log",
+        "checks": 119,
+        "sha256": "1B3A83EA32C6953FCD016F858F5993BCB98DBC2E5542305339663563AF4C06E8"
+      },
+      {
+        "suite": "KenrithsTransformationTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\KenrithsTransformationTests.log",
+        "checks": 157,
+        "sha256": "E08E786BAA8BC17FA09894C9548DF996CC383CA73320615D4D7F62EBA315ED9B"
+      },
+      {
+        "suite": "TimelyWardTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\TimelyWardTests.log",
+        "checks": 147,
+        "sha256": "11C241FA2736D266CCDD1676F8A1DBB361D342C09119EA5A6F2EFF03CDFF4529"
+      },
+      {
+        "suite": "CallTheCoppercoatsTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\CallTheCoppercoatsTests.log",
+        "checks": 212,
+        "sha256": "D23AE99DAFBA76757508182DB185B87BA298FB4166EBF9EC32CD14D7E6BE0BDD"
+      },
+      {
+        "suite": "PrismaticLensTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\PrismaticLensTests.log",
+        "checks": 161,
+        "sha256": "323D28DA8B84A619908646EE6ECF2C1A8BEAFBDE0257DFF5145622AA39FED859"
+      },
+      {
+        "suite": "PropheticPrismTests",
+        "log": "<development-checkout>\\arena\\prophetic-prism\\target\\final-1.0.25\\PropheticPrismTests.log",
+        "checks": 194,
+        "sha256": "0387DDA4BDDEB68C7BCCB847A8417D7BE87EAC6EF2F5B002DD5F242C36237E0B"
+      }
+    ],
+    "candidateSha256": "6FE0B13CB2ACFB46E48E3FD583859E26238095604F4F956647D524FB630481F4"
+  },
+  "card": "Prophetic Prism",
+  "scope": "Opt-in safe native permanent cantrip, unchanged one-for-one filter prediction/payment; native correctness and autonomous card use only, no strength/winner/completion claim",
+  "revision": "525bd259e9861e75bb3ca31802f68d3789b1b0b4",
+  "coverage": {
+    "inventory": {
+      "decksWithZeroBlocked": 43,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Animated Army",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "DSC - Miracle Worker",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FDC - Tramplesaurus Rex",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "LTC - Food and Fellowship",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "MSC - Wakanda Forever",
+        "NEC - Upgrades Unleashed",
+        "ONC - Corrupting Influence",
+        "ONC - Rebellion Rising",
+        "OTC - Grand Larceny",
+        "OTC - Most Wanted",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SCD - Draconic Destruction",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Mardu Surge",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past",
+        "WOC - Virtue and Valor"
+      ],
+      "decks": 184
+    },
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "verified": 43,
+    "blocked": {
+      "topRemaining": [
+        {
+          "card": "Mirage Mirror",
+          "decks": 5
+        },
+        {
+          "card": "Arcane Lighthouse",
+          "decks": 5
+        },
+        {
+          "card": "Disciple of Bolas",
+          "decks": 4
+        },
+        {
+          "card": "Dualcaster Mage",
+          "decks": 4
+        },
+        {
+          "card": "Daretti, Scrap Savant",
+          "decks": 4
+        },
+        {
+          "card": "Nyx Weaver",
+          "decks": 4
+        },
+        {
+          "card": "Profane Command",
+          "decks": 4
+        },
+        {
+          "card": "Deadly Tempest",
+          "decks": 4
+        },
+        {
+          "card": "Wild Ricochet",
+          "decks": 4
+        },
+        {
+          "card": "Reins of Power",
+          "decks": 4
+        },
+        {
+          "card": "Magus of the Wheel",
+          "decks": 4
+        },
+        {
+          "card": "Strionic Resonator",
+          "decks": 4
+        },
+        {
+          "card": "Treacherous Terrain",
+          "decks": 4
+        },
+        {
+          "card": "Oblivion Stone",
+          "decks": 4
+        },
+        {
+          "card": "Molten Slagheap",
+          "decks": 4
+        },
+        {
+          "card": "Cataclysmic Gearhulk",
+          "decks": 4
+        },
+        {
+          "card": "Hull Breach",
+          "decks": 4
+        },
+        {
+          "card": "Abundance",
+          "decks": 4
+        },
+        {
+          "card": "Thespian's Stage",
+          "decks": 3
+        },
+        {
+          "card": "Illusionist's Gambit",
+          "decks": 3
+        },
+        {
+          "card": "Epic Experiment",
+          "decks": 3
+        },
+        {
+          "card": "Mystic Confluence",
+          "decks": 3
+        },
+        {
+          "card": "Curse of Chaos",
+          "decks": 3
+        },
+        {
+          "card": "Sylvan Offering",
+          "decks": 3
+        },
+        {
+          "card": "Synthetic Destiny",
+          "decks": 3
+        }
+      ],
+      "occurrencesRemaining": 472,
+      "occurrencesUnlocked": 258,
+      "distinctRemaining": 320
+    },
+    "unlocked": 53
+  },
+  "cardUse": {
+    "scope": "Autonomous native four-player Commander custom decks; card-use evidence only, no completion/winner/strength claim",
+    "runs": [
+      {
+        "colors": [
+          "B",
+          "G",
+          "U",
+          "W"
+        ],
+        "profile": "on",
+        "scenario": "prism",
+        "draws": 5,
+        "pendingAtStop": 0,
+        "clockReached": true,
+        "prismCasts": 5,
+        "sha256": "66B288C6E7D98C171E2E8F9FBF285707598584D61F864991BC0AE202205F85B3",
+        "lateObserverEventsExcluded": 0,
+        "diagnostics": [],
+        "summary": "<development-checkout>\\arena\\prophetic-prism\\target\\card-use\\prism-on-106011\\summary.json",
+        "filteredMana": 13,
+        "pendingDraws": 0,
+        "reusedPrisms": 2,
+        "seed": 106011,
+        "fizzles": 0
+      },
+      {
+        "colors": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
+        "profile": "on",
+        "scenario": "prism",
+        "draws": 8,
+        "pendingAtStop": 0,
+        "clockReached": true,
+        "prismCasts": 8,
+        "sha256": "D2820A852C187D9ECDE2E1CBED2414DBDE31F57AD42088A8A41956B02174E416",
+        "lateObserverEventsExcluded": 0,
+        "diagnostics": [],
+        "summary": "<development-checkout>\\arena\\prophetic-prism\\target\\card-use\\prism-on-106012\\summary.json",
+        "filteredMana": 12,
+        "pendingDraws": 0,
+        "reusedPrisms": 1,
+        "seed": 106012,
+        "fizzles": 0
+      },
+      {
+        "colors": [],
+        "profile": "off",
+        "scenario": "prism",
+        "draws": 0,
+        "pendingAtStop": 0,
+        "clockReached": true,
+        "prismCasts": 0,
+        "sha256": "274D28F81A2022E3722A8A0886A923DAD8255D6409C2282990794C950169EF9A",
+        "lateObserverEventsExcluded": 0,
+        "diagnostics": [],
+        "summary": "<development-checkout>\\arena\\prophetic-prism\\target\\card-use\\prism-off-106011\\summary.json",
+        "filteredMana": 0,
+        "pendingDraws": 0,
+        "reusedPrisms": 0,
+        "seed": 106011,
+        "fizzles": 0
+      },
+      {
+        "colors": [],
+        "profile": "off",
+        "scenario": "prism",
+        "draws": 0,
+        "pendingAtStop": 0,
+        "clockReached": true,
+        "prismCasts": 0,
+        "sha256": "24ADC5BCF64FE1710ECCA059FE9A1F1991989007C1101BD692486BD46A2D5433",
+        "lateObserverEventsExcluded": 0,
+        "diagnostics": [],
+        "summary": "<development-checkout>\\arena\\prophetic-prism\\target\\card-use\\prism-off-106012\\summary.json",
+        "filteredMana": 0,
+        "pendingDraws": 0,
+        "reusedPrisms": 0,
+        "seed": 106012,
+        "fizzles": 0
+      }
+    ],
+    "engine": "NeoForge 1.0.25",
+    "candidateSha256": "6FE0B13CB2ACFB46E48E3FD583859E26238095604F4F956647D524FB630481F4",
+    "checks": 366
+  },
+  "installedApplicationModified": false
+}

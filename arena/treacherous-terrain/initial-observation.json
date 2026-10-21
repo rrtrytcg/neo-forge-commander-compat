@@ -1,0 +1,6 @@
+{
+  "status": "discarded-run-control-diagnostic-not-final-evidence",
+  "reason": "An attempted native JVM stop could not access CIM; a focused rebuild was inadvertently started while a full run was active. DispatchTests failed while the candidate was being rebuilt. Both sessions ended; the entire output is archived and excluded from final evidence.",
+  "archive": "arena/treacherous-terrain/target/overlapping-runs-not-evidence",
+  "followup": "Fresh sequential build, expanded prevention/redirection/search-tax native fixtures, complete regression gate and paired Commander probes required."
+}

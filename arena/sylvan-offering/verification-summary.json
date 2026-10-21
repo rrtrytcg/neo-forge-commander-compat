@@ -1,0 +1,30 @@
+{
+  "card": "Sylvan Offering",
+  "profile": "sylvan-offering",
+  "engine": "NeoForge 1.0.28",
+  "baselineChecks": 2,
+  "focusedChecks": 22,
+  "fullGate": {
+    "checks": 5767,
+    "suites": 59,
+    "priorChecks": 5745,
+    "newChecks": 22,
+    "candidateSha256": "10BEE99A10B91EBED1AB7D0EEF4ECE4503A27DAD51BB938D0107943D29A77574",
+    "base": "arena/molten-slagheap/target/final-molten-r3",
+    "out": "arena/sylvan-offering/target/final-sylvan-r2"
+  },
+  "installedHashesChecked": 21729,
+  "installedHashesChanged": 0,
+  "productionFiles": [
+    "forge-ai/src/main/java/forge/ai/SylvanOfferingAi.java",
+    "forge-ai/src/main/java/forge/ai/SpellAbilityAi.java",
+    "forge-ai/src/main/java/forge/ai/ability/ChoosePlayerAi.java"
+  ],
+  "exposures": [
+    {"profile": "sylvan-offering", "mode": "off", "seed": 133011, "clockSeconds": 120, "casts": 0, "turn": 49, "exit": 0, "exceptions": 0, "clockCapped": false, "log": "arena/sylvan-offering/target/exposure-final3/off-133011/game.log"},
+    {"profile": "sylvan-offering", "mode": "on", "seed": 133011, "clockSeconds": 120, "casts": 3, "turn": 30, "exit": 0, "exceptions": 0, "clockCapped": false, "log": "arena/sylvan-offering/target/exposure-final3/on-133011/game.log"},
+    {"profile": "sylvan-offering", "mode": "off", "seed": 133012, "clockSeconds": 120, "casts": 0, "turn": 32, "exit": 0, "exceptions": 0, "clockCapped": false, "log": "arena/sylvan-offering/target/exposure-final3/off-133012/game.log"},
+    {"profile": "sylvan-offering", "mode": "on", "seed": 133012, "clockSeconds": 120, "casts": 3, "turn": 27, "exit": 0, "exceptions": 0, "clockCapped": false, "log": "arena/sylvan-offering/target/exposure-final3/on-133012/game.log"}
+  ],
+  "scope": "Paired three-player custom-deck card-use exposures; no winner or strength claim"
+}

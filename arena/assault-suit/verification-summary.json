@@ -1,0 +1,438 @@
+{
+  "engine": "NeoForge 1.0.25",
+  "originalScriptMatchesInstalled": true,
+  "revision": "2d5b79829a1510126563c3ffbbff0fdc015efe9b",
+  "card": "Assault Suit",
+  "cardUse": {
+    "checkLog": "<development-checkout>\\arena\\assault-suit\\target\\card-use-check.log",
+    "candidateSha256": "5240473B8A22A77ADEA6836E648B54F53EA10CF4460B7DF6A8A785D728260A0E",
+    "runs": [
+      {
+        "seed": 96801,
+        "attachments": 5,
+        "accepted": 8,
+        "equips": 5,
+        "casts": 5,
+        "sha256": "D32FA652023FF17B71D369AE54CA99ABDED26C31D066F320304B41BBC68100F7",
+        "clockReached": false,
+        "profile": "on",
+        "summary": "<development-checkout>\\arena\\assault-suit\\target\\card-use\\on-96801\\summary.json",
+        "declined": 41
+      },
+      {
+        "seed": 96802,
+        "attachments": 2,
+        "accepted": 18,
+        "equips": 2,
+        "casts": 2,
+        "sha256": "705132C3085ADC5A8B0E2831514B1291FC4E1CC064FD64A3F304C55AD5CAB2B7",
+        "clockReached": false,
+        "profile": "on",
+        "summary": "<development-checkout>\\arena\\assault-suit\\target\\card-use\\on-96802\\summary.json",
+        "declined": 15
+      },
+      {
+        "seed": 96801,
+        "attachments": 0,
+        "accepted": 0,
+        "equips": 0,
+        "casts": 0,
+        "sha256": "45596C44FE84C55C86D95123E4AE5197ED5AC0021AE5AD343C18BB377603ECA4",
+        "clockReached": false,
+        "profile": "off",
+        "summary": "<development-checkout>\\arena\\assault-suit\\target\\card-use\\off-96801\\summary.json",
+        "declined": 0
+      },
+      {
+        "seed": 96802,
+        "attachments": 0,
+        "accepted": 0,
+        "equips": 0,
+        "casts": 0,
+        "sha256": "10D3BA49A8C72846B253F527998E897B1C5CDAB2781D4876070D608D8C88395A",
+        "clockReached": false,
+        "profile": "off",
+        "summary": "<development-checkout>\\arena\\assault-suit\\target\\card-use\\off-96802\\summary.json",
+        "declined": 0
+      }
+    ],
+    "checkLogSha256": "A62C38998B092886881AF51F466F6C59FB4862D88FA061AFD688CA6E195D1645",
+    "engine": "NeoForge 1.0.25",
+    "checks": 234
+  },
+  "installedApplicationModified": false,
+  "date": "2026-10-17",
+  "coverage": {
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "inventory": {
+      "decksWithZeroBlocked": 31,
+      "decks": 184,
+      "zeroBlockedDecks": [
+        "40K - Forces of the Imperium",
+        "40K - Necron Dynasties",
+        "BLC - Family Matters",
+        "BLC - Squirreled Away",
+        "BRC - Urza's Iron Alliance",
+        "C18 - Adaptive Enchantment",
+        "DRC - Eternal Might",
+        "DSC - Endless Punishment",
+        "FDC - Calling All Angels",
+        "FDC - Reign of Dragons",
+        "FIC - Counter Blitz",
+        "FIC - Limit Break",
+        "FIC - Revival Trance",
+        "FIC - Scions & Spellcraft",
+        "HOB - There And Back Again",
+        "LCC - Ahoy Mateys",
+        "MSC - Avengers Assemble",
+        "MSC - Doom Prevails",
+        "ONC - Corrupting Influence",
+        "PIP - Hail, Caesar",
+        "PIP - Mutant Menace",
+        "SLD - 20 Ways to Win",
+        "SLD - Angels They're Just Like Us",
+        "SLD - Raining Cats and Dogs",
+        "SLD - War of Whtz",
+        "TDC - Abzan Armor",
+        "TDC - Jeskai Striker",
+        "TDC - Temur Roar",
+        "TMC - Turtle Power!",
+        "VOC - Vampiric Bloodline",
+        "WHO - Blast from the Past"
+      ]
+    },
+    "revision": "2d5b7982",
+    "occurrencesRemaining": 515,
+    "mechanicallyUnlocked": 41,
+    "strategicallyVerified": 31,
+    "distinctRemaining": 332,
+    "occurrencesUnlocked": 215
+  },
+  "candidateSha256": "5240473B8A22A77ADEA6836E648B54F53EA10CF4460B7DF6A8A785D728260A0E",
+  "installedBaselineFiles": [
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\neo.jar",
+      "sha256": "596012433F64C32D7589B903F358FCB6FE90C102E1D7AA335A11E527131F305A"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\res\\cardsfolder\\cardsfolder.zip",
+      "sha256": "54C04885C43FE6A3E0F3B9CD05A320A38CF3709230A106CD509D106D853DCA76"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-core-2.0.16-SNAPSHOT.jar",
+      "sha256": "57DE2BB206660A8446774C203F45F6F38005A68B890393A69613297C140C3962"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-game-2.0.16-SNAPSHOT.jar",
+      "sha256": "36A43EE1A88453E566923355D83FF5B4CC49C5FB17EA9CDF7C40004CC58C4FBC"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-ai-2.0.16-SNAPSHOT.jar",
+      "sha256": "28F28F9A915FAD0AA81C570C1CEA038D1496E86A18F01CDD831C78F8DA21E017"
+    },
+    {
+      "path": "<local-checkout>\\NeoForge\\app\\forge-gui-2.0.16-SNAPSHOT.jar",
+      "sha256": "5EC7BBC8874B5401785476C43EF12C32AD074A493F7982AAF075B1A45E0A158F"
+    }
+  ],
+  "files": [
+    {
+      "sha256": "B98A6BB5389A1F155AD1AE8506237507A832504E21F2869A31B3F3429753C5E0",
+      "path": "<development-checkout>\\arena\\assault-suit\\AssaultSuitProbe.java"
+    },
+    {
+      "sha256": "6CA37305CFBDCB6CF26E7D3753F622CE20A1E5D308AF7248FF0F4F48B6925787",
+      "path": "<development-checkout>\\arena\\assault-suit\\AssaultSuitTests.java"
+    },
+    {
+      "sha256": "30911BBCED5929C859E7CFE8386DEF1BEB0890CB8518D3F16CC16DCE268629FD",
+      "path": "<development-checkout>\\arena\\assault-suit\\Check-AssaultSuit.ps1"
+    },
+    {
+      "sha256": "A24E4860534A44D86AD7180FD556E654C6BF908EB439A9718E15205FA1747D62",
+      "path": "<development-checkout>\\arena\\assault-suit\\Check-CardUseEvidence.ps1"
+    },
+    {
+      "sha256": "7F2077387C0F1B4ACF302275A51FDA2FC67EA998EFAE70D6106B0CB899F23DD7",
+      "path": "<development-checkout>\\arena\\assault-suit\\Check-NeoForge-1.0.25.ps1"
+    },
+    {
+      "sha256": "5B3C4B9C7BA74F9D8243AEB487AAB79FE224FB898A4DE9C0D1EC8A21A9CF39DB",
+      "path": "<development-checkout>\\arena\\assault-suit\\Check-Regressions.ps1"
+    },
+    {
+      "sha256": "BF43B2DA778C954CD05C9F427E3E2C4B23484E617D922652AB54329D91FC1ADE",
+      "path": "<development-checkout>\\arena\\assault-suit\\README.md"
+    },
+    {
+      "sha256": "02AE339F2A4BF03EC687824A3E52EEE64B263BA50A46EBADCD70B4C8B7203D82",
+      "path": "<development-checkout>\\arena\\assault-suit\\Refresh-Verification.ps1"
+    },
+    {
+      "sha256": "6F52207A2B2D0A5B8531C123230E4AF7A189BAC7ABC15EA8569EC8D9E7684843",
+      "path": "<development-checkout>\\arena\\assault-suit\\Run-CardUseProbe.ps1"
+    },
+    {
+      "sha256": "4D441D01F08E427E648DE2A13B87DEBEB6BBEE2633C304EA81F92E39A4C069D9",
+      "path": "<development-checkout>\\arena\\assault-suit\\decks\\Arena.dck"
+    },
+    {
+      "sha256": "DF2D8365985604BF22A612AAA930A13F1B2D998352F4CB63C90F1EBF2F2E70EC",
+      "path": "<development-checkout>\\arena\\assault-suit\\decks\\Opponent.dck"
+    },
+    {
+      "sha256": "411D98A7DD293B4EB9F20114BB5949B5A3CA1FD870F8ECEED407D34A0F65F20B",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\AssaultSuitAi.java"
+    },
+    {
+      "sha256": "B6A99C51D648B7352AF36ED407A1C3A97DC634E725F6C349F455503F4F6E7FDB",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\AttachAi.java"
+    },
+    {
+      "sha256": "4335BB0AC781923C857CFA273F646506C4820713CC90851E9D6620D210E0A625",
+      "path": "<development-checkout>\\forge-ai\\src\\main\\java\\forge\\ai\\ability\\ControlGainAi.java"
+    },
+    {
+      "sha256": "61A274AC71095FB1508F002B09BF1C4F2A6C6A05AC17679C8381110E8583E7DA",
+      "path": "<development-checkout>\\forge-gui\\res\\ai\\overrides\\assault-suit.properties"
+    },
+    {
+      "sha256": "EA2AB002657A5729BA3CA3FBA89FBAD83F26412BB0CE0B2B7E134432F3571CF7",
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv"
+    },
+    {
+      "sha256": "2C5392F674F44A48C0828D0910BDA1F66C7FCD8646DFBF3BADCEB56D77B8DDB5",
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md"
+    },
+    {
+      "sha256": "96D474872E26702C0FA67EE0F8286372AFA93F8592CADB7D54FDFB6194056EB8",
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json"
+    },
+    {
+      "sha256": "5D23C606C7AD91DBAC46C107F3B5D36381CE0597E06C4234660A8CEC84694BC5",
+      "path": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\provenance.json"
+    },
+    {
+      "sha256": "7E65FE3CD5FB12A4A5931DCB9CEE063C8BFC43EF5502EB0C0CF0301A4B590F61",
+      "path": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\summary.json"
+    },
+    {
+      "sha256": "A62C38998B092886881AF51F466F6C59FB4862D88FA061AFD688CA6E195D1645",
+      "path": "<development-checkout>\\arena\\assault-suit\\target\\card-use-check.log"
+    },
+    {
+      "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+      "path": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\AssaultSuitTests.log"
+    },
+    {
+      "sha256": "5240473B8A22A77ADEA6836E648B54F53EA10CF4460B7DF6A8A785D728260A0E",
+      "path": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\engine.jar"
+    }
+  ],
+  "sharedHookRegressions": {
+    "results": [
+      {
+        "sha256": "02F2572F808A865E51EFAA4E6D9E6DCE4AA8F51B9CD21FC6DFF29FD086D44C3F",
+        "checks": 135,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\MarshalsAnthemTests.log",
+        "suite": "MarshalsAnthemTests"
+      },
+      {
+        "sha256": "677644F189A9BF30CA3929DD54F2CF675C2FF51F7E8A42B04EA5B2C59191B1B7",
+        "checks": 48,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\MirrorEntityTests.log",
+        "suite": "MirrorEntityTests"
+      },
+      {
+        "sha256": "7F3C3E21E06907F246EE5B0BDF867CCB9E328EC527979894A423C6C9CF3AD89D",
+        "checks": 69,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\DecreeOfPainTests.log",
+        "suite": "DecreeOfPainTests"
+      },
+      {
+        "sha256": "9F64FDE3701B31D5FF5B09F281E664F5A3E72CBE5EBFFB07D0BBAF3DF892B9BF",
+        "checks": 100,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\OreskosExplorerTests.log",
+        "suite": "OreskosExplorerTests"
+      },
+      {
+        "sha256": "C5DBCBB0E8007D13B16473AB3A16DAE69890EE45375F4A8BD4A5C22D664E6C66",
+        "checks": 61,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\DispatchTests.log",
+        "suite": "DispatchTests"
+      },
+      {
+        "sha256": "0385509E85F4B30BA8C4FB2286C46B462D261F5620E2E4D9F1BC44BC246D4283",
+        "checks": 18,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\SlaughterTheStrongTests.log",
+        "suite": "SlaughterTheStrongTests"
+      },
+      {
+        "sha256": "888925FFDC25C9BE91665DEECB0607463084C7C21AA06C2B91E9C3549988D951",
+        "checks": 132,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\TragicArroganceTests.log",
+        "suite": "TragicArroganceTests"
+      },
+      {
+        "sha256": "D8FF59EAF5F76AE3FEF6224A8554D1E3EC27DD251C00DB4804A1559EA2D73C37",
+        "checks": 87,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\DarksteelMutationTests.log",
+        "suite": "DarksteelMutationTests"
+      },
+      {
+        "sha256": "283D799CA73B7A615336C105CF385DEEC641538116D35EFDE245585890B33BAF",
+        "checks": 21,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\regressions\\AssaultSuitTests.log",
+        "suite": "AssaultSuitTests"
+      }
+    ],
+    "total": 671.0
+  },
+  "status": "verified",
+  "nativeGate": {
+    "results": [
+      {
+        "checks": 116,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\BiomassMutationTests.log",
+        "sha256": "55FEA48C39E91AFB2776AA10BCAD0E4E036D187733C257BDCF9AF8CF820E4AC0",
+        "suite": "BiomassMutationTests"
+      },
+      {
+        "checks": 115,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\NestingGroundsTests.log",
+        "sha256": "F2B0A91A8A0FB05E10427682E1374861B4C6E51D9349353D0F2A437E24A3C287",
+        "suite": "NestingGroundsTests"
+      },
+      {
+        "checks": 127,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\ToxicDelugeTests.log",
+        "sha256": "277C4AB86680774CD0C232F1200B2E1A66C5E94F2A1BCF730D894BACE0883F66",
+        "suite": "ToxicDelugeTests"
+      },
+      {
+        "checks": 76,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\AdaptiveEnchantmentTests.log",
+        "sha256": "1B7ADE8111A5DB18853E3B45F33A6063B180F7D99564F4368071B736DE075E6D",
+        "suite": "AdaptiveEnchantmentTests"
+      },
+      {
+        "checks": 349,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\LandManaFamilyTests.log",
+        "sha256": "0F9B0698DE7776E22FD0B5D58A5EC495501AF730A764E2356F15A9E4F199CAE9",
+        "suite": "LandManaFamilyTests"
+      },
+      {
+        "checks": 77,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\AhoyMateysTests.log",
+        "sha256": "B28ED1EADE02077B0EED0DF951EA0B04EC24F99DE32ECFB686E53B3128394CF0",
+        "suite": "AhoyMateysTests"
+      },
+      {
+        "checks": 13,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\BeastWithinTests.log",
+        "sha256": "D7A7EAC95AF222B8A03B2B66C72977A63472BE9053F9A2CC8A4C28E676130741",
+        "suite": "BeastWithinTests"
+      },
+      {
+        "checks": 36,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\CurseOfTheSwineTests.log",
+        "sha256": "FE2F6FF8B0DB2860227F9B9AF301E041AA5F6CEBF43E00D6639DA94CB8BC413A",
+        "suite": "CurseOfTheSwineTests"
+      },
+      {
+        "checks": 10,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\FilterLandsTests.log",
+        "sha256": "ED59292D50239752688C563713689003B5814FE92115D76A1014601F5150F4FE",
+        "suite": "FilterLandsTests"
+      },
+      {
+        "checks": 6,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\PsychosisCrawlerTests.log",
+        "sha256": "99C78B79386557FE6589EA091A329A6697B48027E2B6B87DA08826B4A13318CF",
+        "suite": "PsychosisCrawlerTests"
+      },
+      {
+        "checks": 12,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\WallOfLimbsTests.log",
+        "sha256": "30B28CE0C834F171FC4A32FE00AED685AA1E620277569CBB3C6CAF4CAF65F4CE",
+        "suite": "WallOfLimbsTests"
+      },
+      {
+        "checks": 18,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\SlaughterTheStrongTests.log",
+        "sha256": "1593D0C18A2EE55FC9F2CFE85102D91AA905D275C636FB4E91B1A51836171D50",
+        "suite": "SlaughterTheStrongTests"
+      },
+      {
+        "checks": 48,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\MirrorEntityTests.log",
+        "sha256": "076566BEE0FF9F111564CF0EBE7B4D65557C65225143B95D0960C54C28090F77",
+        "suite": "MirrorEntityTests"
+      },
+      {
+        "checks": 69,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\DecreeOfPainTests.log",
+        "sha256": "18DEDC1922B9A0F77A164BF81DD412CD2876F498B5C9696C51BD01E8A4C96B16",
+        "suite": "DecreeOfPainTests"
+      },
+      {
+        "checks": 100,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\OreskosExplorerTests.log",
+        "sha256": "49D82F1E35462F68D4B2B051B385E64F1C49930DFC70302EC6071B9B15B7E838",
+        "suite": "OreskosExplorerTests"
+      },
+      {
+        "checks": 61,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\DispatchTests.log",
+        "sha256": "D9D0127CB3D11A989EF8992D53E0407A78EEDC465A1C434E9F7D0C7B0B8BD0EE",
+        "suite": "DispatchTests"
+      },
+      {
+        "checks": 132,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\TragicArroganceTests.log",
+        "sha256": "6376108D2017DD5C021F9C6E71B257FF1FCB2ABA84BBDA6239D0ABAC51869E3A",
+        "suite": "TragicArroganceTests"
+      },
+      {
+        "checks": 135,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\MarshalsAnthemTests.log",
+        "sha256": "A64CEC7355A77B0021FEA79C39FA8E486F7263943571E1433C8DFD63348D380D",
+        "suite": "MarshalsAnthemTests"
+      },
+      {
+        "checks": 87,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\DarksteelMutationTests.log",
+        "sha256": "DB730EFE6CE3A3CE49091C3E28B7C4DB17271FE9C0D23054587F98631ADDCFD5",
+        "suite": "DarksteelMutationTests"
+      },
+      {
+        "checks": 139,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\CorpseAugurTests.log",
+        "sha256": "265C48F733C1F7F25FF53B97D714F1706DC15BBFBAA5EC6881D091FDB7114688",
+        "suite": "CorpseAugurTests"
+      },
+      {
+        "checks": 21,
+        "log": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\AssaultSuitTests.log",
+        "sha256": "2899897E05873A6CC06024BA96F9A941A3B1D0A2E903F9B7231FA7A20513C052",
+        "suite": "AssaultSuitTests"
+      }
+    ],
+    "runtime": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\runtime",
+    "candidate": "<development-checkout>\\arena\\assault-suit\\target\\final-1.0.25\\engine.jar",
+    "total": 1747.0,
+    "candidateSha256": "5240473B8A22A77ADEA6836E648B54F53EA10CF4460B7DF6A8A785D728260A0E"
+  },
+  "scope": "Opt-in bounded equipment correctness and autonomous custom-deck card use; no game-completion, winner or strength claim"
+}

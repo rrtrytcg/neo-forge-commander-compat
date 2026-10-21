@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "date": "2026-10-19",
+  "installedVersion": "1.0.27",
+  "upstreamRef": "77b6f5ae95f7f11d5a718c52a977470131db0fe1",
+  "baseRevision": "899567ead64e32abf4d72f155df6df8f4a552ead",
+  "nativeChecks": 4060,
+  "commanderChecks": 4053,
+  "commanderSuites": 38,
+  "upstreamCombatChecks": 7,
+  "upstreamTimeoutTests": 11,
+  "integrationChecks": 9,
+  "probeChecks": 1294,
+  "probePaidResolvedCasts": 22,
+  "probeActivations": 74,
+  "probeAttacks": 32,
+  "probeBlocks": 2,
+  "probeRestorations": 64,
+  "clockLimitedRuns": 6,
+  "candidate": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\engine.jar",
+  "candidateSha256": "46BAC2E9E1C144E3517BCEB91A2D3729ED7D758848B961F01B411BC2FD4A719A",
+  "installedFilesPreserved": 21729,
+  "unrelatedFilesPreserved": 18,
+  "nativeClassesVerified": 2212,
+  "overlayClassesVerified": 199,
+  "scope": "Current Commander opt-in native correctness plus representative autonomous Mirage Mirror card use on a private engine. No installed UI deployment, completed-game, strength or broad research-policy certification.",
+  "coverage": {
+    "decks": 184,
+    "clear": 46,
+    "mechanicallyUnlocked": 58,
+    "verified": 48,
+    "unlockedOnly": 10
+  },
+  "files": [
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\assemble.py",
+      "sha256": "10297E199B9F1190EB4D85DBCF07323A7A39F68DC67C21D33E0CA68D34A5AB71"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\audit.py",
+      "sha256": "335B807F74B89C94562FF43D63DEF8A81E62B2799DE1E0C42B4E23170CC992B9"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\card-script-changes.patch",
+      "sha256": "613F85DC5843732115BDB42066E97B3BA8EE35986C6C7D5CFCDBDD26A09FC6DE"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\card-use-evidence.json",
+      "sha256": "A724CFE454A36C336B5FCD7E6296B2724849F7F26E487B5F02347A2AC2D3FFF4"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\Check-CardUseEvidence.ps1",
+      "sha256": "9E2713357E3DEB51E10A473F0E4D73EFC039383675C82CCE4629DB7F55DF6BAE"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\Check-NeoForge.ps1",
+      "sha256": "C3C1C877D80223F3DB0CF6A87FC1A9E78D62B943224683A4349BEA8320DCE098"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\Check-Timeouts.ps1",
+      "sha256": "61697239A563C3D8A9FFE26921073050DA96EF9B3973695FB438096A04A97456"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\Check-Upstream.ps1",
+      "sha256": "426300D73F51544BE2A6BE73A8D1BEB83CF84D537AF5FAB8388E72F193CE3E02"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\installed-audit.json",
+      "sha256": "D93757AD5781A00C3EC8AD74F655D524C192FCE054E67FF537DBF70519BE3B15"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\make-adapters.py",
+      "sha256": "F04DB8FCEE26F8C1115580A19BA78B2624FBAFE85B66E3819DBE7A045AE11DB1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\post-1.0.25-hooks.patch",
+      "sha256": "839F1A737270AFD1960B37B9E9126BCCA0181D6DEA487942AC5534A8C1D7EDF0"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\prepare.py",
+      "sha256": "30D021D40336260CCEF3D0DAED89C96999A65ED126A32F192E70C0FA6FFF353E"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\README.md",
+      "sha256": "F5409FF73A23D7A90DB6EF0D532654709F52DA2EFC0C7E66DCD9169D37EE213F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\refresh.py",
+      "sha256": "CF59A818BB5341AC28AB785169D65A949B94AF4F89422582B3B35AC8A8ED009A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\release-workflow.yml",
+      "sha256": "0D0AEDADA1C98AF5A7C4BCE55680558D519EF7E7B28E56391F661493EF8048D8"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\release.json",
+      "sha256": "D1D741C0827832F326495FFDC51EBCB83C82529FF6EF18F63CBBA8C68FDA7803"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\Run-CardUseProbe.ps1",
+      "sha256": "E2B20C6E65C5FB121F5F51A2368254683AEE437C4D20844CB017B476B719A0C1"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\Run-DefenseExposure.ps1",
+      "sha256": "F841487E679E992259318E9ECA167CAA5A1DDA9677EDF157F51B47EABAA08183"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\upstream-overlaps.patch",
+      "sha256": "F03DBC496FF0290867B8657A4ADDB1AFA6EBC4E6961658320A06C4E5B460E9EF"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\UpstreamCombatTests.java",
+      "sha256": "2C05CDF3325F06C9BE242C88391FF1F9210DE74720B35294BDBD7C06ED7AE16B"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\verify-preserved.py",
+      "sha256": "F120F6344981EF774B70447A8DF9E0FE1F6AF1BE426F790523E15C3EE6504558"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\decks\\Opponents-defense-exposure.dck",
+      "sha256": "FC7549BEC47B24FC37506F8317C54776424FE46646180F07CDE4684CDE2F870A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\provenance.json",
+      "sha256": "030FD7A155BF93F7984CBBB3512F552FA2363B566D7E13DBB9EA6931F3CD41EA"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\build.json",
+      "sha256": "359C8EEFD72C90920EC7E624D120274C452DD9168501F279F94B8A13BD964051"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\preserved-baseline.json",
+      "sha256": "FBB1C23137282081083FA4905340F0B607172FF3B3DF686B7A383CADE39C710A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\timeout-summary.json",
+      "sha256": "7044675DD1C15B6FC2BCAF053C6B4DB90CD627557B86D6ACA8E82976AFC1C2AC"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\upstream-summary.json",
+      "sha256": "9B4DE0A970C722E074217004CFC4224D13AD6D7F3A9A62ABBA63D6BEBC0DB98F"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\engine.jar",
+      "sha256": "46BAC2E9E1C144E3517BCEB91A2D3729ED7D758848B961F01B411BC2FD4A719A"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\original-seeds-card-use-check.log",
+      "sha256": "2278ED7811D5F18C4697012E8B6A8A9826830F6706101890041DF71FE78B1B7C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\original-seeds-checker.ps1",
+      "sha256": "9B1AE3AC97E68049E5B2995F4B7209A2E25731FD1B577EE39B22C73CA298A005"
+    },
+    {
+      "path": "<development-checkout>\\arena\\version-compat-1.0.27\\target\\card-use-check.log",
+      "sha256": "6ACE539859D69B60A986A35ADAC1DF3B05A80F39B0DDACF533A2F29C9D3B7065"
+    },
+    {
+      "path": "<development-checkout>\\arena\\Audit-Deck.ps1",
+      "sha256": "081283EB87A2F20C1465105BCB755DDDF5E94C8539235933CB5D92BA8B10A292"
+    },
+    {
+      "path": "<development-checkout>\\arena\\COMMANDER_COMPAT_WORKFLOW.md",
+      "sha256": "488F7CA5D96B128C475CEA936A1A82C2AC0E0DE6515E98F4BF23FE2CB5FCF0CA"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\COVERAGE.md",
+      "sha256": "1F45CA6C081728AF38D231CAE9B94E876DC94202A615CBFE35B2285BDE335A21"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\coverage.json",
+      "sha256": "2E24D750572799CFAB0F83799A0B74BD13B0663143A0B565091D865DCF41301C"
+    },
+    {
+      "path": "<development-checkout>\\arena\\coverage\\card-status.tsv",
+      "sha256": "A935E2593B606050C2CD8596B74949BF19ADD300A868DAC707900E4CE0616C80"
+    },
+    {
+      "path": "<development-checkout>\\forge-gui-desktop\\target\\forge-gui-desktop-2.0.16-SNAPSHOT-jar-with-dependencies.jar",
+      "sha256": "35F2DDCC9A5E6C041487EB1C1D89763362EFCD2A505BEDEDE6AFA74D686715AE"
+    }
+  ]
+}

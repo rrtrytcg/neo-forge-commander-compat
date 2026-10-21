@@ -1,0 +1,38 @@
+{
+  "runs": [
+    {
+      "summary": "<development-checkout>\\arena\\hunters-insight\\target\\card-use\\air-on-99011\\summary.json",
+      "cardsDrawn": 24.0,
+      "clockReached": false,
+      "casts": 8,
+      "profile": "on",
+      "resolvedDraws": 7,
+      "sha256": "5541A74E0567BECEAB155BA7BA38C1AAA8E94D06CB7719D9D6E411A18CA23FCF",
+      "seed": 99011
+    },
+    {
+      "summary": "<development-checkout>\\arena\\hunters-insight\\target\\card-use\\air-on-99012\\summary.json",
+      "cardsDrawn": 24.0,
+      "clockReached": false,
+      "casts": 8,
+      "profile": "on",
+      "resolvedDraws": 7,
+      "sha256": "C4FE23294D1968307E6F7652971D4163D87BE12955D7787DC7ECE1544A773550",
+      "seed": 99012
+    },
+    {
+      "summary": "<development-checkout>\\arena\\hunters-insight\\target\\card-use\\air-off-99011\\summary.json",
+      "cardsDrawn": 0,
+      "clockReached": false,
+      "casts": 0,
+      "profile": "off",
+      "resolvedDraws": 0,
+      "sha256": "CD185AEB500C2740467CA40A017515C66D8ED756CD43F2DB9A3AA4DF5626A325",
+      "seed": 99011
+    }
+  ],
+  "candidateSha256": "B8B77096C268DA57AF6BF44DCE65D26359EB8026E27589EA7E191BB555234B4E",
+  "engine": "NeoForge 1.0.25",
+  "checks": 175,
+  "scope": "Autonomous custom-deck cast/combat/draw evidence only; no winner, game-completion or strength claim"
+}

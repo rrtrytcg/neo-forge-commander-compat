@@ -1,0 +1,12 @@
+diff --git a/forge-ai/src/main/java/forge/ai/AiController.java b/forge-ai/src/main/java/forge/ai/AiController.java
+index c3176e52..7189af70 100644
+--- a/forge-ai/src/main/java/forge/ai/AiController.java
++++ b/forge-ai/src/main/java/forge/ai/AiController.java
+@@ -1833,6 +1833,7 @@ public class AiController {
+      * @return true, if successful
+      */
+     public final boolean aiShouldRun(final CardTraitBase effect, final SpellAbility sa, final Card host, final GameEntity affected) {
++        if (AbundanceAi.applies(host)) { return AbundanceAi.accept(player, effect, sa, affected); }
+         if (effect.hasParam("AILogic") && effect.getParam("AILogic").equalsIgnoreCase("ProtectFriendly")) {
+             final Player controller = host.getController();
+             if (affected instanceof Player) {
