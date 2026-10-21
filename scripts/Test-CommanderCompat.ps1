@@ -64,8 +64,15 @@ foreach ($name in $suites) {
     if ($hits.Count -ne 1) { throw "Expected exactly one source for suite $name; found $($hits.Count)." }
     $hits[0]
 })
-Write-Output "Compiling $($testSources.Count) native suite source(s)..."
-& $javacPath -encoding UTF-8 -nowarn -cp $engine -d $testClasses @testSources *> (Join-Path $out 'test-compile.log')
+$overlaySources = @(
+    foreach ($relativePath in $manifest.portable_overlay_sources) {
+        $sourcePath = Join-Path $repo $relativePath
+        if (!(Test-Path -LiteralPath $sourcePath)) { throw "Missing opt-in overlay source: $relativePath" }
+        (Resolve-Path -LiteralPath $sourcePath).Path
+    }
+)
+Write-Output "Compiling $($overlaySources.Count) opt-in source overlay(s) and $($testSources.Count) native suite source(s)..."
+& $javacPath -encoding UTF-8 -nowarn -cp $engine -d $testClasses @overlaySources @testSources *> (Join-Path $out 'test-compile.log')
 if ($LASTEXITCODE) { Get-Content (Join-Path $out 'test-compile.log') -Tail 80; throw 'Native fixture compilation failed.' }
 Push-Location $runtime
 $totalChecks = 0

@@ -1,0 +1,22 @@
+{
+  "card": "Dualcaster Mage",
+  "profile": "dualcaster-mage",
+  "engine": "NeoForge 1.0.28",
+  "gate": {
+    "path": "arena/dualcaster-mage/target/final-dualcaster-mage-r4",
+    "checks": 5915,
+    "suites": 67,
+    "newChecks": 20,
+    "priorChecks": 5895,
+    "installedHashesChecked": 21729,
+    "installedFilesChanged": 0
+  },
+  "exposure": [
+    {"seed": 141011, "mode": "off", "dualcasterCasts": 0, "optResolutions": 30, "targetFailures": 0, "exceptions": 0, "lastTurn": 48},
+    {"seed": 141011, "mode": "on", "dualcasterCasts": 9, "optResolutions": 37, "copiedOptResolutions": 7, "targetFailures": 0, "exceptions": 0, "lastTurn": 17},
+    {"seed": 141012, "mode": "off", "dualcasterCasts": 0, "optResolutions": 30, "targetFailures": 0, "exceptions": 0, "lastTurn": 51},
+    {"seed": 141012, "mode": "on", "dualcasterCasts": 8, "optResolutions": 37, "copiedOptResolutions": 7, "targetFailures": 0, "exceptions": 0, "lastTurn": 20}
+  ],
+  "evidence": "Custom two-player card-use probes only; no strength claim.",
+  "coverage": {"deckOccurrences": 4, "decksCleared": 0}
+}

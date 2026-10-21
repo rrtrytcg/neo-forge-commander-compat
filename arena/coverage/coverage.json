@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21T10:47:30",
-  "revision": "87cd4c40",
+  "generated": "2026-10-21T12:34:40",
+  "revision": "a6d1bd40",
   "inventory": {
     "zeroBlockedDecks": [
       "40K - Forces of the Imperium",
@@ -100,11 +100,7 @@
   "blocked": {
     "topRemaining": [
       {
-        "card": "Cataclysmic Gearhulk",
-        "decks": 4
-      },
-      {
-        "card": "Dualcaster Mage",
+        "card": "Profane Command",
         "decks": 4
       },
       {
@@ -116,7 +112,7 @@
         "decks": 4
       },
       {
-        "card": "Profane Command",
+        "card": "Oblivion Stone",
         "decks": 4
       },
       {
@@ -128,27 +124,11 @@
         "decks": 4
       },
       {
-        "card": "Oblivion Stone",
+        "card": "Cataclysmic Gearhulk",
         "decks": 4
       },
       {
-        "card": "Past in Flames",
-        "decks": 3
-      },
-      {
-        "card": "Phyrexian Reclamation",
-        "decks": 3
-      },
-      {
-        "card": "Phyrexian Delver",
-        "decks": 3
-      },
-      {
-        "card": "Synthetic Destiny",
-        "decks": 3
-      },
-      {
-        "card": "Epic Experiment",
+        "card": "Nightmare Unmaking",
         "decks": 3
       },
       {
@@ -156,11 +136,11 @@
         "decks": 3
       },
       {
-        "card": "Nightmare Unmaking",
+        "card": "Illusionist's Gambit",
         "decks": 3
       },
       {
-        "card": "Curse of Chaos",
+        "card": "Epic Experiment",
         "decks": 3
       },
       {
@@ -168,23 +148,43 @@
         "decks": 3
       },
       {
+        "card": "Curse of Chaos",
+        "decks": 3
+      },
+      {
         "card": "Willbender",
         "decks": 3
       },
       {
-        "card": "Illusionist's Gambit",
+        "card": "Synthetic Destiny",
         "decks": 3
       },
       {
-        "card": "Disaster Radius",
-        "decks": 2
+        "card": "Phyrexian Delver",
+        "decks": 3
+      },
+      {
+        "card": "Phyrexian Reclamation",
+        "decks": 3
+      },
+      {
+        "card": "Past in Flames",
+        "decks": 3
       },
       {
         "card": "Bane of the Living",
         "decks": 2
       },
       {
-        "card": "Dawnglare Invoker",
+        "card": "Disaster Radius",
+        "decks": 2
+      },
+      {
+        "card": "Dreadship Reef",
+        "decks": 2
+      },
+      {
+        "card": "Shielded by Faith",
         "decks": 2
       },
       {
@@ -192,19 +192,20 @@
         "decks": 2
       },
       {
-        "card": "Eater of Hope",
+        "card": "Champion of Stray Souls",
         "decks": 2
       },
       {
-        "card": "Shielded by Faith",
+        "card": "Dawnglare Invoker",
         "decks": 2
       }
     ],
-    "distinctRemaining": 265,
-    "occurrencesUnlocked": 374,
-    "occurrencesRemaining": 356
+    "distinctRemaining": 264,
+    "occurrencesUnlocked": 378,
+    "occurrencesRemaining": 352
   },
   "cards": {
+    "mechanicallyUnlocked": 109,
     "verified": [
       "Abundance",
       "Arcane Lighthouse",
@@ -234,6 +235,7 @@
       "Divine Reckoning",
       "Doomsday Confluence",
       "Drawn from Dreams",
+      "Dualcaster Mage",
       "Edge of Autumn",
       "Esix, Fractal Bloom",
       "Fertile Ground",
@@ -305,6 +307,7 @@
       "Winter, Cynical Opportunist",
       "Wooded Bastion"
     ],
+    "strategicallyVerified": 99,
     "unlockedOnly": [
       "Blighted Burgeoning",
       "Creeping Renaissance",
@@ -317,8 +320,6 @@
       "Verdant Haven",
       "Windfall"
     ],
-    "mechanicallyUnlocked": 108,
-    "strategicallyVerified": 98,
     "registryUnwired": []
   },
   "hygiene": {
