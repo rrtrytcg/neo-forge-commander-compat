@@ -2,7 +2,7 @@
 
 Opt-in AI support for Commander cards and abilities that NeoForge's stock AI filters or evaluates poorly. This repository is a focused source-and-test bundle; it does not vendor the Forge game engine.
 
-The compatibility snapshot is pinned to NeoForge 1.0.28. The sealed cumulative gate is 5,883 checks across 65 suites. The standalone runner recompiles each checked-in fixture source and therefore runs 5,884 checks: the current Choice Wipes source includes one extra regeneration-shield fixture beyond the sealed precompiled suite (15 checks versus 14). The runner asserts the expected count for every suite. These are native decision and rules-correctness checks; paired seed games recorded in the card labs demonstrate card use and resolution, not AI strength.
+The compatibility snapshot is pinned to NeoForge 1.0.28. The sealed cumulative gate is 5,895 checks across 66 suites. The standalone runner recompiles each checked-in fixture source and therefore runs 5,896 checks: the current Choice Wipes source includes one extra regeneration-shield fixture beyond the sealed precompiled suite (15 checks versus 14). The runner asserts the expected count for every suite. These are native decision and rules-correctness checks; paired seed games recorded in the card labs demonstrate card use and resolution, not AI strength.
 
 ## One-command native test
 

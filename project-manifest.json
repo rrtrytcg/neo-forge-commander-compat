@@ -22,6 +22,7 @@
     "decree-of-pain",
     "dispatch",
     "divine-reckoning",
+    "drawn-from-dreams",
     "doomsday-confluence",
     "easy-cards",
     "easy-cards-2",
@@ -69,7 +70,7 @@
     "wall-of-limbs",
     "winter-cynical-opportunist"
   ],
-  "files": 961,
+  "files": 970,
   "production_sources": [
     "forge-ai/src/main/java/forge/ai/AbundanceAi.java",
     "forge-ai/src/main/java/forge/ai/AdaptiveEnchantmentAi.java",
@@ -185,6 +186,7 @@
     "decree-of-pain.properties",
     "dispatch.properties",
     "divine-reckoning.properties",
+    "drawn-from-dreams.properties",
     "doomsday-confluence.properties",
     "easy-cards-2.properties",
     "easy-cards-3.properties",
@@ -292,11 +294,12 @@
     "MagusOfTheWheelTests",
     "DivineReckoningTests",
     "DarettiTests",
-    "MysticConfluenceTests"
+    "MysticConfluenceTests",
+    "DrawnFromDreamsTests"
   ],
-  "verified_checks": 5883,
-  "verification_tag": "commander-compat-mystic-confluence-verified-2026-10-21",
-  "verification_commit": "87cd4c40dfd80fea3a557805c2993157bfdca27f",
+  "verified_checks": 5895,
+  "verification_tag": "commander-compat-drawn-from-dreams-verified-2026-10-21",
+  "verification_commit": "a6d1bd40cd24c8f25045507ff9c6ad3764d342c9",
   "production_source_count": 92,
   "test_engine": "build/neoforge-1.0.28-commander-compat-engine.jar",
   "test_engine_sha256": "874FF9F0C5DE4FBE6C0BD6D0430A39A88FAFE2E32AE42376435DC4C0EFDECDCC",
@@ -366,10 +369,11 @@
     "MagusOfTheWheelTests": 22,
     "DivineReckoningTests": 15,
     "DarettiTests": 26,
-    "MysticConfluenceTests": 22
+    "MysticConfluenceTests": 22,
+    "DrawnFromDreamsTests": 12
   },
-  "fresh_checks": 5884,
-  "sealed_gate_checks": 5883,
+  "fresh_checks": 5896,
+  "sealed_gate_checks": 5895,
   "fresh_vs_sealed_differences": {
     "ChoiceWipesTests": {
       "fresh": 15,

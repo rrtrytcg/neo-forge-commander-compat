@@ -1,21 +1,21 @@
 # Commander compatibility coverage
 
-Snapshot generated 2026-10-21 from source revision `8707f1fe`; the portable native test gate is described in the root README.
+Generated 2026-10-21T10:47:30 from `87cd4c40` by `arena/Audit-Deck.ps1 -All -Coverage`.
 
 | Metric | Value |
 | --- | --- |
 | Decks in inventory | 184 |
-| **Decks with zero remaining blocked cards** | **89** |
-| Distinct blocked cards remaining | 266 |
-| Blocked card occurrences remaining | 357 |
-| Blocked occurrences already unlocked | 373 |
-| Cards mechanically unlocked | 107 |
+| **Decks with zero remaining blocked cards** | **90** |
+| Distinct blocked cards remaining | 265 |
+| Blocked card occurrences remaining | 356 |
+| Blocked occurrences already unlocked | 374 |
+| Cards mechanically unlocked | 108 |
 | ... unlocked only, not yet verified | 10 |
-| ... of which strategically verified | 97 |
+| ... of which strategically verified | 98 |
 | Cards with no implementation | 0 |
 | Unhandled AILogic hints | 0 |
 
-Current supported engine: **NeoForge 1.0.28**. The 1.0.28 re-baseline passed all 5,720 checks across 56 suites at exact counts, and the latest sealed Mystic Confluence gate passes 5,883 checks across 65 suites. The installed-file guard checked 21,729 hashes and found zero changes. Many card-level READMEs retain the historical 1.0.27 gate count for the lab that first verified that card; the cumulative 1.0.28 gate reran those fixtures at the same counts. See [the 1.0.28 re-baseline](../version-compat-1.0.28/README.md).
+Current supported engine: **NeoForge 1.0.28**. The 1.0.28 re-baseline passed all 5,720 checks across 56 suites at exact counts, and the latest sealed Drawn from Dreams gate passes 5,895 checks across 66 suites. The installed-file guard checked 21,729 hashes and found zero changes. Many card-level READMEs retain the historical 1.0.27 gate count for the lab that first verified that card; the cumulative 1.0.28 gate reran those fixtures at the same counts. See [the 1.0.28 re-baseline](../version-compat-1.0.28/README.md).
 
 ## Unlocked but not yet verified
 
@@ -63,6 +63,7 @@ A fixture gate asserts the documented AI decisions, plus simulation card-use evi
 - `Dispatch` - dispatch profile; native gate 61/61 plus Mirror Entity 48/48, Decree 69/69 and Oreskos 100/100 regressions; custom seeds 96011/96012: 9/7 paid/resolved casts and actual exiles, 15 indestructible targets, both off controls zero; native metalcraft, legality and payment retained
 - `Divine Reckoning` - divine-reckoning profile forecasts the native best-creature choice per AI player and casts in our second main only when opposing creature loss value exceeds friendly loss; NeoForge 1.0.28 gate 5835/5835 across 63 suites (15 new + 5820 prior exact); installed guard 21,729 hashes, zero changed; seeds 137011/137012 off zero casts/resolutions, on 4/4 and 6/6; zero exceptions; card-use evidence only; see arena/divine-reckoning/README.md and verification-summary.json
 - `Doomsday Confluence` - doomsday-confluence opt-in own second main, empty stack, largest affordable XXB value above zero; at most one friendly-safe legal sacrifice then one discard for two nonempty opposing hands, remaining modes native Daleks; fresh X/mode rechecks with native order/payment/opponent choices; NeoForge 1.0.27 gate 5633/5633 across 52 suites (140 new plus 5493 prior at exact counts); final paired three-player seeds 123011/123012 off/on: off zero use, on 3/3 paid-resolved casts at X 1,2,7 / 1,2,5, all modes exercised, zero exceptions or clock limits; preliminary timed-out controls excluded; card-use evidence only; see arena/doomsday-confluence/README.md and verification-summary.json
+- `Drawn from Dreams` - drawn-from-dreams profile bypasses only RemoveDeck; native DigAi timing, choices, payment and resolution; NeoForge 1.0.28 gate 5895/5895 across 66 suites (12 new + 5883 prior exact); installed guard 21,729 hashes, zero changed; paired seeds 140011/140012 off 0/0 casts/resolutions, on 5/5 and 9/9; zero exceptions; clears NCC - Maestros Massacre; see arena/drawn-from-dreams/README.md and verification-summary.json
 - `Edge of Autumn` - easy-cards-2 opt-in cast with 4 or fewer lands and a basic in library; land-sacrifice cycling vetoed; NeoForge 1.0.27 gate 5250/5250 across 48 suites (74 new plus 5176 prior); paired two-player exposure games seeds 119011-119013 off/on; arena/easy-cards-2
 - `Esix, Fractal Bloom` - easy-cards-3 opt-in copy our best nonlegendary creature for the first tokens each turn; NeoForge 1.0.27 gate 5317/5317 across 49 suites (67 new plus 5250 prior); paired exposure games seeds 120011-120013 off/on; arena/easy-cards-3
 - `Fertile Ground` - arena/adaptive-enchantment gate 76/76; Commander seed 95318 cast, normal completion; bounded mana/target policy
@@ -161,7 +162,7 @@ A fixture gate asserts the documented AI decisions, plus simulation card-use evi
 | Bane of the Living | 2 |
 | Dawnglare Invoker | 2 |
 | Perpetual Timepiece | 2 |
-| Champion of Stray Souls | 2 |
+| Eater of Hope | 2 |
 | Shielded by Faith | 2 |
 
 ## Decks with zero remaining blocked cards
@@ -221,6 +222,7 @@ A fixture gate asserts the documented AI decisions, plus simulation card-use evi
 - MSC - The Fantastic Four
 - MSC - Wakanda Forever
 - NCC - Cabaretti Cacophony
+- NCC - Maestros Massacre
 - NEC - Upgrades Unleashed
 - ONC - Corrupting Influence
 - ONC - Rebellion Rising

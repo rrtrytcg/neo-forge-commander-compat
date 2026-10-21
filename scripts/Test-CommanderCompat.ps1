@@ -58,11 +58,12 @@ Copy-Item (Join-Path $repo 'profiles/*.properties') $profileDir -Force
 $runtimeSlash = $runtime.Replace('\','/')
 @("userDir=$runtimeSlash/user", "cacheDir=$runtimeSlash/cache", "decksDir=$runtimeSlash/decks") | Set-Content (Join-Path $runtime 'forge.profile.properties') -Encoding ascii
 $suites = if ($Suite -eq 'all') { @($manifest.test_suites) } else { @($Suite) }
-$testSources = foreach ($name in $suites) {
+$testSources = @(
+foreach ($name in $suites) {
     $hits = @(Get-ChildItem (Join-Path $repo 'arena') -Recurse -File -Filter "$name.java" | Select-Object -ExpandProperty FullName)
     if ($hits.Count -ne 1) { throw "Expected exactly one source for suite $name; found $($hits.Count)." }
     $hits[0]
-}
+})
 Write-Output "Compiling $($testSources.Count) native suite source(s)..."
 & $javacPath -encoding UTF-8 -nowarn -cp $engine -d $testClasses @testSources *> (Join-Path $out 'test-compile.log')
 if ($LASTEXITCODE) { Get-Content (Join-Path $out 'test-compile.log') -Tail 80; throw 'Native fixture compilation failed.' }

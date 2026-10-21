@@ -1,8 +1,7 @@
 {
-  "generated": "2026-10-21T08:49:32",
-  "revision": "8707f1fe",
+  "generated": "2026-10-21T10:47:30",
+  "revision": "87cd4c40",
   "inventory": {
-    "decksWithZeroBlocked": 89,
     "zeroBlockedDecks": [
       "40K - Forces of the Imperium",
       "40K - Necron Dynasties",
@@ -59,6 +58,7 @@
       "MSC - The Fantastic Four",
       "MSC - Wakanda Forever",
       "NCC - Cabaretti Cacophony",
+      "NCC - Maestros Massacre",
       "NEC - Upgrades Unleashed",
       "ONC - Corrupting Influence",
       "ONC - Rebellion Rising",
@@ -94,7 +94,8 @@
       "ZNC - Land's Wrath",
       "ZNC - Sneak Attack"
     ],
-    "decks": 184
+    "decks": 184,
+    "decksWithZeroBlocked": 90
   },
   "blocked": {
     "topRemaining": [
@@ -191,7 +192,7 @@
         "decks": 2
       },
       {
-        "card": "Champion of Stray Souls",
+        "card": "Eater of Hope",
         "decks": 2
       },
       {
@@ -199,24 +200,11 @@
         "decks": 2
       }
     ],
-    "occurrencesUnlocked": 373,
-    "occurrencesRemaining": 357,
-    "distinctRemaining": 266
+    "distinctRemaining": 265,
+    "occurrencesUnlocked": 374,
+    "occurrencesRemaining": 356
   },
   "cards": {
-    "mechanicallyUnlocked": 107,
-    "unlockedOnly": [
-      "Blighted Burgeoning",
-      "Creeping Renaissance",
-      "Faithless Looting",
-      "Market Festival",
-      "Shimmerwilds Growth",
-      "Tower Defense",
-      "Trace of Abundance",
-      "Utopia Sprawl",
-      "Verdant Haven",
-      "Windfall"
-    ],
     "verified": [
       "Abundance",
       "Arcane Lighthouse",
@@ -245,6 +233,7 @@
       "Dispatch",
       "Divine Reckoning",
       "Doomsday Confluence",
+      "Drawn from Dreams",
       "Edge of Autumn",
       "Esix, Fractal Bloom",
       "Fertile Ground",
@@ -316,7 +305,20 @@
       "Winter, Cynical Opportunist",
       "Wooded Bastion"
     ],
-    "strategicallyVerified": 97,
+    "unlockedOnly": [
+      "Blighted Burgeoning",
+      "Creeping Renaissance",
+      "Faithless Looting",
+      "Market Festival",
+      "Shimmerwilds Growth",
+      "Tower Defense",
+      "Trace of Abundance",
+      "Utopia Sprawl",
+      "Verdant Haven",
+      "Windfall"
+    ],
+    "mechanicallyUnlocked": 108,
+    "strategicallyVerified": 98,
     "registryUnwired": []
   },
   "hygiene": {

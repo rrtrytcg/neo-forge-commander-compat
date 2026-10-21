@@ -9,8 +9,8 @@
 #   verified = a fixture gate asserts the AI's decisions for the card (arena/<card>/Check-*.ps1), plus
 #              a sim where the card needs one to be shown working in a game.
 #
-# Profile wiring lives in profiles/ and the matching Java overlays live in source/; compare card names
-# there when updating this historical registry.
+# The audit warns about entries that no profile file actually covers (ignoreRemoveDeckDuringPlay or
+# hybridFilterMana), so this list cannot drift away from the wiring. See COMMANDER_COMPAT_WORKFLOW.md.
 Tower Defense	unlocked	profile entry; sim showed 6 casts (handoff round 1), no correctness gate	2026-10-16
 Beast Within	verified	arena/beast-within gate 13/13 + sim 0/0/0 casts off, 2/2/4 on	2026-10-16
 Psychosis Crawler	verified	rule is scripted (NeedsToPlayVar X GE3); arena/psychosis-crawler gate 6/6 + sim 0/0/0 casts off, 3/9/3 on	2026-10-16
@@ -118,3 +118,4 @@ Magus of the Wheel	verified	magus-of-the-wheel profile activates only in our sec
 Divine Reckoning	verified	divine-reckoning profile forecasts the native best-creature choice per AI player and casts in our second main only when opposing creature loss value exceeds friendly loss; NeoForge 1.0.28 gate 5835/5835 across 63 suites (15 new + 5820 prior exact); installed guard 21,729 hashes, zero changed; seeds 137011/137012 off zero casts/resolutions, on 4/4 and 6/6; zero exceptions; card-use evidence only; see arena/divine-reckoning/README.md and verification-summary.json	2026-10-21
 Daretti, Scrap Savant	verified	daretti profile uses +2 only in our second main with discardable excess lands; -2 only with legal artifact graveyard target and sacrifice material; native choices, costs and resolution, native ultimate. NeoForge 1.0.28 gate 5861/5861 across 64 suites (26 new + 5835 prior exact); installed guard 21,729 hashes, zero changed; paired seeds 138011/138012 off 0/0 activations/resolutions, on 1/1 and 5/5; zero exceptions or clock caps; see arena/daretti/README.md and verification-summary.json	2026-10-21
 Mystic Confluence	verified	mystic-confluence profile selects a useful native counter, highest-valued legal opposing creature bounce, then repeated draw; NeoForge 1.0.28 gate 5883/5883 across 65 suites (22 new + 5861 prior exact); installed guard 21,729 hashes, zero changed; paired seeds 139011/139012 off 0/0 casts/resolutions, on 6/6 and 12/12, all bounce and 6/11 repeated-draw resolutions; one additional counter+bounce+draw resolution; zero exceptions; card-use evidence only; see arena/mystic-confluence/README.md	2026-10-21
+Drawn from Dreams	verified	drawn-from-dreams profile bypasses only RemoveDeck; native DigAi timing, choices, payment and resolution; NeoForge 1.0.28 gate 5895/5895 across 66 suites (12 new + 5883 prior exact); installed guard 21,729 hashes, zero changed; paired seeds 140011/140012 off 0/0 casts/resolutions, on 5/5 and 9/9; zero exceptions; clears NCC - Maestros Massacre; see arena/drawn-from-dreams/README.md and verification-summary.json	2026-10-21

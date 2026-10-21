@@ -1,0 +1,47 @@
+{
+  "card": "Drawn from Dreams",
+  "date": "2026-10-21",
+  "profile": "drawn-from-dreams",
+  "engine": "NeoForge 1.0.28",
+  "rule": "Use a profile-only exception for Drawn from Dreams' RemoveDeck marker; preserve stock DigAi cast timing, card ranking, payment, and resolution.",
+  "baseline": {
+    "path": "arena/drawn-from-dreams/target/baseline-drawn-from-dreams-r0-baseline",
+    "suites": 1,
+    "checks": 4,
+    "nativeDefect": "Native DigAi accepts the spell, but RemoveDeck prevents normal spell selection."
+  },
+  "focused": {
+    "path": "arena/drawn-from-dreams/target/focused-drawn-from-dreams-r2",
+    "suites": 1,
+    "checks": 12
+  },
+  "fullGate": {
+    "path": "arena/drawn-from-dreams/target/final-drawn-from-dreams-r1",
+    "base": "arena/mystic-confluence/target/final-mystic-confluence-r2",
+    "suites": 66,
+    "checks": 5895,
+    "priorChecks": 5883,
+    "newChecks": 12,
+    "candidateSha256": "874FF9F0C5DE4FBE6C0BD6D0430A39A88FAFE2E32AE42376435DC4C0EFDECDCC",
+    "installedFilesChecked": 21729,
+    "installedFilesChanged": 0
+  },
+  "productionFiles": [
+    "forge-gui/res/ai/overrides/drawn-from-dreams.properties"
+  ],
+  "exposures": {
+    "decks": [
+      "arena/drawn-from-dreams/decks/Actor.dck",
+      "arena/drawn-from-dreams/decks/Opponent.dck"
+    ],
+    "clockSeconds": 120,
+    "games": [
+      {"seed": 140011, "profileMode": "off", "casts": 0, "resolutions": 0, "exit": 0, "exceptions": 0, "lastTurn": 11, "log": "arena/drawn-from-dreams/target/exposure/off-140011/game.log", "logSha256": "CD77AB103A7670A8C69C2F87ED700EE83BA88CDA488E8883C732DC154FEB89D0"},
+      {"seed": 140011, "profileMode": "on", "casts": 5, "resolutions": 5, "exit": 0, "exceptions": 0, "lastTurn": 11, "log": "arena/drawn-from-dreams/target/exposure/on-140011/game.log", "logSha256": "84DAD78DD2E9379F2AE56477D3CF495037FA8D99462C71A2C599BE02EE378FA5"},
+      {"seed": 140012, "profileMode": "off", "casts": 0, "resolutions": 0, "exit": 0, "exceptions": 0, "lastTurn": 16, "log": "arena/drawn-from-dreams/target/exposure/off-140012/game.log", "logSha256": "1FC5A727CABA6130E7F78A2CAAA6974D9A672E7F72F9FF2E95DB5630FBC95844"},
+      {"seed": 140012, "profileMode": "on", "casts": 9, "resolutions": 9, "exit": 0, "exceptions": 0, "lastTurn": 16, "log": "arena/drawn-from-dreams/target/exposure/on-140012/game.log", "logSha256": "046BE00DE41EF802C599E7905B3EBCD5EDF6CAB22C9D1B7B28C009661BFEA7B9"}
+    ],
+    "scope": "Card-use smoke only; no winner or strength claim."
+  },
+  "coverage": {"clears": ["NCC - Maestros Massacre"]}
+}
