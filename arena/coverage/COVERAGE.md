@@ -1,17 +1,17 @@
 # Commander compatibility coverage
 
-Generated 2026-10-21T12:34:40 from `a6d1bd40` by `arena/Audit-Deck.ps1 -All -Coverage`.
+Generated 2026-10-21T15:24:24 from `a21d5e1d` by `arena/Audit-Deck.ps1 -All -Coverage`.
 
 | Metric | Value |
 | --- | --- |
 | Decks in inventory | 184 |
-| **Decks with zero remaining blocked cards** | **90** |
-| Distinct blocked cards remaining | 264 |
-| Blocked card occurrences remaining | 352 |
-| Blocked occurrences already unlocked | 378 |
-| Cards mechanically unlocked | 109 |
+| **Decks with zero remaining blocked cards** | **92** |
+| Distinct blocked cards remaining | 262 |
+| Blocked card occurrences remaining | 347 |
+| Blocked occurrences already unlocked | 383 |
+| Cards mechanically unlocked | 111 |
 | ... unlocked only, not yet verified | 10 |
-| ... of which strategically verified | 99 |
+| ... of which strategically verified | 101 |
 | Cards with no implementation | 0 |
 | Unhandled AILogic hints | 0 |
 
@@ -100,8 +100,10 @@ A fixture gate asserts the documented AI decisions, plus simulation card-use evi
 - `Mystic Gate` - arena/filter-lands gate 10/10 (whole filter land cycle)
 - `Nesting Grounds` - nesting-grounds profile; NeoForge 1.0.25 native gate 115/115, prior Commander regressions 1495/1495 and deadlines 20/20; custom seeds 96671/96672: 19 paid/resolved/settled activations, 6 positive transfers add 17 counters with native Hardened Scales, 13 negative transfers kill 13 opposing creatures; four off controls zero; bounded +1/+1 and -1/-1 policy, native payment and legality retained
 - `Nyx Weaver` - nyx-weaver opt-in native creature casting and bounded exile/recovery; NeoForge 1.0.27 gate 5122/5122 across 46 suites (224 new plus 4898 prior including unchanged 51 utility-land checks), three native baseline checks and 20 deadline checks; native joint colored/taxed payment, ordinary four-plus recovery, doomed-source and low-library cash-outs, mandatory mill after source exile, target-response fizzle and fresh pre-cost binding; eight paired custom Commander observations seeds 118011/118012/118021/118031: 16 casts, 42 original mills moving 84 cards, 12 recoveries (three ordinary, eight doomed, one low-library), eight later native casts including three same-turn; first value seed correctly holds with only two green sources, all four default controls zero Nyx use; 1148 card-use checks, four clock-limited runs; Progenitus no-use diagnostics kept separate, no completion/winner/strength claim; see arena/nyx-weaver/verification-summary.json
+- `Odric, Master Tactician` - odric opt-in bypasses only AI:RemoveDeck:All; native cast policy unchanged; native trigger threshold and blocker-control assignment fixture; NeoForge 1.0.28 gate 5925/5925 across 68 suites (10 new + 5915 prior exact); installed guard 21,729 hashes, zero changed; paired seeds 141021/141022 off 0 casts, on 1/2 casts with 3/0 trigger resolutions; zero exceptions; card-use evidence only; see arena/odric/README.md and verification-summary.json
 - `Oreskos Explorer` - oreskos-explorer profile; native gate 100/100 plus Mirror Entity 48/48 and Decree 69/69 regressions; custom seeds 95901/95902: 13 paid/resolved casts, 12 complete searches, 24 Plains fetched including 19 nonbasic; both off controls zero; native casting/search retained with empty-ETB veto exception
 - `Pact of the Serpent` - easy-cards opt-in self-target naming our most common creature type with X/life/library guards; NeoForge 1.0.27 gate 5176/5176 across 47 suites (54 new plus 5122 prior); paired two-player exposure games seeds 118011/118012 off/on; arena/easy-cards
+- `Past in Flames` - past-in-flames opt-in PumpAll hook considers only own main phase with empty stack, two graveyard instant/sorceries and exact colored affordability for one follow-up; native costs, flashback choice and resolution; NeoForge 1.0.28 gate 5943/5943 across 69 suites (18 new + 5925 prior exact); installed guard 21,729 hashes, zero changed; paired seeds 142021/142022 off 0 casts/resolutions, on 6/6 and 2/2 with 2/1 granted-flashback exile markers; zero exceptions; card-use evidence only; see arena/past-in-flames/README.md and verification-summary.json
 - `Peel from Reality` - easy-cards-2 opt-in resets an enter-trigger or afflicted creature and bounces the opponent's best; NeoForge 1.0.27 gate 5250/5250 across 48 suites (74 new plus 5176 prior); paired two-player exposure games seeds 119011-119013 off/on; arena/easy-cards-2
 - `Phyrexia's Core` - phyrexias-core opt-in preserves native timing, {1} mana and artifact sacrifice; activate only at 5 or less life or when native combat evaluation says life is in danger. NeoForge 1.0.28 gate 5798/5798 across 61 suites (17 new + 5781 prior exact); installed guard 21,729 hashes, zero changed; paired seeds 135011/135012 off zero activations, on 5/9; zero exceptions or clock caps; native sacrifice choice/resolution; card-use evidence only; see arena/phyrexias-core/README.md and verification-summary.json
 - `Prismatic Lens` - prismatic-lens opt-in one-for-one Any-color filter admission; NeoForge 1.0.25 gate 2886/2886 (161 new plus 2725 prior checks); native prediction/payment, two separately funded filters, genuine colorless costs, floating mana, untapping, taxes and activation prohibitions; custom Commander seeds 105011/105012: 10 paid/resolved Lens casts, 14 actual colored conversions covering W/U/B/R/G and two free colorless payments, same Lens reused after turn untapping; both off controls zero Lens use; 212 card-use checks, all four observations clock-limited at 30s, card-use evidence only; shared mechanic also tested on explicitly opted-in Prism without production unlock; see arena/prismatic-lens/verification-summary.json
@@ -140,36 +142,37 @@ A fixture gate asserts the documented AI decisions, plus simulation card-use evi
 
 | Card | Decks |
 | --- | --- |
-| Profane Command | 4 |
+| Disciple of Bolas | 4 |
+| Cataclysmic Gearhulk | 4 |
 | Wild Ricochet | 4 |
 | Strionic Resonator | 4 |
+| Profane Command | 4 |
 | Oblivion Stone | 4 |
-| Disciple of Bolas | 4 |
 | Reins of Power | 4 |
-| Cataclysmic Gearhulk | 4 |
-| Nightmare Unmaking | 3 |
-| Izzet Chemister | 3 |
-| Illusionist's Gambit | 3 |
+| Phyrexian Reclamation | 3 |
 | Epic Experiment | 3 |
-| Black Sun's Zenith | 3 |
+| Illusionist's Gambit | 3 |
+| Izzet Chemister | 3 |
+| Nightmare Unmaking | 3 |
 | Curse of Chaos | 3 |
+| Black Sun's Zenith | 3 |
 | Willbender | 3 |
 | Synthetic Destiny | 3 |
 | Phyrexian Delver | 3 |
-| Phyrexian Reclamation | 3 |
-| Past in Flames | 3 |
 | Bane of the Living | 2 |
 | Disaster Radius | 2 |
-| Dreadship Reef | 2 |
+| Crucible of the Spirit Dragon | 2 |
 | Shielded by Faith | 2 |
 | Perpetual Timepiece | 2 |
 | Champion of Stray Souls | 2 |
+| Dreadship Reef | 2 |
 | Dawnglare Invoker | 2 |
 
 ## Decks with zero remaining blocked cards
 
 - 40K - Forces of the Imperium
 - 40K - Necron Dynasties
+- 40K - The Ruinous Powers
 - 40K - Tyranid Swarm
 - AFC - Aura of Courage
 - BLC - Animated Army
@@ -214,6 +217,7 @@ A fixture gate asserts the documented AI decisions, plus simulation card-use evi
 - M3C - Creative Energy
 - M3C - Eldrazi Incursion
 - M3C - Graveyard Overdrive
+- MIC - Coven Counters
 - MKC - Blame Game
 - MKC - Deep Clue Sea
 - MOC - Cavalry Charge

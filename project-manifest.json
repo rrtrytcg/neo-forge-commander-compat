@@ -68,7 +68,9 @@
     "utility-lands",
     "viscera-seer",
     "wall-of-limbs",
-    "winter-cynical-opportunist"
+    "winter-cynical-opportunist",
+    "odric",
+    "past-in-flames"
   ],
   "files": 970,
   "production_sources": [
@@ -165,7 +167,8 @@
     "forge-ai/src/main/java/forge/ai/ability/ScryAi.java",
     "forge-ai/src/main/java/forge/ai/ability/TapAi.java",
     "forge-ai/src/main/java/forge/ai/ability/TokenAi.java",
-    "forge-ai/src/main/java/forge/ai/simulation/GameCopier.java"
+    "forge-ai/src/main/java/forge/ai/simulation/GameCopier.java",
+    "forge-ai/src/main/java/forge/ai/PastInFlamesAi.java"
   ],
   "profiles": [
     "abundance.properties",
@@ -230,7 +233,9 @@
     "treacherous-terrain.properties",
     "utility-lands.properties",
     "viscera-seer.properties",
-    "winter-cynical-opportunist.properties"
+    "winter-cynical-opportunist.properties",
+    "odric.properties",
+    "past-in-flames.properties"
   ],
   "test_suites": [
     "BiomassMutationTests",
@@ -299,12 +304,14 @@
     "DarettiTests",
     "MysticConfluenceTests",
     "DrawnFromDreamsTests",
-    "DualcasterMageTests"
+    "DualcasterMageTests",
+    "OdricTests",
+    "PastInFlamesTests"
   ],
-  "verified_checks": 5915,
-  "verification_tag": "commander-compat-dualcaster-mage-verified-2026-10-21",
-  "verification_commit": "c163e3c007770f70edf9536c5ef82f5b22d902b3",
-  "production_source_count": 94,
+  "verified_checks": 5943,
+  "verification_tag": "commander-compat-past-in-flames-verified-2026-10-21",
+  "verification_commit": "d69f2289856cb1b76451649250737f06f4a8d46d",
+  "production_source_count": 95,
   "test_engine": "build/neoforge-1.0.28-commander-compat-engine.jar",
   "test_engine_sha256": "874FF9F0C5DE4FBE6C0BD6D0430A39A88FAFE2E32AE42376435DC4C0EFDECDCC",
   "base_ai_sha256": "02D9821E13E87245EAFD144FA66752ECD75066626E251B6F52A3EC6160B00B23",
@@ -375,10 +382,12 @@
     "DarettiTests": 26,
     "MysticConfluenceTests": 22,
     "DrawnFromDreamsTests": 12,
-    "DualcasterMageTests": 20
+    "DualcasterMageTests": 20,
+    "OdricTests": 10,
+    "PastInFlamesTests": 18
   },
-  "fresh_checks": 5916,
-  "sealed_gate_checks": 5915,
+  "fresh_checks": 5944,
+  "sealed_gate_checks": 5943,
   "fresh_vs_sealed_differences": {
     "ChoiceWipesTests": {
       "fresh": 15,
@@ -388,6 +397,8 @@
   },
   "portable_overlay_sources": [
     "source/forge-ai/src/main/java/forge/ai/DualcasterMageAi.java",
-    "source/forge-ai/src/main/java/forge/ai/ability/CopySpellAbilityAi.java"
+    "source/forge-ai/src/main/java/forge/ai/ability/CopySpellAbilityAi.java",
+    "source/forge-ai/src/main/java/forge/ai/PastInFlamesAi.java",
+    "source/forge-ai/src/main/java/forge/ai/ability/PumpAllAi.java"
   ]
 }

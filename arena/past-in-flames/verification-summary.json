@@ -1,0 +1,22 @@
+{
+  "card": "Past in Flames",
+  "profile": "past-in-flames",
+  "engine": "NeoForge 1.0.28",
+  "gate": {
+    "path": "arena/past-in-flames/target/final-past-in-flames-r3",
+    "checks": 5943,
+    "suites": 69,
+    "newChecks": 18,
+    "priorChecks": 5925,
+    "installedHashesChecked": 21729,
+    "installedFilesChanged": 0
+  },
+  "exposure": [
+    {"seed": 142021, "mode": "off", "pastInFlamesCasts": 0, "resolutions": 0, "grantedFlashbackExileMarkers": 0, "exceptions": 0},
+    {"seed": 142021, "mode": "on", "pastInFlamesCasts": 6, "resolutions": 6, "grantedFlashbackExileMarkers": 2, "exceptions": 0},
+    {"seed": 142022, "mode": "off", "pastInFlamesCasts": 0, "resolutions": 0, "grantedFlashbackExileMarkers": 0, "exceptions": 0},
+    {"seed": 142022, "mode": "on", "pastInFlamesCasts": 2, "resolutions": 2, "grantedFlashbackExileMarkers": 1, "exceptions": 0}
+  ],
+  "evidence": "Custom two-player card-use probes only; no strength claim. Native fixtures verify an Opt flashback cast and exile.",
+  "coverage": {"deckOccurrences": 3, "decksCleared": 1, "clearedDeck": "40K - The Ruinous Powers"}
+}

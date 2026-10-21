@@ -1,0 +1,22 @@
+{
+  "card": "Odric, Master Tactician",
+  "profile": "odric",
+  "engine": "NeoForge 1.0.28",
+  "gate": {
+    "path": "arena/odric/target/final-odric",
+    "checks": 5925,
+    "suites": 68,
+    "newChecks": 10,
+    "priorChecks": 5915,
+    "installedHashesChecked": 21729,
+    "installedFilesChanged": 0
+  },
+  "exposure": [
+    {"seed": 141021, "mode": "off", "odricCasts": 0, "triggerResolutions": 0, "exceptions": 0},
+    {"seed": 141021, "mode": "on", "odricCasts": 1, "triggerResolutions": 3, "exceptions": 0},
+    {"seed": 141022, "mode": "off", "odricCasts": 0, "triggerResolutions": 0, "exceptions": 0},
+    {"seed": 141022, "mode": "on", "odricCasts": 2, "triggerResolutions": 0, "exceptions": 0}
+  ],
+  "evidence": "Custom two-player card-use probes only; no strength claim. Native fixtures verify trigger threshold and blocker-control effect.",
+  "coverage": {"deckOccurrences": 1, "decksCleared": 1}
+}

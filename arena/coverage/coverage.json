@@ -1,10 +1,13 @@
 {
-  "generated": "2026-10-21T12:34:40",
-  "revision": "a6d1bd40",
+  "generated": "2026-10-21T15:24:24",
+  "revision": "a21d5e1d",
   "inventory": {
+    "decksWithZeroBlocked": 92,
+    "decks": 184,
     "zeroBlockedDecks": [
       "40K - Forces of the Imperium",
       "40K - Necron Dynasties",
+      "40K - The Ruinous Powers",
       "40K - Tyranid Swarm",
       "AFC - Aura of Courage",
       "BLC - Animated Army",
@@ -49,6 +52,7 @@
       "M3C - Creative Energy",
       "M3C - Eldrazi Incursion",
       "M3C - Graveyard Overdrive",
+      "MIC - Coven Counters",
       "MKC - Blame Game",
       "MKC - Deep Clue Sea",
       "MOC - Cavalry Charge",
@@ -93,14 +97,19 @@
       "WOC - Virtue and Valor",
       "ZNC - Land's Wrath",
       "ZNC - Sneak Attack"
-    ],
-    "decks": 184,
-    "decksWithZeroBlocked": 90
+    ]
   },
   "blocked": {
+    "occurrencesUnlocked": 383,
+    "distinctRemaining": 262,
+    "occurrencesRemaining": 347,
     "topRemaining": [
       {
-        "card": "Profane Command",
+        "card": "Disciple of Bolas",
+        "decks": 4
+      },
+      {
+        "card": "Cataclysmic Gearhulk",
         "decks": 4
       },
       {
@@ -112,11 +121,11 @@
         "decks": 4
       },
       {
-        "card": "Oblivion Stone",
+        "card": "Profane Command",
         "decks": 4
       },
       {
-        "card": "Disciple of Bolas",
+        "card": "Oblivion Stone",
         "decks": 4
       },
       {
@@ -124,19 +133,7 @@
         "decks": 4
       },
       {
-        "card": "Cataclysmic Gearhulk",
-        "decks": 4
-      },
-      {
-        "card": "Nightmare Unmaking",
-        "decks": 3
-      },
-      {
-        "card": "Izzet Chemister",
-        "decks": 3
-      },
-      {
-        "card": "Illusionist's Gambit",
+        "card": "Phyrexian Reclamation",
         "decks": 3
       },
       {
@@ -144,11 +141,23 @@
         "decks": 3
       },
       {
-        "card": "Black Sun's Zenith",
+        "card": "Illusionist's Gambit",
+        "decks": 3
+      },
+      {
+        "card": "Izzet Chemister",
+        "decks": 3
+      },
+      {
+        "card": "Nightmare Unmaking",
         "decks": 3
       },
       {
         "card": "Curse of Chaos",
+        "decks": 3
+      },
+      {
+        "card": "Black Sun's Zenith",
         "decks": 3
       },
       {
@@ -164,14 +173,6 @@
         "decks": 3
       },
       {
-        "card": "Phyrexian Reclamation",
-        "decks": 3
-      },
-      {
-        "card": "Past in Flames",
-        "decks": 3
-      },
-      {
         "card": "Bane of the Living",
         "decks": 2
       },
@@ -180,7 +181,7 @@
         "decks": 2
       },
       {
-        "card": "Dreadship Reef",
+        "card": "Crucible of the Spirit Dragon",
         "decks": 2
       },
       {
@@ -196,16 +197,16 @@
         "decks": 2
       },
       {
+        "card": "Dreadship Reef",
+        "decks": 2
+      },
+      {
         "card": "Dawnglare Invoker",
         "decks": 2
       }
-    ],
-    "distinctRemaining": 264,
-    "occurrencesUnlocked": 378,
-    "occurrencesRemaining": 352
+    ]
   },
   "cards": {
-    "mechanicallyUnlocked": 109,
     "verified": [
       "Abundance",
       "Arcane Lighthouse",
@@ -271,8 +272,10 @@
       "Mystic Gate",
       "Nesting Grounds",
       "Nyx Weaver",
+      "Odric, Master Tactician",
       "Oreskos Explorer",
       "Pact of the Serpent",
+      "Past in Flames",
       "Peel from Reality",
       "Phyrexia's Core",
       "Prismatic Lens",
@@ -307,7 +310,6 @@
       "Winter, Cynical Opportunist",
       "Wooded Bastion"
     ],
-    "strategicallyVerified": 99,
     "unlockedOnly": [
       "Blighted Burgeoning",
       "Creeping Renaissance",
@@ -320,10 +322,12 @@
       "Verdant Haven",
       "Windfall"
     ],
-    "registryUnwired": []
+    "mechanicallyUnlocked": 111,
+    "registryUnwired": [],
+    "strategicallyVerified": 101
   },
   "hygiene": {
-    "unimplemented": [],
-    "unhandledHints": []
+    "unhandledHints": [],
+    "unimplemented": []
   }
 }
